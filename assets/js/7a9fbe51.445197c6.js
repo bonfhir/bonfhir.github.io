@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_bonfhir_docs=self.webpackChunk_bonfhir_docs||[]).push([[662],{7880:e=>{e.exports=JSON.parse('{"title":"Core packages","slug":"/category/core-packages","permalink":"/packages/category/core-packages","navigation":{"next":{"title":"Core","permalink":"/packages/core/"}}}')}}]);
