@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_bonfhir_docs=self.webpackChunk_bonfhir_docs||[]).push([[781],{3751:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"codegen"}')}}]);
