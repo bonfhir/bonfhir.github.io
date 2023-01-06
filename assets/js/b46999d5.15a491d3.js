@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_bonfhir_docs=self.webpackChunk_bonfhir_docs||[]).push([[865],{2819:e=>{e.exports=JSON.parse('{"title":"Foundation","slug":"/category/foundation","permalink":"/packages/category/foundation","navigation":{"next":{"title":"Core","permalink":"/packages/foundation/core"}}}')}}]);
