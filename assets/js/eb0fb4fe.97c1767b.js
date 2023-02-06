@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_bonfhir_docs=self.webpackChunk_bonfhir_docs||[]).push([[181],{6846:e=>{e.exports=JSON.parse('{"title":"UI","slug":"/category/ui","permalink":"/packages/category/ui","navigation":{"previous":{"title":"Codegen","permalink":"/packages/foundation/codegen"},"next":{"title":"FHIR Query","permalink":"/packages/ui/fhir-query"}}}')}}]);
