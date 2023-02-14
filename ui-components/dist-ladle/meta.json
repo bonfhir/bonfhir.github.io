@@ -1,0 +1,69 @@
+{
+  "about": {
+    "homepage": "https://www.ladle.dev",
+    "github": "https://github.com/tajo/ladle",
+    "version": 1
+  },
+  "stories": {
+    "fhir-value--date": {
+      "name": "Date",
+      "levels": [
+        "Fhir value"
+      ],
+      "locStart": 3,
+      "locEnd": 3,
+      "filePath": "r4b/data-types/FhirValue.stories.tsx",
+      "meta": {}
+    },
+    "fhir-value--date-full": {
+      "name": "Date full",
+      "levels": [
+        "Fhir value"
+      ],
+      "locStart": 5,
+      "locEnd": 7,
+      "filePath": "r4b/data-types/FhirValue.stories.tsx",
+      "meta": {}
+    },
+    "fhir-value--integer": {
+      "name": "Integer",
+      "levels": [
+        "Fhir value"
+      ],
+      "locStart": 9,
+      "locEnd": 9,
+      "filePath": "r4b/data-types/FhirValue.stories.tsx",
+      "meta": {}
+    },
+    "fhir-value--integer-scientific": {
+      "name": "Integer scientific",
+      "levels": [
+        "Fhir value"
+      ],
+      "locStart": 11,
+      "locEnd": 17,
+      "filePath": "r4b/data-types/FhirValue.stories.tsx",
+      "meta": {}
+    },
+    "fhir-value--integer-compact-long": {
+      "name": "Integer compact long",
+      "levels": [
+        "Fhir value"
+      ],
+      "locStart": 19,
+      "locEnd": 25,
+      "filePath": "r4b/data-types/FhirValue.stories.tsx",
+      "meta": {}
+    },
+    "fhir-value--decimal": {
+      "name": "Decimal",
+      "levels": [
+        "Fhir value"
+      ],
+      "locStart": 27,
+      "locEnd": 27,
+      "filePath": "r4b/data-types/FhirValue.stories.tsx",
+      "meta": {}
+    }
+  }
+}
