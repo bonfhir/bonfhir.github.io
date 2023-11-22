@@ -1,5 +1,32 @@
 (self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[179],{
 
+/***/ 3984:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   W: () => (/* binding */ SearchIcon)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2983);
+
+function SearchIcon() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    width: "20",
+    height: "20",
+    className: "DocSearch-Search-Icon",
+    viewBox: "0 0 20 20"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z",
+    stroke: "currentColor",
+    fill: "none",
+    fillRule: "evenodd",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }));
+}
+
+/***/ }),
+
 /***/ 3181:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -47,7 +74,7 @@ var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
 // EXTERNAL MODULE: ./.docusaurus/routesChunkNames.json
 var routesChunkNames = __webpack_require__(6887);
 ;// CONCATENATED MODULE: ./.docusaurus/registry.js
-/* harmony default export */ const registry = ({"0e384e19":[()=>__webpack_require__.e(/* import() | 0e384e19 */ 671).then(__webpack_require__.bind(__webpack_require__, 3387)),"@site/docs/intro.md",/*require.resolve*/(3387)],"14eb3368":[()=>Promise.all(/* import() | 14eb3368 */[__webpack_require__.e(532), __webpack_require__.e(817)]).then(__webpack_require__.bind(__webpack_require__, 2473)),"@theme/DocCategoryGeneratedIndexPage",/*require.resolve*/(2473)],"17896441":[()=>Promise.all(/* import() | 17896441 */[__webpack_require__.e(532), __webpack_require__.e(609), __webpack_require__.e(918)]).then(__webpack_require__.bind(__webpack_require__, 5867)),"@theme/DocItem",/*require.resolve*/(5867)],"18c41134":[()=>__webpack_require__.e(/* import() | 18c41134 */ 859).then(__webpack_require__.bind(__webpack_require__, 4855)),"@site/docs/tutorial-basics/markdown-features.mdx",/*require.resolve*/(4855)],"1df93b7f":[()=>Promise.all(/* import() | 1df93b7f */[__webpack_require__.e(532), __webpack_require__.e(237)]).then(__webpack_require__.bind(__webpack_require__, 1555)),"@site/src/pages/index.tsx",/*require.resolve*/(1555)],"1e4232ab":[()=>__webpack_require__.e(/* import() | 1e4232ab */ 818).then(__webpack_require__.bind(__webpack_require__, 6370)),"@site/docs/tutorial-basics/create-a-document.md",/*require.resolve*/(6370)],"1f391b9e":[()=>Promise.all(/* import() | 1f391b9e */[__webpack_require__.e(532), __webpack_require__.e(609), __webpack_require__.e(85)]).then(__webpack_require__.bind(__webpack_require__, 9419)),"@theme/MDXPage",/*require.resolve*/(9419)],"2619eed9":[()=>__webpack_require__.e(/* import() | 2619eed9 */ 473).then(__webpack_require__.t.bind(__webpack_require__, 3911, 19)),"~docs/default/category-docs-getstartedsidebar-category-tutorial-basics-bcd.json",/*require.resolve*/(3911)],"393be207":[()=>__webpack_require__.e(/* import() | 393be207 */ 414).then(__webpack_require__.bind(__webpack_require__, 4461)),"@site/src/pages/markdown-page.md",/*require.resolve*/(4461)],"533a09ca":[()=>__webpack_require__.e(/* import() | 533a09ca */ 607).then(__webpack_require__.bind(__webpack_require__, 980)),"@site/docs/tutorial-basics/create-a-blog-post.md",/*require.resolve*/(980)],"5c868d36":[()=>__webpack_require__.e(/* import() | 5c868d36 */ 589).then(__webpack_require__.bind(__webpack_require__, 9481)),"@site/docs/tutorial-basics/create-a-page.md",/*require.resolve*/(9481)],"5e95c892":[()=>__webpack_require__.e(/* import() | 5e95c892 */ 661).then(__webpack_require__.bind(__webpack_require__, 3003)),"@theme/DocsRoot",/*require.resolve*/(3003)],"5e9f5e1a":[()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 6809)),"@generated/docusaurus.config",/*require.resolve*/(6809)],"822bd8ab":[()=>__webpack_require__.e(/* import() | 822bd8ab */ 504).then(__webpack_require__.bind(__webpack_require__, 2209)),"@site/docs/tutorial-basics/congratulations.md",/*require.resolve*/(2209)],"935f2afb":[()=>__webpack_require__.e(/* import() | 935f2afb */ 53).then(__webpack_require__.t.bind(__webpack_require__, 1109, 19)),"~docs/default/version-current-metadata-prop-751.json",/*require.resolve*/(1109)],"a7bd4aaa":[()=>__webpack_require__.e(/* import() | a7bd4aaa */ 518).then(__webpack_require__.bind(__webpack_require__, 5163)),"@theme/DocVersionRoot",/*require.resolve*/(5163)],"a94703ab":[()=>Promise.all(/* import() | a94703ab */[__webpack_require__.e(532), __webpack_require__.e(368)]).then(__webpack_require__.bind(__webpack_require__, 7017)),"@theme/DocRoot",/*require.resolve*/(7017)],"b858ffb2":[()=>__webpack_require__.e(/* import() | b858ffb2 */ 549).then(__webpack_require__.t.bind(__webpack_require__, 5745, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-plugin-content-pages/default/plugin-route-context-module-100.json",/*require.resolve*/(5745)],"d91fa1ce":[()=>__webpack_require__.e(/* import() | d91fa1ce */ 90).then(__webpack_require__.t.bind(__webpack_require__, 3769, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-plugin-content-docs/default/plugin-route-context-module-100.json",/*require.resolve*/(3769)],"dff1c289":[()=>__webpack_require__.e(/* import() | dff1c289 */ 792).then(__webpack_require__.bind(__webpack_require__, 9596)),"@site/docs/tutorial-extras/manage-docs-versions.md",/*require.resolve*/(9596)],"e44a2883":[()=>__webpack_require__.e(/* import() | e44a2883 */ 755).then(__webpack_require__.bind(__webpack_require__, 2013)),"@site/docs/tutorial-extras/translate-your-site.md",/*require.resolve*/(2013)],"f55d3e7a":[()=>__webpack_require__.e(/* import() | f55d3e7a */ 193).then(__webpack_require__.bind(__webpack_require__, 6509)),"@site/docs/tutorial-basics/deploy-your-site.md",/*require.resolve*/(6509)],"f5e28f36":[()=>__webpack_require__.e(/* import() | f5e28f36 */ 364).then(__webpack_require__.t.bind(__webpack_require__, 9532, 19)),"~docs/default/category-docs-getstartedsidebar-category-tutorial-extras-097.json",/*require.resolve*/(9532)]});
+/* harmony default export */ const registry = ({"0e384e19":[()=>__webpack_require__.e(/* import() | 0e384e19 */ 671).then(__webpack_require__.bind(__webpack_require__, 3387)),"@site/docs/intro.md",/*require.resolve*/(3387)],"14eb3368":[()=>Promise.all(/* import() | 14eb3368 */[__webpack_require__.e(532), __webpack_require__.e(817)]).then(__webpack_require__.bind(__webpack_require__, 2473)),"@theme/DocCategoryGeneratedIndexPage",/*require.resolve*/(2473)],"17896441":[()=>Promise.all(/* import() | 17896441 */[__webpack_require__.e(532), __webpack_require__.e(657), __webpack_require__.e(918)]).then(__webpack_require__.bind(__webpack_require__, 5867)),"@theme/DocItem",/*require.resolve*/(5867)],"18c41134":[()=>__webpack_require__.e(/* import() | 18c41134 */ 859).then(__webpack_require__.bind(__webpack_require__, 4855)),"@site/docs/tutorial-basics/markdown-features.mdx",/*require.resolve*/(4855)],"1a4e3797":[()=>Promise.all(/* import() | 1a4e3797 */[__webpack_require__.e(532), __webpack_require__.e(920)]).then(__webpack_require__.bind(__webpack_require__, 1284)),"@theme/SearchPage",/*require.resolve*/(1284)],"1df93b7f":[()=>Promise.all(/* import() | 1df93b7f */[__webpack_require__.e(532), __webpack_require__.e(237)]).then(__webpack_require__.bind(__webpack_require__, 1555)),"@site/src/pages/index.tsx",/*require.resolve*/(1555)],"1e4232ab":[()=>__webpack_require__.e(/* import() | 1e4232ab */ 818).then(__webpack_require__.bind(__webpack_require__, 6370)),"@site/docs/tutorial-basics/create-a-document.md",/*require.resolve*/(6370)],"1f391b9e":[()=>Promise.all(/* import() | 1f391b9e */[__webpack_require__.e(532), __webpack_require__.e(657), __webpack_require__.e(85)]).then(__webpack_require__.bind(__webpack_require__, 9419)),"@theme/MDXPage",/*require.resolve*/(9419)],"2619eed9":[()=>__webpack_require__.e(/* import() | 2619eed9 */ 473).then(__webpack_require__.t.bind(__webpack_require__, 3911, 19)),"~docs/default/category-docs-getstartedsidebar-category-tutorial-basics-bcd.json",/*require.resolve*/(3911)],"307f94a6":[()=>Promise.all(/* import() | 307f94a6 */[__webpack_require__.e(532), __webpack_require__.e(276)]).then(__webpack_require__.bind(__webpack_require__, 5156)),"@site/packages/query.md",/*require.resolve*/(5156)],"393be207":[()=>__webpack_require__.e(/* import() | 393be207 */ 414).then(__webpack_require__.bind(__webpack_require__, 4461)),"@site/src/pages/markdown-page.md",/*require.resolve*/(4461)],"4892dc76":[()=>__webpack_require__.e(/* import() | 4892dc76 */ 666).then(__webpack_require__.t.bind(__webpack_require__, 2474, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-plugin-content-docs/packages/plugin-route-context-module-100.json",/*require.resolve*/(2474)],"533a09ca":[()=>__webpack_require__.e(/* import() | 533a09ca */ 607).then(__webpack_require__.bind(__webpack_require__, 980)),"@site/docs/tutorial-basics/create-a-blog-post.md",/*require.resolve*/(980)],"5c868d36":[()=>__webpack_require__.e(/* import() | 5c868d36 */ 589).then(__webpack_require__.bind(__webpack_require__, 9481)),"@site/docs/tutorial-basics/create-a-page.md",/*require.resolve*/(9481)],"5e95c892":[()=>__webpack_require__.e(/* import() | 5e95c892 */ 661).then(__webpack_require__.bind(__webpack_require__, 3003)),"@theme/DocsRoot",/*require.resolve*/(3003)],"5e9f5e1a":[()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 6809)),"@generated/docusaurus.config",/*require.resolve*/(6809)],"822bd8ab":[()=>__webpack_require__.e(/* import() | 822bd8ab */ 504).then(__webpack_require__.bind(__webpack_require__, 2209)),"@site/docs/tutorial-basics/congratulations.md",/*require.resolve*/(2209)],"935f2afb":[()=>__webpack_require__.e(/* import() | 935f2afb */ 53).then(__webpack_require__.t.bind(__webpack_require__, 1109, 19)),"~docs/default/version-current-metadata-prop-751.json",/*require.resolve*/(1109)],"a7bd4aaa":[()=>__webpack_require__.e(/* import() | a7bd4aaa */ 518).then(__webpack_require__.bind(__webpack_require__, 5163)),"@theme/DocVersionRoot",/*require.resolve*/(5163)],"a94703ab":[()=>Promise.all(/* import() | a94703ab */[__webpack_require__.e(532), __webpack_require__.e(368)]).then(__webpack_require__.bind(__webpack_require__, 7017)),"@theme/DocRoot",/*require.resolve*/(7017)],"aaa4cf09":[()=>Promise.all(/* import() | aaa4cf09 */[__webpack_require__.e(532), __webpack_require__.e(197)]).then(__webpack_require__.bind(__webpack_require__, 238)),"@site/packages/core.md",/*require.resolve*/(238)],"b858ffb2":[()=>__webpack_require__.e(/* import() | b858ffb2 */ 549).then(__webpack_require__.t.bind(__webpack_require__, 5745, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-plugin-content-pages/default/plugin-route-context-module-100.json",/*require.resolve*/(5745)],"d91fa1ce":[()=>__webpack_require__.e(/* import() | d91fa1ce */ 90).then(__webpack_require__.t.bind(__webpack_require__, 3769, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-plugin-content-docs/default/plugin-route-context-module-100.json",/*require.resolve*/(3769)],"dff1c289":[()=>__webpack_require__.e(/* import() | dff1c289 */ 792).then(__webpack_require__.bind(__webpack_require__, 9596)),"@site/docs/tutorial-extras/manage-docs-versions.md",/*require.resolve*/(9596)],"e44a2883":[()=>__webpack_require__.e(/* import() | e44a2883 */ 755).then(__webpack_require__.bind(__webpack_require__, 2013)),"@site/docs/tutorial-extras/translate-your-site.md",/*require.resolve*/(2013)],"e7817267":[()=>__webpack_require__.e(/* import() | e7817267 */ 457).then(__webpack_require__.t.bind(__webpack_require__, 1933, 19)),"~docs/packages/version-current-metadata-prop-751.json",/*require.resolve*/(1933)],"eb1ba003":[()=>__webpack_require__.e(/* import() | eb1ba003 */ 289).then(__webpack_require__.t.bind(__webpack_require__, 7085, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-theme-search-algolia/default/plugin-route-context-module-100.json",/*require.resolve*/(7085)],"f55d3e7a":[()=>__webpack_require__.e(/* import() | f55d3e7a */ 193).then(__webpack_require__.bind(__webpack_require__, 6509)),"@site/docs/tutorial-basics/deploy-your-site.md",/*require.resolve*/(6509)],"f5e28f36":[()=>__webpack_require__.e(/* import() | f5e28f36 */ 364).then(__webpack_require__.t.bind(__webpack_require__, 9532, 19)),"~docs/default/category-docs-getstartedsidebar-category-tutorial-extras-097.json",/*require.resolve*/(9532)]});
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(7458);
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/theme-fallback/Loading/index.js
@@ -99,7 +126,7 @@ if(typeof chunk==='object'||typeof chunk==='function'){Object.keys(loadedModule)
 let val=loadedModules;const keyPaths=keyPath.split('.');keyPaths.slice(0,-1).forEach(k=>{val=val[k];});val[keyPaths[keyPaths.length-1]]=chunk;});/* eslint-disable no-underscore-dangle */const Component=loadedModules.__comp;delete loadedModules.__comp;const routeContext=loadedModules.__context;delete loadedModules.__context;/* eslint-enable no-underscore-dangle */ // Is there any way to put this RouteContextProvider upper in the tree?
 return/*#__PURE__*/(0,jsx_runtime.jsx)(client_routeContext/* RouteContextProvider */.z,{value:routeContext,children:/*#__PURE__*/(0,jsx_runtime.jsx)(Component,{...loadedModules,...props})});}});}
 ;// CONCATENATED MODULE: ./.docusaurus/routes.js
-/* harmony default export */ const routes = ([{path:'/markdown-page',component:ComponentCreator('/markdown-page','7a8'),exact:true},{path:'/docs',component:ComponentCreator('/docs','d37'),routes:[{path:'/docs',component:ComponentCreator('/docs','cb8'),routes:[{path:'/docs',component:ComponentCreator('/docs','b77'),routes:[{path:'/docs/category/tutorial---basics',component:ComponentCreator('/docs/category/tutorial---basics','581'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/category/tutorial---extras',component:ComponentCreator('/docs/category/tutorial---extras','d4d'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/intro',component:ComponentCreator('/docs/intro','c19'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-basics/congratulations',component:ComponentCreator('/docs/tutorial-basics/congratulations','553'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-basics/create-a-blog-post',component:ComponentCreator('/docs/tutorial-basics/create-a-blog-post','72e'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-basics/create-a-document',component:ComponentCreator('/docs/tutorial-basics/create-a-document','ee7'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-basics/create-a-page',component:ComponentCreator('/docs/tutorial-basics/create-a-page','91e'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-basics/deploy-your-site',component:ComponentCreator('/docs/tutorial-basics/deploy-your-site','de0'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-basics/markdown-features',component:ComponentCreator('/docs/tutorial-basics/markdown-features','93c'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-extras/manage-docs-versions',component:ComponentCreator('/docs/tutorial-extras/manage-docs-versions','645'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-extras/translate-your-site',component:ComponentCreator('/docs/tutorial-extras/translate-your-site','a50'),exact:true,sidebar:"getStartedSidebar"}]}]}]},{path:'/',component:ComponentCreator('/','71a'),exact:true},{path:'*',component:ComponentCreator('*')}]);
+/* harmony default export */ const routes = ([{path:'/markdown-page',component:ComponentCreator('/markdown-page','7a8'),exact:true},{path:'/search',component:ComponentCreator('/search','b1e'),exact:true},{path:'/docs',component:ComponentCreator('/docs','d37'),routes:[{path:'/docs',component:ComponentCreator('/docs','cb8'),routes:[{path:'/docs',component:ComponentCreator('/docs','b77'),routes:[{path:'/docs/category/tutorial---basics',component:ComponentCreator('/docs/category/tutorial---basics','581'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/category/tutorial---extras',component:ComponentCreator('/docs/category/tutorial---extras','d4d'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/intro',component:ComponentCreator('/docs/intro','c19'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-basics/congratulations',component:ComponentCreator('/docs/tutorial-basics/congratulations','553'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-basics/create-a-blog-post',component:ComponentCreator('/docs/tutorial-basics/create-a-blog-post','72e'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-basics/create-a-document',component:ComponentCreator('/docs/tutorial-basics/create-a-document','ee7'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-basics/create-a-page',component:ComponentCreator('/docs/tutorial-basics/create-a-page','91e'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-basics/deploy-your-site',component:ComponentCreator('/docs/tutorial-basics/deploy-your-site','de0'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-basics/markdown-features',component:ComponentCreator('/docs/tutorial-basics/markdown-features','93c'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-extras/manage-docs-versions',component:ComponentCreator('/docs/tutorial-extras/manage-docs-versions','645'),exact:true,sidebar:"getStartedSidebar"},{path:'/docs/tutorial-extras/translate-your-site',component:ComponentCreator('/docs/tutorial-extras/translate-your-site','a50'),exact:true,sidebar:"getStartedSidebar"}]}]}]},{path:'/packages',component:ComponentCreator('/packages','251'),routes:[{path:'/packages',component:ComponentCreator('/packages','f72'),routes:[{path:'/packages',component:ComponentCreator('/packages','67a'),routes:[{path:'/packages/core',component:ComponentCreator('/packages/core','0d2'),exact:true,sidebar:"getStartedSidebar"},{path:'/packages/query',component:ComponentCreator('/packages/query','2af'),exact:true,sidebar:"getStartedSidebar"}]}]}]},{path:'/',component:ComponentCreator('/','71a'),exact:true},{path:'*',component:ComponentCreator('*')}]);
 
 /***/ }),
 
@@ -176,8 +203,8 @@ var useDocusaurusContext = __webpack_require__(1085);
 var useBaseUrl = __webpack_require__(1069);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/useThemeConfig.js
 var useThemeConfig = __webpack_require__(1117);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/metadataUtils.js + 2 modules
-var metadataUtils = __webpack_require__(5474);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/metadataUtils.js + 1 modules
+var metadataUtils = __webpack_require__(639);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/useAlternatePageUtils.js
 var useAlternatePageUtils = __webpack_require__(1285);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/hooks/useKeyboardNavigation.js + 1 modules
@@ -421,13 +448,13 @@ var react = __webpack_require__(2983);
 // EXTERNAL MODULE: ./.docusaurus/docusaurus.config.mjs
 var docusaurus_config = __webpack_require__(6809);
 ;// CONCATENATED MODULE: ./.docusaurus/globalData.json
-const globalData_namespaceObject = JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/docs","mainDocId":"intro","docs":[{"id":"intro","path":"/docs/intro","sidebar":"getStartedSidebar"},{"id":"tutorial-basics/congratulations","path":"/docs/tutorial-basics/congratulations","sidebar":"getStartedSidebar"},{"id":"tutorial-basics/create-a-blog-post","path":"/docs/tutorial-basics/create-a-blog-post","sidebar":"getStartedSidebar"},{"id":"tutorial-basics/create-a-document","path":"/docs/tutorial-basics/create-a-document","sidebar":"getStartedSidebar"},{"id":"tutorial-basics/create-a-page","path":"/docs/tutorial-basics/create-a-page","sidebar":"getStartedSidebar"},{"id":"tutorial-basics/deploy-your-site","path":"/docs/tutorial-basics/deploy-your-site","sidebar":"getStartedSidebar"},{"id":"tutorial-basics/markdown-features","path":"/docs/tutorial-basics/markdown-features","sidebar":"getStartedSidebar"},{"id":"tutorial-extras/manage-docs-versions","path":"/docs/tutorial-extras/manage-docs-versions","sidebar":"getStartedSidebar"},{"id":"tutorial-extras/translate-your-site","path":"/docs/tutorial-extras/translate-your-site","sidebar":"getStartedSidebar"},{"id":"/category/tutorial---basics","path":"/docs/category/tutorial---basics","sidebar":"getStartedSidebar"},{"id":"/category/tutorial---extras","path":"/docs/category/tutorial---extras","sidebar":"getStartedSidebar"}],"draftIds":[],"sidebars":{"getStartedSidebar":{"link":{"path":"/docs/intro","label":"intro"}}}}],"breadcrumbs":true}}}');
+const globalData_namespaceObject = JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/docs","mainDocId":"intro","docs":[{"id":"intro","path":"/docs/intro","sidebar":"getStartedSidebar"},{"id":"tutorial-basics/congratulations","path":"/docs/tutorial-basics/congratulations","sidebar":"getStartedSidebar"},{"id":"tutorial-basics/create-a-blog-post","path":"/docs/tutorial-basics/create-a-blog-post","sidebar":"getStartedSidebar"},{"id":"tutorial-basics/create-a-document","path":"/docs/tutorial-basics/create-a-document","sidebar":"getStartedSidebar"},{"id":"tutorial-basics/create-a-page","path":"/docs/tutorial-basics/create-a-page","sidebar":"getStartedSidebar"},{"id":"tutorial-basics/deploy-your-site","path":"/docs/tutorial-basics/deploy-your-site","sidebar":"getStartedSidebar"},{"id":"tutorial-basics/markdown-features","path":"/docs/tutorial-basics/markdown-features","sidebar":"getStartedSidebar"},{"id":"tutorial-extras/manage-docs-versions","path":"/docs/tutorial-extras/manage-docs-versions","sidebar":"getStartedSidebar"},{"id":"tutorial-extras/translate-your-site","path":"/docs/tutorial-extras/translate-your-site","sidebar":"getStartedSidebar"},{"id":"/category/tutorial---basics","path":"/docs/category/tutorial---basics","sidebar":"getStartedSidebar"},{"id":"/category/tutorial---extras","path":"/docs/category/tutorial---extras","sidebar":"getStartedSidebar"}],"draftIds":[],"sidebars":{"getStartedSidebar":{"link":{"path":"/docs/intro","label":"intro"}}}}],"breadcrumbs":true},"packages":{"path":"/packages","versions":[{"name":"current","label":"Next","isLast":true,"path":"/packages","mainDocId":"core","docs":[{"id":"core","path":"/packages/core","sidebar":"getStartedSidebar"},{"id":"query","path":"/packages/query","sidebar":"getStartedSidebar"}],"draftIds":[],"sidebars":{"getStartedSidebar":{"link":{"path":"/packages/core","label":"core"}}}}],"breadcrumbs":true}}}');
 ;// CONCATENATED MODULE: ./.docusaurus/i18n.json
 const i18n_namespaceObject = JSON.parse('{"defaultLocale":"en","locales":["en"],"path":"i18n","currentLocale":"en","localeConfigs":{"en":{"label":"English","direction":"ltr","htmlLang":"en","calendar":"gregory","path":"en"}}}');
 // EXTERNAL MODULE: ./.docusaurus/codeTranslations.json
 var codeTranslations = __webpack_require__(7529);
 ;// CONCATENATED MODULE: ./.docusaurus/site-metadata.json
-const site_metadata_namespaceObject = JSON.parse('{"docusaurusVersion":"3.0.0","siteVersion":"0.0.0","pluginVersions":{"docusaurus-plugin-content-docs":{"type":"package","name":"@docusaurus/plugin-content-docs","version":"3.0.0"},"docusaurus-plugin-content-blog":{"type":"package","name":"@docusaurus/plugin-content-blog","version":"3.0.0"},"docusaurus-plugin-content-pages":{"type":"package","name":"@docusaurus/plugin-content-pages","version":"3.0.0"},"docusaurus-plugin-sitemap":{"type":"package","name":"@docusaurus/plugin-sitemap","version":"3.0.0"},"docusaurus-theme-classic":{"type":"package","name":"@docusaurus/theme-classic","version":"3.0.0"}}}');
+const site_metadata_namespaceObject = JSON.parse('{"docusaurusVersion":"3.0.0","siteVersion":"0.0.0","pluginVersions":{"docusaurus-plugin-content-docs":{"type":"package","name":"@docusaurus/plugin-content-docs","version":"3.0.0"},"docusaurus-plugin-content-blog":{"type":"package","name":"@docusaurus/plugin-content-blog","version":"3.0.0"},"docusaurus-plugin-content-pages":{"type":"package","name":"@docusaurus/plugin-content-pages","version":"3.0.0"},"docusaurus-plugin-sitemap":{"type":"package","name":"@docusaurus/plugin-sitemap","version":"3.0.0"},"docusaurus-theme-classic":{"type":"package","name":"@docusaurus/theme-classic","version":"3.0.0"},"docusaurus-theme-search-algolia":{"type":"package","name":"@docusaurus/theme-search-algolia","version":"3.0.0"}}}');
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(7458);
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/docusaurusContext.js
@@ -460,8 +487,8 @@ var ExecutionEnvironment = __webpack_require__(26);
 var Head = __webpack_require__(4244);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+utils-common@3.0.0_@docusaurus+types@3.0.0/node_modules/@docusaurus/utils-common/lib/index.js
 var lib = __webpack_require__(7275);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js + 66 modules
-var Layout = __webpack_require__(2807);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js + 71 modules
+var Layout = __webpack_require__(129);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(7458);
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/theme-fallback/Error/index.js
@@ -595,22 +622,6 @@ return()=>{if(IOSupported&&ioRef.current){ioRef.current.disconnect();}};},[ioRef
 (0,jsx_runtime.jsx)("a",{ref:innerRef,href:targetLink,...(targetLinkUnprefixed&&!isInternal&&{target:'_blank',rel:'noopener noreferrer'}),...props}):/*#__PURE__*/(0,jsx_runtime.jsx)(LinkComponent,{...props,onMouseEnter:onInteractionEnter,onTouchStart:onInteractionEnter,innerRef:handleRef,to:targetLink// Avoid "React does not recognize the `activeClassName` prop on a DOM
 // element"
 ,...(isNavLink&&{isActive,activeClassName})});}/* harmony default export */ const exports_Link = (/*#__PURE__*/react.forwardRef(Link));
-
-/***/ }),
-
-/***/ 6996:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *//* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (()=>null);
 
 /***/ }),
 
@@ -835,6 +846,7 @@ plugin:parent.plugin,data};}function RouteContextProvider(_ref2){let{children,va
 __webpack_require__.d(__webpack_exports__, {
   Iw: () => (/* binding */ useActiveDocContext),
   gA: () => (/* binding */ useActivePlugin),
+  WS: () => (/* binding */ useActivePluginAndVersion),
   _r: () => (/* binding */ useAllDocsData),
   Jo: () => (/* binding */ useDocVersionSuggestions),
   zh: () => (/* binding */ useDocsData),
@@ -842,7 +854,7 @@ __webpack_require__.d(__webpack_exports__, {
   gB: () => (/* binding */ useVersions)
 });
 
-// UNUSED EXPORTS: useActivePluginAndVersion, useActiveVersion
+// UNUSED EXPORTS: useActiveVersion
 
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react-router@5.3.4_react@18.2.0/node_modules/react-router/esm/react-router.js
 var react_router = __webpack_require__(3729);
@@ -882,7 +894,7 @@ const orderedVersionsMetadata=[...data.versions.filter(version=>version!==lastVe
 const StableEmptyObject={};// In blog-only mode, docs hooks are still used by the theme. We need a fail-
 // safe fallback when the docs plugin is not in use
 const useAllDocsData=()=>useAllPluginInstancesData('docusaurus-plugin-content-docs')??StableEmptyObject;const useDocsData=pluginId=>usePluginData('docusaurus-plugin-content-docs',pluginId,{failfast:true});// TODO this feature should be provided by docusaurus core
-function useActivePlugin(options){if(options===void 0){options={};}const data=useAllDocsData();const{pathname}=(0,react_router/* useLocation */.TH)();return getActivePlugin(data,pathname,options);}function useActivePluginAndVersion(options){if(options===void 0){options={};}const activePlugin=useActivePlugin(options);const{pathname}=useLocation();if(!activePlugin){return undefined;}const activeVersion=getActiveVersion(activePlugin.pluginData,pathname);return{activePlugin,activeVersion};}/** Versions are returned ordered (most recent first). */function useVersions(pluginId){const data=useDocsData(pluginId);return data.versions;}function useLatestVersion(pluginId){const data=useDocsData(pluginId);return getLatestVersion(data);}/**
+function useActivePlugin(options){if(options===void 0){options={};}const data=useAllDocsData();const{pathname}=(0,react_router/* useLocation */.TH)();return getActivePlugin(data,pathname,options);}function useActivePluginAndVersion(options){if(options===void 0){options={};}const activePlugin=useActivePlugin(options);const{pathname}=(0,react_router/* useLocation */.TH)();if(!activePlugin){return undefined;}const activeVersion=docsClientUtils_getActiveVersion(activePlugin.pluginData,pathname);return{activePlugin,activeVersion};}/** Versions are returned ordered (most recent first). */function useVersions(pluginId){const data=useDocsData(pluginId);return data.versions;}function useLatestVersion(pluginId){const data=useDocsData(pluginId);return getLatestVersion(data);}/**
  * Returns `undefined` on doc-unrelated pages, because there's no version
  * currently considered as active.
  */function useActiveVersion(pluginId){const data=useDocsData(pluginId);const{pathname}=useLocation();return getActiveVersion(data,pathname);}function useActiveDocContext(pluginId){const data=useDocsData(pluginId);const{pathname}=(0,react_router/* useLocation */.TH)();return getActiveDocContext(data,pathname);}/**
@@ -1018,7 +1030,7 @@ var jsx_runtime = __webpack_require__(7458);
 
 /***/ }),
 
-/***/ 2807:
+/***/ 129:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1034,8 +1046,8 @@ var react = __webpack_require__(2983);
 var clsx_m = __webpack_require__(4517);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/exports/ErrorBoundary.js + 1 modules
 var ErrorBoundary = __webpack_require__(177);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/metadataUtils.js + 2 modules
-var metadataUtils = __webpack_require__(5474);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/metadataUtils.js + 1 modules
+var metadataUtils = __webpack_require__(639);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react-router@5.3.4_react@18.2.0/node_modules/react-router/esm/react-router.js
 var react_router = __webpack_require__(3729);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/exports/Translate.js + 1 modules
@@ -1125,8 +1137,8 @@ var contexts_announcementBar = __webpack_require__(7897);
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function AnnouncementBar(){const{announcementBar}=(0,useThemeConfig/* useThemeConfig */.L)();const{isActive,close}=(0,contexts_announcementBar/* useAnnouncementBar */.nT)();if(!isActive){return null;}const{backgroundColor,textColor,isCloseable}=announcementBar;return/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:AnnouncementBar_styles_module.announcementBar,style:{backgroundColor,color:textColor},role:"banner",children:[isCloseable&&/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:AnnouncementBar_styles_module.announcementBarPlaceholder}),/*#__PURE__*/(0,jsx_runtime.jsx)(AnnouncementBarContent,{className:AnnouncementBar_styles_module.announcementBarContent}),isCloseable&&/*#__PURE__*/(0,jsx_runtime.jsx)(AnnouncementBarCloseButton,{onClick:close,className:AnnouncementBar_styles_module.announcementBarClose})]});}
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/contexts/navbarMobileSidebar.js + 1 modules
-var navbarMobileSidebar = __webpack_require__(1910);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/contexts/navbarMobileSidebar.js
+var navbarMobileSidebar = __webpack_require__(974);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/scrollUtils.js
 var scrollUtils = __webpack_require__(3240);
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/hooks/useHideableNavbar.js
@@ -1234,16 +1246,8 @@ var Link = __webpack_require__(8887);
 var useBaseUrl = __webpack_require__(1069);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/exports/isInternalUrl.js
 var isInternalUrl = __webpack_require__(6792);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/regexpUtils.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ /**
- * Matches a string regex (as provided from the config) against a target in a
- * null-safe fashion, case insensitive and global.
- */function isRegexpStringMatch(regexAsString,valueToTest){if(typeof regexAsString==='undefined'||typeof valueToTest==='undefined'){return false;}return new RegExp(regexAsString,'gi').test(valueToTest);}
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/regexpUtils.js
+var regexpUtils = __webpack_require__(9953);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/ExternalLink/index.js + 1 modules
 var ExternalLink = __webpack_require__(9710);
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/NavbarNavLink.js
@@ -1255,7 +1259,7 @@ var ExternalLink = __webpack_require__(9710);
  */function NavbarNavLink(_ref){let{activeBasePath,activeBaseRegex,to,href,label,html,isDropdownLink,prependBaseUrlToHref,...props}=_ref;// TODO all this seems hacky
 // {to: 'version'} should probably be forbidden, in favor of {to: '/version'}
 const toUrl=(0,useBaseUrl/* default */.Z)(to);const activeBaseUrl=(0,useBaseUrl/* default */.Z)(activeBasePath);const normalizedHref=(0,useBaseUrl/* default */.Z)(href,{forcePrependBaseUrl:true});const isExternalLink=label&&href&&!(0,isInternalUrl/* default */.Z)(href);// Link content is set through html XOR label
-const linkContentProps=html?{dangerouslySetInnerHTML:{__html:html}}:{children:/*#__PURE__*/(0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[label,isExternalLink&&/*#__PURE__*/(0,jsx_runtime.jsx)(ExternalLink/* default */.Z,{...(isDropdownLink&&{width:12,height:12})})]})};if(href){return/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.Z,{href:prependBaseUrlToHref?normalizedHref:href,...props,...linkContentProps});}return/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.Z,{to:toUrl,isNavLink:true,...((activeBasePath||activeBaseRegex)&&{isActive:(_match,location)=>activeBaseRegex?isRegexpStringMatch(activeBaseRegex,location.pathname):location.pathname.startsWith(activeBaseUrl)}),...props,...linkContentProps});}
+const linkContentProps=html?{dangerouslySetInnerHTML:{__html:html}}:{children:/*#__PURE__*/(0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[label,isExternalLink&&/*#__PURE__*/(0,jsx_runtime.jsx)(ExternalLink/* default */.Z,{...(isDropdownLink&&{width:12,height:12})})]})};if(href){return/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.Z,{href:prependBaseUrlToHref?normalizedHref:href,...props,...linkContentProps});}return/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.Z,{to:toUrl,isNavLink:true,...((activeBasePath||activeBaseRegex)&&{isActive:(_match,location)=>activeBaseRegex?(0,regexpUtils/* isRegexpStringMatch */.F)(activeBaseRegex,location.pathname):location.pathname.startsWith(activeBaseUrl)}),...props,...linkContentProps});}
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DefaultNavbarItem.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -1287,7 +1291,7 @@ var useDocusaurusContext = __webpack_require__(1085);
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */function isItemActive(item,localPathname){if((0,routesUtils/* isSamePath */.Mg)(item.to,localPathname)){return true;}if(isRegexpStringMatch(item.activeBaseRegex,localPathname)){return true;}if(item.activeBasePath&&localPathname.startsWith(item.activeBasePath)){return true;}return false;}function containsActiveItems(items,localPathname){return items.some(item=>isItemActive(item,localPathname));}function DropdownNavbarItemDesktop(_ref){let{items,position,className,onClick,...props}=_ref;const dropdownRef=(0,react.useRef)(null);const[showDropdown,setShowDropdown]=(0,react.useState)(false);(0,react.useEffect)(()=>{const handleClickOutside=event=>{if(!dropdownRef.current||dropdownRef.current.contains(event.target)){return;}setShowDropdown(false);};document.addEventListener('mousedown',handleClickOutside);document.addEventListener('touchstart',handleClickOutside);document.addEventListener('focusin',handleClickOutside);return()=>{document.removeEventListener('mousedown',handleClickOutside);document.removeEventListener('touchstart',handleClickOutside);document.removeEventListener('focusin',handleClickOutside);};},[dropdownRef]);return/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{ref:dropdownRef,className:(0,clsx_m/* default */.Z)('navbar__item','dropdown','dropdown--hoverable',{'dropdown--right':position==='right','dropdown--show':showDropdown}),children:[/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarNavLink,{"aria-haspopup":"true","aria-expanded":showDropdown,role:"button",href:props.to?undefined:'#',className:(0,clsx_m/* default */.Z)('navbar__link',className),...props,onClick:props.to?undefined:e=>e.preventDefault(),onKeyDown:e=>{if(e.key==='Enter'){e.preventDefault();setShowDropdown(!showDropdown);}},children:props.children??props.label}),/*#__PURE__*/(0,jsx_runtime.jsx)("ul",{className:"dropdown__menu",children:items.map((childItemProps,i)=>/*#__PURE__*/(0,react.createElement)(NavbarItem,{isDropdownItem:true,activeClassName:"dropdown__link--active",...childItemProps,key:i}))})]});}function DropdownNavbarItemMobile(_ref2){let{items,className,position,// Need to destructure position from props so that it doesn't get passed on.
+ */function isItemActive(item,localPathname){if((0,routesUtils/* isSamePath */.Mg)(item.to,localPathname)){return true;}if((0,regexpUtils/* isRegexpStringMatch */.F)(item.activeBaseRegex,localPathname)){return true;}if(item.activeBasePath&&localPathname.startsWith(item.activeBasePath)){return true;}return false;}function containsActiveItems(items,localPathname){return items.some(item=>isItemActive(item,localPathname));}function DropdownNavbarItemDesktop(_ref){let{items,position,className,onClick,...props}=_ref;const dropdownRef=(0,react.useRef)(null);const[showDropdown,setShowDropdown]=(0,react.useState)(false);(0,react.useEffect)(()=>{const handleClickOutside=event=>{if(!dropdownRef.current||dropdownRef.current.contains(event.target)){return;}setShowDropdown(false);};document.addEventListener('mousedown',handleClickOutside);document.addEventListener('touchstart',handleClickOutside);document.addEventListener('focusin',handleClickOutside);return()=>{document.removeEventListener('mousedown',handleClickOutside);document.removeEventListener('touchstart',handleClickOutside);document.removeEventListener('focusin',handleClickOutside);};},[dropdownRef]);return/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{ref:dropdownRef,className:(0,clsx_m/* default */.Z)('navbar__item','dropdown','dropdown--hoverable',{'dropdown--right':position==='right','dropdown--show':showDropdown}),children:[/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarNavLink,{"aria-haspopup":"true","aria-expanded":showDropdown,role:"button",href:props.to?undefined:'#',className:(0,clsx_m/* default */.Z)('navbar__link',className),...props,onClick:props.to?undefined:e=>e.preventDefault(),onKeyDown:e=>{if(e.key==='Enter'){e.preventDefault();setShowDropdown(!showDropdown);}},children:props.children??props.label}),/*#__PURE__*/(0,jsx_runtime.jsx)("ul",{className:"dropdown__menu",children:items.map((childItemProps,i)=>/*#__PURE__*/(0,react.createElement)(NavbarItem,{isDropdownItem:true,activeClassName:"dropdown__link--active",...childItemProps,key:i}))})]});}function DropdownNavbarItemMobile(_ref2){let{items,className,position,// Need to destructure position from props so that it doesn't get passed on.
 onClick,...props}=_ref2;const localPathname=useLocalPathname();const containsActive=containsActiveItems(items,localPathname);const{collapsed,toggleCollapsed,setCollapsed}=(0,Collapsible/* useCollapsible */.u)({initialState:()=>!containsActive});// Expand/collapse if any item active after a navigation
 (0,react.useEffect)(()=>{if(containsActive){setCollapsed(!containsActive);}},[localPathname,containsActive,setCollapsed]);return/*#__PURE__*/(0,jsx_runtime.jsxs)("li",{className:(0,clsx_m/* default */.Z)('menu__list-item',{'menu__list-item--collapsed':collapsed}),children:[/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarNavLink,{role:"button",className:(0,clsx_m/* default */.Z)('menu__link menu__link--sublist menu__link--sublist-caret',className),...props,onClick:e=>{e.preventDefault();toggleCollapsed();},children:props.children??props.label}),/*#__PURE__*/(0,jsx_runtime.jsx)(Collapsible/* Collapsible */.z,{lazy:true,as:"ul",className:"menu__list",collapsed:collapsed,children:items.map((childItemProps,i)=>/*#__PURE__*/(0,react.createElement)(NavbarItem,{mobile:true,isDropdownItem:true,onClick:onClick,activeClassName:"menu__link--active",...childItemProps,key:i}))})]});}function DropdownNavbarItem(_ref3){let{mobile=false,...props}=_ref3;const Comp=mobile?DropdownNavbarItemMobile:DropdownNavbarItemDesktop;return/*#__PURE__*/(0,jsx_runtime.jsx)(Comp,{...props});}
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/useAlternatePageUtils.js
@@ -1315,8 +1319,189 @@ locale===currentLocale?// Similar idea as DefaultNavbarItem: select the right In
 // target URLs contain `pathname://` and therefore are not NavLinks!
 mobile?'menu__link--active':'dropdown__link--active':''};});const items=[...dropdownItemsBefore,...localeItems,...dropdownItemsAfter];// Mobile is handled a bit differently
 const dropdownLabel=mobile?(0,Translate/* translate */.I)({message:'Languages',id:'theme.navbar.mobileLanguageDropdown.label',description:'The label for the mobile language switcher dropdown'}):localeConfigs[currentLocale].label;return/*#__PURE__*/(0,jsx_runtime.jsx)(DropdownNavbarItem,{...props,mobile:mobile,label:/*#__PURE__*/(0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[/*#__PURE__*/(0,jsx_runtime.jsx)(IconLanguage,{className:LocaleDropdownNavbarItem_styles_module.iconLanguage}),dropdownLabel]}),items:items});}
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/exports/Noop.js
-var Noop = __webpack_require__(6996);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docsearch+react@3.5.2_@algolia+client-search@4.20.0_@types+react@18.2.37_react-dom@18.2.0_re_rbxjadvtnfa2kbb4wxus66xqla/node_modules/@docsearch/react/dist/esm/useDocSearchKeyboardEvents.js
+
+
+function isEditingContent(event) {
+  var element = event.target;
+  var tagName = element.tagName;
+  return element.isContentEditable || tagName === 'INPUT' || tagName === 'SELECT' || tagName === 'TEXTAREA';
+}
+
+function useDocSearchKeyboardEvents(_ref) {
+  var isOpen = _ref.isOpen,
+      onOpen = _ref.onOpen,
+      onClose = _ref.onClose,
+      onInput = _ref.onInput,
+      searchButtonRef = _ref.searchButtonRef;
+  react.useEffect(function () {
+    function onKeyDown(event) {
+      var _event$key;
+
+      function open() {
+        // We check that no other DocSearch modal is showing before opening
+        // another one.
+        if (!document.body.classList.contains('DocSearch--active')) {
+          onOpen();
+        }
+      }
+
+      if (event.keyCode === 27 && isOpen || // The `Cmd+K` shortcut both opens and closes the modal.
+      // We need to check for `event.key` because it can be `undefined` with
+      // Chrome's autofill feature.
+      // See https://github.com/paperjs/paper.js/issues/1398
+      ((_event$key = event.key) === null || _event$key === void 0 ? void 0 : _event$key.toLowerCase()) === 'k' && (event.metaKey || event.ctrlKey) || // The `/` shortcut opens but doesn't close the modal because it's
+      // a character.
+      !isEditingContent(event) && event.key === '/' && !isOpen) {
+        event.preventDefault();
+
+        if (isOpen) {
+          onClose();
+        } else if (!document.body.classList.contains('DocSearch--active')) {
+          open();
+        }
+      }
+
+      if (searchButtonRef && searchButtonRef.current === document.activeElement && onInput) {
+        if (/[a-zA-Z0-9]/.test(String.fromCharCode(event.keyCode))) {
+          onInput(event);
+        }
+      }
+    }
+
+    window.addEventListener('keydown', onKeyDown);
+    return function () {
+      window.removeEventListener('keydown', onKeyDown);
+    };
+  }, [isOpen, onOpen, onClose, onInput, searchButtonRef]);
+}
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docsearch+react@3.5.2_@algolia+client-search@4.20.0_@types+react@18.2.37_react-dom@18.2.0_re_rbxjadvtnfa2kbb4wxus66xqla/node_modules/@docsearch/react/dist/esm/icons/ControlKeyIcon.js
+
+function ControlKeyIcon() {
+  return /*#__PURE__*/react.createElement("svg", {
+    width: "15",
+    height: "15",
+    className: "DocSearch-Control-Key-Icon"
+  }, /*#__PURE__*/react.createElement("path", {
+    d: "M4.505 4.496h2M5.505 5.496v5M8.216 4.496l.055 5.993M10 7.5c.333.333.5.667.5 1v2M12.326 4.5v5.996M8.384 4.496c1.674 0 2.116 0 2.116 1.5s-.442 1.5-2.116 1.5M3.205 9.303c-.09.448-.277 1.21-1.241 1.203C1 10.5.5 9.513.5 8V7c0-1.57.5-2.5 1.464-2.494.964.006 1.134.598 1.24 1.342M12.553 10.5h1.953",
+    strokeWidth: "1.2",
+    stroke: "currentColor",
+    fill: "none",
+    strokeLinecap: "square"
+  }));
+}
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docsearch+react@3.5.2_@algolia+client-search@4.20.0_@types+react@18.2.37_react-dom@18.2.0_re_rbxjadvtnfa2kbb4wxus66xqla/node_modules/@docsearch/react/dist/esm/icons/SearchIcon.js
+var SearchIcon = __webpack_require__(3984);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docsearch+react@3.5.2_@algolia+client-search@4.20.0_@types+react@18.2.37_react-dom@18.2.0_re_rbxjadvtnfa2kbb4wxus66xqla/node_modules/@docsearch/react/dist/esm/DocSearchButton.js
+var _excluded = ["translations"];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+
+
+
+var ACTION_KEY_DEFAULT = 'Ctrl';
+var ACTION_KEY_APPLE = '⌘';
+
+function isAppleDevice() {
+  return /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform);
+}
+
+var DocSearchButton = react.forwardRef(function (_ref, ref) {
+  var _ref$translations = _ref.translations,
+      translations = _ref$translations === void 0 ? {} : _ref$translations,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  var _translations$buttonT = translations.buttonText,
+      buttonText = _translations$buttonT === void 0 ? 'Search' : _translations$buttonT,
+      _translations$buttonA = translations.buttonAriaLabel,
+      buttonAriaLabel = _translations$buttonA === void 0 ? 'Search' : _translations$buttonA;
+
+  var _useState = (0,react.useState)(null),
+      _useState2 = _slicedToArray(_useState, 2),
+      key = _useState2[0],
+      setKey = _useState2[1];
+
+  (0,react.useEffect)(function () {
+    if (typeof navigator !== 'undefined') {
+      isAppleDevice() ? setKey(ACTION_KEY_APPLE) : setKey(ACTION_KEY_DEFAULT);
+    }
+  }, []);
+  return /*#__PURE__*/react.createElement("button", _extends({
+    type: "button",
+    className: "DocSearch DocSearch-Button",
+    "aria-label": buttonAriaLabel
+  }, props, {
+    ref: ref
+  }), /*#__PURE__*/react.createElement("span", {
+    className: "DocSearch-Button-Container"
+  }, /*#__PURE__*/react.createElement(SearchIcon/* SearchIcon */.W, null), /*#__PURE__*/react.createElement("span", {
+    className: "DocSearch-Button-Placeholder"
+  }, buttonText)), /*#__PURE__*/react.createElement("span", {
+    className: "DocSearch-Button-Keys"
+  }, key !== null && /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("kbd", {
+    className: "DocSearch-Button-Key"
+  }, key === ACTION_KEY_DEFAULT ? /*#__PURE__*/react.createElement(ControlKeyIcon, null) : key), /*#__PURE__*/react.createElement("kbd", {
+    className: "DocSearch-Button-Key"
+  }, "K"))));
+});
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/exports/Head.js
+var Head = __webpack_require__(4244);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/hooks/useSearchPage.js
+var useSearchPage = __webpack_require__(3464);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__o3qwn4r2faubmhr3omiuzvp6ga/node_modules/@docusaurus/theme-search-algolia/lib/client/useSearchResultUrlProcessor.js
+var useSearchResultUrlProcessor = __webpack_require__(4716);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/searchUtils.js
+var searchUtils = __webpack_require__(7435);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__o3qwn4r2faubmhr3omiuzvp6ga/node_modules/@docusaurus/theme-search-algolia/lib/client/useAlgoliaContextualFacetFilters.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */// Translate search-engine agnostic search filters to Algolia search filters
+function useAlgoliaContextualFacetFilters(){const{locale,tags}=(0,searchUtils/* useContextualSearchFilters */._q)();// Seems safe to convert locale->language, see AlgoliaSearchMetadata comment
+const languageFilter=`language:${locale}`;const tagsFilter=tags.map(tag=>`docusaurus_tag:${tag}`);return[languageFilter,tagsFilter];}
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/index.js
+var react_dom = __webpack_require__(3730);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__o3qwn4r2faubmhr3omiuzvp6ga/node_modules/@docusaurus/theme-search-algolia/lib/theme/SearchTranslations/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */const translations={button:{buttonText:(0,Translate/* translate */.I)({id:'theme.SearchBar.label',message:'Search',description:'The ARIA label and placeholder for search button'}),buttonAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchBar.label',message:'Search',description:'The ARIA label and placeholder for search button'})},modal:{searchBox:{resetButtonTitle:(0,Translate/* translate */.I)({id:'theme.SearchModal.searchBox.resetButtonTitle',message:'Clear the query',description:'The label and ARIA label for search box reset button'}),resetButtonAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchModal.searchBox.resetButtonTitle',message:'Clear the query',description:'The label and ARIA label for search box reset button'}),cancelButtonText:(0,Translate/* translate */.I)({id:'theme.SearchModal.searchBox.cancelButtonText',message:'Cancel',description:'The label and ARIA label for search box cancel button'}),cancelButtonAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchModal.searchBox.cancelButtonText',message:'Cancel',description:'The label and ARIA label for search box cancel button'})},startScreen:{recentSearchesTitle:(0,Translate/* translate */.I)({id:'theme.SearchModal.startScreen.recentSearchesTitle',message:'Recent',description:'The title for recent searches'}),noRecentSearchesText:(0,Translate/* translate */.I)({id:'theme.SearchModal.startScreen.noRecentSearchesText',message:'No recent searches',description:'The text when no recent searches'}),saveRecentSearchButtonTitle:(0,Translate/* translate */.I)({id:'theme.SearchModal.startScreen.saveRecentSearchButtonTitle',message:'Save this search',description:'The label for save recent search button'}),removeRecentSearchButtonTitle:(0,Translate/* translate */.I)({id:'theme.SearchModal.startScreen.removeRecentSearchButtonTitle',message:'Remove this search from history',description:'The label for remove recent search button'}),favoriteSearchesTitle:(0,Translate/* translate */.I)({id:'theme.SearchModal.startScreen.favoriteSearchesTitle',message:'Favorite',description:'The title for favorite searches'}),removeFavoriteSearchButtonTitle:(0,Translate/* translate */.I)({id:'theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle',message:'Remove this search from favorites',description:'The label for remove favorite search button'})},errorScreen:{titleText:(0,Translate/* translate */.I)({id:'theme.SearchModal.errorScreen.titleText',message:'Unable to fetch results',description:'The title for error screen of search modal'}),helpText:(0,Translate/* translate */.I)({id:'theme.SearchModal.errorScreen.helpText',message:'You might want to check your network connection.',description:'The help text for error screen of search modal'})},footer:{selectText:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.selectText',message:'to select',description:'The explanatory text of the action for the enter key'}),selectKeyAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.selectKeyAriaLabel',message:'Enter key',description:'The ARIA label for the Enter key button that makes the selection'}),navigateText:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.navigateText',message:'to navigate',description:'The explanatory text of the action for the Arrow up and Arrow down key'}),navigateUpKeyAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.navigateUpKeyAriaLabel',message:'Arrow up',description:'The ARIA label for the Arrow up key button that makes the navigation'}),navigateDownKeyAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.navigateDownKeyAriaLabel',message:'Arrow down',description:'The ARIA label for the Arrow down key button that makes the navigation'}),closeText:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.closeText',message:'to close',description:'The explanatory text of the action for Escape key'}),closeKeyAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.closeKeyAriaLabel',message:'Escape key',description:'The ARIA label for the Escape key button that close the modal'}),searchByText:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.searchByText',message:'Search by',description:'The text explain that the search is making by Algolia'})},noResultsScreen:{noResultsText:(0,Translate/* translate */.I)({id:'theme.SearchModal.noResultsScreen.noResultsText',message:'No results for',description:'The text explains that there are no results for the following search'}),suggestedQueryText:(0,Translate/* translate */.I)({id:'theme.SearchModal.noResultsScreen.suggestedQueryText',message:'Try searching for',description:'The text for the suggested query when no results are found for the following search'}),reportMissingResultsText:(0,Translate/* translate */.I)({id:'theme.SearchModal.noResultsScreen.reportMissingResultsText',message:'Believe this query should return results?',description:'The text for the question where the user thinks there are missing results'}),reportMissingResultsLinkText:(0,Translate/* translate */.I)({id:'theme.SearchModal.noResultsScreen.reportMissingResultsLinkText',message:'Let us know.',description:'The text for the link to report missing results'})}},placeholder:(0,Translate/* translate */.I)({id:'theme.SearchModal.placeholder',message:'Search docs',description:'The placeholder of the input of the DocSearch pop-up modal'})};/* harmony default export */ const SearchTranslations = (translations);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__o3qwn4r2faubmhr3omiuzvp6ga/node_modules/@docusaurus/theme-search-algolia/lib/theme/SearchBar/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */let DocSearchModal=null;function Hit(_ref){let{hit,children}=_ref;return/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.Z,{to:hit.url,children:children});}function ResultsFooter(_ref2){let{state,onClose}=_ref2;const createSearchLink=(0,useSearchPage/* useSearchLinkCreator */.M)();return/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.Z,{to:createSearchLink(state.query),onClick:onClose,children:/*#__PURE__*/(0,jsx_runtime.jsx)(Translate/* default */.Z,{id:"theme.SearchBar.seeAll",values:{count:state.context.nbHits},children:'See all {count} results'})});}function mergeFacetFilters(f1,f2){const normalize=f=>typeof f==='string'?[f]:f;return[...normalize(f1),...normalize(f2)];}function DocSearch(_ref3){let{contextualSearch,externalUrlRegex,...props}=_ref3;const{siteMetadata}=(0,useDocusaurusContext/* default */.Z)();const processSearchResultUrl=(0,useSearchResultUrlProcessor/* useSearchResultUrlProcessor */.l)();const contextualSearchFacetFilters=useAlgoliaContextualFacetFilters();const configFacetFilters=props.searchParameters?.facetFilters??[];const facetFilters=contextualSearch?// Merge contextual search filters with config filters
+mergeFacetFilters(contextualSearchFacetFilters,configFacetFilters):// ... or use config facetFilters
+configFacetFilters;// We let user override default searchParameters if she wants to
+const searchParameters={...props.searchParameters,facetFilters};const history=(0,react_router/* useHistory */.k6)();const searchContainer=(0,react.useRef)(null);const searchButtonRef=(0,react.useRef)(null);const[isOpen,setIsOpen]=(0,react.useState)(false);const[initialQuery,setInitialQuery]=(0,react.useState)(undefined);const importDocSearchModalIfNeeded=(0,react.useCallback)(()=>{if(DocSearchModal){return Promise.resolve();}return Promise.all([__webpack_require__.e(/* import() */ 805).then(__webpack_require__.bind(__webpack_require__, 1805)),Promise.all(/* import() */[__webpack_require__.e(532), __webpack_require__.e(351)]).then(__webpack_require__.bind(__webpack_require__, 2351)),Promise.all(/* import() */[__webpack_require__.e(532), __webpack_require__.e(876)]).then(__webpack_require__.bind(__webpack_require__, 9876))]).then(_ref4=>{let[{DocSearchModal:Modal}]=_ref4;DocSearchModal=Modal;});},[]);const onOpen=(0,react.useCallback)(()=>{importDocSearchModalIfNeeded().then(()=>{searchContainer.current=document.createElement('div');document.body.insertBefore(searchContainer.current,document.body.firstChild);setIsOpen(true);});},[importDocSearchModalIfNeeded,setIsOpen]);const onClose=(0,react.useCallback)(()=>{setIsOpen(false);searchContainer.current?.remove();},[setIsOpen]);const onInput=(0,react.useCallback)(event=>{importDocSearchModalIfNeeded().then(()=>{setIsOpen(true);setInitialQuery(event.key);});},[importDocSearchModalIfNeeded,setIsOpen,setInitialQuery]);const navigator=(0,react.useRef)({navigate(_ref5){let{itemUrl}=_ref5;// Algolia results could contain URL's from other domains which cannot
+// be served through history and should navigate with window.location
+if((0,regexpUtils/* isRegexpStringMatch */.F)(externalUrlRegex,itemUrl)){window.location.href=itemUrl;}else{history.push(itemUrl);}}}).current;const transformItems=(0,react.useRef)(items=>props.transformItems?// Custom transformItems
+props.transformItems(items):// Default transformItems
+items.map(item=>({...item,url:processSearchResultUrl(item.url)}))).current;const resultsFooterComponent=(0,react.useMemo)(()=>// eslint-disable-next-line react/no-unstable-nested-components
+footerProps=>/*#__PURE__*/(0,jsx_runtime.jsx)(ResultsFooter,{...footerProps,onClose:onClose}),[onClose]);const transformSearchClient=(0,react.useCallback)(searchClient=>{searchClient.addAlgoliaAgent('docusaurus',siteMetadata.docusaurusVersion);return searchClient;},[siteMetadata.docusaurusVersion]);useDocSearchKeyboardEvents({isOpen,onOpen,onClose,onInput,searchButtonRef});return/*#__PURE__*/(0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[/*#__PURE__*/(0,jsx_runtime.jsx)(Head/* default */.Z,{children:/*#__PURE__*/(0,jsx_runtime.jsx)("link",{rel:"preconnect",href:`https://${props.appId}-dsn.algolia.net`,crossOrigin:"anonymous"})}),/*#__PURE__*/(0,jsx_runtime.jsx)(DocSearchButton,{onTouchStart:importDocSearchModalIfNeeded,onFocus:importDocSearchModalIfNeeded,onMouseOver:importDocSearchModalIfNeeded,onClick:onOpen,ref:searchButtonRef,translations:SearchTranslations.button}),isOpen&&DocSearchModal&&searchContainer.current&&/*#__PURE__*/(0,react_dom.createPortal)(/*#__PURE__*/(0,jsx_runtime.jsx)(DocSearchModal,{onClose:onClose,initialScrollY:window.scrollY,initialQuery:initialQuery,navigator:navigator,transformItems:transformItems,hitComponent:Hit,transformSearchClient:transformSearchClient,...(props.searchPagePath&&{resultsFooterComponent}),...props,searchParameters:searchParameters,placeholder:SearchTranslations.placeholder,translations:SearchTranslations.modal}),searchContainer.current)]});}function SearchBar(){const{siteConfig}=(0,useDocusaurusContext/* default */.Z)();return/*#__PURE__*/(0,jsx_runtime.jsx)(DocSearch,{...siteConfig.themeConfig.algolia});}
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Search/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Search_styles_module = ({"navbarSearchContainer":"navbarSearchContainer_lujK"});
@@ -1333,7 +1518,7 @@ var Noop = __webpack_require__(6996);
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */function SearchNavbarItem(_ref){let{mobile,className}=_ref;if(mobile){return null;}return/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarSearch,{className:className,children:/*#__PURE__*/(0,jsx_runtime.jsx)(Noop/* default */.Z,{})});}
+ */function SearchNavbarItem(_ref){let{mobile,className}=_ref;if(mobile){return null;}return/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarSearch,{className:className,children:/*#__PURE__*/(0,jsx_runtime.jsx)(SearchBar,{})});}
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/HtmlNavbarItem.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -1343,8 +1528,8 @@ var Noop = __webpack_require__(6996);
  */function HtmlNavbarItem(_ref){let{value,className,mobile=false,isDropdownItem=false}=_ref;const Comp=isDropdownItem?'li':'div';return/*#__PURE__*/(0,jsx_runtime.jsx)(Comp,{className:(0,clsx_m/* default */.Z)({navbar__item:!mobile&&!isDropdownItem,'menu__list-item':mobile},className),dangerouslySetInnerHTML:{__html:value}});}
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+plugin-content-docs@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/plugin-content-docs/lib/client/index.js + 2 modules
 var client = __webpack_require__(9491);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/docsUtils.js + 1 modules
-var docsUtils = __webpack_require__(2411);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/docsUtils.js
+var docsUtils = __webpack_require__(1381);
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DocNavbarItem.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -1499,7 +1684,7 @@ Please double-check the following navbar item (themeConfig.navbar.items) of your
 ${JSON.stringify(item,null,2)}`,{cause:error}),children:/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarItem,{...item})},i))});}function NavbarContentLayout(_ref2){let{left,right}=_ref2;return/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"navbar__inner",children:[/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"navbar__items",children:left}),/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"navbar__items navbar__items--right",children:right})]});}function NavbarContent(){const mobileSidebar=(0,navbarMobileSidebar/* useNavbarMobileSidebar */.e)();const items=Content_useNavbarItems();const[leftItems,rightItems]=splitNavbarItems(items);const searchBarItem=items.find(item=>item.type==='search');return/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarContentLayout,{left:/*#__PURE__*/ // TODO stop hardcoding items?
 (0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[!mobileSidebar.disabled&&/*#__PURE__*/(0,jsx_runtime.jsx)(MobileSidebarToggle,{}),/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarLogo,{}),/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarItems,{items:leftItems})]}),right:/*#__PURE__*/ // TODO stop hardcoding items?
 // Ask the user to add the respective navbar items => more flexible
-(0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarItems,{items:rightItems}),/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarColorModeToggle,{className:Navbar_Content_styles_module.colorModeToggle}),!searchBarItem&&/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarSearch,{children:/*#__PURE__*/(0,jsx_runtime.jsx)(Noop/* default */.Z,{})})]})});}
+(0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarItems,{items:rightItems}),/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarColorModeToggle,{className:Navbar_Content_styles_module.colorModeToggle}),!searchBarItem&&/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarSearch,{children:/*#__PURE__*/(0,jsx_runtime.jsx)(SearchBar,{})})]})});}
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -1837,14 +2022,14 @@ const previousMediaIsPrint=(0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(false);
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   J: () => (/* binding */ useDocsPreferredVersion),
-/* harmony export */   L5: () => (/* binding */ DocsPreferredVersionContextProvider)
+/* harmony export */   L5: () => (/* binding */ DocsPreferredVersionContextProvider),
+/* harmony export */   Oh: () => (/* binding */ useDocsPreferredVersionByPluginId)
 /* harmony export */ });
-/* unused harmony export useDocsPreferredVersionByPluginId */
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2983);
 /* harmony import */ var _docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9491);
 /* harmony import */ var _docusaurus_constants__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(8494);
 /* harmony import */ var _utils_useThemeConfig__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1117);
-/* harmony import */ var _utils_docsUtils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2411);
+/* harmony import */ var _utils_docsUtils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1381);
 /* harmony import */ var _utils_reactUtils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(3910);
 /* harmony import */ var _utils_storageUtils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1949);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7458);
@@ -1874,7 +2059,7 @@ const api=(0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(()=>{function savePrefe
  * For example, if a user is using v3, even when v4 is later published, the user
  * would still be browsing v3 docs when she opens the website next time. Note,
  * the `preferredVersion` attribute will always be `null` before mount.
- */function useDocsPreferredVersion(pluginId){if(pluginId===void 0){pluginId=_docusaurus_constants__WEBPACK_IMPORTED_MODULE_7__/* .DEFAULT_PLUGIN_ID */ .m;}const docsData=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_4__/* .useDocsData */ .zh)(pluginId);const[state,api]=useDocsPreferredVersionContext();const{preferredVersionName}=state[pluginId];const preferredVersion=docsData.versions.find(version=>version.name===preferredVersionName)??null;const savePreferredVersionName=(0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(versionName=>{api.savePreferredVersion(pluginId,versionName);},[api,pluginId]);return{preferredVersion,savePreferredVersionName};}function useDocsPreferredVersionByPluginId(){const allDocsData=useAllDocsData();const[state]=useDocsPreferredVersionContext();function getPluginIdPreferredVersion(pluginId){const docsData=allDocsData[pluginId];const{preferredVersionName}=state[pluginId];return docsData.versions.find(version=>version.name===preferredVersionName)??null;}const pluginIds=Object.keys(allDocsData);return Object.fromEntries(pluginIds.map(id=>[id,getPluginIdPreferredVersion(id)]));}
+ */function useDocsPreferredVersion(pluginId){if(pluginId===void 0){pluginId=_docusaurus_constants__WEBPACK_IMPORTED_MODULE_7__/* .DEFAULT_PLUGIN_ID */ .m;}const docsData=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_4__/* .useDocsData */ .zh)(pluginId);const[state,api]=useDocsPreferredVersionContext();const{preferredVersionName}=state[pluginId];const preferredVersion=docsData.versions.find(version=>version.name===preferredVersionName)??null;const savePreferredVersionName=(0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(versionName=>{api.savePreferredVersion(pluginId,versionName);},[api,pluginId]);return{preferredVersion,savePreferredVersionName};}function useDocsPreferredVersionByPluginId(){const allDocsData=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_4__/* .useAllDocsData */ ._r)();const[state]=useDocsPreferredVersionContext();function getPluginIdPreferredVersion(pluginId){const docsData=allDocsData[pluginId];const{preferredVersionName}=state[pluginId];return docsData.versions.find(version=>version.name===preferredVersionName)??null;}const pluginIds=Object.keys(allDocsData);return Object.fromEntries(pluginIds.map(id=>[id,getPluginIdPreferredVersion(id)]));}
 
 /***/ }),
 
@@ -1928,68 +2113,31 @@ const EmptyContext=Symbol('EmptyContext');const Context=/*#__PURE__*/react__WEBP
 
 /***/ }),
 
-/***/ 1910:
+/***/ 974:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  M: () => (/* binding */ NavbarMobileSidebarProvider),
-  e: () => (/* binding */ useNavbarMobileSidebar)
-});
-
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/index.js
-var react = __webpack_require__(2983);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/contexts/navbarSecondaryMenu/content.js
-var content = __webpack_require__(6160);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/hooks/useWindowSize.js
-var useWindowSize = __webpack_require__(5247);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react-router@5.3.4_react@18.2.0/node_modules/react-router/esm/react-router.js
-var react_router = __webpack_require__(3729);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/reactUtils.js
-var reactUtils = __webpack_require__(3910);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/historyUtils.js
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   M: () => (/* binding */ NavbarMobileSidebarProvider),
+/* harmony export */   e: () => (/* binding */ useNavbarMobileSidebar)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2983);
+/* harmony import */ var _navbarSecondaryMenu_content__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6160);
+/* harmony import */ var _hooks_useWindowSize__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5247);
+/* harmony import */ var _utils_historyUtils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4654);
+/* harmony import */ var _utils_useThemeConfig__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1117);
+/* harmony import */ var _utils_reactUtils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(3910);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7458);
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- *//**
- * Permits to register a handler that will be called on history actions (pop,
- * push, replace). If the handler returns `false`, the navigation transition
- * will be blocked/cancelled.
- */function useHistoryActionHandler(handler){const history=(0,react_router/* useHistory */.k6)();const stableHandler=(0,reactUtils/* useEvent */.zX)(handler);(0,react.useEffect)(// See https://github.com/remix-run/history/blob/main/docs/blocking-transitions.md
-()=>history.block((location,action)=>stableHandler(location,action)),[history,stableHandler]);}/**
- * Permits to register a handler that will be called on history pop navigation
- * (backward/forward). If the handler returns `false`, the backward/forward
- * transition will be blocked. Unfortunately there's no good way to detect the
- * "direction" (backward/forward) of the POP event.
- */function useHistoryPopHandler(handler){useHistoryActionHandler((location,action)=>{if(action==='POP'){// Maybe block navigation if handler returns false
-return handler(location,action);}// Don't block other navigation actions
-return undefined;});}/**
- * Permits to efficiently subscribe to a slice of the history
- * See https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api
- * @param selector
- */function useHistorySelector(selector){const history=useHistory();return useSyncExternalStore(history.listen,()=>selector(history),()=>selector(history));}/**
- * Permits to efficiently subscribe to a specific querystring value
- * @param key
- */function useQueryStringValue(key){return useHistorySelector(history=>{if(key===null){return null;}return new URLSearchParams(history.location.search).get(key);});}function useQueryStringKeySetter(){const history=useHistory();return useCallback((key,newValue,options)=>{const searchParams=new URLSearchParams(history.location.search);if(newValue){searchParams.set(key,newValue);}else{searchParams.delete(key);}const updaterFn=options?.push?history.push:history.replace;updaterFn({search:searchParams.toString()});},[history]);}function useQueryString(key){const value=useQueryStringValue(key)??'';const setQueryString=useQueryStringKeySetter();return[value,useCallback((newValue,options)=>{setQueryString(key,newValue,options);},[setQueryString,key])];}
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/useThemeConfig.js
-var useThemeConfig = __webpack_require__(1117);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js
-var jsx_runtime = __webpack_require__(7458);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/contexts/navbarMobileSidebar.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */const Context=/*#__PURE__*/react.createContext(undefined);function useIsNavbarMobileSidebarDisabled(){const secondaryMenuContent=(0,content/* useNavbarSecondaryMenuContent */.HY)();const{items}=(0,useThemeConfig/* useThemeConfig */.L)().navbar;return items.length===0&&!secondaryMenuContent.component;}function useContextValue(){const disabled=useIsNavbarMobileSidebarDisabled();const windowSize=(0,useWindowSize/* useWindowSize */.i)();const shouldRender=!disabled&&windowSize==='mobile';const[shown,setShown]=(0,react.useState)(false);// Close mobile sidebar on navigation pop
+ */const Context=/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createContext(undefined);function useIsNavbarMobileSidebarDisabled(){const secondaryMenuContent=(0,_navbarSecondaryMenu_content__WEBPACK_IMPORTED_MODULE_2__/* .useNavbarSecondaryMenuContent */ .HY)();const{items}=(0,_utils_useThemeConfig__WEBPACK_IMPORTED_MODULE_3__/* .useThemeConfig */ .L)().navbar;return items.length===0&&!secondaryMenuContent.component;}function useContextValue(){const disabled=useIsNavbarMobileSidebarDisabled();const windowSize=(0,_hooks_useWindowSize__WEBPACK_IMPORTED_MODULE_4__/* .useWindowSize */ .i)();const shouldRender=!disabled&&windowSize==='mobile';const[shown,setShown]=(0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);// Close mobile sidebar on navigation pop
 // Most likely firing when using the Android back button (but not only)
-useHistoryPopHandler(()=>{if(shown){setShown(false);// Prevent pop navigation; seems desirable enough
+(0,_utils_historyUtils__WEBPACK_IMPORTED_MODULE_5__/* .useHistoryPopHandler */ .Rb)(()=>{if(shown){setShown(false);// Prevent pop navigation; seems desirable enough
 // See https://github.com/facebook/docusaurus/pull/5462#issuecomment-911699846
-return false;}return undefined;});const toggle=(0,react.useCallback)(()=>{setShown(s=>!s);},[]);(0,react.useEffect)(()=>{if(windowSize==='desktop'){setShown(false);}},[windowSize]);return (0,react.useMemo)(()=>({disabled,shouldRender,toggle,shown}),[disabled,shouldRender,toggle,shown]);}function NavbarMobileSidebarProvider(_ref){let{children}=_ref;const value=useContextValue();return/*#__PURE__*/(0,jsx_runtime.jsx)(Context.Provider,{value:value,children:children});}function useNavbarMobileSidebar(){const context=react.useContext(Context);if(context===undefined){throw new reactUtils/* ReactContextError */.i6('NavbarMobileSidebarProvider');}return context;}
+return false;}return undefined;});const toggle=(0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(()=>{setShown(s=>!s);},[]);(0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(()=>{if(windowSize==='desktop'){setShown(false);}},[windowSize]);return (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(()=>({disabled,shouldRender,toggle,shown}),[disabled,shouldRender,toggle,shown]);}function NavbarMobileSidebarProvider(_ref){let{children}=_ref;const value=useContextValue();return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(Context.Provider,{value:value,children:children});}function useNavbarMobileSidebar(){const context=react__WEBPACK_IMPORTED_MODULE_0__.useContext(Context);if(context===undefined){throw new _utils_reactUtils__WEBPACK_IMPORTED_MODULE_6__/* .ReactContextError */ .i6('NavbarMobileSidebarProvider');}return context;}
 
 /***/ }),
 
@@ -2058,6 +2206,32 @@ var react = __webpack_require__(2983);
  *
  * Inspired by https://hackernoon.com/removing-that-ugly-focus-ring-and-keeping-it-too-6c8727fefcd2
  */function useKeyboardNavigation(){(0,react.useEffect)(()=>{function handleOutlineStyles(e){if(e.type==='keydown'&&e.key==='Tab'){document.body.classList.add(keyboardFocusedClassName);}if(e.type==='mousedown'){document.body.classList.remove(keyboardFocusedClassName);}}document.addEventListener('keydown',handleOutlineStyles);document.addEventListener('mousedown',handleOutlineStyles);return()=>{document.body.classList.remove(keyboardFocusedClassName);document.removeEventListener('keydown',handleOutlineStyles);document.removeEventListener('mousedown',handleOutlineStyles);};},[]);}
+
+/***/ }),
+
+/***/ 3464:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   K: () => (/* binding */ useSearchQueryString),
+/* harmony export */   M: () => (/* binding */ useSearchLinkCreator)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2983);
+/* harmony import */ var _docusaurus_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1085);
+/* harmony import */ var _utils_historyUtils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4654);
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */const SEARCH_PARAM_QUERY='q';/**
+ * Permits to read/write the current search query string
+ */function useSearchQueryString(){return (0,_utils_historyUtils__WEBPACK_IMPORTED_MODULE_2__/* .useQueryString */ .Nc)(SEARCH_PARAM_QUERY);}/**
+ * Permits to create links to the search page with the appropriate query string
+ */function useSearchLinkCreator(){const{siteConfig:{baseUrl,themeConfig}}=(0,_docusaurus_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z)();const{algolia:{searchPagePath}}=themeConfig;return (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(searchValue=>// Refer to https://github.com/facebook/docusaurus/pull/2838
+// Note: if searchPagePath is falsy, useSearchPage() will not be called
+`${baseUrl}${searchPagePath}?${SEARCH_PARAM_QUERY}=${encodeURIComponent(searchValue)}`,[baseUrl,searchPagePath]);}
 
 /***/ }),
 
@@ -2135,44 +2309,179 @@ blogPages:'blog-wrapper',docsPages:'docs-wrapper',mdxPages:'mdx-wrapper'},common
 
 /***/ }),
 
-/***/ 2411:
+/***/ 1381:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   LM: () => (/* binding */ findFirstSidebarItemLink),
+/* harmony export */   MN: () => (/* binding */ filterDocCardListItems),
+/* harmony export */   SN: () => (/* binding */ useDocRootMetadata),
+/* harmony export */   _F: () => (/* binding */ isActiveSidebarItem),
+/* harmony export */   cE: () => (/* binding */ isDocsPluginEnabled),
+/* harmony export */   f: () => (/* binding */ useVisibleSidebarItems),
+/* harmony export */   jA: () => (/* binding */ useCurrentSidebarCategory),
+/* harmony export */   lO: () => (/* binding */ useDocsVersionCandidates),
+/* harmony export */   oz: () => (/* binding */ useLayoutDocsSidebar),
+/* harmony export */   s1: () => (/* binding */ useSidebarBreadcrumbs),
+/* harmony export */   vY: () => (/* binding */ useLayoutDoc),
+/* harmony export */   xz: () => (/* binding */ useDocById)
+/* harmony export */ });
+/* unused harmony exports findSidebarCategory, findFirstSidebarItemCategoryLink, isVisibleSidebarItem */
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2983);
+/* harmony import */ var _docusaurus_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3729);
+/* harmony import */ var _docusaurus_renderRoutes__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(4645);
+/* harmony import */ var _docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9491);
+/* harmony import */ var _contexts_docsPreferredVersion__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4753);
+/* harmony import */ var _contexts_docsVersion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4115);
+/* harmony import */ var _contexts_docsSidebar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6464);
+/* harmony import */ var _jsUtils__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(9867);
+/* harmony import */ var _routesUtils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(9288);
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */// TODO not ideal, see also "useDocs"
+const isDocsPluginEnabled=!!_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_1__/* .useAllDocsData */ ._r;function useDocById(id){const version=(0,_contexts_docsVersion__WEBPACK_IMPORTED_MODULE_2__/* .useDocsVersion */ .E)();if(!id){return undefined;}const doc=version.docs[id];if(!doc){throw new Error(`no version doc found by id=${id}`);}return doc;}/**
+ * Pure function, similar to `Array#find`, but works on the sidebar tree.
+ */function findSidebarCategory(sidebar,predicate){for(const item of sidebar){if(item.type==='category'){if(predicate(item)){return item;}const subItem=findSidebarCategory(item.items,predicate);if(subItem){return subItem;}}}return undefined;}/**
+ * Best effort to assign a link to a sidebar category. If the category doesn't
+ * have a link itself, we link to the first sub item with a link.
+ */function findFirstSidebarItemCategoryLink(item){if(item.href&&!item.linkUnlisted){return item.href;}for(const subItem of item.items){const link=findFirstSidebarItemLink(subItem);if(link){return link;}}return undefined;}/**
+ * Best effort to assign a link to a sidebar item.
+ */function findFirstSidebarItemLink(item){if(item.type==='link'&&!item.unlisted){return item.href;}if(item.type==='category'){return findFirstSidebarItemCategoryLink(item);}// Other items types, like "html"
+return undefined;}/**
+ * Gets the category associated with the current location. Should only be used
+ * on category index pages.
+ */function useCurrentSidebarCategory(){const{pathname}=(0,_docusaurus_router__WEBPACK_IMPORTED_MODULE_3__/* .useLocation */ .TH)();const sidebar=(0,_contexts_docsSidebar__WEBPACK_IMPORTED_MODULE_4__/* .useDocsSidebar */ .V)();if(!sidebar){throw new Error('Unexpected: cant find current sidebar in context');}const categoryBreadcrumbs=getSidebarBreadcrumbs({sidebarItems:sidebar.items,pathname,onlyCategories:true});const deepestCategory=categoryBreadcrumbs.slice(-1)[0];if(!deepestCategory){throw new Error(`${pathname} is not associated with a category. useCurrentSidebarCategory() should only be used on category index pages.`);}return deepestCategory;}const isActive=(testedPath,activePath)=>typeof testedPath!=='undefined'&&(0,_routesUtils__WEBPACK_IMPORTED_MODULE_5__/* .isSamePath */ .Mg)(testedPath,activePath);const containsActiveSidebarItem=(items,activePath)=>items.some(subItem=>isActiveSidebarItem(subItem,activePath));/**
+ * Checks if a sidebar item should be active, based on the active path.
+ */function isActiveSidebarItem(item,activePath){if(item.type==='link'){return isActive(item.href,activePath);}if(item.type==='category'){return isActive(item.href,activePath)||containsActiveSidebarItem(item.items,activePath);}return false;}function isVisibleSidebarItem(item,activePath){switch(item.type){case'category':return isActiveSidebarItem(item,activePath)||item.items.some(subItem=>isVisibleSidebarItem(subItem,activePath));case'link':// An unlisted item remains visible if it is active
+return!item.unlisted||isActiveSidebarItem(item,activePath);default:return false;}}function useVisibleSidebarItems(items,activePath){return (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(()=>items.filter(item=>isVisibleSidebarItem(item,activePath)),[items,activePath]);}/**
+ * Get the sidebar the breadcrumbs for a given pathname
+ * Ordered from top to bottom
+ */function getSidebarBreadcrumbs(_ref){let{sidebarItems,pathname,onlyCategories=false}=_ref;const breadcrumbs=[];function extract(items){for(const item of items){if(item.type==='category'&&((0,_routesUtils__WEBPACK_IMPORTED_MODULE_5__/* .isSamePath */ .Mg)(item.href,pathname)||extract(item.items))||item.type==='link'&&(0,_routesUtils__WEBPACK_IMPORTED_MODULE_5__/* .isSamePath */ .Mg)(item.href,pathname)){const filtered=onlyCategories&&item.type!=='category';if(!filtered){breadcrumbs.unshift(item);}return true;}}return false;}extract(sidebarItems);return breadcrumbs;}/**
+ * Gets the breadcrumbs of the current doc page, based on its sidebar location.
+ * Returns `null` if there's no sidebar or breadcrumbs are disabled.
+ */function useSidebarBreadcrumbs(){const sidebar=(0,_contexts_docsSidebar__WEBPACK_IMPORTED_MODULE_4__/* .useDocsSidebar */ .V)();const{pathname}=(0,_docusaurus_router__WEBPACK_IMPORTED_MODULE_3__/* .useLocation */ .TH)();const breadcrumbsOption=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_1__/* .useActivePlugin */ .gA)()?.pluginData.breadcrumbs;if(breadcrumbsOption===false||!sidebar){return null;}return getSidebarBreadcrumbs({sidebarItems:sidebar.items,pathname});}/**
+ * "Version candidates" are mostly useful for the layout components, which must
+ * be able to work on all pages. For example, if a user has `{ type: "doc",
+ * docId: "intro" }` as a navbar item, which version does that refer to? We
+ * believe that it could refer to at most three version candidates:
+ *
+ * 1. The **active version**, the one that the user is currently browsing. See
+ * {@link useActiveDocContext}.
+ * 2. The **preferred version**, the one that the user last visited. See
+ * {@link useDocsPreferredVersion}.
+ * 3. The **latest version**, the "default". See {@link useLatestVersion}.
+ *
+ * @param docsPluginId The plugin ID to get versions from.
+ * @returns An array of 1~3 versions with priorities defined above, guaranteed
+ * to be unique and non-sparse. Will be memoized, hence stable for deps array.
+ */function useDocsVersionCandidates(docsPluginId){const{activeVersion}=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_1__/* .useActiveDocContext */ .Iw)(docsPluginId);const{preferredVersion}=(0,_contexts_docsPreferredVersion__WEBPACK_IMPORTED_MODULE_6__/* .useDocsPreferredVersion */ .J)(docsPluginId);const latestVersion=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_1__/* .useLatestVersion */ .yW)(docsPluginId);return (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(()=>(0,_jsUtils__WEBPACK_IMPORTED_MODULE_7__/* .uniq */ .j)([activeVersion,preferredVersion,latestVersion].filter(Boolean)),[activeVersion,preferredVersion,latestVersion]);}/**
+ * The layout components, like navbar items, must be able to work on all pages,
+ * even on non-doc ones where there's no version context, so a sidebar ID could
+ * be ambiguous. This hook would always return a sidebar to be linked to. See
+ * also {@link useDocsVersionCandidates} for how this selection is done.
+ *
+ * @throws This hook throws if a sidebar with said ID is not found.
+ */function useLayoutDocsSidebar(sidebarId,docsPluginId){const versions=useDocsVersionCandidates(docsPluginId);return (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(()=>{const allSidebars=versions.flatMap(version=>version.sidebars?Object.entries(version.sidebars):[]);const sidebarEntry=allSidebars.find(sidebar=>sidebar[0]===sidebarId);if(!sidebarEntry){throw new Error(`Can't find any sidebar with id "${sidebarId}" in version${versions.length>1?'s':''} ${versions.map(version=>version.name).join(', ')}".
+Available sidebar ids are:
+- ${allSidebars.map(entry=>entry[0]).join('\n- ')}`);}return sidebarEntry[1];},[sidebarId,versions]);}/**
+ * The layout components, like navbar items, must be able to work on all pages,
+ * even on non-doc ones where there's no version context, so a doc ID could be
+ * ambiguous. This hook would always return a doc to be linked to. See also
+ * {@link useDocsVersionCandidates} for how this selection is done.
+ *
+ * @throws This hook throws if a doc with said ID is not found.
+ */function useLayoutDoc(docId,docsPluginId){const versions=useDocsVersionCandidates(docsPluginId);return (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(()=>{const allDocs=versions.flatMap(version=>version.docs);const doc=allDocs.find(versionDoc=>versionDoc.id===docId);if(!doc){const isDraft=versions.flatMap(version=>version.draftIds).includes(docId);// Drafts should be silently filtered instead of throwing
+if(isDraft){return null;}throw new Error(`Couldn't find any doc with id "${docId}" in version${versions.length>1?'s':''} "${versions.map(version=>version.name).join(', ')}".
+Available doc ids are:
+- ${(0,_jsUtils__WEBPACK_IMPORTED_MODULE_7__/* .uniq */ .j)(allDocs.map(versionDoc=>versionDoc.id)).join('\n- ')}`);}return doc;},[docId,versions]);}// TODO later read version/route directly from context
+/**
+ * The docs plugin creates nested routes, with the top-level route providing the
+ * version metadata, and the subroutes creating individual doc pages. This hook
+ * will match the current location against all known sub-routes.
+ *
+ * @param props The props received by `@theme/DocRoot`
+ * @returns The data of the relevant document at the current location, or `null`
+ * if no document associated with the current location can be found.
+ */function useDocRootMetadata(_ref2){let{route}=_ref2;const location=(0,_docusaurus_router__WEBPACK_IMPORTED_MODULE_3__/* .useLocation */ .TH)();const versionMetadata=(0,_contexts_docsVersion__WEBPACK_IMPORTED_MODULE_2__/* .useDocsVersion */ .E)();const docRoutes=route.routes;const currentDocRoute=docRoutes.find(docRoute=>(0,_docusaurus_router__WEBPACK_IMPORTED_MODULE_3__/* .matchPath */ .LX)(location.pathname,docRoute));if(!currentDocRoute){return null;}// For now, the sidebarName is added as route config: not ideal!
+const sidebarName=currentDocRoute.sidebar;const sidebarItems=sidebarName?versionMetadata.docsSidebars[sidebarName]:undefined;const docElement=(0,_docusaurus_renderRoutes__WEBPACK_IMPORTED_MODULE_8__/* .renderRoutes */ .H)(docRoutes);return{docElement,sidebarName,sidebarItems};}/**
+ * Filter items we don't want to display on the doc card list view
+ * @param items
+ */function filterDocCardListItems(items){return items.filter(item=>{const canHaveLink=item.type==='category'||item.type==='link';if(canHaveLink){return!!findFirstSidebarItemLink(item);}return true;});}
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  MN: () => (/* binding */ filterDocCardListItems),
-  LM: () => (/* binding */ findFirstSidebarItemLink),
-  _F: () => (/* binding */ isActiveSidebarItem),
-  cE: () => (/* binding */ isDocsPluginEnabled),
-  jA: () => (/* binding */ useCurrentSidebarCategory),
-  xz: () => (/* binding */ useDocById),
-  SN: () => (/* binding */ useDocRootMetadata),
-  lO: () => (/* binding */ useDocsVersionCandidates),
-  vY: () => (/* binding */ useLayoutDoc),
-  oz: () => (/* binding */ useLayoutDocsSidebar),
-  s1: () => (/* binding */ useSidebarBreadcrumbs),
-  f: () => (/* binding */ useVisibleSidebarItems)
-});
+/***/ }),
 
-// UNUSED EXPORTS: findFirstSidebarItemCategoryLink, findSidebarCategory, isVisibleSidebarItem
+/***/ 7090:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/index.js
-var react = __webpack_require__(2983);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react-router@5.3.4_react@18.2.0/node_modules/react-router/esm/react-router.js
-var react_router = __webpack_require__(3729);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react-router-config@5.1.1_react-router@5.3.4_react@18.2.0/node_modules/react-router-config/esm/react-router-config.js
-var react_router_config = __webpack_require__(4645);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+plugin-content-docs@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/plugin-content-docs/lib/client/index.js + 2 modules
-var client = __webpack_require__(9491);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/contexts/docsPreferredVersion.js
-var docsPreferredVersion = __webpack_require__(4753);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/contexts/docsVersion.js
-var docsVersion = __webpack_require__(4115);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/contexts/docsSidebar.js
-var docsSidebar = __webpack_require__(6464);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/jsUtils.js
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   p: () => (/* binding */ useTitleFormatter)
+/* harmony export */ });
+/* harmony import */ var _docusaurus_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1085);
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *//**
+ * Formats the page's title based on relevant site config and other contexts.
+ */function useTitleFormatter(title){const{siteConfig}=(0,_docusaurus_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)();const{title:siteTitle,titleDelimiter}=siteConfig;return title?.trim().length?`${title.trim()} ${titleDelimiter} ${siteTitle}`:siteTitle;}
+
+/***/ }),
+
+/***/ 4654:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Nc: () => (/* binding */ useQueryString),
+/* harmony export */   Rb: () => (/* binding */ useHistoryPopHandler),
+/* harmony export */   _X: () => (/* binding */ useQueryStringValue)
+/* harmony export */ });
+/* unused harmony exports useHistorySelector, useQueryStringKeySetter */
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2983);
+/* harmony import */ var _docusaurus_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3729);
+/* harmony import */ var _reactUtils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3910);
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *//**
+ * Permits to register a handler that will be called on history actions (pop,
+ * push, replace). If the handler returns `false`, the navigation transition
+ * will be blocked/cancelled.
+ */function useHistoryActionHandler(handler){const history=(0,_docusaurus_router__WEBPACK_IMPORTED_MODULE_1__/* .useHistory */ .k6)();const stableHandler=(0,_reactUtils__WEBPACK_IMPORTED_MODULE_2__/* .useEvent */ .zX)(handler);(0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(// See https://github.com/remix-run/history/blob/main/docs/blocking-transitions.md
+()=>history.block((location,action)=>stableHandler(location,action)),[history,stableHandler]);}/**
+ * Permits to register a handler that will be called on history pop navigation
+ * (backward/forward). If the handler returns `false`, the backward/forward
+ * transition will be blocked. Unfortunately there's no good way to detect the
+ * "direction" (backward/forward) of the POP event.
+ */function useHistoryPopHandler(handler){useHistoryActionHandler((location,action)=>{if(action==='POP'){// Maybe block navigation if handler returns false
+return handler(location,action);}// Don't block other navigation actions
+return undefined;});}/**
+ * Permits to efficiently subscribe to a slice of the history
+ * See https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api
+ * @param selector
+ */function useHistorySelector(selector){const history=(0,_docusaurus_router__WEBPACK_IMPORTED_MODULE_1__/* .useHistory */ .k6)();return (0,react__WEBPACK_IMPORTED_MODULE_0__.useSyncExternalStore)(history.listen,()=>selector(history),()=>selector(history));}/**
+ * Permits to efficiently subscribe to a specific querystring value
+ * @param key
+ */function useQueryStringValue(key){return useHistorySelector(history=>{if(key===null){return null;}return new URLSearchParams(history.location.search).get(key);});}function useQueryStringKeySetter(){const history=(0,_docusaurus_router__WEBPACK_IMPORTED_MODULE_1__/* .useHistory */ .k6)();return (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)((key,newValue,options)=>{const searchParams=new URLSearchParams(history.location.search);if(newValue){searchParams.set(key,newValue);}else{searchParams.delete(key);}const updaterFn=options?.push?history.push:history.replace;updaterFn({search:searchParams.toString()});},[history]);}function useQueryString(key){const value=useQueryStringValue(key)??'';const setQueryString=useQueryStringKeySetter();return[value,(0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)((newValue,options)=>{setQueryString(key,newValue,options);},[setQueryString,key])];}
+
+/***/ }),
+
+/***/ 9867:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   j: () => (/* binding */ uniq),
+/* harmony export */   l: () => (/* binding */ duplicates)
+/* harmony export */ });
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -2193,87 +2502,10 @@ var docsSidebar = __webpack_require__(6464);
  * @returns An array with duplicate elements removed by reference comparison.
  */function uniq(arr){// Note: had problems with [...new Set()]: https://github.com/facebook/docusaurus/issues/4972#issuecomment-863895061
 return Array.from(new Set(arr));}
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/routesUtils.js
-var routesUtils = __webpack_require__(9288);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/docsUtils.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */// TODO not ideal, see also "useDocs"
-const isDocsPluginEnabled=!!client/* useAllDocsData */._r;function useDocById(id){const version=(0,docsVersion/* useDocsVersion */.E)();if(!id){return undefined;}const doc=version.docs[id];if(!doc){throw new Error(`no version doc found by id=${id}`);}return doc;}/**
- * Pure function, similar to `Array#find`, but works on the sidebar tree.
- */function findSidebarCategory(sidebar,predicate){for(const item of sidebar){if(item.type==='category'){if(predicate(item)){return item;}const subItem=findSidebarCategory(item.items,predicate);if(subItem){return subItem;}}}return undefined;}/**
- * Best effort to assign a link to a sidebar category. If the category doesn't
- * have a link itself, we link to the first sub item with a link.
- */function findFirstSidebarItemCategoryLink(item){if(item.href&&!item.linkUnlisted){return item.href;}for(const subItem of item.items){const link=findFirstSidebarItemLink(subItem);if(link){return link;}}return undefined;}/**
- * Best effort to assign a link to a sidebar item.
- */function findFirstSidebarItemLink(item){if(item.type==='link'&&!item.unlisted){return item.href;}if(item.type==='category'){return findFirstSidebarItemCategoryLink(item);}// Other items types, like "html"
-return undefined;}/**
- * Gets the category associated with the current location. Should only be used
- * on category index pages.
- */function useCurrentSidebarCategory(){const{pathname}=(0,react_router/* useLocation */.TH)();const sidebar=(0,docsSidebar/* useDocsSidebar */.V)();if(!sidebar){throw new Error('Unexpected: cant find current sidebar in context');}const categoryBreadcrumbs=getSidebarBreadcrumbs({sidebarItems:sidebar.items,pathname,onlyCategories:true});const deepestCategory=categoryBreadcrumbs.slice(-1)[0];if(!deepestCategory){throw new Error(`${pathname} is not associated with a category. useCurrentSidebarCategory() should only be used on category index pages.`);}return deepestCategory;}const isActive=(testedPath,activePath)=>typeof testedPath!=='undefined'&&(0,routesUtils/* isSamePath */.Mg)(testedPath,activePath);const containsActiveSidebarItem=(items,activePath)=>items.some(subItem=>isActiveSidebarItem(subItem,activePath));/**
- * Checks if a sidebar item should be active, based on the active path.
- */function isActiveSidebarItem(item,activePath){if(item.type==='link'){return isActive(item.href,activePath);}if(item.type==='category'){return isActive(item.href,activePath)||containsActiveSidebarItem(item.items,activePath);}return false;}function isVisibleSidebarItem(item,activePath){switch(item.type){case'category':return isActiveSidebarItem(item,activePath)||item.items.some(subItem=>isVisibleSidebarItem(subItem,activePath));case'link':// An unlisted item remains visible if it is active
-return!item.unlisted||isActiveSidebarItem(item,activePath);default:return false;}}function useVisibleSidebarItems(items,activePath){return (0,react.useMemo)(()=>items.filter(item=>isVisibleSidebarItem(item,activePath)),[items,activePath]);}/**
- * Get the sidebar the breadcrumbs for a given pathname
- * Ordered from top to bottom
- */function getSidebarBreadcrumbs(_ref){let{sidebarItems,pathname,onlyCategories=false}=_ref;const breadcrumbs=[];function extract(items){for(const item of items){if(item.type==='category'&&((0,routesUtils/* isSamePath */.Mg)(item.href,pathname)||extract(item.items))||item.type==='link'&&(0,routesUtils/* isSamePath */.Mg)(item.href,pathname)){const filtered=onlyCategories&&item.type!=='category';if(!filtered){breadcrumbs.unshift(item);}return true;}}return false;}extract(sidebarItems);return breadcrumbs;}/**
- * Gets the breadcrumbs of the current doc page, based on its sidebar location.
- * Returns `null` if there's no sidebar or breadcrumbs are disabled.
- */function useSidebarBreadcrumbs(){const sidebar=(0,docsSidebar/* useDocsSidebar */.V)();const{pathname}=(0,react_router/* useLocation */.TH)();const breadcrumbsOption=(0,client/* useActivePlugin */.gA)()?.pluginData.breadcrumbs;if(breadcrumbsOption===false||!sidebar){return null;}return getSidebarBreadcrumbs({sidebarItems:sidebar.items,pathname});}/**
- * "Version candidates" are mostly useful for the layout components, which must
- * be able to work on all pages. For example, if a user has `{ type: "doc",
- * docId: "intro" }` as a navbar item, which version does that refer to? We
- * believe that it could refer to at most three version candidates:
- *
- * 1. The **active version**, the one that the user is currently browsing. See
- * {@link useActiveDocContext}.
- * 2. The **preferred version**, the one that the user last visited. See
- * {@link useDocsPreferredVersion}.
- * 3. The **latest version**, the "default". See {@link useLatestVersion}.
- *
- * @param docsPluginId The plugin ID to get versions from.
- * @returns An array of 1~3 versions with priorities defined above, guaranteed
- * to be unique and non-sparse. Will be memoized, hence stable for deps array.
- */function useDocsVersionCandidates(docsPluginId){const{activeVersion}=(0,client/* useActiveDocContext */.Iw)(docsPluginId);const{preferredVersion}=(0,docsPreferredVersion/* useDocsPreferredVersion */.J)(docsPluginId);const latestVersion=(0,client/* useLatestVersion */.yW)(docsPluginId);return (0,react.useMemo)(()=>uniq([activeVersion,preferredVersion,latestVersion].filter(Boolean)),[activeVersion,preferredVersion,latestVersion]);}/**
- * The layout components, like navbar items, must be able to work on all pages,
- * even on non-doc ones where there's no version context, so a sidebar ID could
- * be ambiguous. This hook would always return a sidebar to be linked to. See
- * also {@link useDocsVersionCandidates} for how this selection is done.
- *
- * @throws This hook throws if a sidebar with said ID is not found.
- */function useLayoutDocsSidebar(sidebarId,docsPluginId){const versions=useDocsVersionCandidates(docsPluginId);return (0,react.useMemo)(()=>{const allSidebars=versions.flatMap(version=>version.sidebars?Object.entries(version.sidebars):[]);const sidebarEntry=allSidebars.find(sidebar=>sidebar[0]===sidebarId);if(!sidebarEntry){throw new Error(`Can't find any sidebar with id "${sidebarId}" in version${versions.length>1?'s':''} ${versions.map(version=>version.name).join(', ')}".
-Available sidebar ids are:
-- ${allSidebars.map(entry=>entry[0]).join('\n- ')}`);}return sidebarEntry[1];},[sidebarId,versions]);}/**
- * The layout components, like navbar items, must be able to work on all pages,
- * even on non-doc ones where there's no version context, so a doc ID could be
- * ambiguous. This hook would always return a doc to be linked to. See also
- * {@link useDocsVersionCandidates} for how this selection is done.
- *
- * @throws This hook throws if a doc with said ID is not found.
- */function useLayoutDoc(docId,docsPluginId){const versions=useDocsVersionCandidates(docsPluginId);return (0,react.useMemo)(()=>{const allDocs=versions.flatMap(version=>version.docs);const doc=allDocs.find(versionDoc=>versionDoc.id===docId);if(!doc){const isDraft=versions.flatMap(version=>version.draftIds).includes(docId);// Drafts should be silently filtered instead of throwing
-if(isDraft){return null;}throw new Error(`Couldn't find any doc with id "${docId}" in version${versions.length>1?'s':''} "${versions.map(version=>version.name).join(', ')}".
-Available doc ids are:
-- ${uniq(allDocs.map(versionDoc=>versionDoc.id)).join('\n- ')}`);}return doc;},[docId,versions]);}// TODO later read version/route directly from context
-/**
- * The docs plugin creates nested routes, with the top-level route providing the
- * version metadata, and the subroutes creating individual doc pages. This hook
- * will match the current location against all known sub-routes.
- *
- * @param props The props received by `@theme/DocRoot`
- * @returns The data of the relevant document at the current location, or `null`
- * if no document associated with the current location can be found.
- */function useDocRootMetadata(_ref2){let{route}=_ref2;const location=(0,react_router/* useLocation */.TH)();const versionMetadata=(0,docsVersion/* useDocsVersion */.E)();const docRoutes=route.routes;const currentDocRoute=docRoutes.find(docRoute=>(0,react_router/* matchPath */.LX)(location.pathname,docRoute));if(!currentDocRoute){return null;}// For now, the sidebarName is added as route config: not ideal!
-const sidebarName=currentDocRoute.sidebar;const sidebarItems=sidebarName?versionMetadata.docsSidebars[sidebarName]:undefined;const docElement=(0,react_router_config/* renderRoutes */.H)(docRoutes);return{docElement,sidebarName,sidebarItems};}/**
- * Filter items we don't want to display on the doc card list view
- * @param items
- */function filterDocCardListItems(items){return items.filter(item=>{const canHaveLink=item.type==='category'||item.type==='link';if(canHaveLink){return!!findFirstSidebarItemLink(item);}return true;});}
 
 /***/ }),
 
-/***/ 5474:
+/***/ 639:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2302,17 +2534,8 @@ var routeContext = __webpack_require__(3900);
  */function useRouteContext(){const context=react.useContext(routeContext/* Context */._);if(!context){throw new Error('Unexpected: no Docusaurus route context found');}return context;}
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/exports/useBaseUrl.js
 var useBaseUrl = __webpack_require__(1069);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/exports/useDocusaurusContext.js
-var useDocusaurusContext = __webpack_require__(1085);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/generalUtils.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *//**
- * Formats the page's title based on relevant site config and other contexts.
- */function useTitleFormatter(title){const{siteConfig}=(0,useDocusaurusContext/* default */.Z)();const{title:siteTitle,titleDelimiter}=siteConfig;return title?.trim().length?`${title.trim()} ${titleDelimiter} ${siteTitle}`:siteTitle;}
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/generalUtils.js
+var generalUtils = __webpack_require__(7090);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(7458);
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/metadataUtils.js
@@ -2324,7 +2547,7 @@ var jsx_runtime = __webpack_require__(7458);
  *//**
  * Helper component to manipulate page metadata and override site defaults.
  * Works in the same way as Helmet.
- */function PageMetadata(_ref){let{title,description,keywords,image,children}=_ref;const pageTitle=useTitleFormatter(title);const{withBaseUrl}=(0,useBaseUrl/* useBaseUrlUtils */.C)();const pageImage=image?withBaseUrl(image,{absolute:true}):undefined;return/*#__PURE__*/(0,jsx_runtime.jsxs)(Head/* default */.Z,{children:[title&&/*#__PURE__*/(0,jsx_runtime.jsx)("title",{children:pageTitle}),title&&/*#__PURE__*/(0,jsx_runtime.jsx)("meta",{property:"og:title",content:pageTitle}),description&&/*#__PURE__*/(0,jsx_runtime.jsx)("meta",{name:"description",content:description}),description&&/*#__PURE__*/(0,jsx_runtime.jsx)("meta",{property:"og:description",content:description}),keywords&&/*#__PURE__*/(0,jsx_runtime.jsx)("meta",{name:"keywords",content:// https://github.com/microsoft/TypeScript/issues/17002
+ */function PageMetadata(_ref){let{title,description,keywords,image,children}=_ref;const pageTitle=(0,generalUtils/* useTitleFormatter */.p)(title);const{withBaseUrl}=(0,useBaseUrl/* useBaseUrlUtils */.C)();const pageImage=image?withBaseUrl(image,{absolute:true}):undefined;return/*#__PURE__*/(0,jsx_runtime.jsxs)(Head/* default */.Z,{children:[title&&/*#__PURE__*/(0,jsx_runtime.jsx)("title",{children:pageTitle}),title&&/*#__PURE__*/(0,jsx_runtime.jsx)("meta",{property:"og:title",content:pageTitle}),description&&/*#__PURE__*/(0,jsx_runtime.jsx)("meta",{name:"description",content:description}),description&&/*#__PURE__*/(0,jsx_runtime.jsx)("meta",{property:"og:description",content:description}),keywords&&/*#__PURE__*/(0,jsx_runtime.jsx)("meta",{name:"keywords",content:// https://github.com/microsoft/TypeScript/issues/17002
 Array.isArray(keywords)?keywords.join(','):keywords}),pageImage&&/*#__PURE__*/(0,jsx_runtime.jsx)("meta",{property:"og:image",content:pageImage}),pageImage&&/*#__PURE__*/(0,jsx_runtime.jsx)("meta",{name:"twitter:image",content:pageImage}),children]});}const HtmlClassNameContext=/*#__PURE__*/react.createContext(undefined);/**
  * Every layer of this provider will append a class name to the HTML element.
  * There's no consumer for this hook: it's side-effect-only. This wrapper is
@@ -2401,6 +2624,25 @@ return _ref=>{let{children}=_ref;return/*#__PURE__*/(0,react_jsx_runtime__WEBPAC
 
 /***/ }),
 
+/***/ 9953:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   F: () => (/* binding */ isRegexpStringMatch)
+/* harmony export */ });
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ /**
+ * Matches a string regex (as provided from the config) against a target in a
+ * null-safe fashion, case insensitive and global.
+ */function isRegexpStringMatch(regexAsString,valueToTest){if(typeof regexAsString==='undefined'||typeof valueToTest==='undefined'){return false;}return new RegExp(regexAsString,'gi').test(valueToTest);}
+
+/***/ }),
+
 /***/ 9288:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -2438,9 +2680,10 @@ return _ref=>{let{children}=_ref;return/*#__PURE__*/(0,react_jsx_runtime__WEBPAC
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Ct: () => (/* binding */ useSmoothScrollTo),
 /* harmony export */   OC: () => (/* binding */ ScrollControllerProvider),
-/* harmony export */   RF: () => (/* binding */ useScrollPosition)
+/* harmony export */   RF: () => (/* binding */ useScrollPosition),
+/* harmony export */   o5: () => (/* binding */ useScrollPositionBlocker)
 /* harmony export */ });
-/* unused harmony exports useScrollController, useScrollPositionBlocker */
+/* unused harmony export useScrollController */
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2983);
 /* harmony import */ var _docusaurus_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(26);
 /* harmony import */ var _docusaurus_useIsBrowser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5966);
@@ -2466,7 +2709,7 @@ return _ref=>{let{children}=_ref;return/*#__PURE__*/(0,react_jsx_runtime__WEBPAC
  *
  * @see {@link useScrollController}
  */function useScrollPosition(effect,deps){if(deps===void 0){deps=[];}const{scrollEventsEnabledRef}=useScrollController();const lastPositionRef=(0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(getScrollPosition());const dynamicEffect=(0,_reactUtils__WEBPACK_IMPORTED_MODULE_5__/* .useEvent */ .zX)(effect);(0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(()=>{const handleScroll=()=>{if(!scrollEventsEnabledRef.current){return;}const currentPosition=getScrollPosition();dynamicEffect(currentPosition,lastPositionRef.current);lastPositionRef.current=currentPosition;};const opts={passive:true};handleScroll();window.addEventListener('scroll',handleScroll,opts);return()=>window.removeEventListener('scroll',handleScroll,opts);// eslint-disable-next-line react-hooks/exhaustive-deps
-},[dynamicEffect,scrollEventsEnabledRef,...deps]);}function useScrollPositionSaver(){const lastElementRef=useRef({elem:null,top:0});const save=useCallback(elem=>{lastElementRef.current={elem,top:elem.getBoundingClientRect().top};},[]);const restore=useCallback(()=>{const{current:{elem,top}}=lastElementRef;if(!elem){return{restored:false};}const newTop=elem.getBoundingClientRect().top;const heightDiff=newTop-top;if(heightDiff){window.scrollBy({left:0,top:heightDiff});}lastElementRef.current={elem:null,top:0};return{restored:heightDiff!==0};},[]);return useMemo(()=>({save,restore}),[restore,save]);}/**
+},[dynamicEffect,scrollEventsEnabledRef,...deps]);}function useScrollPositionSaver(){const lastElementRef=(0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)({elem:null,top:0});const save=(0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(elem=>{lastElementRef.current={elem,top:elem.getBoundingClientRect().top};},[]);const restore=(0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(()=>{const{current:{elem,top}}=lastElementRef;if(!elem){return{restored:false};}const newTop=elem.getBoundingClientRect().top;const heightDiff=newTop-top;if(heightDiff){window.scrollBy({left:0,top:heightDiff});}lastElementRef.current={elem:null,top:0};return{restored:heightDiff!==0};},[]);return (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(()=>({save,restore}),[restore,save]);}/**
  * This hook permits to "block" the scroll position of a DOM element.
  * The idea is that we should be able to update DOM content above this element
  * but the screen position of this element should not change.
@@ -2476,10 +2719,10 @@ return _ref=>{let{children}=_ref;return/*#__PURE__*/(0,react_jsx_runtime__WEBPAC
  * remain under the user mouse.
  *
  * @see https://github.com/facebook/docusaurus/pull/5618
- */function useScrollPositionBlocker(){const scrollController=useScrollController();const scrollPositionSaver=useScrollPositionSaver();const nextLayoutEffectCallbackRef=useRef(undefined);const blockElementScrollPositionUntilNextRender=useCallback(el=>{scrollPositionSaver.save(el);scrollController.disableScrollEvents();nextLayoutEffectCallbackRef.current=()=>{const{restored}=scrollPositionSaver.restore();nextLayoutEffectCallbackRef.current=undefined;// Restoring the former scroll position will trigger a scroll event. We
+ */function useScrollPositionBlocker(){const scrollController=useScrollController();const scrollPositionSaver=useScrollPositionSaver();const nextLayoutEffectCallbackRef=(0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(undefined);const blockElementScrollPositionUntilNextRender=(0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(el=>{scrollPositionSaver.save(el);scrollController.disableScrollEvents();nextLayoutEffectCallbackRef.current=()=>{const{restored}=scrollPositionSaver.restore();nextLayoutEffectCallbackRef.current=undefined;// Restoring the former scroll position will trigger a scroll event. We
 // need to wait for next scroll event to happen before enabling the
 // scrollController events again.
-if(restored){const handleScrollRestoreEvent=()=>{scrollController.enableScrollEvents();window.removeEventListener('scroll',handleScrollRestoreEvent);};window.addEventListener('scroll',handleScrollRestoreEvent);}else{scrollController.enableScrollEvents();}};},[scrollController,scrollPositionSaver]);useIsomorphicLayoutEffect(()=>{// Queuing permits to restore scroll position after all useLayoutEffect
+if(restored){const handleScrollRestoreEvent=()=>{scrollController.enableScrollEvents();window.removeEventListener('scroll',handleScrollRestoreEvent);};window.addEventListener('scroll',handleScrollRestoreEvent);}else{scrollController.enableScrollEvents();}};},[scrollController,scrollPositionSaver]);(0,_docusaurus_useIsomorphicLayoutEffect__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z)(()=>{// Queuing permits to restore scroll position after all useLayoutEffect
 // have run, and yet preserve the sync nature of the scroll restoration
 // See https://github.com/facebook/docusaurus/issues/8625
 queueMicrotask(()=>nextLayoutEffectCallbackRef.current?.());});return{blockElementScrollPositionUntilNextRender};}function smoothScrollNative(top){window.scrollTo({top,behavior:'smooth'});return()=>{// Nothing to cancel, it's natively cancelled if user tries to scroll down
@@ -2509,10 +2752,12 @@ const supportsNativeSmoothScrolling=isBrowser&&getComputedStyle(document.documen
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   HX: () => (/* binding */ DEFAULT_SEARCH_TAG),
+/* harmony export */   _q: () => (/* binding */ useContextualSearchFilters),
 /* harmony export */   os: () => (/* binding */ docVersionSearchTag)
 /* harmony export */ });
-/* unused harmony export useContextualSearchFilters */
+/* harmony import */ var _docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9491);
 /* harmony import */ var _docusaurus_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1085);
+/* harmony import */ var _contexts_docsPreferredVersion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4753);
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -2524,7 +2769,7 @@ const supportsNativeSmoothScrolling=isBrowser&&getComputedStyle(document.documen
  * The value is generic and not coupled to Algolia/DocSearch, since we may want
  * to support multiple search engines, or allowing users to use their own search
  * engine solution.
- */function useContextualSearchFilters(){const{i18n}=useDocusaurusContext();const allDocsData=useAllDocsData();const activePluginAndVersion=useActivePluginAndVersion();const docsPreferredVersionByPluginId=useDocsPreferredVersionByPluginId();// This can't use more specialized hooks because we are mapping over all
+ */function useContextualSearchFilters(){const{i18n}=(0,_docusaurus_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)();const allDocsData=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_1__/* .useAllDocsData */ ._r)();const activePluginAndVersion=(0,_docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_1__/* .useActivePluginAndVersion */ .WS)();const docsPreferredVersionByPluginId=(0,_contexts_docsPreferredVersion__WEBPACK_IMPORTED_MODULE_2__/* .useDocsPreferredVersionByPluginId */ .Oh)();// This can't use more specialized hooks because we are mapping over all
 // plugin instances.
 function getDocPluginTags(pluginId){const activeVersion=activePluginAndVersion?.activePlugin.pluginId===pluginId?activePluginAndVersion.activeVersion:undefined;const preferredVersion=docsPreferredVersionByPluginId[pluginId];const latestVersion=allDocsData[pluginId].versions.find(v=>v.isLast);const version=activeVersion??preferredVersion??latestVersion;return docVersionSearchTag(pluginId,version.name);}const tags=[DEFAULT_SEARCH_TAG,...Object.keys(allDocsData).map(getDocPluginTags)];return{locale:i18n.currentLocale,tags};}
 
@@ -2535,9 +2780,10 @@ function getDocPluginTags(pluginId){const activeVersion=activePluginAndVersion?.
 
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Nk: () => (/* binding */ useStorageSlot),
 /* harmony export */   WA: () => (/* binding */ createStorageSlot)
 /* harmony export */ });
-/* unused harmony exports useStorageSlot, listStorageKeys */
+/* unused harmony export listStorageKeys */
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2983);
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -2576,8 +2822,8 @@ Please only call storage APIs in effects and event handlers.`);}return{get:throw
  * security) or operations might fail individually. Please assume that using
  * this API can be a no-op. See also https://github.com/facebook/docusaurus/issues/6036
  */function createStorageSlot(key,options){if(typeof window==='undefined'){return createServerStorageSlot(key);}const storage=getBrowserStorage(options?.persistence);if(storage===null){return NoopStorageSlot;}return{get:()=>{try{return storage.getItem(key);}catch(err){console.error(`Docusaurus storage error, can't get key=${key}`,err);return null;}},set:newValue=>{try{const oldValue=storage.getItem(key);storage.setItem(key,newValue);dispatchChangeEvent({key,oldValue,newValue,storage});}catch(err){console.error(`Docusaurus storage error, can't set ${key}=${newValue}`,err);}},del:()=>{try{const oldValue=storage.getItem(key);storage.removeItem(key);dispatchChangeEvent({key,oldValue,newValue:null,storage});}catch(err){console.error(`Docusaurus storage error, can't delete key=${key}`,err);}},listen:onChange=>{try{const listener=event=>{if(event.storageArea===storage&&event.key===key){onChange(event);}};window.addEventListener('storage',listener);return()=>window.removeEventListener('storage',listener);}catch(err){console.error(`Docusaurus storage error, can't listen for changes of key=${key}`,err);return()=>{};}}};}function useStorageSlot(key,options){// Not ideal but good enough: assumes storage slot config is constant
-const storageSlot=useRef(()=>{if(key===null){return NoopStorageSlot;}return createStorageSlot(key,options);}).current();const listen=useCallback(onChange=>{// Do not try to add a listener during SSR
-if(typeof window==='undefined'){return()=>{};}return storageSlot.listen(onChange);},[storageSlot]);const currentValue=useSyncExternalStore(listen,()=>{// TODO this check should be useless after React 18
+const storageSlot=(0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(()=>{if(key===null){return NoopStorageSlot;}return createStorageSlot(key,options);}).current();const listen=(0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(onChange=>{// Do not try to add a listener during SSR
+if(typeof window==='undefined'){return()=>{};}return storageSlot.listen(onChange);},[storageSlot]);const currentValue=(0,react__WEBPACK_IMPORTED_MODULE_0__.useSyncExternalStore)(listen,()=>{// TODO this check should be useless after React 18
 if(typeof window==='undefined'){return null;}return storageSlot.get();},()=>null);return[currentValue,storageSlot];}/**
  * Returns a list of all the keys currently stored in browser storage,
  * or an empty list if browser storage can't be accessed.
@@ -2653,6 +2899,48 @@ function createUrl(_ref){let{locale,fullyQualified}=_ref;return`${fullyQualified
  *//**
  * A convenient/more semantic way to get theme config from context.
  */function useThemeConfig(){return (0,_docusaurus_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)().siteConfig.themeConfig;}
+
+/***/ }),
+
+/***/ 7941:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   L: () => (/* binding */ useAlgoliaThemeConfig)
+/* harmony export */ });
+/* harmony import */ var _docusaurus_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1085);
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */function useAlgoliaThemeConfig(){const{siteConfig:{themeConfig}}=(0,_docusaurus_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)();return themeConfig;}
+
+/***/ }),
+
+/***/ 4716:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   l: () => (/* binding */ useSearchResultUrlProcessor)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2983);
+/* harmony import */ var _docusaurus_theme_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9953);
+/* harmony import */ var _docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1069);
+/* harmony import */ var _useAlgoliaThemeConfig__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7941);
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */function replacePathname(pathname,replaceSearchResultPathname){return replaceSearchResultPathname?pathname.replaceAll(new RegExp(replaceSearchResultPathname.from,'g'),replaceSearchResultPathname.to):pathname;}/**
+ * Process the search result url from Algolia to its final form, ready to be
+ * navigated to or used as a link
+ */function useSearchResultUrlProcessor(){const{withBaseUrl}=(0,_docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_1__/* .useBaseUrlUtils */ .C)();const{algolia:{externalUrlRegex,replaceSearchResultPathname}}=(0,_useAlgoliaThemeConfig__WEBPACK_IMPORTED_MODULE_2__/* .useAlgoliaThemeConfig */ .L)();return (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(url=>{const parsedURL=new URL(url);// Algolia contains an external domain => navigate to URL
+if((0,_docusaurus_theme_common__WEBPACK_IMPORTED_MODULE_3__/* .isRegexpStringMatch */ .F)(externalUrlRegex,parsedURL.href)){return url;}// Otherwise => transform to relative URL for SPA navigation
+const relativeUrl=`${parsedURL.pathname+parsedURL.hash}`;return withBaseUrl(replacePathname(relativeUrl,replaceSearchResultPathname));},[withBaseUrl,externalUrlRegex,replaceSearchResultPathname]);}
 
 /***/ }),
 
@@ -7688,6 +7976,26 @@ __webpack_require__.r(__webpack_exports__);
       }
     ]
   ],
+  "plugins": [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "packages",
+        "path": "packages",
+        "routeBasePath": "packages",
+        "sidebarPath": "/home/runner/work/bonfhir/bonfhir/docs/website/sidebars.js",
+        "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website",
+        "remarkPlugins": [
+          [
+            null,
+            {
+              "sync": true
+            }
+          ]
+        ]
+      }
+    ]
+  ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
@@ -7703,16 +8011,10 @@ __webpack_require__.r(__webpack_exports__);
           "label": "Get Started"
         },
         {
-          "type": "docSidebar",
-          "sidebarId": "getStartedSidebar",
+          "to": "/packages/core",
           "position": "right",
-          "label": "Packages Documentation"
-        },
-        {
-          "type": "docSidebar",
-          "sidebarId": "getStartedSidebar",
-          "position": "right",
-          "label": "Contributing"
+          "label": "Packages Documentation",
+          "activeBaseRegex": "/packages/"
         },
         {
           "href": "https://github.com/bonfhir/bonfhir",
@@ -7918,6 +8220,14 @@ __webpack_require__.r(__webpack_exports__);
       "defaultMode": "light",
       "respectPrefersColorScheme": false
     },
+    "algolia": {
+      "appId": "C444QI5SK7",
+      "apiKey": "fc7d73ded65b514d4e2773653bc196c4",
+      "indexName": "bonfhir",
+      "contextualSearch": true,
+      "searchParameters": {},
+      "searchPagePath": "search"
+    },
     "docs": {
       "versionPersistence": "localStorage",
       "sidebar": {
@@ -7937,7 +8247,6 @@ __webpack_require__.r(__webpack_exports__);
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],
@@ -11087,7 +11396,7 @@ module.exports = {};
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"/markdown-page-7a8":{"__comp":"1f391b9e","__context":{"plugin":"b858ffb2"},"content":"393be207"},"/docs-d37":{"__comp":"5e95c892","__context":{"plugin":"d91fa1ce"}},"/docs-cb8":{"__comp":"a7bd4aaa","version":"935f2afb"},"/docs-b77":{"__comp":"a94703ab"},"/docs/category/tutorial---basics-581":{"__comp":"14eb3368","categoryGeneratedIndex":"2619eed9"},"/docs/category/tutorial---extras-d4d":{"__comp":"14eb3368","categoryGeneratedIndex":"f5e28f36"},"/docs/intro-c19":{"__comp":"17896441","content":"0e384e19"},"/docs/tutorial-basics/congratulations-553":{"__comp":"17896441","content":"822bd8ab"},"/docs/tutorial-basics/create-a-blog-post-72e":{"__comp":"17896441","content":"533a09ca"},"/docs/tutorial-basics/create-a-document-ee7":{"__comp":"17896441","content":"1e4232ab"},"/docs/tutorial-basics/create-a-page-91e":{"__comp":"17896441","content":"5c868d36"},"/docs/tutorial-basics/deploy-your-site-de0":{"__comp":"17896441","content":"f55d3e7a"},"/docs/tutorial-basics/markdown-features-93c":{"__comp":"17896441","content":"18c41134"},"/docs/tutorial-extras/manage-docs-versions-645":{"__comp":"17896441","content":"dff1c289"},"/docs/tutorial-extras/translate-your-site-a50":{"__comp":"17896441","content":"e44a2883"},"/-71a":{"__comp":"1df93b7f","__context":{"plugin":"b858ffb2"},"config":"5e9f5e1a"}}');
+module.exports = JSON.parse('{"/markdown-page-7a8":{"__comp":"1f391b9e","__context":{"plugin":"b858ffb2"},"content":"393be207"},"/search-b1e":{"__comp":"1a4e3797","__context":{"plugin":"eb1ba003"}},"/docs-d37":{"__comp":"5e95c892","__context":{"plugin":"d91fa1ce"}},"/docs-cb8":{"__comp":"a7bd4aaa","version":"935f2afb"},"/docs-b77":{"__comp":"a94703ab"},"/docs/category/tutorial---basics-581":{"__comp":"14eb3368","categoryGeneratedIndex":"2619eed9"},"/docs/category/tutorial---extras-d4d":{"__comp":"14eb3368","categoryGeneratedIndex":"f5e28f36"},"/docs/intro-c19":{"__comp":"17896441","content":"0e384e19"},"/docs/tutorial-basics/congratulations-553":{"__comp":"17896441","content":"822bd8ab"},"/docs/tutorial-basics/create-a-blog-post-72e":{"__comp":"17896441","content":"533a09ca"},"/docs/tutorial-basics/create-a-document-ee7":{"__comp":"17896441","content":"1e4232ab"},"/docs/tutorial-basics/create-a-page-91e":{"__comp":"17896441","content":"5c868d36"},"/docs/tutorial-basics/deploy-your-site-de0":{"__comp":"17896441","content":"f55d3e7a"},"/docs/tutorial-basics/markdown-features-93c":{"__comp":"17896441","content":"18c41134"},"/docs/tutorial-extras/manage-docs-versions-645":{"__comp":"17896441","content":"dff1c289"},"/docs/tutorial-extras/translate-your-site-a50":{"__comp":"17896441","content":"e44a2883"},"/packages-251":{"__comp":"5e95c892","__context":{"plugin":"4892dc76"}},"/packages-f72":{"__comp":"a7bd4aaa","version":"e7817267"},"/packages-67a":{"__comp":"a94703ab"},"/packages/core-0d2":{"__comp":"17896441","content":"aaa4cf09"},"/packages/query-2af":{"__comp":"17896441","content":"307f94a6"},"/-71a":{"__comp":"1df93b7f","__context":{"plugin":"b858ffb2"},"config":"5e9f5e1a"}}');
 
 /***/ })
 
