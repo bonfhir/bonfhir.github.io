@@ -1,6 +1,6 @@
 (self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[179],{
 
-/***/ 3984:
+/***/ 6429:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -27,7 +27,7 @@ function SearchIcon() {
 
 /***/ }),
 
-/***/ 3181:
+/***/ 3737:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var map = {
@@ -52,7 +52,7 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 3181;
+webpackContext.id = 3737;
 
 /***/ }),
 
@@ -74,7 +74,7 @@ var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
 // EXTERNAL MODULE: ./.docusaurus/routesChunkNames.json
 var routesChunkNames = __webpack_require__(6887);
 ;// CONCATENATED MODULE: ./.docusaurus/registry.js
-/* harmony default export */ const registry = ({"0e384e19":[()=>__webpack_require__.e(/* import() | 0e384e19 */ 671).then(__webpack_require__.bind(__webpack_require__, 3387)),"@site/docs/intro.md",/*require.resolve*/(3387)],"14eb3368":[()=>Promise.all(/* import() | 14eb3368 */[__webpack_require__.e(532), __webpack_require__.e(817)]).then(__webpack_require__.bind(__webpack_require__, 2473)),"@theme/DocCategoryGeneratedIndexPage",/*require.resolve*/(2473)],"17896441":[()=>Promise.all(/* import() | 17896441 */[__webpack_require__.e(532), __webpack_require__.e(657), __webpack_require__.e(918)]).then(__webpack_require__.bind(__webpack_require__, 5867)),"@theme/DocItem",/*require.resolve*/(5867)],"18c41134":[()=>__webpack_require__.e(/* import() | 18c41134 */ 859).then(__webpack_require__.bind(__webpack_require__, 4855)),"@site/docs/tutorial-basics/markdown-features.mdx",/*require.resolve*/(4855)],"1a4e3797":[()=>Promise.all(/* import() | 1a4e3797 */[__webpack_require__.e(532), __webpack_require__.e(920)]).then(__webpack_require__.bind(__webpack_require__, 1284)),"@theme/SearchPage",/*require.resolve*/(1284)],"1df93b7f":[()=>Promise.all(/* import() | 1df93b7f */[__webpack_require__.e(532), __webpack_require__.e(237)]).then(__webpack_require__.bind(__webpack_require__, 2762)),"@site/src/pages/index.tsx",/*require.resolve*/(2762)],"1e4232ab":[()=>__webpack_require__.e(/* import() | 1e4232ab */ 818).then(__webpack_require__.bind(__webpack_require__, 6370)),"@site/docs/tutorial-basics/create-a-document.md",/*require.resolve*/(6370)],"1f391b9e":[()=>Promise.all(/* import() | 1f391b9e */[__webpack_require__.e(532), __webpack_require__.e(657), __webpack_require__.e(85)]).then(__webpack_require__.bind(__webpack_require__, 9419)),"@theme/MDXPage",/*require.resolve*/(9419)],"2619eed9":[()=>__webpack_require__.e(/* import() | 2619eed9 */ 473).then(__webpack_require__.t.bind(__webpack_require__, 3911, 19)),"~docs/default/category-docs-getstartedsidebar-category-tutorial-basics-bcd.json",/*require.resolve*/(3911)],"307f94a6":[()=>Promise.all(/* import() | 307f94a6 */[__webpack_require__.e(532), __webpack_require__.e(276)]).then(__webpack_require__.bind(__webpack_require__, 5156)),"@site/packages/query.md",/*require.resolve*/(5156)],"393be207":[()=>__webpack_require__.e(/* import() | 393be207 */ 414).then(__webpack_require__.bind(__webpack_require__, 4461)),"@site/src/pages/markdown-page.md",/*require.resolve*/(4461)],"4892dc76":[()=>__webpack_require__.e(/* import() | 4892dc76 */ 666).then(__webpack_require__.t.bind(__webpack_require__, 2474, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-plugin-content-docs/packages/plugin-route-context-module-100.json",/*require.resolve*/(2474)],"533a09ca":[()=>__webpack_require__.e(/* import() | 533a09ca */ 607).then(__webpack_require__.bind(__webpack_require__, 980)),"@site/docs/tutorial-basics/create-a-blog-post.md",/*require.resolve*/(980)],"5c868d36":[()=>__webpack_require__.e(/* import() | 5c868d36 */ 589).then(__webpack_require__.bind(__webpack_require__, 9481)),"@site/docs/tutorial-basics/create-a-page.md",/*require.resolve*/(9481)],"5e95c892":[()=>__webpack_require__.e(/* import() | 5e95c892 */ 661).then(__webpack_require__.bind(__webpack_require__, 3003)),"@theme/DocsRoot",/*require.resolve*/(3003)],"5e9f5e1a":[()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 6809)),"@generated/docusaurus.config",/*require.resolve*/(6809)],"822bd8ab":[()=>__webpack_require__.e(/* import() | 822bd8ab */ 504).then(__webpack_require__.bind(__webpack_require__, 2209)),"@site/docs/tutorial-basics/congratulations.md",/*require.resolve*/(2209)],"935f2afb":[()=>__webpack_require__.e(/* import() | 935f2afb */ 53).then(__webpack_require__.t.bind(__webpack_require__, 1109, 19)),"~docs/default/version-current-metadata-prop-751.json",/*require.resolve*/(1109)],"a7bd4aaa":[()=>__webpack_require__.e(/* import() | a7bd4aaa */ 518).then(__webpack_require__.bind(__webpack_require__, 5163)),"@theme/DocVersionRoot",/*require.resolve*/(5163)],"a94703ab":[()=>Promise.all(/* import() | a94703ab */[__webpack_require__.e(532), __webpack_require__.e(368)]).then(__webpack_require__.bind(__webpack_require__, 7017)),"@theme/DocRoot",/*require.resolve*/(7017)],"aaa4cf09":[()=>Promise.all(/* import() | aaa4cf09 */[__webpack_require__.e(532), __webpack_require__.e(197)]).then(__webpack_require__.bind(__webpack_require__, 238)),"@site/packages/core.md",/*require.resolve*/(238)],"b858ffb2":[()=>__webpack_require__.e(/* import() | b858ffb2 */ 549).then(__webpack_require__.t.bind(__webpack_require__, 5745, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-plugin-content-pages/default/plugin-route-context-module-100.json",/*require.resolve*/(5745)],"d91fa1ce":[()=>__webpack_require__.e(/* import() | d91fa1ce */ 90).then(__webpack_require__.t.bind(__webpack_require__, 3769, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-plugin-content-docs/default/plugin-route-context-module-100.json",/*require.resolve*/(3769)],"dff1c289":[()=>__webpack_require__.e(/* import() | dff1c289 */ 792).then(__webpack_require__.bind(__webpack_require__, 9596)),"@site/docs/tutorial-extras/manage-docs-versions.md",/*require.resolve*/(9596)],"e44a2883":[()=>__webpack_require__.e(/* import() | e44a2883 */ 755).then(__webpack_require__.bind(__webpack_require__, 2013)),"@site/docs/tutorial-extras/translate-your-site.md",/*require.resolve*/(2013)],"e7817267":[()=>__webpack_require__.e(/* import() | e7817267 */ 457).then(__webpack_require__.t.bind(__webpack_require__, 1933, 19)),"~docs/packages/version-current-metadata-prop-751.json",/*require.resolve*/(1933)],"eb1ba003":[()=>__webpack_require__.e(/* import() | eb1ba003 */ 289).then(__webpack_require__.t.bind(__webpack_require__, 7085, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-theme-search-algolia/default/plugin-route-context-module-100.json",/*require.resolve*/(7085)],"f55d3e7a":[()=>__webpack_require__.e(/* import() | f55d3e7a */ 193).then(__webpack_require__.bind(__webpack_require__, 6509)),"@site/docs/tutorial-basics/deploy-your-site.md",/*require.resolve*/(6509)],"f5e28f36":[()=>__webpack_require__.e(/* import() | f5e28f36 */ 364).then(__webpack_require__.t.bind(__webpack_require__, 9532, 19)),"~docs/default/category-docs-getstartedsidebar-category-tutorial-extras-097.json",/*require.resolve*/(9532)]});
+/* harmony default export */ const registry = ({"0e384e19":[()=>__webpack_require__.e(/* import() | 0e384e19 */ 671).then(__webpack_require__.bind(__webpack_require__, 3387)),"@site/docs/intro.md",/*require.resolve*/(3387)],"14eb3368":[()=>Promise.all(/* import() | 14eb3368 */[__webpack_require__.e(532), __webpack_require__.e(817)]).then(__webpack_require__.bind(__webpack_require__, 2586)),"@theme/DocCategoryGeneratedIndexPage",/*require.resolve*/(2586)],"17896441":[()=>Promise.all(/* import() | 17896441 */[__webpack_require__.e(532), __webpack_require__.e(280), __webpack_require__.e(918)]).then(__webpack_require__.bind(__webpack_require__, 5091)),"@theme/DocItem",/*require.resolve*/(5091)],"18c41134":[()=>__webpack_require__.e(/* import() | 18c41134 */ 859).then(__webpack_require__.bind(__webpack_require__, 4855)),"@site/docs/tutorial-basics/markdown-features.mdx",/*require.resolve*/(4855)],"1a4e3797":[()=>Promise.all(/* import() | 1a4e3797 */[__webpack_require__.e(532), __webpack_require__.e(920)]).then(__webpack_require__.bind(__webpack_require__, 5190)),"@theme/SearchPage",/*require.resolve*/(5190)],"1df93b7f":[()=>Promise.all(/* import() | 1df93b7f */[__webpack_require__.e(532), __webpack_require__.e(237)]).then(__webpack_require__.bind(__webpack_require__, 2762)),"@site/src/pages/index.tsx",/*require.resolve*/(2762)],"1e4232ab":[()=>__webpack_require__.e(/* import() | 1e4232ab */ 818).then(__webpack_require__.bind(__webpack_require__, 6370)),"@site/docs/tutorial-basics/create-a-document.md",/*require.resolve*/(6370)],"1f391b9e":[()=>Promise.all(/* import() | 1f391b9e */[__webpack_require__.e(532), __webpack_require__.e(280), __webpack_require__.e(85)]).then(__webpack_require__.bind(__webpack_require__, 7634)),"@theme/MDXPage",/*require.resolve*/(7634)],"2619eed9":[()=>__webpack_require__.e(/* import() | 2619eed9 */ 473).then(__webpack_require__.t.bind(__webpack_require__, 3911, 19)),"~docs/default/category-docs-getstartedsidebar-category-tutorial-basics-bcd.json",/*require.resolve*/(3911)],"307f94a6":[()=>Promise.all(/* import() | 307f94a6 */[__webpack_require__.e(532), __webpack_require__.e(276)]).then(__webpack_require__.bind(__webpack_require__, 5156)),"@site/packages/query.md",/*require.resolve*/(5156)],"393be207":[()=>__webpack_require__.e(/* import() | 393be207 */ 414).then(__webpack_require__.bind(__webpack_require__, 4461)),"@site/src/pages/markdown-page.md",/*require.resolve*/(4461)],"4892dc76":[()=>__webpack_require__.e(/* import() | 4892dc76 */ 666).then(__webpack_require__.t.bind(__webpack_require__, 2474, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-plugin-content-docs/packages/plugin-route-context-module-100.json",/*require.resolve*/(2474)],"533a09ca":[()=>__webpack_require__.e(/* import() | 533a09ca */ 607).then(__webpack_require__.bind(__webpack_require__, 980)),"@site/docs/tutorial-basics/create-a-blog-post.md",/*require.resolve*/(980)],"5c868d36":[()=>__webpack_require__.e(/* import() | 5c868d36 */ 589).then(__webpack_require__.bind(__webpack_require__, 9481)),"@site/docs/tutorial-basics/create-a-page.md",/*require.resolve*/(9481)],"5e95c892":[()=>__webpack_require__.e(/* import() | 5e95c892 */ 661).then(__webpack_require__.bind(__webpack_require__, 2282)),"@theme/DocsRoot",/*require.resolve*/(2282)],"5e9f5e1a":[()=>Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 6809)),"@generated/docusaurus.config",/*require.resolve*/(6809)],"822bd8ab":[()=>__webpack_require__.e(/* import() | 822bd8ab */ 504).then(__webpack_require__.bind(__webpack_require__, 2209)),"@site/docs/tutorial-basics/congratulations.md",/*require.resolve*/(2209)],"935f2afb":[()=>__webpack_require__.e(/* import() | 935f2afb */ 53).then(__webpack_require__.t.bind(__webpack_require__, 1109, 19)),"~docs/default/version-current-metadata-prop-751.json",/*require.resolve*/(1109)],"a7bd4aaa":[()=>__webpack_require__.e(/* import() | a7bd4aaa */ 518).then(__webpack_require__.bind(__webpack_require__, 3303)),"@theme/DocVersionRoot",/*require.resolve*/(3303)],"a94703ab":[()=>Promise.all(/* import() | a94703ab */[__webpack_require__.e(532), __webpack_require__.e(368)]).then(__webpack_require__.bind(__webpack_require__, 6179)),"@theme/DocRoot",/*require.resolve*/(6179)],"aaa4cf09":[()=>Promise.all(/* import() | aaa4cf09 */[__webpack_require__.e(532), __webpack_require__.e(197)]).then(__webpack_require__.bind(__webpack_require__, 238)),"@site/packages/core.md",/*require.resolve*/(238)],"b858ffb2":[()=>__webpack_require__.e(/* import() | b858ffb2 */ 549).then(__webpack_require__.t.bind(__webpack_require__, 5745, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-plugin-content-pages/default/plugin-route-context-module-100.json",/*require.resolve*/(5745)],"d91fa1ce":[()=>__webpack_require__.e(/* import() | d91fa1ce */ 90).then(__webpack_require__.t.bind(__webpack_require__, 3769, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-plugin-content-docs/default/plugin-route-context-module-100.json",/*require.resolve*/(3769)],"dff1c289":[()=>__webpack_require__.e(/* import() | dff1c289 */ 792).then(__webpack_require__.bind(__webpack_require__, 9596)),"@site/docs/tutorial-extras/manage-docs-versions.md",/*require.resolve*/(9596)],"e44a2883":[()=>__webpack_require__.e(/* import() | e44a2883 */ 755).then(__webpack_require__.bind(__webpack_require__, 2013)),"@site/docs/tutorial-extras/translate-your-site.md",/*require.resolve*/(2013)],"e7817267":[()=>__webpack_require__.e(/* import() | e7817267 */ 457).then(__webpack_require__.t.bind(__webpack_require__, 1933, 19)),"~docs/packages/version-current-metadata-prop-751.json",/*require.resolve*/(1933)],"eb1ba003":[()=>__webpack_require__.e(/* import() | eb1ba003 */ 289).then(__webpack_require__.t.bind(__webpack_require__, 7085, 19)),"/home/runner/work/bonfhir/bonfhir/docs/website/.docusaurus/docusaurus-theme-search-algolia/default/plugin-route-context-module-100.json",/*require.resolve*/(7085)],"f55d3e7a":[()=>__webpack_require__.e(/* import() | f55d3e7a */ 193).then(__webpack_require__.bind(__webpack_require__, 6509)),"@site/docs/tutorial-basics/deploy-your-site.md",/*require.resolve*/(6509)],"f5e28f36":[()=>__webpack_require__.e(/* import() | f5e28f36 */ 364).then(__webpack_require__.t.bind(__webpack_require__, 9532, 19)),"~docs/default/category-docs-getstartedsidebar-category-tutorial-extras-097.json",/*require.resolve*/(9532)]});
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(7458);
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/theme-fallback/Loading/index.js
@@ -96,7 +96,7 @@ var client_routeContext = __webpack_require__(3900);
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function ComponentCreator(path,hash){// 404 page
-if(path==='*'){return lib_default()({loading:Loading,loader:()=>__webpack_require__.e(/* import() */ 974).then(__webpack_require__.bind(__webpack_require__, 2974)),modules:['@theme/NotFound'],webpack:()=>[/*require.resolve*/(2974)],render(loaded,props){const NotFound=loaded.default;return/*#__PURE__*/(0,jsx_runtime.jsx)(client_routeContext/* RouteContextProvider */.z// Do we want a better name than native-default?
+if(path==='*'){return lib_default()({loading:Loading,loader:()=>__webpack_require__.e(/* import() */ 970).then(__webpack_require__.bind(__webpack_require__, 6970)),modules:['@theme/NotFound'],webpack:()=>[/*require.resolve*/(6970)],render(loaded,props){const NotFound=loaded.default;return/*#__PURE__*/(0,jsx_runtime.jsx)(client_routeContext/* RouteContextProvider */.z// Do we want a better name than native-default?
 ,{value:{plugin:{name:'native',id:'default'}},children:/*#__PURE__*/(0,jsx_runtime.jsx)(NotFound,{...props})});}});}const chunkNames=routesChunkNames[`${path}-${hash}`];// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const loader={};const modules=[];const optsWebpack=[];// A map from prop names to chunk names.
 // e.g. Suppose the plugin added this as route:
@@ -156,7 +156,7 @@ const Context=/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createContext(fals
 
 /***/ }),
 
-/***/ 1335:
+/***/ 5248:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -172,7 +172,7 @@ var index_module = __webpack_require__(1202);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/exports/ExecutionEnvironment.js
 var ExecutionEnvironment = __webpack_require__(26);
 ;// CONCATENATED MODULE: ./.docusaurus/client-modules.js
-/* harmony default export */ const client_modules = ([__webpack_require__(5538),__webpack_require__(6421),__webpack_require__(6060),__webpack_require__(4474)]);
+/* harmony default export */ const client_modules = ([__webpack_require__(5538),__webpack_require__(7696),__webpack_require__(7366),__webpack_require__(4474)]);
 // EXTERNAL MODULE: ./.docusaurus/routes.js + 3 modules
 var routes = __webpack_require__(2564);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react-router@5.3.4_react@18.2.0/node_modules/react-router/esm/react-router.js
@@ -213,9 +213,9 @@ var useKeyboardNavigation = __webpack_require__(2602);
 var searchUtils = __webpack_require__(7435);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+utils-common@3.0.0_@docusaurus+types@3.0.0/node_modules/@docusaurus/utils-common/lib/index.js
 var lib = __webpack_require__(7275);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/SearchMetadata/index.js
-var SearchMetadata = __webpack_require__(9221);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/SiteMetadata/index.js
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/SearchMetadata/index.js
+var SearchMetadata = __webpack_require__(5162);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/SiteMetadata/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -487,8 +487,8 @@ var ExecutionEnvironment = __webpack_require__(26);
 var Head = __webpack_require__(4244);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+utils-common@3.0.0_@docusaurus+types@3.0.0/node_modules/@docusaurus/utils-common/lib/index.js
 var lib = __webpack_require__(7275);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js + 71 modules
-var Layout = __webpack_require__(129);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js + 71 modules
+var Layout = __webpack_require__(7457);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(7458);
 ;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/theme-fallback/Error/index.js
@@ -912,7 +912,7 @@ flushInitializers(READY_INITIALIZERS).then(resolve,resolve);});};module.exports=
 
 /***/ }),
 
-/***/ 6060:
+/***/ 7366:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -931,18 +931,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6421:
+/***/ 7696:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// EXTERNAL MODULE: ../../node_modules/.pnpm/prism-react-renderer@2.1.0_react@18.2.0/node_modules/prism-react-renderer/dist/index.mjs
-var dist = __webpack_require__(7289);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/prism-react-renderer@2.3.0_react@18.2.0/node_modules/prism-react-renderer/dist/index.mjs + 1 modules
+var dist = __webpack_require__(5666);
 // EXTERNAL MODULE: ./.docusaurus/docusaurus.config.mjs
 var docusaurus_config = __webpack_require__(6809);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/prism-include-languages.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/prism-include-languages.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -956,8 +956,8 @@ var docusaurus_config = __webpack_require__(6809);
 // long as you don't re-assign it
 globalThis.Prism=PrismObject;additionalLanguages.forEach(lang=>{if(lang==='php'){// eslint-disable-next-line global-require
 __webpack_require__(6602);}// eslint-disable-next-line global-require, import/no-dynamic-require
-__webpack_require__(3181)(`./prism-${lang}`);});delete globalThis.Prism;}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/prism-include-languages.js
+__webpack_require__(3737)(`./prism-${lang}`);});delete globalThis.Prism;}
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/prism-include-languages.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -967,7 +967,7 @@ __webpack_require__(3181)(`./prism-${lang}`);});delete globalThis.Prism;}
 
 /***/ }),
 
-/***/ 8533:
+/***/ 1217:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -987,12 +987,12 @@ var Translate = __webpack_require__(9198);
 var useThemeConfig = __webpack_require__(1117);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/exports/Link.js + 1 modules
 var Link = __webpack_require__(8887);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Heading/styles.module.css
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Heading/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const styles_module = ({"anchorWithStickyNavbar":"anchorWithStickyNavbar_Kr_j","anchorWithHideOnScrollNavbar":"anchorWithHideOnScrollNavbar_kHhl"});
+/* harmony default export */ const styles_module = ({"anchorWithStickyNavbar":"anchorWithStickyNavbar_P6uW","anchorWithHideOnScrollNavbar":"anchorWithHideOnScrollNavbar_Xbib"});
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(7458);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Heading/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Heading/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1003,7 +1003,7 @@ if(As==='h1'||!id){return/*#__PURE__*/(0,jsx_runtime.jsx)(As,{...props,id:undefi
 
 /***/ }),
 
-/***/ 9710:
+/***/ 2380:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1015,12 +1015,12 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/index.js
 var react = __webpack_require__(2983);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/ExternalLink/styles.module.css
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/ExternalLink/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const styles_module = ({"iconExternalLink":"iconExternalLink_pw0T"});
+/* harmony default export */ const styles_module = ({"iconExternalLink":"iconExternalLink_NWtP"});
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(7458);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/ExternalLink/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/ExternalLink/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1030,7 +1030,7 @@ var jsx_runtime = __webpack_require__(7458);
 
 /***/ }),
 
-/***/ 129:
+/***/ 7457:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1084,10 +1084,10 @@ href:`#${SkipToContentFallbackId}`,onClick:onClick,children:linkLabel})});}
 var ThemeClassNames = __webpack_require__(6114);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/hooks/useKeyboardNavigation.js + 1 modules
 var useKeyboardNavigation = __webpack_require__(2602);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/SkipToContent/styles.module.css
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/SkipToContent/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const styles_module = ({"skipToContent":"skipToContent_uVMi"});
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/SkipToContent/index.js
+/* harmony default export */ const styles_module = ({"skipToContent":"skipToContent_zY84"});
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/SkipToContent/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1098,27 +1098,27 @@ var useKeyboardNavigation = __webpack_require__(2602);
 var useThemeConfig = __webpack_require__(1117);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/contexts/announcementBar.js
 var contexts_announcementBar = __webpack_require__(7897);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/Close/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/Close/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function IconClose(_ref){let{width=21,height=21,color='currentColor',strokeWidth=1.2,className,...restProps}=_ref;return/*#__PURE__*/(0,jsx_runtime.jsx)("svg",{viewBox:"0 0 15 15",width:width,height:height,...restProps,children:/*#__PURE__*/(0,jsx_runtime.jsx)("g",{stroke:color,strokeWidth:strokeWidth,children:/*#__PURE__*/(0,jsx_runtime.jsx)("path",{d:"M.75.75l13.5 13.5M14.25.75L.75 14.25"})})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/AnnouncementBar/CloseButton/styles.module.css
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/AnnouncementBar/CloseButton/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const CloseButton_styles_module = ({"closeButton":"closeButton_zR78"});
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/AnnouncementBar/CloseButton/index.js
+/* harmony default export */ const CloseButton_styles_module = ({"closeButton":"closeButton_T0W4"});
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/AnnouncementBar/CloseButton/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function AnnouncementBarCloseButton(props){return/*#__PURE__*/(0,jsx_runtime.jsx)("button",{type:"button","aria-label":(0,Translate/* translate */.I)({id:'theme.AnnouncementBar.closeButtonAriaLabel',message:'Close',description:'The ARIA label for close button of announcement bar'}),...props,className:(0,clsx_m/* default */.Z)('clean-btn close',CloseButton_styles_module.closeButton,props.className),children:/*#__PURE__*/(0,jsx_runtime.jsx)(IconClose,{width:14,height:14,strokeWidth:3.1})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/AnnouncementBar/Content/styles.module.css
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/AnnouncementBar/Content/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const Content_styles_module = ({"content":"content_MHbV"});
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/AnnouncementBar/Content/index.js
+/* harmony default export */ const Content_styles_module = ({"content":"content_g_p5"});
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/AnnouncementBar/Content/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1127,10 +1127,10 @@ var contexts_announcementBar = __webpack_require__(7897);
  */function AnnouncementBarContent(props){const{announcementBar}=(0,useThemeConfig/* useThemeConfig */.L)();const{content}=announcementBar;return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{...props,className:(0,clsx_m/* default */.Z)(Content_styles_module.content,props.className)// Developer provided the HTML, so assume it's safe.
 // eslint-disable-next-line react/no-danger
 ,dangerouslySetInnerHTML:{__html:content}});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/AnnouncementBar/styles.module.css
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/AnnouncementBar/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const AnnouncementBar_styles_module = ({"announcementBar":"announcementBar_vLGt","announcementBarPlaceholder":"announcementBarPlaceholder_hms7","announcementBarClose":"announcementBarClose_VkFv","announcementBarContent":"announcementBarContent_aJJj"});
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/AnnouncementBar/index.js
+/* harmony default export */ const AnnouncementBar_styles_module = ({"announcementBar":"announcementBar_lgY8","announcementBarPlaceholder":"announcementBarPlaceholder_LYbO","announcementBarClose":"announcementBarClose_Yoa7","announcementBarContent":"announcementBarContent_YWBM"});
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/AnnouncementBar/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1179,7 +1179,7 @@ var navbarSecondaryMenu_content = __webpack_require__(6160);
 (0,react.useEffect)(()=>{const contentBecameAvailable=hasContent&&!previousHasContent;if(contentBecameAvailable){setShown(true);}},[hasContent,previousHasContent]);// On sidebar close, secondary menu is set to be shown on next re-opening
 // (if any secondary menu content available)
 (0,react.useEffect)(()=>{if(!hasContent){setShown(false);return;}if(!mobileSidebar.shown){setShown(true);}},[mobileSidebar.shown,hasContent]);return (0,react.useMemo)(()=>[shown,setShown],[shown]);}/** @internal */function NavbarSecondaryMenuDisplayProvider(_ref){let{children}=_ref;const value=useContextValue();return/*#__PURE__*/(0,jsx_runtime.jsx)(Context.Provider,{value:value,children:children});}function renderElement(content){if(content.component){const Comp=content.component;return/*#__PURE__*/(0,jsx_runtime.jsx)(Comp,{...content.props});}return undefined;}/** Wires the logic for rendering the mobile navbar secondary menu. */function useNavbarSecondaryMenu(){const value=(0,react.useContext)(Context);if(!value){throw new reactUtils/* ReactContextError */.i6('NavbarSecondaryMenuDisplayProvider');}const[shown,setShown]=value;const hide=(0,react.useCallback)(()=>setShown(false),[setShown]);const content=(0,navbarSecondaryMenu_content/* useNavbarSecondaryMenuContent */.HY)();return (0,react.useMemo)(()=>({shown,hide,content:renderElement(content)}),[hide,content,shown]);}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/MobileSidebar/Layout/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/MobileSidebar/Layout/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1190,50 +1190,50 @@ var navbarSecondaryMenu_content = __webpack_require__(6160);
 var contexts_colorMode = __webpack_require__(9179);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/exports/useIsBrowser.js
 var useIsBrowser = __webpack_require__(5966);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/LightMode/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/LightMode/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function IconLightMode(props){return/*#__PURE__*/(0,jsx_runtime.jsx)("svg",{viewBox:"0 0 24 24",width:24,height:24,...props,children:/*#__PURE__*/(0,jsx_runtime.jsx)("path",{fill:"currentColor",d:"M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/DarkMode/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/DarkMode/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function IconDarkMode(props){return/*#__PURE__*/(0,jsx_runtime.jsx)("svg",{viewBox:"0 0 24 24",width:24,height:24,...props,children:/*#__PURE__*/(0,jsx_runtime.jsx)("path",{fill:"currentColor",d:"M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/ColorModeToggle/styles.module.css
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/ColorModeToggle/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const ColorModeToggle_styles_module = ({"toggle":"toggle_qJjZ","toggleButton":"toggleButton_qkVV","darkToggleIcon":"darkToggleIcon_WsPH","lightToggleIcon":"lightToggleIcon_isOo","toggleButtonDisabled":"toggleButtonDisabled_TXTb"});
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/ColorModeToggle/index.js
+/* harmony default export */ const ColorModeToggle_styles_module = ({"toggle":"toggle_NkKe","toggleButton":"toggleButton_Y4YG","darkToggleIcon":"darkToggleIcon_Mi2S","lightToggleIcon":"lightToggleIcon_o9Qa","toggleButtonDisabled":"toggleButtonDisabled_EJJI"});
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/ColorModeToggle/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function ColorModeToggle(_ref){let{className,buttonClassName,value,onChange}=_ref;const isBrowser=(0,useIsBrowser/* default */.Z)();const title=(0,Translate/* translate */.I)({message:'Switch between dark and light mode (currently {mode})',id:'theme.colorToggle.ariaLabel',description:'The ARIA label for the navbar color mode toggle'},{mode:value==='dark'?(0,Translate/* translate */.I)({message:'dark mode',id:'theme.colorToggle.ariaLabel.mode.dark',description:'The name for the dark color mode'}):(0,Translate/* translate */.I)({message:'light mode',id:'theme.colorToggle.ariaLabel.mode.light',description:'The name for the light color mode'})});return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:(0,clsx_m/* default */.Z)(ColorModeToggle_styles_module.toggle,className),children:/*#__PURE__*/(0,jsx_runtime.jsxs)("button",{className:(0,clsx_m/* default */.Z)('clean-btn',ColorModeToggle_styles_module.toggleButton,!isBrowser&&ColorModeToggle_styles_module.toggleButtonDisabled,buttonClassName),type:"button",onClick:()=>onChange(value==='dark'?'light':'dark'),disabled:!isBrowser,title:title,"aria-label":title,"aria-live":"polite",children:[/*#__PURE__*/(0,jsx_runtime.jsx)(IconLightMode,{className:(0,clsx_m/* default */.Z)(ColorModeToggle_styles_module.toggleIcon,ColorModeToggle_styles_module.lightToggleIcon)}),/*#__PURE__*/(0,jsx_runtime.jsx)(IconDarkMode,{className:(0,clsx_m/* default */.Z)(ColorModeToggle_styles_module.toggleIcon,ColorModeToggle_styles_module.darkToggleIcon)})]})});}/* harmony default export */ const theme_ColorModeToggle = (/*#__PURE__*/react.memo(ColorModeToggle));
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/ColorModeToggle/styles.module.css
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/ColorModeToggle/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const Navbar_ColorModeToggle_styles_module = ({"darkNavbarColorModeToggle":"darkNavbarColorModeToggle_k_ae"});
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/ColorModeToggle/index.js
+/* harmony default export */ const Navbar_ColorModeToggle_styles_module = ({"darkNavbarColorModeToggle":"darkNavbarColorModeToggle_cP_w"});
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/ColorModeToggle/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function NavbarColorModeToggle(_ref){let{className}=_ref;const navbarStyle=(0,useThemeConfig/* useThemeConfig */.L)().navbar.style;const disabled=(0,useThemeConfig/* useThemeConfig */.L)().colorMode.disableSwitch;const{colorMode,setColorMode}=(0,contexts_colorMode/* useColorMode */.I)();if(disabled){return null;}return/*#__PURE__*/(0,jsx_runtime.jsx)(theme_ColorModeToggle,{className:className,buttonClassName:navbarStyle==='dark'?Navbar_ColorModeToggle_styles_module.darkNavbarColorModeToggle:undefined,value:colorMode,onChange:setColorMode});}
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Logo/index.js
-var Logo = __webpack_require__(9931);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Logo/index.js
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Logo/index.js
+var Logo = __webpack_require__(8540);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Logo/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function NavbarLogo(){return/*#__PURE__*/(0,jsx_runtime.jsx)(Logo/* default */.Z,{className:"navbar__brand",imageClassName:"navbar__logo",titleClassName:"navbar__title text--truncate"});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/MobileSidebar/Header/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/MobileSidebar/Header/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1248,9 +1248,9 @@ var useBaseUrl = __webpack_require__(1069);
 var isInternalUrl = __webpack_require__(6792);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/regexpUtils.js
 var regexpUtils = __webpack_require__(9953);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/ExternalLink/index.js + 1 modules
-var ExternalLink = __webpack_require__(9710);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/NavbarNavLink.js
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/ExternalLink/index.js + 1 modules
+var ExternalLink = __webpack_require__(2380);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/NavbarNavLink.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1260,7 +1260,7 @@ var ExternalLink = __webpack_require__(9710);
 // {to: 'version'} should probably be forbidden, in favor of {to: '/version'}
 const toUrl=(0,useBaseUrl/* default */.Z)(to);const activeBaseUrl=(0,useBaseUrl/* default */.Z)(activeBasePath);const normalizedHref=(0,useBaseUrl/* default */.Z)(href,{forcePrependBaseUrl:true});const isExternalLink=label&&href&&!(0,isInternalUrl/* default */.Z)(href);// Link content is set through html XOR label
 const linkContentProps=html?{dangerouslySetInnerHTML:{__html:html}}:{children:/*#__PURE__*/(0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[label,isExternalLink&&/*#__PURE__*/(0,jsx_runtime.jsx)(ExternalLink/* default */.Z,{...(isDropdownLink&&{width:12,height:12})})]})};if(href){return/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.Z,{href:prependBaseUrlToHref?normalizedHref:href,...props,...linkContentProps});}return/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.Z,{to:toUrl,isNavLink:true,...((activeBasePath||activeBaseRegex)&&{isActive:(_match,location)=>activeBaseRegex?(0,regexpUtils/* isRegexpStringMatch */.F)(activeBaseRegex,location.pathname):location.pathname.startsWith(activeBaseUrl)}),...props,...linkContentProps});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DefaultNavbarItem.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DefaultNavbarItem.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1285,7 +1285,7 @@ var useDocusaurusContext = __webpack_require__(1085);
  * - `/docs/myDoc` => `/docs/myDoc`
  * - `/baseUrl/docs/myDoc` => `/docs/myDoc`
  */function useLocalPathname(){const{siteConfig:{baseUrl}}=(0,useDocusaurusContext/* default */.Z)();const{pathname}=(0,react_router/* useLocation */.TH)();return pathname.replace(baseUrl,'/');}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DropdownNavbarItem.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DropdownNavbarItem.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1296,17 +1296,17 @@ onClick,...props}=_ref2;const localPathname=useLocalPathname();const containsAct
 (0,react.useEffect)(()=>{if(containsActive){setCollapsed(!containsActive);}},[localPathname,containsActive,setCollapsed]);return/*#__PURE__*/(0,jsx_runtime.jsxs)("li",{className:(0,clsx_m/* default */.Z)('menu__list-item',{'menu__list-item--collapsed':collapsed}),children:[/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarNavLink,{role:"button",className:(0,clsx_m/* default */.Z)('menu__link menu__link--sublist menu__link--sublist-caret',className),...props,onClick:e=>{e.preventDefault();toggleCollapsed();},children:props.children??props.label}),/*#__PURE__*/(0,jsx_runtime.jsx)(Collapsible/* Collapsible */.z,{lazy:true,as:"ul",className:"menu__list",collapsed:collapsed,children:items.map((childItemProps,i)=>/*#__PURE__*/(0,react.createElement)(NavbarItem,{mobile:true,isDropdownItem:true,onClick:onClick,activeClassName:"menu__link--active",...childItemProps,key:i}))})]});}function DropdownNavbarItem(_ref3){let{mobile=false,...props}=_ref3;const Comp=mobile?DropdownNavbarItemMobile:DropdownNavbarItemDesktop;return/*#__PURE__*/(0,jsx_runtime.jsx)(Comp,{...props});}
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/useAlternatePageUtils.js
 var useAlternatePageUtils = __webpack_require__(1285);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/Language/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/Language/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function IconLanguage(_ref){let{width=20,height=20,...props}=_ref;return/*#__PURE__*/(0,jsx_runtime.jsx)("svg",{viewBox:"0 0 24 24",width:width,height:height,"aria-hidden":true,...props,children:/*#__PURE__*/(0,jsx_runtime.jsx)("path",{fill:"currentColor",d:"M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/LocaleDropdownNavbarItem/styles.module.css
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/LocaleDropdownNavbarItem/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const LocaleDropdownNavbarItem_styles_module = ({"iconLanguage":"iconLanguage_o72i"});
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/LocaleDropdownNavbarItem/index.js
+/* harmony default export */ const LocaleDropdownNavbarItem_styles_module = ({"iconLanguage":"iconLanguage_OXrv"});
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/LocaleDropdownNavbarItem/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1319,7 +1319,7 @@ locale===currentLocale?// Similar idea as DefaultNavbarItem: select the right In
 // target URLs contain `pathname://` and therefore are not NavLinks!
 mobile?'menu__link--active':'dropdown__link--active':''};});const items=[...dropdownItemsBefore,...localeItems,...dropdownItemsAfter];// Mobile is handled a bit differently
 const dropdownLabel=mobile?(0,Translate/* translate */.I)({message:'Languages',id:'theme.navbar.mobileLanguageDropdown.label',description:'The label for the mobile language switcher dropdown'}):localeConfigs[currentLocale].label;return/*#__PURE__*/(0,jsx_runtime.jsx)(DropdownNavbarItem,{...props,mobile:mobile,label:/*#__PURE__*/(0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[/*#__PURE__*/(0,jsx_runtime.jsx)(IconLanguage,{className:LocaleDropdownNavbarItem_styles_module.iconLanguage}),dropdownLabel]}),items:items});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docsearch+react@3.5.2_@algolia+client-search@4.20.0_@types+react@18.2.37_react-dom@18.2.0_re_rbxjadvtnfa2kbb4wxus66xqla/node_modules/@docsearch/react/dist/esm/useDocSearchKeyboardEvents.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docsearch+react@3.5.2_@algolia+client-search@4.20.0_@types+react@18.2.39_react-dom@18.2.0_re_aumksnw7zdqx2w6www7y7bmjjy/node_modules/@docsearch/react/dist/esm/useDocSearchKeyboardEvents.js
 
 
 function isEditingContent(event) {
@@ -1375,7 +1375,7 @@ function useDocSearchKeyboardEvents(_ref) {
     };
   }, [isOpen, onOpen, onClose, onInput, searchButtonRef]);
 }
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docsearch+react@3.5.2_@algolia+client-search@4.20.0_@types+react@18.2.37_react-dom@18.2.0_re_rbxjadvtnfa2kbb4wxus66xqla/node_modules/@docsearch/react/dist/esm/icons/ControlKeyIcon.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docsearch+react@3.5.2_@algolia+client-search@4.20.0_@types+react@18.2.39_react-dom@18.2.0_re_aumksnw7zdqx2w6www7y7bmjjy/node_modules/@docsearch/react/dist/esm/icons/ControlKeyIcon.js
 
 function ControlKeyIcon() {
   return /*#__PURE__*/react.createElement("svg", {
@@ -1390,9 +1390,9 @@ function ControlKeyIcon() {
     strokeLinecap: "square"
   }));
 }
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docsearch+react@3.5.2_@algolia+client-search@4.20.0_@types+react@18.2.37_react-dom@18.2.0_re_rbxjadvtnfa2kbb4wxus66xqla/node_modules/@docsearch/react/dist/esm/icons/SearchIcon.js
-var SearchIcon = __webpack_require__(3984);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docsearch+react@3.5.2_@algolia+client-search@4.20.0_@types+react@18.2.37_react-dom@18.2.0_re_rbxjadvtnfa2kbb4wxus66xqla/node_modules/@docsearch/react/dist/esm/DocSearchButton.js
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docsearch+react@3.5.2_@algolia+client-search@4.20.0_@types+react@18.2.39_react-dom@18.2.0_re_aumksnw7zdqx2w6www7y7bmjjy/node_modules/@docsearch/react/dist/esm/icons/SearchIcon.js
+var SearchIcon = __webpack_require__(6429);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docsearch+react@3.5.2_@algolia+client-search@4.20.0_@types+react@18.2.39_react-dom@18.2.0_re_aumksnw7zdqx2w6www7y7bmjjy/node_modules/@docsearch/react/dist/esm/DocSearchButton.js
 var _excluded = ["translations"];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -1465,11 +1465,11 @@ var DocSearchButton = react.forwardRef(function (_ref, ref) {
 var Head = __webpack_require__(4244);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/hooks/useSearchPage.js
 var useSearchPage = __webpack_require__(3464);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__o3qwn4r2faubmhr3omiuzvp6ga/node_modules/@docusaurus/theme-search-algolia/lib/client/useSearchResultUrlProcessor.js
-var useSearchResultUrlProcessor = __webpack_require__(4716);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__ckumhcczh46ssjuqhsqtnky56a/node_modules/@docusaurus/theme-search-algolia/lib/client/useSearchResultUrlProcessor.js
+var useSearchResultUrlProcessor = __webpack_require__(6119);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/searchUtils.js
 var searchUtils = __webpack_require__(7435);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__o3qwn4r2faubmhr3omiuzvp6ga/node_modules/@docusaurus/theme-search-algolia/lib/client/useAlgoliaContextualFacetFilters.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__ckumhcczh46ssjuqhsqtnky56a/node_modules/@docusaurus/theme-search-algolia/lib/client/useAlgoliaContextualFacetFilters.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1480,14 +1480,14 @@ function useAlgoliaContextualFacetFilters(){const{locale,tags}=(0,searchUtils/* 
 const languageFilter=`language:${locale}`;const tagsFilter=tags.map(tag=>`docusaurus_tag:${tag}`);return[languageFilter,tagsFilter];}
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/index.js
 var react_dom = __webpack_require__(3730);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__o3qwn4r2faubmhr3omiuzvp6ga/node_modules/@docusaurus/theme-search-algolia/lib/theme/SearchTranslations/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__ckumhcczh46ssjuqhsqtnky56a/node_modules/@docusaurus/theme-search-algolia/lib/theme/SearchTranslations/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */const translations={button:{buttonText:(0,Translate/* translate */.I)({id:'theme.SearchBar.label',message:'Search',description:'The ARIA label and placeholder for search button'}),buttonAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchBar.label',message:'Search',description:'The ARIA label and placeholder for search button'})},modal:{searchBox:{resetButtonTitle:(0,Translate/* translate */.I)({id:'theme.SearchModal.searchBox.resetButtonTitle',message:'Clear the query',description:'The label and ARIA label for search box reset button'}),resetButtonAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchModal.searchBox.resetButtonTitle',message:'Clear the query',description:'The label and ARIA label for search box reset button'}),cancelButtonText:(0,Translate/* translate */.I)({id:'theme.SearchModal.searchBox.cancelButtonText',message:'Cancel',description:'The label and ARIA label for search box cancel button'}),cancelButtonAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchModal.searchBox.cancelButtonText',message:'Cancel',description:'The label and ARIA label for search box cancel button'})},startScreen:{recentSearchesTitle:(0,Translate/* translate */.I)({id:'theme.SearchModal.startScreen.recentSearchesTitle',message:'Recent',description:'The title for recent searches'}),noRecentSearchesText:(0,Translate/* translate */.I)({id:'theme.SearchModal.startScreen.noRecentSearchesText',message:'No recent searches',description:'The text when no recent searches'}),saveRecentSearchButtonTitle:(0,Translate/* translate */.I)({id:'theme.SearchModal.startScreen.saveRecentSearchButtonTitle',message:'Save this search',description:'The label for save recent search button'}),removeRecentSearchButtonTitle:(0,Translate/* translate */.I)({id:'theme.SearchModal.startScreen.removeRecentSearchButtonTitle',message:'Remove this search from history',description:'The label for remove recent search button'}),favoriteSearchesTitle:(0,Translate/* translate */.I)({id:'theme.SearchModal.startScreen.favoriteSearchesTitle',message:'Favorite',description:'The title for favorite searches'}),removeFavoriteSearchButtonTitle:(0,Translate/* translate */.I)({id:'theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle',message:'Remove this search from favorites',description:'The label for remove favorite search button'})},errorScreen:{titleText:(0,Translate/* translate */.I)({id:'theme.SearchModal.errorScreen.titleText',message:'Unable to fetch results',description:'The title for error screen of search modal'}),helpText:(0,Translate/* translate */.I)({id:'theme.SearchModal.errorScreen.helpText',message:'You might want to check your network connection.',description:'The help text for error screen of search modal'})},footer:{selectText:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.selectText',message:'to select',description:'The explanatory text of the action for the enter key'}),selectKeyAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.selectKeyAriaLabel',message:'Enter key',description:'The ARIA label for the Enter key button that makes the selection'}),navigateText:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.navigateText',message:'to navigate',description:'The explanatory text of the action for the Arrow up and Arrow down key'}),navigateUpKeyAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.navigateUpKeyAriaLabel',message:'Arrow up',description:'The ARIA label for the Arrow up key button that makes the navigation'}),navigateDownKeyAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.navigateDownKeyAriaLabel',message:'Arrow down',description:'The ARIA label for the Arrow down key button that makes the navigation'}),closeText:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.closeText',message:'to close',description:'The explanatory text of the action for Escape key'}),closeKeyAriaLabel:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.closeKeyAriaLabel',message:'Escape key',description:'The ARIA label for the Escape key button that close the modal'}),searchByText:(0,Translate/* translate */.I)({id:'theme.SearchModal.footer.searchByText',message:'Search by',description:'The text explain that the search is making by Algolia'})},noResultsScreen:{noResultsText:(0,Translate/* translate */.I)({id:'theme.SearchModal.noResultsScreen.noResultsText',message:'No results for',description:'The text explains that there are no results for the following search'}),suggestedQueryText:(0,Translate/* translate */.I)({id:'theme.SearchModal.noResultsScreen.suggestedQueryText',message:'Try searching for',description:'The text for the suggested query when no results are found for the following search'}),reportMissingResultsText:(0,Translate/* translate */.I)({id:'theme.SearchModal.noResultsScreen.reportMissingResultsText',message:'Believe this query should return results?',description:'The text for the question where the user thinks there are missing results'}),reportMissingResultsLinkText:(0,Translate/* translate */.I)({id:'theme.SearchModal.noResultsScreen.reportMissingResultsLinkText',message:'Let us know.',description:'The text for the link to report missing results'})}},placeholder:(0,Translate/* translate */.I)({id:'theme.SearchModal.placeholder',message:'Search docs',description:'The placeholder of the input of the DocSearch pop-up modal'})};/* harmony default export */ const SearchTranslations = (translations);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__o3qwn4r2faubmhr3omiuzvp6ga/node_modules/@docusaurus/theme-search-algolia/lib/theme/SearchBar/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__ckumhcczh46ssjuqhsqtnky56a/node_modules/@docusaurus/theme-search-algolia/lib/theme/SearchBar/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1496,30 +1496,30 @@ var react_dom = __webpack_require__(3730);
  */let DocSearchModal=null;function Hit(_ref){let{hit,children}=_ref;return/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.Z,{to:hit.url,children:children});}function ResultsFooter(_ref2){let{state,onClose}=_ref2;const createSearchLink=(0,useSearchPage/* useSearchLinkCreator */.M)();return/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.Z,{to:createSearchLink(state.query),onClick:onClose,children:/*#__PURE__*/(0,jsx_runtime.jsx)(Translate/* default */.Z,{id:"theme.SearchBar.seeAll",values:{count:state.context.nbHits},children:'See all {count} results'})});}function mergeFacetFilters(f1,f2){const normalize=f=>typeof f==='string'?[f]:f;return[...normalize(f1),...normalize(f2)];}function DocSearch(_ref3){let{contextualSearch,externalUrlRegex,...props}=_ref3;const{siteMetadata}=(0,useDocusaurusContext/* default */.Z)();const processSearchResultUrl=(0,useSearchResultUrlProcessor/* useSearchResultUrlProcessor */.l)();const contextualSearchFacetFilters=useAlgoliaContextualFacetFilters();const configFacetFilters=props.searchParameters?.facetFilters??[];const facetFilters=contextualSearch?// Merge contextual search filters with config filters
 mergeFacetFilters(contextualSearchFacetFilters,configFacetFilters):// ... or use config facetFilters
 configFacetFilters;// We let user override default searchParameters if she wants to
-const searchParameters={...props.searchParameters,facetFilters};const history=(0,react_router/* useHistory */.k6)();const searchContainer=(0,react.useRef)(null);const searchButtonRef=(0,react.useRef)(null);const[isOpen,setIsOpen]=(0,react.useState)(false);const[initialQuery,setInitialQuery]=(0,react.useState)(undefined);const importDocSearchModalIfNeeded=(0,react.useCallback)(()=>{if(DocSearchModal){return Promise.resolve();}return Promise.all([__webpack_require__.e(/* import() */ 805).then(__webpack_require__.bind(__webpack_require__, 1805)),Promise.all(/* import() */[__webpack_require__.e(532), __webpack_require__.e(351)]).then(__webpack_require__.bind(__webpack_require__, 2351)),Promise.all(/* import() */[__webpack_require__.e(532), __webpack_require__.e(876)]).then(__webpack_require__.bind(__webpack_require__, 9876))]).then(_ref4=>{let[{DocSearchModal:Modal}]=_ref4;DocSearchModal=Modal;});},[]);const onOpen=(0,react.useCallback)(()=>{importDocSearchModalIfNeeded().then(()=>{searchContainer.current=document.createElement('div');document.body.insertBefore(searchContainer.current,document.body.firstChild);setIsOpen(true);});},[importDocSearchModalIfNeeded,setIsOpen]);const onClose=(0,react.useCallback)(()=>{setIsOpen(false);searchContainer.current?.remove();},[setIsOpen]);const onInput=(0,react.useCallback)(event=>{importDocSearchModalIfNeeded().then(()=>{setIsOpen(true);setInitialQuery(event.key);});},[importDocSearchModalIfNeeded,setIsOpen,setInitialQuery]);const navigator=(0,react.useRef)({navigate(_ref5){let{itemUrl}=_ref5;// Algolia results could contain URL's from other domains which cannot
+const searchParameters={...props.searchParameters,facetFilters};const history=(0,react_router/* useHistory */.k6)();const searchContainer=(0,react.useRef)(null);const searchButtonRef=(0,react.useRef)(null);const[isOpen,setIsOpen]=(0,react.useState)(false);const[initialQuery,setInitialQuery]=(0,react.useState)(undefined);const importDocSearchModalIfNeeded=(0,react.useCallback)(()=>{if(DocSearchModal){return Promise.resolve();}return Promise.all([__webpack_require__.e(/* import() */ 784).then(__webpack_require__.bind(__webpack_require__, 1784)),Promise.all(/* import() */[__webpack_require__.e(532), __webpack_require__.e(487)]).then(__webpack_require__.bind(__webpack_require__, 6487)),Promise.all(/* import() */[__webpack_require__.e(532), __webpack_require__.e(628)]).then(__webpack_require__.bind(__webpack_require__, 5628))]).then(_ref4=>{let[{DocSearchModal:Modal}]=_ref4;DocSearchModal=Modal;});},[]);const onOpen=(0,react.useCallback)(()=>{importDocSearchModalIfNeeded().then(()=>{searchContainer.current=document.createElement('div');document.body.insertBefore(searchContainer.current,document.body.firstChild);setIsOpen(true);});},[importDocSearchModalIfNeeded,setIsOpen]);const onClose=(0,react.useCallback)(()=>{setIsOpen(false);searchContainer.current?.remove();},[setIsOpen]);const onInput=(0,react.useCallback)(event=>{importDocSearchModalIfNeeded().then(()=>{setIsOpen(true);setInitialQuery(event.key);});},[importDocSearchModalIfNeeded,setIsOpen,setInitialQuery]);const navigator=(0,react.useRef)({navigate(_ref5){let{itemUrl}=_ref5;// Algolia results could contain URL's from other domains which cannot
 // be served through history and should navigate with window.location
 if((0,regexpUtils/* isRegexpStringMatch */.F)(externalUrlRegex,itemUrl)){window.location.href=itemUrl;}else{history.push(itemUrl);}}}).current;const transformItems=(0,react.useRef)(items=>props.transformItems?// Custom transformItems
 props.transformItems(items):// Default transformItems
 items.map(item=>({...item,url:processSearchResultUrl(item.url)}))).current;const resultsFooterComponent=(0,react.useMemo)(()=>// eslint-disable-next-line react/no-unstable-nested-components
 footerProps=>/*#__PURE__*/(0,jsx_runtime.jsx)(ResultsFooter,{...footerProps,onClose:onClose}),[onClose]);const transformSearchClient=(0,react.useCallback)(searchClient=>{searchClient.addAlgoliaAgent('docusaurus',siteMetadata.docusaurusVersion);return searchClient;},[siteMetadata.docusaurusVersion]);useDocSearchKeyboardEvents({isOpen,onOpen,onClose,onInput,searchButtonRef});return/*#__PURE__*/(0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[/*#__PURE__*/(0,jsx_runtime.jsx)(Head/* default */.Z,{children:/*#__PURE__*/(0,jsx_runtime.jsx)("link",{rel:"preconnect",href:`https://${props.appId}-dsn.algolia.net`,crossOrigin:"anonymous"})}),/*#__PURE__*/(0,jsx_runtime.jsx)(DocSearchButton,{onTouchStart:importDocSearchModalIfNeeded,onFocus:importDocSearchModalIfNeeded,onMouseOver:importDocSearchModalIfNeeded,onClick:onOpen,ref:searchButtonRef,translations:SearchTranslations.button}),isOpen&&DocSearchModal&&searchContainer.current&&/*#__PURE__*/(0,react_dom.createPortal)(/*#__PURE__*/(0,jsx_runtime.jsx)(DocSearchModal,{onClose:onClose,initialScrollY:window.scrollY,initialQuery:initialQuery,navigator:navigator,transformItems:transformItems,hitComponent:Hit,transformSearchClient:transformSearchClient,...(props.searchPagePath&&{resultsFooterComponent}),...props,searchParameters:searchParameters,placeholder:SearchTranslations.placeholder,translations:SearchTranslations.modal}),searchContainer.current)]});}function SearchBar(){const{siteConfig}=(0,useDocusaurusContext/* default */.Z)();return/*#__PURE__*/(0,jsx_runtime.jsx)(DocSearch,{...siteConfig.themeConfig.algolia});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Search/styles.module.css
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Search/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const Search_styles_module = ({"navbarSearchContainer":"navbarSearchContainer_lujK"});
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Search/index.js
+/* harmony default export */ const Search_styles_module = ({"navbarSearchContainer":"navbarSearchContainer_ZQl0"});
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Search/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function NavbarSearch(_ref){let{children,className}=_ref;return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:(0,clsx_m/* default */.Z)(className,Search_styles_module.navbarSearchContainer),children:children});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/SearchNavbarItem.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/SearchNavbarItem.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function SearchNavbarItem(_ref){let{mobile,className}=_ref;if(mobile){return null;}return/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarSearch,{className:className,children:/*#__PURE__*/(0,jsx_runtime.jsx)(SearchBar,{})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/HtmlNavbarItem.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/HtmlNavbarItem.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1530,7 +1530,7 @@ footerProps=>/*#__PURE__*/(0,jsx_runtime.jsx)(ResultsFooter,{...footerProps,onCl
 var client = __webpack_require__(9491);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/utils/docsUtils.js
 var docsUtils = __webpack_require__(1381);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DocNavbarItem.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DocNavbarItem.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1538,14 +1538,14 @@ var docsUtils = __webpack_require__(1381);
  * LICENSE file in the root directory of this source tree.
  */function DocNavbarItem(_ref){let{docId,label:staticLabel,docsPluginId,...props}=_ref;const{activeDoc}=(0,client/* useActiveDocContext */.Iw)(docsPluginId);const doc=(0,docsUtils/* useLayoutDoc */.vY)(docId,docsPluginId);const pageActive=activeDoc?.path===doc?.path;// Draft and unlisted items are not displayed in the navbar.
 if(doc===null||doc.unlisted&&!pageActive){return null;}return/*#__PURE__*/(0,jsx_runtime.jsx)(DefaultNavbarItem,{exact:true,...props,isActive:()=>pageActive||!!activeDoc?.sidebar&&activeDoc.sidebar===doc.sidebar,label:staticLabel??doc.id,to:doc.path});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DocSidebarNavbarItem.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DocSidebarNavbarItem.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function DocSidebarNavbarItem(_ref){let{sidebarId,label,docsPluginId,...props}=_ref;const{activeDoc}=(0,client/* useActiveDocContext */.Iw)(docsPluginId);const sidebarLink=(0,docsUtils/* useLayoutDocsSidebar */.oz)(sidebarId,docsPluginId).link;if(!sidebarLink){throw new Error(`DocSidebarNavbarItem: Sidebar with ID "${sidebarId}" doesn't have anything to be linked to.`);}return/*#__PURE__*/(0,jsx_runtime.jsx)(DefaultNavbarItem,{exact:true,...props,isActive:()=>activeDoc?.sidebar===sidebarId,label:label??sidebarLink.label,to:sidebarLink.path});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DocsVersionNavbarItem.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DocsVersionNavbarItem.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1554,7 +1554,7 @@ if(doc===null||doc.unlisted&&!pageActive){return null;}return/*#__PURE__*/(0,jsx
  */const getVersionMainDoc=version=>version.docs.find(doc=>doc.id===version.mainDocId);function DocsVersionNavbarItem(_ref){let{label:staticLabel,to:staticTo,docsPluginId,...props}=_ref;const version=(0,docsUtils/* useDocsVersionCandidates */.lO)(docsPluginId)[0];const label=staticLabel??version.label;const path=staticTo??getVersionMainDoc(version).path;return/*#__PURE__*/(0,jsx_runtime.jsx)(DefaultNavbarItem,{...props,label:label,to:path});}
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-common/lib/contexts/docsPreferredVersion.js
 var docsPreferredVersion = __webpack_require__(4753);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DocsVersionDropdownNavbarItem.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DocsVersionDropdownNavbarItem.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1568,14 +1568,14 @@ const dropdownLabel=mobile&&items.length>1?(0,Translate/* translate */.I)({id:'t
 // the site with a single docs version (onlyIncludeVersions: ['1.0.0']),
 // We'd rather render a button instead of a dropdown
 if(items.length<=1){return/*#__PURE__*/(0,jsx_runtime.jsx)(DefaultNavbarItem,{...props,mobile:mobile,label:dropdownLabel,to:dropdownTo,isActive:dropdownActiveClassDisabled?()=>false:undefined});}return/*#__PURE__*/(0,jsx_runtime.jsx)(DropdownNavbarItem,{...props,mobile:mobile,label:dropdownLabel,to:dropdownTo,items:items,isActive:dropdownActiveClassDisabled?()=>false:undefined});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/ComponentTypes.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/ComponentTypes.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */const ComponentTypes={default:DefaultNavbarItem,localeDropdown:LocaleDropdownNavbarItem,search:SearchNavbarItem,dropdown:DropdownNavbarItem,html:HtmlNavbarItem,doc:DocNavbarItem,docSidebar:DocSidebarNavbarItem,docsVersion:DocsVersionNavbarItem,docsVersionDropdown:DocsVersionDropdownNavbarItem};/* harmony default export */ const NavbarItem_ComponentTypes = (ComponentTypes);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1584,7 +1584,7 @@ if(items.length<=1){return/*#__PURE__*/(0,jsx_runtime.jsx)(DefaultNavbarItem,{..
  */function normalizeComponentType(type,props){// Backward compatibility: navbar item with no type set
 // but containing dropdown items should use the type "dropdown"
 if(!type||type==='default'){return'items'in props?'dropdown':'default';}return type;}function NavbarItem(_ref){let{type,...props}=_ref;const componentType=normalizeComponentType(type,props);const NavbarItemComponent=NavbarItem_ComponentTypes[componentType];if(!NavbarItemComponent){throw new Error(`No NavbarItem component found for type "${type}".`);}return/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarItemComponent,{...props});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/MobileSidebar/PrimaryMenu/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/MobileSidebar/PrimaryMenu/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1595,7 +1595,7 @@ return (0,useThemeConfig/* useThemeConfig */.L)().navbar.items;}// The primary m
 function NavbarMobilePrimaryMenu(){const mobileSidebar=(0,navbarMobileSidebar/* useNavbarMobileSidebar */.e)();// TODO how can the order be defined for mobile?
 // Should we allow providing a different list of items?
 const items=useNavbarItems();return/*#__PURE__*/(0,jsx_runtime.jsx)("ul",{className:"menu__list",children:items.map((item,i)=>/*#__PURE__*/(0,react.createElement)(NavbarItem,{mobile:true,...item,onClick:()=>mobileSidebar.toggle(),key:i}))});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/MobileSidebar/SecondaryMenu/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/MobileSidebar/SecondaryMenu/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1604,17 +1604,17 @@ const items=useNavbarItems();return/*#__PURE__*/(0,jsx_runtime.jsx)("ul",{classN
  */function SecondaryMenuBackButton(props){return/*#__PURE__*/(0,jsx_runtime.jsx)("button",{...props,type:"button",className:"clean-btn navbar-sidebar__back",children:/*#__PURE__*/(0,jsx_runtime.jsx)(Translate/* default */.Z,{id:"theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel",description:"The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)",children:"\u2190 Back to main menu"})});}// The secondary menu slides from the right and shows contextual information
 // such as the docs sidebar
 function NavbarMobileSidebarSecondaryMenu(){const isPrimaryMenuEmpty=(0,useThemeConfig/* useThemeConfig */.L)().navbar.items.length===0;const secondaryMenu=useNavbarSecondaryMenu();return/*#__PURE__*/(0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[!isPrimaryMenuEmpty&&/*#__PURE__*/(0,jsx_runtime.jsx)(SecondaryMenuBackButton,{onClick:()=>secondaryMenu.hide()}),secondaryMenu.content]});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/MobileSidebar/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/MobileSidebar/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function NavbarMobileSidebar(){const mobileSidebar=(0,navbarMobileSidebar/* useNavbarMobileSidebar */.e)();useLockBodyScroll(mobileSidebar.shown);if(!mobileSidebar.shouldRender){return null;}return/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarMobileSidebarLayout,{header:/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarMobileSidebarHeader,{}),primaryMenu:/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarMobilePrimaryMenu,{}),secondaryMenu:/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarMobileSidebarSecondaryMenu,{})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Layout/styles.module.css
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Layout/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const Layout_styles_module = ({"navbarHideable":"navbarHideable_Y2i5","navbarHidden":"navbarHidden_hcyY"});
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Layout/index.js
+/* harmony default export */ const Layout_styles_module = ({"navbarHideable":"navbarHideable_teA0","navbarHidden":"navbarHidden_W3OQ"});
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Layout/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1655,24 +1655,24 @@ function ErrorBoundaryErrorMessageFallback(_ref){let{error,tryAgain}=_ref;return
  * Composes multiple navbar state providers that are mutually dependent and
  * hence can't be re-ordered.
  */function NavbarProvider(_ref){let{children}=_ref;return/*#__PURE__*/(0,jsx_runtime.jsx)(navbarSecondaryMenu_content/* NavbarSecondaryMenuContentProvider */.n2,{children:/*#__PURE__*/(0,jsx_runtime.jsx)(navbarMobileSidebar/* NavbarMobileSidebarProvider */.M,{children:/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarSecondaryMenuDisplayProvider,{children:children})})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/Menu/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Icon/Menu/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function IconMenu(_ref){let{width=30,height=30,className,...restProps}=_ref;return/*#__PURE__*/(0,jsx_runtime.jsx)("svg",{className:className,width:width,height:height,viewBox:"0 0 30 30","aria-hidden":"true",...restProps,children:/*#__PURE__*/(0,jsx_runtime.jsx)("path",{stroke:"currentColor",strokeLinecap:"round",strokeMiterlimit:"10",strokeWidth:"2",d:"M4 7h22M4 15h22M4 23h22"})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/MobileSidebar/Toggle/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/MobileSidebar/Toggle/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function MobileSidebarToggle(){const{toggle,shown}=(0,navbarMobileSidebar/* useNavbarMobileSidebar */.e)();return/*#__PURE__*/(0,jsx_runtime.jsx)("button",{onClick:toggle,"aria-label":(0,Translate/* translate */.I)({id:'theme.docs.sidebar.toggleSidebarButtonAriaLabel',message:'Toggle navigation bar',description:'The ARIA label for hamburger menu button of mobile navigation'}),"aria-expanded":shown,className:"navbar__toggle clean-btn",type:"button",children:/*#__PURE__*/(0,jsx_runtime.jsx)(IconMenu,{})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Content/styles.module.css
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Content/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const Navbar_Content_styles_module = ({"colorModeToggle":"colorModeToggle_SwBH"});
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Content/index.js
+/* harmony default export */ const Navbar_Content_styles_module = ({"colorModeToggle":"colorModeToggle_BBr_"});
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Content/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1685,7 +1685,7 @@ ${JSON.stringify(item,null,2)}`,{cause:error}),children:/*#__PURE__*/(0,jsx_runt
 (0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[!mobileSidebar.disabled&&/*#__PURE__*/(0,jsx_runtime.jsx)(MobileSidebarToggle,{}),/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarLogo,{}),/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarItems,{items:leftItems})]}),right:/*#__PURE__*/ // TODO stop hardcoding items?
 // Ask the user to add the respective navbar items => more flexible
 (0,jsx_runtime.jsxs)(jsx_runtime.Fragment,{children:[/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarItems,{items:rightItems}),/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarColorModeToggle,{className:Navbar_Content_styles_module.colorModeToggle}),!searchBarItem&&/*#__PURE__*/(0,jsx_runtime.jsx)(NavbarSearch,{children:/*#__PURE__*/(0,jsx_runtime.jsx)(SearchBar,{})})]})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Navbar/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1702,14 +1702,14 @@ ${JSON.stringify(item,null,2)}`,{cause:error}),children:/*#__PURE__*/(0,jsx_runt
  * A rough duck-typing about whether the `footer.links` is intended to be multi-
  * column.
  */function isMultiColumnFooterLinks(links){return'title'in links[0];}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/LinkItem/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/LinkItem/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function FooterLinkItem(_ref){let{item}=_ref;const{to,href,label,prependBaseUrlToHref,...props}=item;const toUrl=(0,useBaseUrl/* default */.Z)(to);const normalizedHref=(0,useBaseUrl/* default */.Z)(href,{forcePrependBaseUrl:true});return/*#__PURE__*/(0,jsx_runtime.jsxs)(Link/* default */.Z,{className:"footer__link-item",...(href?{href:prependBaseUrlToHref?normalizedHref:href}:{to:toUrl}),...props,children:[label,href&&!(0,isInternalUrl/* default */.Z)(href)&&/*#__PURE__*/(0,jsx_runtime.jsx)(ExternalLink/* default */.Z,{})]});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Links/MultiColumn/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Links/MultiColumn/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1718,7 +1718,7 @@ ${JSON.stringify(item,null,2)}`,{cause:error}),children:/*#__PURE__*/(0,jsx_runt
  */function ColumnLinkItem(_ref){let{item}=_ref;return item.html?/*#__PURE__*/(0,jsx_runtime.jsx)("li",{className:"footer__item"// Developer provided the HTML, so assume it's safe.
 // eslint-disable-next-line react/no-danger
 ,dangerouslySetInnerHTML:{__html:item.html}}):/*#__PURE__*/(0,jsx_runtime.jsx)("li",{className:"footer__item",children:/*#__PURE__*/(0,jsx_runtime.jsx)(FooterLinkItem,{item:item})},item.href??item.to);}function Column(_ref2){let{column}=_ref2;return/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"col footer__col",children:[/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"footer__title",children:column.title}),/*#__PURE__*/(0,jsx_runtime.jsx)("ul",{className:"footer__items clean-list",children:column.items.map((item,i)=>/*#__PURE__*/(0,jsx_runtime.jsx)(ColumnLinkItem,{item:item},i))})]});}function FooterLinksMultiColumn(_ref3){let{columns}=_ref3;return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"row footer__links",children:columns.map((column,i)=>/*#__PURE__*/(0,jsx_runtime.jsx)(Column,{column:column},i))});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Links/Simple/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Links/Simple/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1727,26 +1727,26 @@ ${JSON.stringify(item,null,2)}`,{cause:error}),children:/*#__PURE__*/(0,jsx_runt
  */function Separator(){return/*#__PURE__*/(0,jsx_runtime.jsx)("span",{className:"footer__link-separator",children:"\xB7"});}function SimpleLinkItem(_ref){let{item}=_ref;return item.html?/*#__PURE__*/(0,jsx_runtime.jsx)("span",{className:"footer__link-item"// Developer provided the HTML, so assume it's safe.
 // eslint-disable-next-line react/no-danger
 ,dangerouslySetInnerHTML:{__html:item.html}}):/*#__PURE__*/(0,jsx_runtime.jsx)(FooterLinkItem,{item:item});}function FooterLinksSimple(_ref2){let{links}=_ref2;return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"footer__links text--center",children:/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"footer__links",children:links.map((item,i)=>/*#__PURE__*/(0,jsx_runtime.jsxs)(react.Fragment,{children:[/*#__PURE__*/(0,jsx_runtime.jsx)(SimpleLinkItem,{item:item}),links.length!==i+1&&/*#__PURE__*/(0,jsx_runtime.jsx)(Separator,{})]},i))})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Links/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Links/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function FooterLinks(_ref){let{links}=_ref;return isMultiColumnFooterLinks(links)?/*#__PURE__*/(0,jsx_runtime.jsx)(FooterLinksMultiColumn,{columns:links}):/*#__PURE__*/(0,jsx_runtime.jsx)(FooterLinksSimple,{links:links});}
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/ThemedImage/index.js + 2 modules
-var ThemedImage = __webpack_require__(9315);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Logo/styles.module.css
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/ThemedImage/index.js + 2 modules
+var ThemedImage = __webpack_require__(226);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Logo/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const Logo_styles_module = ({"footerLogoLink":"footerLogoLink_Ye5D"});
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Logo/index.js
+/* harmony default export */ const Logo_styles_module = ({"footerLogoLink":"footerLogoLink_QsIG"});
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Logo/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function LogoImage(_ref){let{logo}=_ref;const{withBaseUrl}=(0,useBaseUrl/* useBaseUrlUtils */.C)();const sources={light:withBaseUrl(logo.src),dark:withBaseUrl(logo.srcDark??logo.src)};return/*#__PURE__*/(0,jsx_runtime.jsx)(ThemedImage/* default */.Z,{className:(0,clsx_m/* default */.Z)('footer__logo',logo.className),alt:logo.alt,sources:sources,width:logo.width,height:logo.height,style:logo.style});}function FooterLogo(_ref2){let{logo}=_ref2;return logo.href?/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.Z,{href:logo.href,className:Logo_styles_module.footerLogoLink,target:logo.target,children:/*#__PURE__*/(0,jsx_runtime.jsx)(LogoImage,{logo:logo})}):/*#__PURE__*/(0,jsx_runtime.jsx)(LogoImage,{logo:logo});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Copyright/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Copyright/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1755,40 +1755,40 @@ var ThemedImage = __webpack_require__(9315);
  */function FooterCopyright(_ref){let{copyright}=_ref;return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"footer__copyright"// Developer provided the HTML, so assume it's safe.
 // eslint-disable-next-line react/no-danger
 ,dangerouslySetInnerHTML:{__html:copyright}});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Layout/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/Layout/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function FooterLayout(_ref){let{style,links,logo,copyright}=_ref;return/*#__PURE__*/(0,jsx_runtime.jsx)("footer",{className:(0,clsx_m/* default */.Z)('footer',{'footer--dark':style==='dark'}),children:/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"container container-fluid",children:[links,(logo||copyright)&&/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"footer__bottom text--center",children:[logo&&/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"margin-bottom--sm",children:logo}),copyright]})]})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Footer/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function Footer(){const{footer}=(0,useThemeConfig/* useThemeConfig */.L)();if(!footer){return null;}const{copyright,links,logo,style}=footer;return/*#__PURE__*/(0,jsx_runtime.jsx)(FooterLayout,{style:style,links:links&&links.length>0&&/*#__PURE__*/(0,jsx_runtime.jsx)(FooterLinks,{links:links}),logo:logo&&/*#__PURE__*/(0,jsx_runtime.jsx)(FooterLogo,{logo:logo}),copyright:copyright&&/*#__PURE__*/(0,jsx_runtime.jsx)(FooterCopyright,{copyright:copyright})});}/* harmony default export */ const theme_Footer = (/*#__PURE__*/react.memo(Footer));
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Layout/Provider/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Layout/Provider/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */const Provider=(0,reactUtils/* composeProviders */.Qc)([contexts_colorMode/* ColorModeProvider */.S,contexts_announcementBar/* AnnouncementBarProvider */.pl,scrollUtils/* ScrollControllerProvider */.OC,docsPreferredVersion/* DocsPreferredVersionContextProvider */.L5,metadataUtils/* PluginHtmlClassNameProvider */.VC,NavbarProvider]);function LayoutProvider(_ref){let{children}=_ref;return/*#__PURE__*/(0,jsx_runtime.jsx)(Provider,{children:children});}
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Heading/index.js + 1 modules
-var Heading = __webpack_require__(8533);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/ErrorPageContent.js
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Heading/index.js + 1 modules
+var Heading = __webpack_require__(1217);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/ErrorPageContent.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function ErrorPageContent(_ref){let{error,tryAgain}=_ref;return/*#__PURE__*/(0,jsx_runtime.jsx)("main",{className:"container margin-vert--xl",children:/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"row",children:/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:"col col--6 col--offset-3",children:[/*#__PURE__*/(0,jsx_runtime.jsx)(Heading/* default */.Z,{as:"h1",className:"hero__title",children:/*#__PURE__*/(0,jsx_runtime.jsx)(Translate/* default */.Z,{id:"theme.ErrorPageContent.title",description:"The title of the fallback page when the page crashed",children:"This page crashed."})}),/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"margin-vert--lg",children:/*#__PURE__*/(0,jsx_runtime.jsx)(ErrorBoundaryTryAgainButton,{onClick:tryAgain,className:"button button--primary shadow--lw"})}),/*#__PURE__*/(0,jsx_runtime.jsx)("hr",{}),/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"margin-vert--md",children:/*#__PURE__*/(0,jsx_runtime.jsx)(ErrorBoundaryError,{error:error})})]})})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Layout/styles.module.css
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Layout/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const theme_Layout_styles_module = ({"mainWrapper":"mainWrapper_O76k"});
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js
+/* harmony default export */ const theme_Layout_styles_module = ({"mainWrapper":"mainWrapper_YqpJ"});
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -1799,7 +1799,7 @@ title,description}=props;(0,useKeyboardNavigation/* useKeyboardNavigation */.t)(
 
 /***/ }),
 
-/***/ 9931:
+/***/ 8540:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1811,7 +1811,7 @@ title,description}=props;(0,useKeyboardNavigation/* useKeyboardNavigation */.t)(
 /* harmony import */ var _docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1069);
 /* harmony import */ var _docusaurus_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1085);
 /* harmony import */ var _docusaurus_theme_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(1117);
-/* harmony import */ var _theme_ThemedImage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9315);
+/* harmony import */ var _theme_ThemedImage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(226);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7458);
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -1828,7 +1828,7 @@ const alt=logo?.alt??fallbackAlt;return/*#__PURE__*/(0,react_jsx_runtime__WEBPAC
 
 /***/ }),
 
-/***/ 9221:
+/***/ 5162:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1854,7 +1854,7 @@ const language=locale;return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_
 
 /***/ }),
 
-/***/ 9315:
+/***/ 226:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1899,7 +1899,7 @@ var jsx_runtime = __webpack_require__(7458);
 // - React hydration mismatches
 // See https://github.com/facebook/docusaurus/pull/3730
 return['light','dark'];}return/*#__PURE__*/(0,jsx_runtime.jsx)(jsx_runtime.Fragment,{children:getThemesToRender().map(theme=>{const themedElement=children({theme,className:(0,clsx_m/* default */.Z)(className,styles_module.themedComponent,styles_module[`themedComponent--${theme}`])});return/*#__PURE__*/(0,jsx_runtime.jsx)(react.Fragment,{children:themedElement},theme);})});}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/ThemedImage/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/ThemedImage/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -2902,7 +2902,7 @@ function createUrl(_ref){let{locale,fullyQualified}=_ref;return`${fullyQualified
 
 /***/ }),
 
-/***/ 7941:
+/***/ 7235:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2919,7 +2919,7 @@ function createUrl(_ref){let{locale,fullyQualified}=_ref;return`${fullyQualified
 
 /***/ }),
 
-/***/ 4716:
+/***/ 6119:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2929,7 +2929,7 @@ function createUrl(_ref){let{locale,fullyQualified}=_ref;return`${fullyQualified
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2983);
 /* harmony import */ var _docusaurus_theme_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9953);
 /* harmony import */ var _docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1069);
-/* harmony import */ var _useAlgoliaThemeConfig__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7941);
+/* harmony import */ var _useAlgoliaThemeConfig__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7235);
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -8342,17 +8342,24 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 
 /***/ }),
 
-/***/ 7289:
+/***/ 5666:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   p1: () => (/* binding */ Prism),
-/* harmony export */   y$: () => (/* binding */ Highlight2)
-/* harmony export */ });
-/* unused harmony export themes */
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2983);
-/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4517);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  y$: () => (/* binding */ Highlight2),
+  p1: () => (/* binding */ Prism)
+});
+
+// UNUSED EXPORTS: themes
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/index.js
+var react = __webpack_require__(2983);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/clsx@2.0.0/node_modules/clsx/dist/clsx.mjs
+function r(e){var t,f,n="";if("string"==typeof e||"number"==typeof e)n+=e;else if("object"==typeof e)if(Array.isArray(e))for(t=0;t<e.length;t++)e[t]&&(f=r(e[t]))&&(n&&(n+=" "),n+=f);else for(t in e)e[t]&&(n&&(n+=" "),n+=t);return n}function clsx(){for(var e,t,f=0,n="";f<arguments.length;)(e=arguments[f++])&&(t=r(e))&&(n&&(n+=" "),n+=t);return n}/* harmony default export */ const dist_clsx = (clsx);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/prism-react-renderer@2.3.0_react@18.2.0/node_modules/prism-react-renderer/dist/index.mjs
 var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
@@ -9066,7 +9073,16 @@ var require_prism = __commonJS({
 
 // src/prism-langs.ts
 var Prism = __toESM(require_prism());
-!function(e) {
+Prism.languages.markup = { comment: { pattern: /<!--(?:(?!<!--)[\s\S])*?-->/, greedy: true }, prolog: { pattern: /<\?[\s\S]+?\?>/, greedy: true }, doctype: { pattern: /<!DOCTYPE(?:[^>"'[\]]|"[^"]*"|'[^']*')+(?:\[(?:[^<"'\]]|"[^"]*"|'[^']*'|<(?!!--)|<!--(?:[^-]|-(?!->))*-->)*\]\s*)?>/i, greedy: true, inside: { "internal-subset": { pattern: /(^[^\[]*\[)[\s\S]+(?=\]>$)/, lookbehind: true, greedy: true, inside: null }, string: { pattern: /"[^"]*"|'[^']*'/, greedy: true }, punctuation: /^<!|>$|[[\]]/, "doctype-tag": /^DOCTYPE/i, name: /[^\s<>'"]+/ } }, cdata: { pattern: /<!\[CDATA\[[\s\S]*?\]\]>/i, greedy: true }, tag: { pattern: /<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/, greedy: true, inside: { tag: { pattern: /^<\/?[^\s>\/]+/, inside: { punctuation: /^<\/?/, namespace: /^[^\s>\/:]+:/ } }, "special-attr": [], "attr-value": { pattern: /=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/, inside: { punctuation: [{ pattern: /^=/, alias: "attr-equals" }, { pattern: /^(\s*)["']|["']$/, lookbehind: true }] } }, punctuation: /\/?>/, "attr-name": { pattern: /[^\s>\/]+/, inside: { namespace: /^[^\s>\/:]+:/ } } } }, entity: [{ pattern: /&[\da-z]{1,8};/i, alias: "named-entity" }, /&#x?[\da-f]{1,8};/i] }, Prism.languages.markup.tag.inside["attr-value"].inside.entity = Prism.languages.markup.entity, Prism.languages.markup.doctype.inside["internal-subset"].inside = Prism.languages.markup, Prism.hooks.add("wrap", function(e) {
+  "entity" === e.type && (e.attributes.title = e.content.replace(/&amp;/, "&"));
+}), Object.defineProperty(Prism.languages.markup.tag, "addInlined", { value: function(e, n) {
+  var t = {}, t = (t["language-" + n] = { pattern: /(^<!\[CDATA\[)[\s\S]+?(?=\]\]>$)/i, lookbehind: true, inside: Prism.languages[n] }, t.cdata = /^<!\[CDATA\[|\]\]>$/i, { "included-cdata": { pattern: /<!\[CDATA\[[\s\S]*?\]\]>/i, inside: t } }), n = (t["language-" + n] = { pattern: /[\s\S]+/, inside: Prism.languages[n] }, {});
+  n[e] = { pattern: RegExp(/(<__[^>]*>)(?:<!\[CDATA\[(?:[^\]]|\](?!\]>))*\]\]>|(?!<!\[CDATA\[)[\s\S])*?(?=<\/__>)/.source.replace(/__/g, function() {
+    return e;
+  }), "i"), lookbehind: true, greedy: true, inside: t }, Prism.languages.insertBefore("markup", "cdata", n);
+} }), Object.defineProperty(Prism.languages.markup.tag, "addAttribute", { value: function(e, n) {
+  Prism.languages.markup.tag.inside["special-attr"].push({ pattern: RegExp(/(^|["'\s])/.source + "(?:" + e + ")" + /\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))/.source, "i"), lookbehind: true, inside: { "attr-name": /^[^\s=]+/, "attr-value": { pattern: /=[\s\S]+/, inside: { value: { pattern: /(^=\s*(["']|(?!["'])))\S[\s\S]*(?=\2$)/, lookbehind: true, alias: [n, "language-" + n], inside: Prism.languages[n] }, punctuation: [{ pattern: /^=/, alias: "attr-equals" }, /"|'/] } } } });
+} }), Prism.languages.html = Prism.languages.markup, Prism.languages.mathml = Prism.languages.markup, Prism.languages.svg = Prism.languages.markup, Prism.languages.xml = Prism.languages.extend("markup", {}), Prism.languages.ssml = Prism.languages.xml, Prism.languages.atom = Prism.languages.xml, Prism.languages.rss = Prism.languages.xml, function(e) {
   var n = { pattern: /\\[\\(){}[\]^$+*?|.]/, alias: "escape" }, t = /\\(?:x[\da-fA-F]{2}|u[\da-fA-F]{4}|u\{[\da-fA-F]+\}|0[0-7]{0,2}|[123][0-7]{2}|c[a-zA-Z]|.)/, a = "(?:[^\\\\-]|" + t.source + ")", a = RegExp(a + "-" + a), r = { pattern: /(<|')[^<>']+(?=[>']$)/, lookbehind: true, alias: "variable" };
   e.languages.regex = { "char-class": { pattern: /((?:^|[^\\])(?:\\\\)*)\[(?:[^\\\]]|\\[\s\S])*\]/, lookbehind: true, inside: { "char-class-negation": { pattern: /(^\[)\^/, lookbehind: true, alias: "operator" }, "char-class-punctuation": { pattern: /^\[|\]$/, alias: "punctuation" }, range: { pattern: a, inside: { escape: t, "range-punctuation": { pattern: /-/, alias: "operator" } } }, "special-escape": n, "char-set": { pattern: /\\[wsd]|\\p\{[^{}]+\}/i, alias: "class-name" }, escape: t } }, "special-escape": n, "char-set": { pattern: /\.|\\[wsd]|\\p\{[^{}]+\}/i, alias: "class-name" }, backreference: [{ pattern: /\\(?![123][0-7]{2})[1-9]/, alias: "keyword" }, { pattern: /\\k<[^<>']+>/, alias: "keyword", inside: { "group-name": r } }], anchor: { pattern: /[$^]|\\[ABbGZz]/, alias: "function" }, escape: t, group: [{ pattern: /\((?:\?(?:<[^<>']+>|'[^<>']+'|[>:]|<?[=!]|[idmnsuxU]+(?:-[idmnsuxU]+)?:?))?/, alias: "punctuation", inside: { "group-name": r } }, { pattern: /\)/, alias: "punctuation" }], quantifier: { pattern: /(?:[+*?]|\{\d+(?:,\d*)?\})[?+]?/, alias: "number" }, alternation: { pattern: /\|/, alias: "keyword" } };
 }(Prism), Prism.languages.clike = { comment: [{ pattern: /(^|[^\\])\/\*[\s\S]*?(?:\*\/|$)/, lookbehind: true, greedy: true }, { pattern: /(^|[^\\:])\/\/.*/, lookbehind: true, greedy: true }], string: { pattern: /(["'])(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/, greedy: true }, "class-name": { pattern: /(\b(?:class|extends|implements|instanceof|interface|new|trait)\s+|\bcatch\s+\()[\w.\\]+/i, lookbehind: true, inside: { punctuation: /[.\\]/ } }, keyword: /\b(?:break|catch|continue|do|else|finally|for|function|if|in|instanceof|new|null|return|throw|try|while)\b/, boolean: /\b(?:false|true)\b/, function: /\b\w+(?=\()/, number: /\b0x[\da-f]+\b|(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:e[+-]?\d+)?/i, operator: /[<>]=?|[!=]=?=?|--?|\+\+?|&&?|\|\|?|[?*/~^%]/, punctuation: /[{}[\];(),.:]/ }, Prism.languages.javascript = Prism.languages.extend("clike", { "class-name": [Prism.languages.clike["class-name"], { pattern: /(^|[^$\w\xA0-\uFFFF])(?!\s)[_$A-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\.(?:constructor|prototype))/, lookbehind: true }], keyword: [{ pattern: /((?:^|\})\s*)catch\b/, lookbehind: true }, { pattern: /(^|[^.]|\.\.\.\s*)\b(?:as|assert(?=\s*\{)|async(?=\s*(?:function\b|\(|[$\w\xA0-\uFFFF]|$))|await|break|case|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally(?=\s*(?:\{|$))|for|from(?=\s*(?:['"]|$))|function|(?:get|set)(?=\s*(?:[#\[$\w\xA0-\uFFFF]|$))|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)\b/, lookbehind: true }], function: /#?(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*(?:\.\s*(?:apply|bind|call)\s*)?\()/, number: { pattern: RegExp(/(^|[^\w$])/.source + "(?:" + /NaN|Infinity/.source + "|" + /0[bB][01]+(?:_[01]+)*n?/.source + "|" + /0[oO][0-7]+(?:_[0-7]+)*n?/.source + "|" + /0[xX][\dA-Fa-f]+(?:_[\dA-Fa-f]+)*n?/.source + "|" + /\d+(?:_\d+)*n/.source + "|" + /(?:\d+(?:_\d+)*(?:\.(?:\d+(?:_\d+)*)?)?|\.\d+(?:_\d+)*)(?:[Ee][+-]?\d+(?:_\d+)*)?/.source + ")" + /(?![\w$])/.source), lookbehind: true }, operator: /--|\+\+|\*\*=?|=>|&&=?|\|\|=?|[!=]==|<<=?|>>>?=?|[-+*/%&|^!=<>]=?|\.{3}|\?\?=?|\?\.?|[~:]/ }), Prism.languages.javascript["class-name"][0].pattern = /(\b(?:class|extends|implements|instanceof|interface|new)\s+)[\w.\\]+/, Prism.languages.insertBefore("javascript", "keyword", { regex: { pattern: RegExp(/((?:^|[^$\w\xA0-\uFFFF."'\])\s]|\b(?:return|yield))\s*)/.source + /\//.source + "(?:" + /(?:\[(?:[^\]\\\r\n]|\\.)*\]|\\.|[^/\\\[\r\n])+\/[dgimyus]{0,7}/.source + "|" + /(?:\[(?:[^[\]\\\r\n]|\\.|\[(?:[^[\]\\\r\n]|\\.|\[(?:[^[\]\\\r\n]|\\.)*\])*\])*\]|\\.|[^/\\\[\r\n])+\/[dgimyus]{0,7}v[dgimyus]{0,7}/.source + ")" + /(?=(?:\s|\/\*(?:[^*]|\*(?!\/))*\*\/)*(?:$|[\r\n,.;:})\]]|\/\/))/.source), lookbehind: true, greedy: true, inside: { "regex-source": { pattern: /^(\/)[\s\S]+(?=\/[a-z]*$)/, lookbehind: true, alias: "language-regex", inside: Prism.languages.regex }, "regex-delimiter": /^\/|\/$/, "regex-flags": /^[a-z]+$/ } }, "function-variable": { pattern: /#?(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*[=:]\s*(?:async\s*)?(?:\bfunction\b|(?:\((?:[^()]|\([^()]*\))*\)|(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*)\s*=>))/, alias: "function" }, parameter: [{ pattern: /(function(?:\s+(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*)?\s*\(\s*)(?!\s)(?:[^()\s]|\s+(?![\s)])|\([^()]*\))+(?=\s*\))/, lookbehind: true, inside: Prism.languages.javascript }, { pattern: /(^|[^$\w\xA0-\uFFFF])(?!\s)[_$a-z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*=>)/i, lookbehind: true, inside: Prism.languages.javascript }, { pattern: /(\(\s*)(?!\s)(?:[^()\s]|\s+(?![\s)])|\([^()]*\))+(?=\s*\)\s*=>)/, lookbehind: true, inside: Prism.languages.javascript }, { pattern: /((?:\b|\s|^)(?!(?:as|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)(?![$\w\xA0-\uFFFF]))(?:(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*\s*)\(\s*|\]\s*\(\s*)(?!\s)(?:[^()\s]|\s+(?![\s)])|\([^()]*\))+(?=\s*\)\s*\{)/, lookbehind: true, inside: Prism.languages.javascript }], constant: /\b[A-Z](?:[A-Z_]|\dx?)*\b/ }), Prism.languages.insertBefore("javascript", "string", { hashbang: { pattern: /^#!.*/, greedy: true, alias: "comment" }, "template-string": { pattern: /`(?:\\[\s\S]|\$\{(?:[^{}]|\{(?:[^{}]|\{[^}]*\})*\})+\}|(?!\$\{)[^\\`])*`/, greedy: true, inside: { "template-punctuation": { pattern: /^`|`$/, alias: "string" }, interpolation: { pattern: /((?:^|[^\\])(?:\\{2})*)\$\{(?:[^{}]|\{(?:[^{}]|\{[^}]*\})*\})+\}/, lookbehind: true, inside: { "interpolation-punctuation": { pattern: /^\$\{|\}$/, alias: "punctuation" }, rest: Prism.languages.javascript } }, string: /[\s\S]+/ } }, "string-property": { pattern: /((?:^|[,{])[ \t]*)(["'])(?:\\(?:\r\n|[\s\S])|(?!\2)[^\\\r\n])*\2(?=\s*:)/m, lookbehind: true, greedy: true, alias: "property" } }), Prism.languages.insertBefore("javascript", "operator", { "literal-property": { pattern: /((?:^|[,{])[ \t]*)(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*:)/m, lookbehind: true, alias: "property" } }), Prism.languages.markup && (Prism.languages.markup.tag.addInlined("script", "javascript"), Prism.languages.markup.tag.addAttribute(/on(?:abort|blur|change|click|composition(?:end|start|update)|dblclick|error|focus(?:in|out)?|key(?:down|up)|load|mouse(?:down|enter|leave|move|out|over|up)|reset|resize|scroll|select|slotchange|submit|unload|wheel)/.source, "javascript")), Prism.languages.js = Prism.languages.javascript, Prism.languages.actionscript = Prism.languages.extend("javascript", { keyword: /\b(?:as|break|case|catch|class|const|default|delete|do|dynamic|each|else|extends|final|finally|for|function|get|if|implements|import|in|include|instanceof|interface|internal|is|namespace|native|new|null|override|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|use|var|void|while|with)\b/, operator: /\+\+|--|(?:[+\-*\/%^]|&&?|\|\|?|<<?|>>?>?|[!=]=?)=?|[~?@]/ }), Prism.languages.actionscript["class-name"].alias = "function", delete Prism.languages.actionscript.parameter, delete Prism.languages.actionscript["literal-property"], Prism.languages.markup && Prism.languages.insertBefore("actionscript", "string", { xml: { pattern: /(^|[^.])<\/?\w+(?:\s+[^\s>\/=]+=("|')(?:\\[\s\S]|(?!\2)[^\\])*\2)*\s*\/?>/, lookbehind: true, inside: Prism.languages.markup } }), function(e) {
@@ -9115,16 +9131,7 @@ var Prism = __toESM(require_prism());
   }).replace(/<<key>>/g, function() {
     return "(?:" + r + "|" + s + ")";
   })), lookbehind: true, greedy: true, alias: "atrule" }, directive: { pattern: /(^[ \t]*)%.+/m, lookbehind: true, alias: "important" }, datetime: { pattern: i(/\d{4}-\d\d?-\d\d?(?:[tT]|[ \t]+)\d\d?:\d{2}:\d{2}(?:\.\d*)?(?:[ \t]*(?:Z|[-+]\d\d?(?::\d{2})?))?|\d{4}-\d{2}-\d{2}|\d\d?:\d{2}(?::\d{2}(?:\.\d*)?)?/.source), lookbehind: true, alias: "number" }, boolean: { pattern: i(/false|true/.source, "i"), lookbehind: true, alias: "important" }, null: { pattern: i(/null|~/.source, "i"), lookbehind: true, alias: "important" }, string: { pattern: i(s), lookbehind: true, greedy: true }, number: { pattern: i(/[+-]?(?:0x[\da-f]+|0o[0-7]+|(?:\d+(?:\.\d*)?|\.\d+)(?:e[+-]?\d+)?|\.inf|\.nan)/.source, "i"), lookbehind: true }, tag: t, important: n, punctuation: /---|[:[\]{}\-,|>?]|\.\.\./ }, e.languages.yml = e.languages.yaml;
-}(Prism), Prism.languages.markup = { comment: { pattern: /<!--(?:(?!<!--)[\s\S])*?-->/, greedy: true }, prolog: { pattern: /<\?[\s\S]+?\?>/, greedy: true }, doctype: { pattern: /<!DOCTYPE(?:[^>"'[\]]|"[^"]*"|'[^']*')+(?:\[(?:[^<"'\]]|"[^"]*"|'[^']*'|<(?!!--)|<!--(?:[^-]|-(?!->))*-->)*\]\s*)?>/i, greedy: true, inside: { "internal-subset": { pattern: /(^[^\[]*\[)[\s\S]+(?=\]>$)/, lookbehind: true, greedy: true, inside: null }, string: { pattern: /"[^"]*"|'[^']*'/, greedy: true }, punctuation: /^<!|>$|[[\]]/, "doctype-tag": /^DOCTYPE/i, name: /[^\s<>'"]+/ } }, cdata: { pattern: /<!\[CDATA\[[\s\S]*?\]\]>/i, greedy: true }, tag: { pattern: /<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/, greedy: true, inside: { tag: { pattern: /^<\/?[^\s>\/]+/, inside: { punctuation: /^<\/?/, namespace: /^[^\s>\/:]+:/ } }, "special-attr": [], "attr-value": { pattern: /=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/, inside: { punctuation: [{ pattern: /^=/, alias: "attr-equals" }, { pattern: /^(\s*)["']|["']$/, lookbehind: true }] } }, punctuation: /\/?>/, "attr-name": { pattern: /[^\s>\/]+/, inside: { namespace: /^[^\s>\/:]+:/ } } } }, entity: [{ pattern: /&[\da-z]{1,8};/i, alias: "named-entity" }, /&#x?[\da-f]{1,8};/i] }, Prism.languages.markup.tag.inside["attr-value"].inside.entity = Prism.languages.markup.entity, Prism.languages.markup.doctype.inside["internal-subset"].inside = Prism.languages.markup, Prism.hooks.add("wrap", function(e) {
-  "entity" === e.type && (e.attributes.title = e.content.replace(/&amp;/, "&"));
-}), Object.defineProperty(Prism.languages.markup.tag, "addInlined", { value: function(e, n) {
-  var t = {}, t = (t["language-" + n] = { pattern: /(^<!\[CDATA\[)[\s\S]+?(?=\]\]>$)/i, lookbehind: true, inside: Prism.languages[n] }, t.cdata = /^<!\[CDATA\[|\]\]>$/i, { "included-cdata": { pattern: /<!\[CDATA\[[\s\S]*?\]\]>/i, inside: t } }), n = (t["language-" + n] = { pattern: /[\s\S]+/, inside: Prism.languages[n] }, {});
-  n[e] = { pattern: RegExp(/(<__[^>]*>)(?:<!\[CDATA\[(?:[^\]]|\](?!\]>))*\]\]>|(?!<!\[CDATA\[)[\s\S])*?(?=<\/__>)/.source.replace(/__/g, function() {
-    return e;
-  }), "i"), lookbehind: true, greedy: true, inside: t }, Prism.languages.insertBefore("markup", "cdata", n);
-} }), Object.defineProperty(Prism.languages.markup.tag, "addAttribute", { value: function(e, n) {
-  Prism.languages.markup.tag.inside["special-attr"].push({ pattern: RegExp(/(^|["'\s])/.source + "(?:" + e + ")" + /\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))/.source, "i"), lookbehind: true, inside: { "attr-name": /^[^\s=]+/, "attr-value": { pattern: /=[\s\S]+/, inside: { value: { pattern: /(^=\s*(["']|(?!["'])))\S[\s\S]*(?=\2$)/, lookbehind: true, alias: [n, "language-" + n], inside: Prism.languages[n] }, punctuation: [{ pattern: /^=/, alias: "attr-equals" }, /"|'/] } } } });
-} }), Prism.languages.html = Prism.languages.markup, Prism.languages.mathml = Prism.languages.markup, Prism.languages.svg = Prism.languages.markup, Prism.languages.xml = Prism.languages.extend("markup", {}), Prism.languages.ssml = Prism.languages.xml, Prism.languages.atom = Prism.languages.xml, Prism.languages.rss = Prism.languages.xml, function(o) {
+}(Prism), function(o) {
   var n = /(?:\\.|[^\\\n\r]|(?:\n|\r\n?)(?![\r\n]))/.source;
   function e(e2) {
     return e2 = e2.replace(/<inner>/g, function() {
@@ -9337,7 +9344,7 @@ var Prism = __toESM(require_prism());
   })), lookbehind: true }, /\b[A-Z]\w*(?=\s*::\s*\w+\s*\()/, /\b[A-Z_]\w*(?=\s*::\s*~\w+\s*\()/i, /\b\w+(?=\s*<(?:[^<>]|<(?:[^<>]|<[^<>]*>)*>)*>\s*::\s*\w+\s*\()/], keyword: n, number: { pattern: /(?:\b0b[01']+|\b0x(?:[\da-f']+(?:\.[\da-f']*)?|\.[\da-f']+)(?:p[+-]?[\d']+)?|(?:\b[\d']+(?:\.[\d']*)?|\B\.[\d']+)(?:e[+-]?[\d']+)?)[ful]{0,4}/i, greedy: true }, operator: />>=?|<<=?|->|--|\+\+|&&|\|\||[?:~]|<=>|[-+*/%&|^!=<>]=?|\b(?:and|and_eq|bitand|bitor|not|not_eq|or|or_eq|xor|xor_eq)\b/, boolean: /\b(?:false|true)\b/ }), e.languages.insertBefore("cpp", "string", { module: { pattern: RegExp(/(\b(?:import|module)\s+)/.source + "(?:" + /"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"|<[^<>\r\n]*>/.source + "|" + /<mod-name>(?:\s*:\s*<mod-name>)?|:\s*<mod-name>/.source.replace(/<mod-name>/g, function() {
     return t;
   }) + ")"), lookbehind: true, greedy: true, inside: { string: /^[<"][\s\S]+/, operator: /:/, punctuation: /\./ } }, "raw-string": { pattern: /R"([^()\\ ]{0,16})\([\s\S]*?\)\1"/, alias: "string", greedy: true } }), e.languages.insertBefore("cpp", "keyword", { "generic-function": { pattern: /\b(?!operator\b)[a-z_]\w*\s*<(?:[^<>]|<[^<>]*>)*>(?=\s*\()/i, inside: { function: /^\w+/, generic: { pattern: /<[\s\S]+/, alias: "class-name", inside: e.languages.cpp } } } }), e.languages.insertBefore("cpp", "operator", { "double-colon": { pattern: /::/, alias: "punctuation" } }), e.languages.insertBefore("cpp", "class-name", { "base-clause": { pattern: /(\b(?:class|struct)\s+\w+\s*:\s*)[^;{}"'\s]+(?:\s+[^;{}"'\s]+)*(?=\s*[;{])/, lookbehind: true, greedy: true, inside: e.languages.extend("cpp", {}) } }), e.languages.insertBefore("inside", "double-colon", { "class-name": /\b[a-z_]\w*\b(?!\s*::)/i }, e.languages.cpp["base-clause"]);
-}(Prism);
+}(Prism), Prism.languages.python = { comment: { pattern: /(^|[^\\])#.*/, lookbehind: true, greedy: true }, "string-interpolation": { pattern: /(?:f|fr|rf)(?:("""|''')[\s\S]*?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2)/i, greedy: true, inside: { interpolation: { pattern: /((?:^|[^{])(?:\{\{)*)\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}]|\{(?!\{)(?:[^{}])+\})+\})+\}/, lookbehind: true, inside: { "format-spec": { pattern: /(:)[^:(){}]+(?=\}$)/, lookbehind: true }, "conversion-option": { pattern: /![sra](?=[:}]$)/, alias: "punctuation" }, rest: null } }, string: /[\s\S]+/ } }, "triple-quoted-string": { pattern: /(?:[rub]|br|rb)?("""|''')[\s\S]*?\1/i, greedy: true, alias: "string" }, string: { pattern: /(?:[rub]|br|rb)?("|')(?:\\.|(?!\1)[^\\\r\n])*\1/i, greedy: true }, function: { pattern: /((?:^|\s)def[ \t]+)[a-zA-Z_]\w*(?=\s*\()/g, lookbehind: true }, "class-name": { pattern: /(\bclass\s+)\w+/i, lookbehind: true }, decorator: { pattern: /(^[\t ]*)@\w+(?:\.\w+)*/m, lookbehind: true, alias: ["annotation", "punctuation"], inside: { punctuation: /\./ } }, keyword: /\b(?:_(?=\s*:)|and|as|assert|async|await|break|case|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|match|nonlocal|not|or|pass|print|raise|return|try|while|with|yield)\b/, builtin: /\b(?:__import__|abs|all|any|apply|ascii|basestring|bin|bool|buffer|bytearray|bytes|callable|chr|classmethod|cmp|coerce|compile|complex|delattr|dict|dir|divmod|enumerate|eval|execfile|file|filter|float|format|frozenset|getattr|globals|hasattr|hash|help|hex|id|input|int|intern|isinstance|issubclass|iter|len|list|locals|long|map|max|memoryview|min|next|object|oct|open|ord|pow|property|range|raw_input|reduce|reload|repr|reversed|round|set|setattr|slice|sorted|staticmethod|str|sum|super|tuple|type|unichr|unicode|vars|xrange|zip)\b/, boolean: /\b(?:False|None|True)\b/, number: /\b0(?:b(?:_?[01])+|o(?:_?[0-7])+|x(?:_?[a-f0-9])+)\b|(?:\b\d+(?:_\d+)*(?:\.(?:\d+(?:_\d+)*)?)?|\B\.\d+(?:_\d+)*)(?:e[+-]?\d+(?:_\d+)*)?j?(?!\w)/i, operator: /[-+%=]=?|!=|:=|\*\*?=?|\/\/?=?|<[<=>]?|>[=>]?|[&|^~]/, punctuation: /[{}[\];(),.:]/ }, Prism.languages.python["string-interpolation"].inside.interpolation.inside.rest = Prism.languages.python, Prism.languages.py = Prism.languages.python;
 
 // src/themes/index.ts
 var themes_exports = {};
@@ -11141,12 +11148,12 @@ var themeToDict_default = themeToDict;
 
 // src/components/useThemeDictionary.ts
 var useThemeDictionary = (language, theme19) => {
-  const [themeDictionary, setThemeDictionary] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(
+  const [themeDictionary, setThemeDictionary] = (0,react.useState)(
     themeToDict_default(theme19, language)
   );
-  const previousTheme = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)();
-  const previousLanguage = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)();
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+  const previousTheme = (0,react.useRef)();
+  const previousLanguage = (0,react.useRef)();
+  (0,react.useEffect)(() => {
     if (theme19 !== previousTheme.current || language !== previousLanguage.current) {
       previousTheme.current = theme19;
       previousLanguage.current = language;
@@ -11159,11 +11166,11 @@ var useThemeDictionary = (language, theme19) => {
 // src/components/useGetLineProps.ts
 
 
-var useGetLineProps = (themeDictionary) => (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(
+var useGetLineProps = (themeDictionary) => (0,react.useCallback)(
   (_a) => {
     var _b = _a, { className, style, line } = _b, rest = __objRest(_b, ["className", "style", "line"]);
     const output = __spreadProps(__spreadValues({}, rest), {
-      className: (0,clsx__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z)("token-line", className)
+      className: dist_clsx("token-line", className)
     });
     if (typeof themeDictionary === "object" && "plain" in themeDictionary)
       output.style = themeDictionary.plain;
@@ -11178,7 +11185,7 @@ var useGetLineProps = (themeDictionary) => (0,react__WEBPACK_IMPORTED_MODULE_0__
 
 
 var useGetTokenProps = (themeDictionary) => {
-  const styleForToken = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(
+  const styleForToken = (0,react.useCallback)(
     ({ types, empty }) => {
       if (themeDictionary == null)
         return void 0;
@@ -11194,11 +11201,11 @@ var useGetTokenProps = (themeDictionary) => {
     },
     [themeDictionary]
   );
-  return (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)(
+  return (0,react.useCallback)(
     (_a) => {
       var _b = _a, { token, className, style } = _b, rest = __objRest(_b, ["token", "className", "style"]);
       const output = __spreadProps(__spreadValues({}, rest), {
-        className: (0,clsx__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z)("token", ...token.types, className),
+        className: dist_clsx("token", ...token.types, className),
         children: token.content,
         style: styleForToken(token)
       });
@@ -11294,8 +11301,8 @@ var normalizeTokens_default = normalizeTokens;
 // src/components/useTokenize.ts
 
 var useTokenize = ({ prism, code, grammar, language }) => {
-  const prismRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(prism);
-  return (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => {
+  const prismRef = (0,react.useRef)(prism);
+  return (0,react.useMemo)(() => {
     if (grammar == null)
       return normalizeTokens_default([code]);
     const prismConfig = {
@@ -11335,7 +11342,7 @@ var Highlight = ({
 };
 
 // src/index.ts
-var Highlight2 = (props) => (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(Highlight, __spreadProps(__spreadValues({}, props), {
+var Highlight2 = (props) => (0,react.createElement)(Highlight, __spreadProps(__spreadValues({}, props), {
   prism: props.prism || Prism,
   theme: props.theme || vsDark_default,
   code: props.code,
@@ -11403,7 +11410,7 @@ module.exports = JSON.parse('{"/markdown-page-7a8":{"__comp":"1f391b9e","__conte
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, [532], () => (__webpack_exec__(1335)));
+/******/ __webpack_require__.O(0, [532], () => (__webpack_exec__(5248)));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);

@@ -6237,7 +6237,7 @@ module.exports = '3.15.0';
 
 /***/ }),
 
-/***/ 1284:
+/***/ 5190:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -6313,20 +6313,20 @@ var metadataUtils = __webpack_require__(639);
 var generalUtils = __webpack_require__(7090);
 // EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.0.0_@docusaurus+types@3.0.0_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/core/lib/client/exports/Translate.js + 1 modules
 var Translate = __webpack_require__(9198);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__o3qwn4r2faubmhr3omiuzvp6ga/node_modules/@docusaurus/theme-search-algolia/lib/client/useAlgoliaThemeConfig.js
-var useAlgoliaThemeConfig = __webpack_require__(7941);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__o3qwn4r2faubmhr3omiuzvp6ga/node_modules/@docusaurus/theme-search-algolia/lib/client/useSearchResultUrlProcessor.js
-var useSearchResultUrlProcessor = __webpack_require__(4716);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js + 71 modules
-var Layout = __webpack_require__(129);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.37_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Heading/index.js + 1 modules
-var Heading = __webpack_require__(8533);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__o3qwn4r2faubmhr3omiuzvp6ga/node_modules/@docusaurus/theme-search-algolia/lib/theme/SearchPage/styles.module.css
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__ckumhcczh46ssjuqhsqtnky56a/node_modules/@docusaurus/theme-search-algolia/lib/client/useAlgoliaThemeConfig.js
+var useAlgoliaThemeConfig = __webpack_require__(7235);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__ckumhcczh46ssjuqhsqtnky56a/node_modules/@docusaurus/theme-search-algolia/lib/client/useSearchResultUrlProcessor.js
+var useSearchResultUrlProcessor = __webpack_require__(6119);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js + 71 modules
+var Layout = __webpack_require__(7457);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.0.0_@types+react@18.2.39_react-dom@18.2.0_react@18.2.0_typescript@5.2.2/node_modules/@docusaurus/theme-classic/lib/theme/Heading/index.js + 1 modules
+var Heading = __webpack_require__(1217);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__ckumhcczh46ssjuqhsqtnky56a/node_modules/@docusaurus/theme-search-algolia/lib/theme/SearchPage/styles.module.css
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const styles_module = ({"searchQueryInput":"searchQueryInput_NgJK","searchVersionInput":"searchVersionInput_rz0U","searchResultsColumn":"searchResultsColumn_UPu9","algoliaLogo":"algoliaLogo_j7Cj","algoliaLogoPathFill":"algoliaLogoPathFill_xSdb","searchResultItem":"searchResultItem_C_SY","searchResultItemHeading":"searchResultItemHeading_JOAS","searchResultItemPath":"searchResultItemPath_C4QF","searchResultItemSummary":"searchResultItemSummary_yi0O","searchQueryColumn":"searchQueryColumn_xg7a","searchVersionColumn":"searchVersionColumn_hyA5","searchLogoColumn":"searchLogoColumn_D_fb","loadingSpinner":"loadingSpinner_qPDI","loading-spin":"loading-spin_awFI","loader":"loader_o227"});
+/* harmony default export */ const styles_module = ({"searchQueryInput":"searchQueryInput_fPYv","searchVersionInput":"searchVersionInput_zEPi","searchResultsColumn":"searchResultsColumn_aQ0a","algoliaLogo":"algoliaLogo_Fi3u","algoliaLogoPathFill":"algoliaLogoPathFill_DpX8","searchResultItem":"searchResultItem_l4Gd","searchResultItemHeading":"searchResultItemHeading_fopV","searchResultItemPath":"searchResultItemPath_g_rU","searchResultItemSummary":"searchResultItemSummary_rTxz","searchQueryColumn":"searchQueryColumn_zI7I","searchVersionColumn":"searchVersionColumn_EDAT","searchLogoColumn":"searchLogoColumn_ZAUQ","loadingSpinner":"loadingSpinner_eEcv","loading-spin":"loading-spin_B5je","loader":"loader_bdbE"});
 // EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(7458);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__o3qwn4r2faubmhr3omiuzvp6ga/node_modules/@docusaurus/theme-search-algolia/lib/theme/SearchPage/index.js
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-search-algolia@3.0.0_@algolia+client-search@4.20.0_@docusaurus+types@3.0.0__ckumhcczh46ssjuqhsqtnky56a/node_modules/@docusaurus/theme-search-algolia/lib/theme/SearchPage/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
