@@ -3450,7 +3450,7 @@ body:not(.navigation-with-keyboard) *:not(input):focus {
  * LICENSE file in the root directory of this source tree.
  */
 
-.skipToContent_zY84 {
+.skipToContent_un91 {
   position: fixed;
   top: 1rem;
   left: 100%;
@@ -3460,7 +3460,7 @@ body:not(.navigation-with-keyboard) *:not(input):focus {
   background-color: var(--ifm-background-surface-color);
 }
 
-.skipToContent_zY84:focus {
+.skipToContent_un91:focus {
   left: 1rem;
   box-shadow: var(--ifm-global-shadow-md);
 }
@@ -3472,7 +3472,7 @@ body:not(.navigation-with-keyboard) *:not(input):focus {
  * LICENSE file in the root directory of this source tree.
  */
 
-.closeButton_T0W4 {
+.closeButton_A2Ky {
   padding: 0;
   line-height: 0;
 }
@@ -3484,13 +3484,13 @@ body:not(.navigation-with-keyboard) *:not(input):focus {
  * LICENSE file in the root directory of this source tree.
  */
 
-.content_g_p5 {
+.content_VjaS {
   font-size: 85%;
   text-align: center;
   padding: 5px 0;
 }
 
-.content_g_p5 a {
+.content_VjaS a {
   color: inherit;
   text-decoration: underline;
 }
@@ -3506,7 +3506,7 @@ body:not(.navigation-with-keyboard) *:not(input):focus {
   --docusaurus-announcement-bar-height: auto;
 }
 
-.announcementBar_lgY8 {
+.announcementBar_xCF6 {
   display: flex;
   align-items: center;
   height: var(--docusaurus-announcement-bar-height);
@@ -3524,25 +3524,25 @@ body:not(.navigation-with-keyboard) *:not(input):focus {
   border-bottom: 1px solid var(--ifm-color-emphasis-100);
 }
 
-html[data-announcement-bar-initially-dismissed='true'] .announcementBar_lgY8 {
+html[data-announcement-bar-initially-dismissed='true'] .announcementBar_xCF6 {
   display: none;
 }
 
-.announcementBarPlaceholder_LYbO {
+.announcementBarPlaceholder_ciHK {
   flex: 0 0 10px;
 }
 
-.announcementBarClose_Yoa7 {
+.announcementBarClose_lTdK {
   flex: 0 0 30px;
   align-self: stretch;
 }
 
-.announcementBarContent_YWBM {
+.announcementBarContent__ZDu {
   flex: 1 1 auto;
 }
 
 @media print {
-  .announcementBar_lgY8 {
+  .announcementBar_xCF6 {
     display: none;
   }
 }
@@ -3552,8 +3552,8 @@ html[data-announcement-bar-initially-dismissed='true'] .announcementBar_lgY8 {
     --docusaurus-announcement-bar-height: 30px;
   }
 
-  .announcementBarPlaceholder_LYbO,
-  .announcementBarClose_Yoa7 {
+  .announcementBarPlaceholder_ciHK,
+  .announcementBarClose_lTdK {
     flex-basis: 50px;
   }
 }
@@ -3565,12 +3565,12 @@ html[data-announcement-bar-initially-dismissed='true'] .announcementBar_lgY8 {
  * LICENSE file in the root directory of this source tree.
  */
 
-.toggle_NkKe {
+.toggle_CjNx {
   width: 2rem;
   height: 2rem;
 }
 
-.toggleButton_Y4YG {
+.toggleButton_QgIj {
   -webkit-tap-highlight-color: transparent;
   align-items: center;
   display: flex;
@@ -3581,16 +3581,16 @@ html[data-announcement-bar-initially-dismissed='true'] .announcementBar_lgY8 {
   transition: background var(--ifm-transition-fast);
 }
 
-.toggleButton_Y4YG:hover {
+.toggleButton_QgIj:hover {
   background: var(--ifm-color-emphasis-200);
 }
 
-[data-theme='light'] .darkToggleIcon_Mi2S,
-[data-theme='dark'] .lightToggleIcon_o9Qa {
+[data-theme='light'] .darkToggleIcon_DdO3,
+[data-theme='dark'] .lightToggleIcon_wKj3 {
   display: none;
 }
 
-.toggleButtonDisabled_EJJI {
+.toggleButtonDisabled_B56g {
   cursor: not-allowed;
 }
 
@@ -3601,7 +3601,7 @@ html[data-announcement-bar-initially-dismissed='true'] .announcementBar_lgY8 {
  * LICENSE file in the root directory of this source tree.
  */
 
-.darkNavbarColorModeToggle_cP_w:hover {
+.darkNavbarColorModeToggle_aAwV:hover {
   background: var(--ifm-color-gray-800);
 }
 
@@ -3612,15 +3612,15 @@ html[data-announcement-bar-initially-dismissed='true'] .announcementBar_lgY8 {
  * LICENSE file in the root directory of this source tree.
  */
 
-.themedComponent_de17 {
+.themedComponent_nFyU {
   display: none;
 }
 
-[data-theme='light'] .themedComponent--light_ZZNi {
+[data-theme='light'] .themedComponent--light_Zq2L {
   display: initial;
 }
 
-[data-theme='dark'] .themedComponent--dark_mlxo {
+[data-theme='dark'] .themedComponent--dark_J3rw {
   display: initial;
 }
 
@@ -3628,7 +3628,7 @@ html[data-announcement-bar-initially-dismissed='true'] .announcementBar_lgY8 {
 JS disabled??? Show light version by default => better than showing nothing
 TODO bad, but we currently always show light mode when there's no data-theme
  */
-html:not([data-theme]) .themedComponent--light_ZZNi {
+html:not([data-theme]) .themedComponent--light_Zq2L {
   display: initial;
 }
 
@@ -3639,7 +3639,7 @@ html:not([data-theme]) .themedComponent--light_ZZNi {
  * LICENSE file in the root directory of this source tree.
  */
 
-.iconExternalLink_NWtP {
+.iconExternalLink_TN95 {
   margin-left: 0.3rem;
 }
 
@@ -3650,7 +3650,18 @@ html:not([data-theme]) .themedComponent--light_ZZNi {
  * LICENSE file in the root directory of this source tree.
  */
 
-.iconLanguage_OXrv {
+.dropdownNavbarItemMobile_yYV6 {
+  cursor: pointer;
+}
+
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+.iconLanguage_CQph {
   vertical-align: text-bottom;
   margin-right: 5px;
 }
@@ -3666,19 +3677,26 @@ html:not([data-theme]) .themedComponent--light_ZZNi {
 Workaround to avoid rendering empty search container
 See https://github.com/facebook/docusaurus/pull/9385
 */
-.navbarSearchContainer_ZQl0:not(:has(> *)) {
-  display: none;
+/*
+TODO temporary @supports check, remove before 2025
+only needed for Firefox < 121
+see https://github.com/facebook/docusaurus/issues/9527#issuecomment-1805272379
+ */
+@supports selector(:has(*)) {
+  .navbarSearchContainer_TS_Z:not(:has(> *)) {
+    display: none;
+  }
 }
 
 @media (max-width: 996px) {
-  .navbarSearchContainer_ZQl0 {
+  .navbarSearchContainer_TS_Z {
     position: absolute;
     right: var(--ifm-navbar-padding-horizontal);
   }
 }
 
 @media (min-width: 997px) {
-  .navbarSearchContainer_ZQl0 {
+  .navbarSearchContainer_TS_Z {
     padding: var(--ifm-navbar-item-padding-vertical)
       var(--ifm-navbar-item-padding-horizontal);
   }
@@ -3691,11 +3709,11 @@ See https://github.com/facebook/docusaurus/pull/9385
  * LICENSE file in the root directory of this source tree.
  */
 
-.navbarHideable_teA0 {
+.navbarHideable_jY1v {
   transition: transform var(--ifm-transition-fast) ease;
 }
 
-.navbarHidden_W3OQ {
+.navbarHidden_LacD {
   transform: translate3d(0, calc(-100% - 2px), 0);
 }
 
@@ -3710,7 +3728,7 @@ See https://github.com/facebook/docusaurus/pull/9385
 Hide color mode toggle in small viewports
  */
 @media (max-width: 996px) {
-  .colorModeToggle_BBr_ {
+  .colorModeToggle_Nre_ {
     display: none;
   }
 }
@@ -3722,12 +3740,12 @@ Hide color mode toggle in small viewports
  * LICENSE file in the root directory of this source tree.
  */
 
-.errorBoundaryError_kDuM {
+.errorBoundaryError_iciV {
   white-space: pre-wrap;
   color: red;
 }
 
-.errorBoundaryFallback_jZ_d {
+.errorBoundaryFallback_ALcL {
   color: red;
   padding: 0.55rem;
 }
@@ -3739,13 +3757,13 @@ Hide color mode toggle in small viewports
  * LICENSE file in the root directory of this source tree.
  */
 
-.footerLogoLink_QsIG {
+.footerLogoLink_XW2K {
   opacity: 0.5;
   transition: opacity var(--ifm-transition-fast)
     var(--ifm-transition-timing-default);
 }
 
-.footerLogoLink_QsIG:hover {
+.footerLogoLink_XW2K:hover {
   opacity: 1;
 }
 
@@ -3761,11 +3779,11 @@ When the navbar is sticky, ensure that on anchor click,
 the browser does not scroll that anchor behind the navbar
 See https://twitter.com/JoshWComeau/status/1332015868725891076
  */
-.anchorWithStickyNavbar_P6uW {
+.anchorWithStickyNavbar_q6C8 {
   scroll-margin-top: calc(var(--ifm-navbar-height) + 0.5rem);
 }
 
-.anchorWithHideOnScrollNavbar_Xbib {
+.anchorWithHideOnScrollNavbar_a2fX {
   scroll-margin-top: 0.5rem;
 }
 
@@ -3799,7 +3817,7 @@ body {
   height: 100%;
 }
 
-.mainWrapper_YqpJ {
+.mainWrapper_kuPu {
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
@@ -3823,7 +3841,7 @@ body {
  * LICENSE file in the root directory of this source tree.
  */
 
-.cardContainer_EcD2 {
+.cardContainer_Wz1l {
   --ifm-link-color: var(--ifm-color-emphasis-800);
   --ifm-link-hover-color: var(--ifm-color-emphasis-700);
   --ifm-link-hover-decoration: none;
@@ -3834,20 +3852,20 @@ body {
   transition-property: border, box-shadow;
 }
 
-.cardContainer_EcD2:hover {
+.cardContainer_Wz1l:hover {
   border-color: var(--ifm-color-primary);
   box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
 }
 
-.cardContainer_EcD2 *:last-child {
+.cardContainer_Wz1l *:last-child {
   margin-bottom: 0;
 }
 
-.cardTitle_w2oB {
+.cardTitle_zBBO {
   font-size: 1.2rem;
 }
 
-.cardDescription_hRj9 {
+.cardDescription_btR6 {
   font-size: 0.8rem;
 }
 
@@ -3858,7 +3876,7 @@ body {
  * LICENSE file in the root directory of this source tree.
  */
 
-.iconEdit_FxhW {
+.iconEdit_h_pl {
   margin-right: 0.3em;
   vertical-align: sub;
 }
@@ -3874,23 +3892,23 @@ body {
   --docusaurus-tag-list-border: var(--ifm-color-emphasis-300);
 }
 
-.tag_wOrA {
+.tag_cNY5 {
   border: 1px solid var(--docusaurus-tag-list-border);
   transition: border var(--ifm-transition-fast);
 }
 
-.tag_wOrA:hover {
+.tag_cNY5:hover {
   --docusaurus-tag-list-border: var(--ifm-link-color);
   text-decoration: none;
 }
 
-.tagRegular_TLOP {
+.tagRegular_llQM {
   border-radius: var(--ifm-global-radius);
   padding: 0.2rem 0.5rem 0.3rem;
   font-size: 90%;
 }
 
-.tagWithCount_tkQE {
+.tagWithCount_ojmN {
   display: flex;
   align-items: center;
   position: relative;
@@ -3898,8 +3916,8 @@ body {
   border-left: 0;
 }
 
-.tagWithCount_tkQE::before,
-.tagWithCount_tkQE::after {
+.tagWithCount_ojmN::before,
+.tagWithCount_ojmN::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -3907,7 +3925,7 @@ body {
   transition: inherit;
 }
 
-.tagWithCount_tkQE::before {
+.tagWithCount_ojmN::before {
   right: 100%;
   transform: translate(50%, -50%) rotate(-45deg);
   width: 1.18rem;
@@ -3916,7 +3934,7 @@ body {
   border-bottom: 0;
 }
 
-.tagWithCount_tkQE::after {
+.tagWithCount_ojmN::after {
   left: 0;
   transform: translateY(-50%);
   width: 0.5rem;
@@ -3924,7 +3942,7 @@ body {
   border-radius: 50%;
 }
 
-.tagWithCount_tkQE span {
+.tagWithCount_ojmN span {
   background: var(--ifm-color-secondary);
   color: var(--ifm-color-black);
   font-size: 0.7rem;
@@ -3941,11 +3959,11 @@ body {
  * LICENSE file in the root directory of this source tree.
  */
 
-.tags_GyRV {
+.tags_OO_t {
   display: inline;
 }
 
-.tag_hmMz {
+.tag_tCOe {
   margin: 0 0.4rem 0.5rem 0;
   display: inline-block;
 }
@@ -3957,14 +3975,14 @@ body {
  * LICENSE file in the root directory of this source tree.
  */
 
-.lastUpdated_SSuZ {
+.lastUpdated_qKaH {
   margin-top: 0.2rem;
   font-style: italic;
   font-size: smaller;
 }
 
 @media (min-width: 997px) {
-  .lastUpdated_SSuZ {
+  .lastUpdated_qKaH {
     text-align: right;
   }
 }
@@ -3976,7 +3994,7 @@ body {
  * LICENSE file in the root directory of this source tree.
  */
 
-.tocCollapsibleButton_L6b4 {
+.tocCollapsibleButton_SHmK {
   font-size: inherit;
   display: flex;
   justify-content: space-between;
@@ -3985,7 +4003,7 @@ body {
   width: 100%;
 }
 
-.tocCollapsibleButton_L6b4::after {
+.tocCollapsibleButton_SHmK::after {
   content: '';
   background: var(--ifm-menu-link-sublist-icon) 50% 50% / 2rem 2rem no-repeat;
   filter: var(--ifm-menu-link-sublist-icon-filter);
@@ -3995,7 +4013,7 @@ body {
   transition: transform var(--ifm-transition-fast);
 }
 
-.tocCollapsibleButtonExpanded_wtHL::after {
+.tocCollapsibleButtonExpanded_VP6G::after {
   transform: none;
 }
 
@@ -4006,28 +4024,28 @@ body {
  * LICENSE file in the root directory of this source tree.
  */
 
-.tocCollapsible_Zyms {
+.tocCollapsible_tkfX {
   background-color: var(--ifm-menu-color-background-active);
   border-radius: var(--ifm-global-radius);
   margin: 1rem 0;
 }
 
-.tocCollapsibleContent_xo7V > ul {
+.tocCollapsibleContent_JOnO > ul {
   border-left: none;
   border-top: 1px solid var(--ifm-color-emphasis-300);
   padding: 0.2rem 0;
   font-size: 15px;
 }
 
-.tocCollapsibleContent_xo7V ul li {
+.tocCollapsibleContent_JOnO ul li {
   margin: 0.4rem 0.8rem;
 }
 
-.tocCollapsibleContent_xo7V a {
+.tocCollapsibleContent_JOnO a {
   display: block;
 }
 
-.tocCollapsibleExpanded_QQd1 {
+.tocCollapsibleExpanded_wF2t {
   transform: none;
 }
 
@@ -4040,13 +4058,13 @@ body {
 
 @media (min-width: 997px) {
   /* Prevent hydration FOUC, as the mobile TOC needs to be server-rendered */
-  .tocMobile_D6JY {
+  .tocMobile_AQCI {
     display: none;
   }
 }
 
 @media print {
-  .tocMobile_D6JY {
+  .tocMobile_AQCI {
     display: none;
   }
 }
@@ -4058,8 +4076,8 @@ body {
  * LICENSE file in the root directory of this source tree.
  */
 
-.searchQueryInput_fPYv,
-.searchVersionInput_zEPi {
+.searchQueryInput_sJIq,
+.searchVersionInput_TS56 {
   border-radius: var(--ifm-global-radius);
   border: 2px solid var(--ifm-toc-border-color);
   font: var(--ifm-font-size-base) var(--ifm-font-family-base);
@@ -4071,101 +4089,101 @@ body {
   transition: border var(--ifm-transition-fast) ease;
 }
 
-.searchQueryInput_fPYv:focus,
-.searchVersionInput_zEPi:focus {
+.searchQueryInput_sJIq:focus,
+.searchVersionInput_TS56:focus {
   border-color: var(--docsearch-primary-color);
   outline: none;
 }
 
-.searchQueryInput_fPYv::-moz-placeholder {
+.searchQueryInput_sJIq::-moz-placeholder {
   color: var(--docsearch-muted-color);
 }
 
-.searchQueryInput_fPYv::placeholder {
+.searchQueryInput_sJIq::placeholder {
   color: var(--docsearch-muted-color);
 }
 
-.searchResultsColumn_aQ0a {
+.searchResultsColumn_OJqj {
   font-size: 0.9rem;
   font-weight: bold;
 }
 
-.algoliaLogo_Fi3u {
+.algoliaLogo_BKpe {
   max-width: 150px;
 }
 
-.algoliaLogoPathFill_DpX8 {
+.algoliaLogoPathFill_Yztx {
   fill: var(--ifm-font-color-base);
 }
 
-.searchResultItem_l4Gd {
+.searchResultItem_ig9O {
   padding: 1rem 0;
   border-bottom: 1px solid var(--ifm-toc-border-color);
 }
 
-.searchResultItemHeading_fopV {
+.searchResultItemHeading_GSrt {
   font-weight: 400;
   margin-bottom: 0;
 }
 
-.searchResultItemPath_g_rU {
+.searchResultItemPath_ISQj {
   font-size: 0.8rem;
   color: var(--ifm-color-content-secondary);
   --ifm-breadcrumb-separator-size-multiplier: 1;
 }
 
-.searchResultItemSummary_rTxz {
+.searchResultItemSummary_WIqj {
   margin: 0.5rem 0 0;
   font-style: italic;
 }
 
 @media only screen and (max-width: 996px) {
-  .searchQueryColumn_zI7I {
+  .searchQueryColumn_SY15 {
     max-width: 60% !important;
   }
 
-  .searchVersionColumn_EDAT {
+  .searchVersionColumn_A4tW {
     max-width: 40% !important;
   }
 
-  .searchResultsColumn_aQ0a {
+  .searchResultsColumn_OJqj {
     max-width: 60% !important;
   }
 
-  .searchLogoColumn_ZAUQ {
+  .searchLogoColumn_Zj0c {
     max-width: 40% !important;
     padding-left: 0 !important;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .searchQueryColumn_zI7I {
+  .searchQueryColumn_SY15 {
     max-width: 100% !important;
   }
 
-  .searchVersionColumn_EDAT {
+  .searchVersionColumn_A4tW {
     max-width: 100% !important;
     padding-left: var(--ifm-spacing-horizontal) !important;
   }
 }
 
-.loadingSpinner_eEcv {
+.loadingSpinner_nXiX {
   width: 3rem;
   height: 3rem;
   border: 0.4em solid #eee;
   border-top-color: var(--ifm-color-primary);
   border-radius: 50%;
-  animation: loading-spin_B5je 1s linear infinite;
+  animation: loading-spin_eHCq 1s linear infinite;
   margin: 0 auto;
 }
 
-@keyframes loading-spin_B5je {
+@keyframes loading-spin_eHCq {
   100% {
     transform: rotate(360deg);
   }
 }
 
-.loader_bdbE {
+.loader_uhZa {
   margin-top: 2rem;
 }
 
@@ -4661,11 +4679,11 @@ p {
  * LICENSE file in the root directory of this source tree.
  */
 
-.tabList_MBhr {
+.tabList_aqt9 {
   margin-bottom: var(--ifm-leading);
 }
 
-.tabItem_Ggih {
+.tabItem_DLaV {
   margin-top: 0 !important;
 }
 
@@ -4676,7 +4694,7 @@ p {
  * LICENSE file in the root directory of this source tree.
  */
 
-.tabItem_H96A > *:last-child {
+.tabItem_aX0W > *:last-child {
   margin-bottom: 0;
 }
 
@@ -4687,7 +4705,7 @@ p {
  * LICENSE file in the root directory of this source tree.
  */
 
-.backToTopButton_Ti9A {
+.backToTopButton_tsqY {
   position: fixed;
   right: 1.3rem;
   bottom: 1.3rem;
@@ -4704,7 +4722,7 @@ p {
   visibility: hidden;
 }
 
-.backToTopButton_Ti9A::after {
+.backToTopButton_tsqY::after {
   content: ' ';
   display: inline-block;
   -webkit-mask: var(--ifm-menu-link-sublist-icon) 50% / 2rem 2rem no-repeat;
@@ -4715,12 +4733,12 @@ p {
 }
 
 @media (hover: hover) {
-  .backToTopButton_Ti9A:hover {
+  .backToTopButton_tsqY:hover {
     background-color: var(--ifm-color-emphasis-300);
   }
 }
 
-.backToTopButtonShow_X0ZL {
+.backToTopButtonShow_P0uA {
   opacity: 1;
   transform: scale(1);
   visibility: visible;
@@ -4744,7 +4762,7 @@ p {
 }
 
 @media (min-width: 997px) {
-  .collapseSidebarButton_KNyj {
+  .collapseSidebarButton_LHth {
     display: block !important;
     background-color: var(--docusaurus-collapse-button-bg);
     height: 40px;
@@ -4754,22 +4772,22 @@ p {
     border: 1px solid var(--ifm-toc-border-color);
   }
 
-  .collapseSidebarButtonIcon_sev8 {
+  .collapseSidebarButtonIcon_lqby {
     transform: rotate(180deg);
     margin-top: 4px;
   }
 
-  [dir='rtl'] .collapseSidebarButtonIcon_sev8 {
+  [dir='rtl'] .collapseSidebarButtonIcon_lqby {
     transform: rotate(0);
   }
 
-  .collapseSidebarButton_KNyj:hover,
-  .collapseSidebarButton_KNyj:focus {
+  .collapseSidebarButton_LHth:hover,
+  .collapseSidebarButton_LHth:focus {
     background-color: var(--docusaurus-collapse-button-bg-hover);
   }
 }
 
-.collapseSidebarButton_KNyj {
+.collapseSidebarButton_LHth {
   display: none;
   margin: 0;
 }
@@ -4781,7 +4799,7 @@ p {
  * LICENSE file in the root directory of this source tree.
  */
 
-.menuExternalLink_u7kW {
+.menuExternalLink_WPxA {
   align-items: center;
 }
 
@@ -4793,7 +4811,7 @@ p {
  */
 
 @media (min-width: 997px) {
-  .menuHtmlItem_Mhmn {
+  .menuHtmlItem_ibKq {
     padding: var(--ifm-menu-link-padding-vertical)
       var(--ifm-menu-link-padding-horizontal);
   }
@@ -4807,18 +4825,18 @@ p {
  */
 
 @media (min-width: 997px) {
-  .menu_xvGK {
+  .menu_xb8X {
     flex-grow: 1;
     padding: 0.5rem;
   }
   @supports (scrollbar-gutter: stable) {
-    .menu_xvGK {
+    .menu_xb8X {
       padding: 0.5rem 0 0.5rem 0.5rem;
       scrollbar-gutter: stable;
     }
   }
 
-  .menuWithAnnouncementBar_Nzbr {
+  .menuWithAnnouncementBar_rppl {
     margin-bottom: var(--docusaurus-announcement-bar-height);
   }
 }
@@ -4831,7 +4849,7 @@ p {
  */
 
 @media (min-width: 997px) {
-  .sidebar_tLxp {
+  .sidebar_GXUc {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -4839,16 +4857,16 @@ p {
     width: var(--doc-sidebar-width);
   }
 
-  .sidebarWithHideableNavbar_sOJ7 {
+  .sidebarWithHideableNavbar_uMoi {
     padding-top: 0;
   }
 
-  .sidebarHidden_URo8 {
+  .sidebarHidden_oce7 {
     opacity: 0;
     visibility: hidden;
   }
 
-  .sidebarLogo_HVWO {
+  .sidebarLogo_Yw0h {
     display: flex !important;
     align-items: center;
     margin: 0 var(--ifm-navbar-padding-horizontal);
@@ -4858,13 +4876,13 @@ p {
     text-decoration: none !important;
   }
 
-  .sidebarLogo_HVWO img {
+  .sidebarLogo_Yw0h img {
     margin-right: 0.5rem;
     height: 2rem;
   }
 }
 
-.sidebarLogo_HVWO {
+.sidebarLogo_Yw0h {
   display: none;
 }
 
@@ -4876,7 +4894,7 @@ p {
  */
 
 @media (min-width: 997px) {
-  .expandButton_Rr8E {
+  .expandButton_q5ks {
     position: absolute;
     top: 0;
     right: 0;
@@ -4889,16 +4907,16 @@ p {
     background-color: var(--docusaurus-collapse-button-bg);
   }
 
-  .expandButton_Rr8E:hover,
-  .expandButton_Rr8E:focus {
+  .expandButton_q5ks:hover,
+  .expandButton_q5ks:focus {
     background-color: var(--docusaurus-collapse-button-bg-hover);
   }
 
-  .expandButtonIcon_BvxZ {
+  .expandButtonIcon_fxE2 {
     transform: rotate(0);
   }
 
-  [dir='rtl'] .expandButtonIcon_BvxZ {
+  [dir='rtl'] .expandButtonIcon_fxE2 {
     transform: rotate(180deg);
   }
 }
@@ -4915,12 +4933,12 @@ p {
   --doc-sidebar-hidden-width: 30px;
 }
 
-.docSidebarContainer_aj1P {
+.docSidebarContainer_bmIN {
   display: none;
 }
 
 @media (min-width: 997px) {
-  .docSidebarContainer_aj1P {
+  .docSidebarContainer_bmIN {
     display: block;
     width: var(--doc-sidebar-width);
     margin-top: calc(-1 * var(--ifm-navbar-height));
@@ -4931,12 +4949,12 @@ p {
             clip-path: inset(0);
   }
 
-  .docSidebarContainerHidden_jgmk {
+  .docSidebarContainerHidden_LYHX {
     width: var(--doc-sidebar-hidden-width);
     cursor: pointer;
   }
 
-  .sidebarViewport_hnKI {
+  .sidebarViewport_DNeU {
     top: 0;
     position: sticky;
     height: 100%;
@@ -4951,22 +4969,22 @@ p {
  * LICENSE file in the root directory of this source tree.
  */
 
-.docMainContainer_hU2W {
+.docMainContainer_jksM {
   display: flex;
   width: 100%;
 }
 
 @media (min-width: 997px) {
-  .docMainContainer_hU2W {
+  .docMainContainer_jksM {
     flex-grow: 1;
     max-width: calc(100% - var(--doc-sidebar-width));
   }
 
-  .docMainContainerEnhanced_qhpd {
+  .docMainContainerEnhanced_Ruaj {
     max-width: calc(100% - var(--doc-sidebar-hidden-width));
   }
 
-  .docItemWrapperEnhanced_LA1K {
+  .docItemWrapperEnhanced_ntq6 {
     max-width: calc(
       var(--ifm-container-width) + var(--doc-sidebar-width)
     ) !important;
@@ -4980,12 +4998,12 @@ p {
  * LICENSE file in the root directory of this source tree.
  */
 
-.docRoot_ZpB7 {
+.docRoot_IXYI {
   display: flex;
   width: 100%;
 }
 
-.docsWrapper_nV9t {
+.docsWrapper_e5A2 {
   display: flex;
   flex: 1 0 auto;
 }
@@ -5021,7 +5039,7 @@ p {
  * LICENSE file in the root directory of this source tree.
  */
 
-.codeBlockContainer_LWo4 {
+.codeBlockContainer_fIe4 {
   background: var(--prism-background-color);
   color: var(--prism-color);
   margin-bottom: var(--ifm-leading);
@@ -5036,14 +5054,14 @@ p {
  * LICENSE file in the root directory of this source tree.
  */
 
-.codeBlockContent_eEbz {
+.codeBlockContent_LRxH {
   position: relative;
   /* rtl:ignore */
   direction: ltr;
   border-radius: inherit;
 }
 
-.codeBlockTitle_ufGJ {
+.codeBlockTitle_B5s6 {
   border-bottom: 1px solid var(--ifm-color-emphasis-300);
   font-size: var(--ifm-code-font-size);
   font-weight: 500;
@@ -5052,22 +5070,22 @@ p {
   border-top-right-radius: inherit;
 }
 
-.codeBlock_WhFB {
+.codeBlock_GwtC {
   --ifm-pre-background: var(--prism-background-color);
   margin: 0;
   padding: 0;
 }
 
-.codeBlockTitle_ufGJ + .codeBlockContent_eEbz .codeBlock_WhFB {
+.codeBlockTitle_B5s6 + .codeBlockContent_LRxH .codeBlock_GwtC {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 
-.codeBlockStandalone_l8GL {
+.codeBlockStandalone_kjgv {
   padding: 0;
 }
 
-.codeBlockLines_Zyon {
+.codeBlockLines_RQpp {
   font: inherit;
   /* rtl:ignore */
   float: left;
@@ -5075,18 +5093,18 @@ p {
   padding: var(--ifm-pre-padding);
 }
 
-.codeBlockLinesWithNumbering_NKE5 {
+.codeBlockLinesWithNumbering_nnqq {
   display: table;
   padding: var(--ifm-pre-padding) 0;
 }
 
 @media print {
-  .codeBlockLines_Zyon {
+  .codeBlockLines_RQpp {
     white-space: pre-wrap;
   }
 }
 
-.buttonGroup__QTe {
+.buttonGroup_xBIb {
   display: flex;
   -moz-column-gap: 0.2rem;
        column-gap: 0.2rem;
@@ -5096,7 +5114,7 @@ p {
   top: calc(var(--ifm-pre-padding) / 2);
 }
 
-.buttonGroup__QTe button {
+.buttonGroup_xBIb button {
   display: flex;
   align-items: center;
   background: var(--prism-background-color);
@@ -5109,12 +5127,12 @@ p {
   opacity: 0;
 }
 
-.buttonGroup__QTe button:focus-visible,
-.buttonGroup__QTe button:hover {
+.buttonGroup_xBIb button:focus-visible,
+.buttonGroup_xBIb button:hover {
   opacity: 1 !important;
 }
 
-.theme-code-block:hover .buttonGroup__QTe button {
+.theme-code-block:hover .buttonGroup_xBIb button {
   opacity: 0.4;
 }
 
@@ -5142,12 +5160,12 @@ the background in custom CSS file due bug https://github.com/facebook/docusaurus
   padding: 0 var(--ifm-pre-padding);
 }
 
-.codeLine_ew1j {
+.codeLine_fDRx {
   display: table-row;
   counter-increment: line-count;
 }
 
-.codeLineNumber_RXX_ {
+.codeLineNumber_xhRs {
   display: table-cell;
   text-align: right;
   width: 1%;
@@ -5158,16 +5176,16 @@ the background in custom CSS file due bug https://github.com/facebook/docusaurus
   overflow-wrap: normal;
 }
 
-.codeLineNumber_RXX_::before {
+.codeLineNumber_xhRs::before {
   content: counter(line-count);
   opacity: 0.4;
 }
 
-.theme-code-block-highlighted-line .codeLineNumber_RXX_::before {
+.theme-code-block-highlighted-line .codeLineNumber_xhRs::before {
   opacity: 0.8;
 }
 
-.codeLineContent_p_wU {
+.codeLineContent_sINx {
   padding-right: var(--ifm-pre-padding);
 }
 
@@ -5178,18 +5196,18 @@ the background in custom CSS file due bug https://github.com/facebook/docusaurus
  * LICENSE file in the root directory of this source tree.
  */
 
-.theme-code-block:hover .copyButtonCopied_Q7DD {
+.theme-code-block:hover .copyButtonCopied_sjiI {
   opacity: 1 !important;
 }
 
-.copyButtonIcons_pZK1 {
+.copyButtonIcons_wPwr {
   position: relative;
   width: 1.125rem;
   height: 1.125rem;
 }
 
-.copyButtonIcon_zIJC,
-.copyButtonSuccessIcon_lXX0 {
+.copyButtonIcon_odsE,
+.copyButtonSuccessIcon_WQvr {
   position: absolute;
   top: 0;
   left: 0;
@@ -5200,7 +5218,7 @@ the background in custom CSS file due bug https://github.com/facebook/docusaurus
   transition: all var(--ifm-transition-fast) ease;
 }
 
-.copyButtonSuccessIcon_lXX0 {
+.copyButtonSuccessIcon_WQvr {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.33);
@@ -5208,12 +5226,12 @@ the background in custom CSS file due bug https://github.com/facebook/docusaurus
   color: #00d600;
 }
 
-.copyButtonCopied_Q7DD .copyButtonIcon_zIJC {
+.copyButtonCopied_sjiI .copyButtonIcon_odsE {
   transform: scale(0.33);
   opacity: 0;
 }
 
-.copyButtonCopied_Q7DD .copyButtonSuccessIcon_lXX0 {
+.copyButtonCopied_sjiI .copyButtonSuccessIcon_WQvr {
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
   transition-delay: 0.075s;
@@ -5226,12 +5244,12 @@ the background in custom CSS file due bug https://github.com/facebook/docusaurus
  * LICENSE file in the root directory of this source tree.
  */
 
-.wordWrapButtonIcon_Sr72 {
+.wordWrapButtonIcon_oAXl {
   width: 1.2rem;
   height: 1.2rem;
 }
 
-.wordWrapButtonEnabled_V4uz .wordWrapButtonIcon_Sr72 {
+.wordWrapButtonEnabled_CB1p .wordWrapButtonIcon_oAXl {
   color: var(--ifm-color-primary);
 }
 
@@ -5245,13 +5263,13 @@ the background in custom CSS file due bug https://github.com/facebook/docusaurus
 /*
 CSS variables, meant to be overridden by final theme
  */
-.details_Bsrg {
+.details__iHL {
   --docusaurus-details-summary-arrow-size: 0.38rem;
   --docusaurus-details-transition: transform 200ms ease;
   --docusaurus-details-decoration-color: grey;
 }
 
-.details_Bsrg > summary {
+.details__iHL > summary {
   position: relative;
   cursor: pointer;
   list-style: none;
@@ -5259,11 +5277,11 @@ CSS variables, meant to be overridden by final theme
 }
 
 /* TODO: deprecation, need to remove this after Safari will support `::marker` */
-.details_Bsrg > summary::-webkit-details-marker {
+.details__iHL > summary::-webkit-details-marker {
   display: none;
 }
 
-.details_Bsrg > summary::before {
+.details__iHL > summary::before {
   position: absolute;
   top: 0.45rem;
   left: 0;
@@ -5282,23 +5300,23 @@ CSS variables, meant to be overridden by final theme
 }
 
 /* When JS disabled/failed to load: we use the open property for arrow animation: */
-.details_Bsrg[open]:not(.isBrowser_ueNB) > summary::before,
+.details__iHL[open]:not(.isBrowser_aBBv) > summary::before,
 
-.details_Bsrg[data-collapsed='false'].isBrowser_ueNB > summary::before {
+.details__iHL[data-collapsed='false'].isBrowser_aBBv > summary::before {
   transform: rotate(90deg);
 }
 
-.collapsibleContent__lvC {
+.collapsibleContent_L2qS {
   margin-top: 1rem;
   border-top: 1px solid var(--docusaurus-details-decoration-color);
   padding-top: 1rem;
 }
 
-.collapsibleContent__lvC p:last-child {
+.collapsibleContent_L2qS p:last-child {
   margin-bottom: 0;
 }
 
-.details_Bsrg > summary > p:last-child {
+.details__iHL > summary > p:last-child {
   margin-bottom: 0;
 }
 
@@ -5309,7 +5327,7 @@ CSS variables, meant to be overridden by final theme
  * LICENSE file in the root directory of this source tree.
  */
 
-.details_YdWH {
+.details_JQnk {
   --docusaurus-details-decoration-color: var(--ifm-alert-border-color);
   --docusaurus-details-transition: transform var(--ifm-transition-fast) ease;
   margin: 0 0 var(--ifm-spacing-vertical);
@@ -5323,11 +5341,11 @@ CSS variables, meant to be overridden by final theme
  * LICENSE file in the root directory of this source tree.
  */
 
-.containsTaskList_TG2A {
+.containsTaskList_TKeb {
   list-style: none;
 }
 
-:not(.containsTaskList_TG2A > li) > .containsTaskList_TG2A {
+:not(.containsTaskList_TKeb > li) > .containsTaskList_TKeb {
   padding-left: 0;
 }
 
@@ -5338,7 +5356,7 @@ CSS variables, meant to be overridden by final theme
  * LICENSE file in the root directory of this source tree.
  */
 
-.img_Od9E {
+.img_I6pw {
   height: auto;
 }
 
@@ -5349,7 +5367,7 @@ CSS variables, meant to be overridden by final theme
  * LICENSE file in the root directory of this source tree.
  */
 
-.tableOfContents_a6Y4 {
+.tableOfContents_taDH {
   max-height: calc(100vh - (var(--ifm-navbar-height) + 2rem));
   overflow-y: auto;
   position: sticky;
@@ -5357,11 +5375,11 @@ CSS variables, meant to be overridden by final theme
 }
 
 @media (max-width: 996px) {
-  .tableOfContents_a6Y4 {
+  .tableOfContents_taDH {
     display: none;
   }
 
-  .docItemContainer_Qytf {
+  .docItemContainer_jQgq {
     padding: 0 0.3rem;
   }
 }
@@ -5373,39 +5391,39 @@ CSS variables, meant to be overridden by final theme
  * LICENSE file in the root directory of this source tree.
  */
 
-.admonition_AtNm {
+.admonition_LKMt {
   margin-bottom: 1em;
 }
 
-.admonitionHeading_L7JZ {
+.admonitionHeading_D0IR {
   font: var(--ifm-heading-font-weight) var(--ifm-h5-font-size) /
     var(--ifm-heading-line-height) var(--ifm-heading-font-family);
   text-transform: uppercase;
 }
 
 /* Heading alone without content (does not handle fragment content) */
-.admonitionHeading_L7JZ:not(:last-child) {
+.admonitionHeading_D0IR:not(:last-child) {
   margin-bottom: 0.3rem;
 }
 
-.admonitionHeading_L7JZ code {
+.admonitionHeading_D0IR code {
   text-transform: none;
 }
 
-.admonitionIcon_TQZM {
+.admonitionIcon_T1eM {
   display: inline-block;
   vertical-align: middle;
   margin-right: 0.4em;
 }
 
-.admonitionIcon_TQZM svg {
+.admonitionIcon_T1eM svg {
   display: inline-block;
   height: 1.6em;
   width: 1.6em;
   fill: var(--ifm-alert-foreground-color);
 }
 
-.admonitionContent_pcFL > :last-child {
+.admonitionContent_Usi_ > :last-child {
   margin-bottom: 0;
 }
 
@@ -5416,7 +5434,7 @@ CSS variables, meant to be overridden by final theme
  * LICENSE file in the root directory of this source tree.
  */
 
-.breadcrumbHomeIcon_pCDi {
+.breadcrumbHomeIcon_gaz2 {
   position: relative;
   top: 1px;
   vertical-align: top;
@@ -5431,7 +5449,7 @@ CSS variables, meant to be overridden by final theme
  * LICENSE file in the root directory of this source tree.
  */
 
-.breadcrumbsContainer_IGRV {
+.breadcrumbsContainer_iDW2 {
   --ifm-breadcrumb-size-multiplier: 0.8;
   margin-bottom: 0.8rem;
 }
@@ -5444,22 +5462,22 @@ CSS variables, meant to be overridden by final theme
  */
 
 @media (min-width: 997px) {
-  .generatedIndexPage_v29f {
+  .generatedIndexPage_es_8 {
     max-width: 75% !important;
   }
 
-  .list_2wVn article:nth-last-child(-n + 2) {
+  .list_bKTO article:nth-last-child(-n + 2) {
     margin-bottom: 0 !important;
   }
 }
 
 /* Duplicated from .markdown h1 */
-.title_wuKs {
+.title_IHL_ {
   --ifm-h1-font-size: 3rem;
   margin-bottom: calc(1.25 * var(--ifm-leading));
 }
 
-.list_2wVn article:last-child {
+.list_bKTO article:last-child {
   margin-bottom: 0 !important;
 }
 
@@ -5470,13 +5488,13 @@ CSS variables, meant to be overridden by final theme
  * LICENSE file in the root directory of this source tree.
  */
 
-.docItemContainer_xujE header + *,
-.docItemContainer_xujE article > *:first-child {
+.docItemContainer_v8Ou header + *,
+.docItemContainer_v8Ou article > *:first-child {
   margin-top: 0;
 }
 
 @media (min-width: 997px) {
-  .docItemCol_RPSs {
+  .docItemCol_goxo {
     max-width: 75% !important;
   }
 }
@@ -5488,7 +5506,7 @@ CSS variables, meant to be overridden by final theme
  * LICENSE file in the root directory of this source tree.
  */
 
-.mdxPageWrapper_KnUW {
+.mdxPageWrapper_eDkB {
   justify-content: center;
 }
 

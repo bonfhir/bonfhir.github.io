@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[792],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[671],{
 
-/***/ 9596:
+/***/ 5764:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14,24 +14,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7458);
-/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(710);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7127);
 
 
 const frontMatter = {
 	sidebar_position: 1
 };
-const contentTitle = 'Manage Docs Versions';
+const contentTitle = 'Tutorial Intro';
 const metadata = {
-  "id": "tutorial-extras/manage-docs-versions",
-  "title": "Manage Docs Versions",
-  "description": "Docusaurus can manage multiple versions of your docs.",
-  "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
-  "sourceDirName": "tutorial-extras",
-  "slug": "/tutorial-extras/manage-docs-versions",
-  "permalink": "/docs/tutorial-extras/manage-docs-versions",
+  "id": "intro",
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/tutorial-extras/manage-docs-versions.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/intro.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -39,13 +39,9 @@ const metadata = {
     "sidebar_position": 1
   },
   "sidebar": "getStartedSidebar",
-  "previous": {
-    "title": "Tutorial - Extras",
-    "permalink": "/docs/category/tutorial---extras"
-  },
   "next": {
-    "title": "Translate your site",
-    "permalink": "/docs/tutorial-extras/translate-your-site"
+    "title": "Tutorial - Basics",
+    "permalink": "/docs/category/tutorial---basics"
   }
 };
 const assets = {
@@ -55,24 +51,29 @@ const assets = {
 
 
 const toc = [{
-  "value": "Create a docs version",
-  "id": "create-a-docs-version",
+  "value": "Getting Started",
+  "id": "getting-started",
   "level": 2
 }, {
-  "value": "Add a Version Dropdown",
-  "id": "add-a-version-dropdown",
+  "value": "What you&#39;ll need",
+  "id": "what-youll-need",
+  "level": 3
+}, {
+  "value": "Generate a new site",
+  "id": "generate-a-new-site",
   "level": 2
 }, {
-  "value": "Update an existing version",
-  "id": "update-an-existing-version",
+  "value": "Start your site",
+  "id": "start-your-site",
   "level": 2
 }];
 function _createMdxContent(props) {
   const _components = {
+    a: "a",
     code: "code",
     h1: "h1",
     h2: "h2",
-    img: "img",
+    h3: "h3",
     li: "li",
     p: "p",
     pre: "pre",
@@ -83,89 +84,87 @@ function _createMdxContent(props) {
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h1, {
-      id: "manage-docs-versions",
-      children: "Manage Docs Versions"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Docusaurus can manage multiple versions of your docs."
+      id: "tutorial-intro",
+      children: "Tutorial Intro"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Let's discover ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+        children: "Docusaurus in less than 5 minutes"
+      }), "."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "create-a-docs-version",
-      children: "Create a docs version"
+      id: "getting-started",
+      children: "Getting Started"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Get started by ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+        children: "creating a new site"
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Or ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+        children: "try Docusaurus immediately"
+      }), " with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://docusaurus.new",
+          children: "docusaurus.new"
+        })
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "what-youll-need",
+      children: "What you'll need"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://nodejs.org/en/download/",
+          children: "Node.js"
+        }), " version 16.14 or above:", "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+          children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+            children: "When installing Node.js, you are recommended to check all checkboxes related to dependencies."
+          }), "\n"]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "generate-a-new-site",
+      children: "Generate a new site"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Generate a new Docusaurus site using the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+        children: "classic template"
+      }), "."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Release a version 1.0 of your project:"
+      children: "The classic template will automatically be added to your project after you run the command:"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-bash",
-        children: "npm run docusaurus docs:version 1.0\n"
+        children: "npm init docusaurus@latest my-website classic\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "The command also installs all necessary dependencies you need to run Docusaurus."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "start-your-site",
+      children: "Start your site"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "Run the development server:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-bash",
+        children: "cd my-website\nnpm run start\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "docs"
-      }), " folder is copied into ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "versioned_docs/version-1.0"
-      }), " and ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "versions.json"
-      }), " is created."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Your docs now have 2 versions:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "1.0"
-        }), " at ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "http://localhost:3000/docs/"
-        }), " for the version 1.0 docs"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "current"
-        }), " at ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "http://localhost:3000/docs/next/"
-        }), " for the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-          children: "upcoming, unreleased docs"
-        })]
-      }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "add-a-version-dropdown",
-      children: "Add a Version Dropdown"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "To navigate seamlessly across versions, add a version dropdown."
+        children: "cd"
+      }), " command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Modify the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "docusaurus.config.js"
-      }), " file:"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-js",
-        metastring: "title=\"docusaurus.config.js\"",
-        children: "module.exports = {\n  themeConfig: {\n    navbar: {\n      items: [\n        // highlight-start\n        {\n          type: 'docsVersionDropdown',\n        },\n        // highlight-end\n      ],\n    },\n  },\n};\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "The docs version dropdown appears in your navbar:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-        alt: "Docs Version Dropdown",
-        src: (__webpack_require__(9253)/* ["default"] */ .Z) + "",
-        width: "370",
-        height: "302"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "update-an-existing-version",
-      children: "Update an existing version"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "It is possible to edit versioned docs in their respective folder:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "versioned_docs/version-1.0/hello.md"
-        }), " updates ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "http://localhost:3000/docs/hello"
-        })]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "docs/hello.md"
-        }), " updates ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "http://localhost:3000/docs/next/hello"
-        })]
-      }), "\n"]
+      children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "npm run start"
+      }), " command builds your website locally and serves it through a development server, ready for you to view at ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "http://localhost:3000/",
+        children: "http://localhost:3000/"
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Open ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "docs/intro.md"
+      }), " (this page) and edit some lines: the site ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+        children: "reloads automatically"
+      }), " and displays your changes."]
     })]
   });
 }
@@ -186,17 +185,7 @@ function MDXContent(props = {}) {
 
 /***/ }),
 
-/***/ 9253:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/docsVersionDropdown-35e13cbe46c9923327f30a76a90bff3b.png");
-
-/***/ }),
-
-/***/ 710:
+/***/ 7127:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
