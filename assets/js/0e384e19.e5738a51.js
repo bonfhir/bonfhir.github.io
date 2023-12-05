@@ -20,11 +20,11 @@ __webpack_require__.r(__webpack_exports__);
 const frontMatter = {
 	sidebar_position: 1
 };
-const contentTitle = 'Tutorial Intro';
+const contentTitle = 'Welcome to Bonfhir';
 const metadata = {
   "id": "intro",
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "Welcome to Bonfhir",
+  "description": "BonFHIR is a collection of projects and libraries to help implement FHIR-based products and solutions. Focus on building features by taking advantage of the comprehensive BonFHIR tooling that makes working with FHIR easier and faster:",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -40,8 +40,8 @@ const metadata = {
   },
   "sidebar": "getStartedSidebar",
   "next": {
-    "title": "Tutorial - Basics",
-    "permalink": "/docs/category/tutorial---basics"
+    "title": "Build a FHIR app with React",
+    "permalink": "/docs/category/build-a-fhir-app-with-react"
   }
 };
 const assets = {
@@ -51,21 +51,17 @@ const assets = {
 
 
 const toc = [{
-  "value": "Getting Started",
-  "id": "getting-started",
+  "value": "Get started",
+  "id": "get-started",
   "level": 2
 }, {
   "value": "What you&#39;ll need",
   "id": "what-youll-need",
   "level": 3
 }, {
-  "value": "Generate a new site",
-  "id": "generate-a-new-site",
-  "level": 2
-}, {
-  "value": "Start your site",
-  "id": "start-your-site",
-  "level": 2
+  "value": "Where to start",
+  "id": "where-to-start",
+  "level": 3
 }];
 function _createMdxContent(props) {
   const _components = {
@@ -84,87 +80,57 @@ function _createMdxContent(props) {
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h1, {
-      id: "tutorial-intro",
-      children: "Tutorial Intro"
+      id: "welcome-to-bonfhir",
+      children: "Welcome to Bonfhir"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Let's discover ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-        children: "Docusaurus in less than 5 minutes"
-      }), "."]
+      children: ["BonFHIR is a collection of projects and libraries to help implement ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/",
+        children: "FHIR"
+      }), "-based products and solutions. Focus on building features by taking advantage of the comprehensive BonFHIR tooling that makes working with FHIR easier and faster:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "React UI components and state management built for FHIR resources and common healthcare use cases"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "Type definitions for R4b and R5, including search builder parameters"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "Localized formatters to present FHIR data in any language with support for names, dates, addresses and more"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "A FHIR client that supports FHIR subscriptions, bundle navigation, dynamic proxies, batch execution, GraphQL and more!"
+      }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "getting-started",
-      children: "Getting Started"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Get started by ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-        children: "creating a new site"
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Or ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-        children: "try Docusaurus immediately"
-      }), " with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "https://docusaurus.new",
-          children: "docusaurus.new"
-        })
-      }), "."]
+      id: "get-started",
+      children: "Get started"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
       id: "what-youll-need",
       children: "What you'll need"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
           href: "https://nodejs.org/en/download/",
           children: "Node.js"
-        }), " version 16.14 or above:", "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-          children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-            children: "When installing Node.js, you are recommended to check all checkboxes related to dependencies."
-          }), "\n"]
-        }), "\n"]
+        })
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://docs.docker.com/desktop/",
+          children: "Docker"
+        })
       }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "generate-a-new-site",
-      children: "Generate a new site"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "where-to-start",
+      children: "Where to start"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Generate a new Docusaurus site using the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-        children: "classic template"
+      children: ["Start building your first FHIR client in 5 minutes by following this guide: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/docs/category/build-a-fhir-app-with-react",
+          children: "Build a FHIR app with React"
+        })
       }), "."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "The classic template will automatically be added to your project after you run the command:"
+      children: "Or select a template and start on your own:"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-bash",
-        children: "npm init docusaurus@latest my-website classic\n"
+        children: "npm create bonfhir\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "The command also installs all necessary dependencies you need to run Docusaurus."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "start-your-site",
-      children: "Start your site"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Run the development server:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-bash",
-        children: "cd my-website\nnpm run start\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "cd"
-      }), " command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "npm run start"
-      }), " command builds your website locally and serves it through a development server, ready for you to view at ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "http://localhost:3000/",
-        children: "http://localhost:3000/"
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Open ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "docs/intro.md"
-      }), " (this page) and edit some lines: the site ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-        children: "reloads automatically"
-      }), " and displays your changes."]
     })]
   });
 }
