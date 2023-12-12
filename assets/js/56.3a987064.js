@@ -1,11 +1,11 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[249],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[56],{
 
-/***/ 8249:
+/***/ 1056:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
+
 
 
 /***/ })
