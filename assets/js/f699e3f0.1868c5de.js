@@ -46,6 +46,10 @@ const metadata = {
   "previous": {
     "title": "Display FHIR data",
     "permalink": "/docs/build-a-fhir-app-with-react/display-fhir-data"
+  },
+  "next": {
+    "title": "Contributing to bonFHIR",
+    "permalink": "/docs/contributing"
   }
 };
 const assets = {
