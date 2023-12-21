@@ -3841,41 +3841,6 @@ body {
  * LICENSE file in the root directory of this source tree.
  */
 
-.cardContainer_USZD {
-  --ifm-link-color: var(--ifm-color-emphasis-800);
-  --ifm-link-hover-color: var(--ifm-color-emphasis-700);
-  --ifm-link-hover-decoration: none;
-
-  box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 15%);
-  border: 1px solid var(--ifm-color-emphasis-200);
-  transition: all var(--ifm-transition-fast) ease;
-  transition-property: border, box-shadow;
-}
-
-.cardContainer_USZD:hover {
-  border-color: var(--ifm-color-primary);
-  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
-}
-
-.cardContainer_USZD *:last-child {
-  margin-bottom: 0;
-}
-
-.cardTitle_yi2M {
-  font-size: 1.2rem;
-}
-
-.cardDescription_M6eu {
-  font-size: 0.8rem;
-}
-
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 .iconEdit_y2ol {
   margin-right: 0.3em;
   vertical-align: sub;
@@ -4717,6 +4682,41 @@ p {
  * LICENSE file in the root directory of this source tree.
  */
 
+.cardContainer_USZD {
+  --ifm-link-color: var(--ifm-color-emphasis-800);
+  --ifm-link-hover-color: var(--ifm-color-emphasis-700);
+  --ifm-link-hover-decoration: none;
+
+  box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 15%);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all var(--ifm-transition-fast) ease;
+  transition-property: border, box-shadow;
+}
+
+.cardContainer_USZD:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+}
+
+.cardContainer_USZD *:last-child {
+  margin-bottom: 0;
+}
+
+.cardTitle_yi2M {
+  font-size: 1.2rem;
+}
+
+.cardDescription_M6eu {
+  font-size: 0.8rem;
+}
+
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
 .backToTopButton_CJdW {
   position: fixed;
   right: 1.3rem;
@@ -5464,33 +5464,6 @@ CSS variables, meant to be overridden by final theme
 .breadcrumbsContainer_x9c8 {
   --ifm-breadcrumb-size-multiplier: 0.8;
   margin-bottom: 0.8rem;
-}
-
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-@media (min-width: 997px) {
-  .generatedIndexPage_U3qv {
-    max-width: 75% !important;
-  }
-
-  .list_hVTe article:nth-last-child(-n + 2) {
-    margin-bottom: 0 !important;
-  }
-}
-
-/* Duplicated from .markdown h1 */
-.title_NUST {
-  --ifm-h1-font-size: 3rem;
-  margin-bottom: calc(1.25 * var(--ifm-leading));
-}
-
-.list_hVTe article:last-child {
-  margin-bottom: 0 !important;
 }
 
 /**

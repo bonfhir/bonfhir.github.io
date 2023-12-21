@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[541],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[305],{
 
-/***/ 1846:
+/***/ 7646:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,38 +18,30 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 1,
-	title: 'Start from the Vite template',
-	description: 'Clone and create an app from a template'
+	sidebar_position: 0
 };
-const contentTitle = 'Create from the Vite template';
+const contentTitle = 'Welcome to Bonfhir';
 const metadata = {
-  "id": "build-a-fhir-app-with-react/start-from-vite-template",
-  "title": "Start from the Vite template",
-  "description": "Clone and create an app from a template",
-  "source": "@site/docs/build-a-fhir-app-with-react/start-from-vite-template.md",
-  "sourceDirName": "build-a-fhir-app-with-react",
-  "slug": "/build-a-fhir-app-with-react/start-from-vite-template",
-  "permalink": "/docs/build-a-fhir-app-with-react/start-from-vite-template",
+  "id": "welcome",
+  "title": "Welcome to Bonfhir",
+  "description": "BonFHIR is a collection of projects and libraries to help implement FHIR-based products and solutions. Focus on building features by taking advantage of the comprehensive BonFHIR tooling that makes working with FHIR easier and faster:",
+  "source": "@site/docs/welcome.md",
+  "sourceDirName": ".",
+  "slug": "/welcome",
+  "permalink": "/docs/welcome",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-app-with-react/start-from-vite-template.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/welcome.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 0,
   "frontMatter": {
-    "sidebar_position": 1,
-    "title": "Start from the Vite template",
-    "description": "Clone and create an app from a template"
+    "sidebar_position": 0
   },
   "sidebar": "getStartedSidebar",
-  "previous": {
-    "title": "Build a FHIR app with React",
-    "permalink": "/docs/category/build-a-fhir-app-with-react"
-  },
   "next": {
-    "title": "Setup Medplum",
-    "permalink": "/docs/build-a-fhir-app-with-react/setup-medplum"
+    "title": "Build a FHIR app with React",
+    "permalink": "/docs/build-a-fhir-app-with-react/"
   }
 };
 const assets = {
@@ -58,71 +50,87 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "Get started",
+  "id": "get-started",
+  "level": 2
+}, {
+  "value": "What you&#39;ll need",
+  "id": "what-youll-need",
+  "level": 3
+}, {
+  "value": "Where to start",
+  "id": "where-to-start",
+  "level": 3
+}];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
     code: "code",
     h1: "h1",
-    img: "img",
+    h2: "h2",
+    h3: "h3",
     li: "li",
-    ol: "ol",
     p: "p",
     pre: "pre",
     strong: "strong",
+    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h1, {
-      id: "create-from-the-vite-template",
-      children: "Create from the Vite template"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["In a terminal, install and run package ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-            children: "@bonfhir/create-bonfhir"
-          })]
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "npm create bonfhir\n"
-          })
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["Provide a project name and select the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-            children: "vite"
-          }), " template"]
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "cd"
-          }), " into the new project and start the development environment"]
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "npm run dev\n"
-          })
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["Go to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-            href: "http://localhost:5173/",
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-              children: "http://localhost:5173/"
-            })
-          }), " in your browser to preview the application. You should see the content of ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "src/pages/Home.tsx"
-          }), ":"]
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-            alt: "Example",
-            src: (__webpack_require__(8125)/* ["default"] */ .Z) + "",
-            width: "1397",
-            height: "330"
-          })
-        }), "\n"]
+      id: "welcome-to-bonfhir",
+      children: "Welcome to Bonfhir"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["BonFHIR is a collection of projects and libraries to help implement ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/",
+        children: "FHIR"
+      }), "-based products and solutions. Focus on building features by taking advantage of the comprehensive BonFHIR tooling that makes working with FHIR easier and faster:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "React UI components and state management built for FHIR resources and common healthcare use cases"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "Type definitions for R4b and R5, including search builder parameters"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "Localized formatters to present FHIR data in any language with support for names, dates, addresses and more"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "A FHIR client that supports FHIR subscriptions, bundle navigation, dynamic proxies, batch execution, GraphQL and more!"
       }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "get-started",
+      children: "Get started"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "what-youll-need",
+      children: "What you'll need"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://nodejs.org/en/download/",
+          children: "Node.js v18+"
+        })
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://docs.docker.com/desktop/",
+          children: "Docker"
+        })
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "where-to-start",
+      children: "Where to start"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Start building your first FHIR client in 5 minutes by following this guide: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/docs/build-a-fhir-app-with-react",
+          children: "Build a FHIR app with React"
+        })
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "Or select a template and start on your own:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "npm create bonfhir\n"
+      })
     })]
   });
 }
@@ -140,16 +148,6 @@ function MDXContent(props = {}) {
 }
 
 
-
-/***/ }),
-
-/***/ 8125:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/vite-template-ebe0debd6194506edc2be5ac8a28dfcb.png");
 
 /***/ }),
 

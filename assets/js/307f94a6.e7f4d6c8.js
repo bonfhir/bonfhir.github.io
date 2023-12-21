@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[197],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[276],{
 
-/***/ 1304:
+/***/ 3868:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,30 +20,30 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 1
+	sidebar_position: 2
 };
-const contentTitle = 'Core';
+const contentTitle = 'Query';
 const metadata = {
-  "id": "core",
-  "title": "Core",
+  "id": "query",
+  "title": "Query",
   "description": "npm",
-  "source": "@site/packages/core.md",
+  "source": "@site/packages/query.md",
   "sourceDirName": ".",
-  "slug": "/core",
-  "permalink": "/packages/core",
+  "slug": "/query",
+  "permalink": "/packages/query",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/core.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 2
   },
   "sidebar": "getStartedSidebar",
-  "next": {
-    "title": "Query",
-    "permalink": "/packages/query"
+  "previous": {
+    "title": "Import in browser",
+    "permalink": "/packages/core/import-in-browser"
   }
 };
 const assets = {
@@ -54,83 +54,27 @@ const assets = {
 
 
 
-const toc = [{
-  "value": "FHIR types",
-  "id": "fhir-types",
-  "level": 2
-}, {
-  "value": "Builder and Narrative generator",
-  "id": "builder-and-narrative-generator",
-  "level": 3
-}, {
-  "value": "References and ids",
-  "id": "references-and-ids",
-  "level": 3
-}, {
-  "value": "FHIR Client",
-  "id": "fhir-client",
-  "level": 2
-}, {
-  "value": "Initialize",
-  "id": "initialize",
-  "level": 3
-}, {
-  "value": "CRUD",
-  "id": "crud",
-  "level": 3
-}, {
-  "value": "Search builders",
-  "id": "search-builders",
-  "level": 3
-}, {
-  "value": "Batch/Transaction builder",
-  "id": "batchtransaction-builder",
-  "level": 3
-}, {
-  "value": "Mergers",
-  "id": "mergers",
-  "level": 3
-}, {
-  "value": "Data Types Formatters",
-  "id": "data-types-formatters",
-  "level": 2
-}, {
-  "value": "Manipulating time - the duration API",
-  "id": "manipulating-time---the-duration-api",
-  "level": 2
-}, {
-  "value": "Extending FHIR resources",
-  "id": "extending-fhir-resources",
-  "level": 2
-}, {
-  "value": "Import in browser",
-  "id": "import-in-browser",
-  "level": 2
-}];
+const toc = [];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
-    br: "br",
     code: "code",
     h1: "h1",
-    h2: "h2",
-    h3: "h3",
     img: "img",
     p: "p",
     pre: "pre",
-    strong: "strong",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h1, {
-      id: "core",
-      children: "Core"
+      id: "query",
+      children: "Query"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://www.npmjs.com/package/@bonfhir/core",
+        href: "https://www.npmjs.com/package/@bonfhir/query",
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-          src: "https://img.shields.io/npm/v/@bonfhir/core",
+          src: "https://img.shields.io/npm/v/@bonfhir/query",
           alt: "npm"
         })
       })
@@ -141,7 +85,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "npm install @bonfhir/core\n"
+            children: "npm install @bonfhir/query\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -150,7 +94,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "yarn add @bonfhir/core\n"
+            children: "yarn add @bonfhir/query\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -159,128 +103,10 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "pnpm add @bonfhir/core\n"
+            children: "pnpm add @bonfhir/query\n"
           })
         })
       })]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "core"
-      }), " package provides primitives to easily manipulate FHIR resources.\nIt is also used as a common dependency for all other packages to rely on."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "fhir-types",
-      children: "FHIR types"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["All FHIR ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/resourcelist.html",
-        children: "resources"
-      }), " and ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/datatypes.html",
-        children: "data types"
-      }), "\ntypescript typings are included in the core package.\nWe currently support ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/R4B/index.html",
-        children: "R4B"
-      }), " and ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/R5/index.html",
-        children: "R5"
-      }), " - just use the right import path."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Official FHIR documentation is included as JSDoc, with links back to the FHIR documentation."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import { Patient, Practionner, Claim, HumanName } from \"@bonfhir/core/r4b\";\n\ndeclare const patient: Patient;\npatient.name; // HumanName\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "builder-and-narrative-generator",
-      children: "Builder and Narrative generator"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "build"
-      }), " function can build any FHIR Resource, and generate the appropriate narrative.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "Narratives are generated using resources elements that are marked with the\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.a, {
-        href: "https://hl7.org/fhir/elementdefinition-definitions.html#ElementDefinition.isSummary",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-          children: "Σ"
-        }), " (", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "isSummary"
-        }), ") element definition"]
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import { build } from \"@bonfhir/core/r4b\";\n\nconst patient = build(\"Patient\", {\n  name: [\n    {\n      given: [\"John\"],\n      family: \"Doe\",\n    },\n  ],\n});\n\nconsole.log(patient.text);\n// {status: 'generated', div: '<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>…</span><ul><li>John Doe</li></ul></li></ul></div>'}\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "references-and-ids",
-      children: "References and ids"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "reference"
-      }), " function builds FHIR ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/references.html#literal",
-        children: "literal references"
-      }), " to other resources.\nWhen possible, it also infers a proper ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "display"
-      }), " attribute automatically, based on the targeted resource."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import { Patient, Organization, reference, Retrieved } from \"@bonfhir/core/r4b\";\n\ndeclare const organization: Retrieved<Organization>;\ndeclare const patient: Patient;\n\norganization.name = \"Acme, Inc\";\npatient.managingOrganization = reference(organization);\nconsole.log(patient.managingOrganization);\n// {reference: 'Organization/cce73d99-068c-4d12-9d69-60e2d2ef9ae7', type: 'Organization', display: 'Acme, Inc'}\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Conversely, the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "id"
-      }), " function can return a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/R4B/resource-definitions.html#Resource.id",
-        children: "resource id"
-      }), "\nfor a resource or a reference to a resource."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import { id } from \"@bonfhir/core/r4b\";\n\nconsole.log(id(organization));\n// cce73d99-068c-4d12-9d69-60e2d2ef9ae7\n\nconsole.log(id(patient.managingOrganization));\n// cce73d99-068c-4d12-9d69-60e2d2ef9ae7\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "canonical"
-      }), " function can build ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/references.html#canonical",
-        children: "Canonical URLs"
-      }), " for resources that\nsupport this pattern."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import { build, canonical } from \"@bonfhir/core/r4b\";\n\nconst questionnaire = build(\"Questionnaire\", {\n  url: \"https://example.com/questionnaire\",\n  version: \"2.1\",\n});\n\nconsole.log(canonical(questionnaire));\n// https://example.com/questionnaire|2.1\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "fhir-client",
-      children: "FHIR Client"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "initialize",
-      children: "Initialize"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "crud",
-      children: "CRUD"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "search-builders",
-      children: "Search builders"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "batchtransaction-builder",
-      children: "Batch/Transaction builder"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "mergers",
-      children: "Mergers"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "data-types-formatters",
-      children: "Data Types Formatters"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "manipulating-time---the-duration-api",
-      children: "Manipulating time - the duration API"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "extending-fhir-resources",
-      children: "Extending FHIR resources"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "import-in-browser",
-      children: "Import in browser"
     })]
   });
 }
