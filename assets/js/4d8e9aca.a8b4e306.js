@@ -163,6 +163,15 @@ function _createMdxContent(props) {
         className: "language-typescript",
         children: "// Perform a GET operation that do not affect state\nconst result = await client.execute<ValueSet>({\n  operation: \"$expand\",\n  resourceType: \"ValueSet\",\n  parameters: [\n    {\n      name: \"url\",\n      valueUrl: \"http://hl7.org/fhir/ValueSet/encounter-status\",\n    },\n  ],\n});\n\n// Perform a POST operation that do affect state\nconst result = await client.execute<Group>({\n  affectsState: true,\n  operation: \"$add\",\n  resourceType: \"Group\",\n  resourceId: \"49e433b0-d7d5-4118-91b1-5fd60995cde2\",\n  parameters: [\n    {\n      name: \"additions\",\n      resource: patient,\n    },\n  ],\n});\n"
       })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["A ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "BundleNavigator"
+      }), " can also be used on any bundle, without going through the client:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-typescript",
+        children: "declare const bundle: Bundle<Patient>;\nconst navigator = bundleNavigator(bundle);\nconst patients = navigator.searchMatch();\n"
+      })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "batchtransaction-builder",
       children: "Batch/Transaction builder"
@@ -228,6 +237,13 @@ function _createMdxContent(props) {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-typescript",
         children: "// Merge a condition based on matching the same subject, recordedDate and code.\nconst [finalCondition, wasMerged] = await client.createOr(\n  \"merge\",\n  updatedCondition,\n  (search) =>\n    search\n      .subject(updatedCondition.subject)\n      .recordedDate(updatedCondition.recordedDate)\n      .code(updatedCondition.code?.coding?.[0]),\n);\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "It is possible to use the merging functionality directly as well:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-typescript",
+        children: "const [result, wasUpdated] = merge(current, incoming);\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
       children: "And how are resources merged?\nThere is a default strategy for merging resources is basic, and recursive:"

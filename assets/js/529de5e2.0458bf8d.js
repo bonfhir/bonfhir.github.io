@@ -116,7 +116,7 @@ function _createMdxContent(props) {
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-typescript",
-        children: "import { build } from \"@bonfhir/core/r4b\";\n\nconst patient = build(\"Patient\", {\n  name: [\n    {\n      given: [\"John\"],\n      family: \"Doe\",\n    },\n  ],\n});\n\nconsole.log(patient.text);\n// {status: 'generated', div: '<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>…</span><ul><li>John Doe</li></ul></li></ul></div>'}\n"
+        children: "import { build, narrative } from \"@bonfhir/core/r4b\";\n\nconst patient = build(\"Patient\", {\n  name: [\n    {\n      given: [\"John\"],\n      family: \"Doe\",\n    },\n  ],\n});\n\nconsole.log(patient.text);\n// {status: 'generated', div: '<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>…</span><ul><li>John Doe</li></ul></li></ul></div>'}\n\n// The narrative function can also be invoked on its own\nconst generatedNarrative = narrative(patient);\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "references-and-ids",
@@ -158,6 +158,25 @@ function _createMdxContent(props) {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-typescript",
         children: "import { build, canonical } from \"@bonfhir/core/r4b\";\n\nconst questionnaire = build(\"Questionnaire\", {\n  url: \"https://example.com/questionnaire\",\n  version: \"2.1\",\n});\n\nconsole.log(canonical(questionnaire));\n// https://example.com/questionnaire|2.1\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Finally, there is a nifty ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "codeableConcept"
+      }), " helper that builds a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/datatypes.html#CodeableConcept",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "CodeableConcept"
+        })
+      }), "\nfrom a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/datatypes.html#Coding",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "Coding"
+        })
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-typescript",
+        children: "import { codeableConcept } from \"@bonfhir/core/r4b\";\n\ncodeableConcept({ code: \"M\", display: \"Married\" });\n{\n  coding: [{ code: \"M\", display: \"Married\" }],\n  text: \"Married\",\n};\n"
       })
     })]
   });

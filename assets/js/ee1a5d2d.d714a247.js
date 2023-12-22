@@ -46,8 +46,8 @@ const metadata = {
     "permalink": "/packages/core/manipulating-date-time"
   },
   "next": {
-    "title": "Import in browser",
-    "permalink": "/packages/core/import-in-browser"
+    "title": "Misc helpers",
+    "permalink": "/packages/core/misc-helpers"
   }
 };
 const assets = {
