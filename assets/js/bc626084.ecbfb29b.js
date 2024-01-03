@@ -58,10 +58,18 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "What you&#39;ll need",
+  "id": "what-youll-need",
+  "level": 3
+}];
 function _createMdxContent(props) {
   const _components = {
+    a: "a",
+    h3: "h3",
+    li: "li",
     p: "p",
+    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .a)(),
     ...props.components
   };
@@ -70,6 +78,21 @@ function _createMdxContent(props) {
       children: "Create a simple FHIR web app using the Vite template."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
       children: "These guides will walk you through key BonFHIR concepts and every step of the process,\nfrom setup to a fully functional web app with tables and inputs."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "what-youll-need",
+      children: "What you'll need"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://nodejs.org/en/download/",
+          children: "Node.js v18+"
+        })
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://docs.docker.com/desktop/",
+          children: "Docker"
+        })
+      }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_DocCardList__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {})]
   });
 }

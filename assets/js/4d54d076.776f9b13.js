@@ -42,8 +42,8 @@ const metadata = {
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Create a table with pagination",
-    "permalink": "/docs/build-a-fhir-app-with-react/fhir-tables-with-pagination"
+    "title": "Create a new subscription",
+    "permalink": "/docs/build-a-subscription-api-with-aws-lambda/create-a-new-subscription"
   }
 };
 const assets = {

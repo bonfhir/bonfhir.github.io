@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[1968],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[6541],{
 
-/***/ 130:
+/***/ 1846:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -21,31 +21,37 @@ __webpack_require__.r(__webpack_exports__);
 
 const frontMatter = {
 	sidebar_position: 1,
-	title: 'AWS Lambda'
+	title: 'Start from the Vite template',
+	description: 'Clone and create an app from a template'
 };
-const contentTitle = undefined;
+const contentTitle = 'Create from the Vite template';
 const metadata = {
-  "id": "subscriptions/aws-lambda",
-  "title": "AWS Lambda",
-  "description": "npm",
-  "source": "@site/packages/subscriptions/aws-lambda.md",
-  "sourceDirName": "subscriptions",
-  "slug": "/subscriptions/aws-lambda",
-  "permalink": "/packages/subscriptions/aws-lambda",
+  "id": "build-a-fhir-app-with-react/start-from-vite-template",
+  "title": "Start from the Vite template",
+  "description": "Clone and create an app from a template",
+  "source": "@site/docs/build-a-fhir-app-with-react/start-from-vite-template.md",
+  "sourceDirName": "build-a-fhir-app-with-react",
+  "slug": "/build-a-fhir-app-with-react/start-from-vite-template",
+  "permalink": "/docs/build-a-fhir-app-with-react/start-from-vite-template",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/subscriptions/aws-lambda.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-app-with-react/start-from-vite-template.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
-    "title": "AWS Lambda"
+    "title": "Start from the Vite template",
+    "description": "Clone and create an app from a template"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Subscription handlers",
-    "permalink": "/packages/subscriptions/subscription-handlers"
+    "title": "Build a FHIR app with React",
+    "permalink": "/docs/build-a-fhir-app-with-react/"
+  },
+  "next": {
+    "title": "Setup a local FHIR Server",
+    "permalink": "/docs/build-a-fhir-app-with-react/setup-fhir-server"
   }
 };
 const assets = {
@@ -56,140 +62,97 @@ const assets = {
 
 
 
-const toc = [{
-  "value": "Create the AWS Lambda function handler",
-  "id": "create-the-aws-lambda-function-handler",
-  "level": 2
-}, {
-  "value": "Invoke the registration of the subscriptions",
-  "id": "invoke-the-registration-of-the-subscriptions",
-  "level": 2
-}];
+const toc = [];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
-    admonition: "admonition",
-    br: "br",
     code: "code",
-    em: "em",
-    h2: "h2",
+    h1: "h1",
     img: "img",
     li: "li",
+    ol: "ol",
     p: "p",
     pre: "pre",
-    ul: "ul",
+    strong: "strong",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://www.npmjs.com/package/@bonfhir/aws-lambda",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-          src: "https://img.shields.io/npm/v/@bonfhir/aws-lambda",
-          alt: "npm"
-        })
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_theme_Tabs__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
-      groupId: "npm2yarn",
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-        value: "npm",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h1, {
+      id: "create-from-the-vite-template",
+      children: "Create from the Vite template"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+          children: ["In a terminal, install and run package ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+            children: "@bonfhir/create-bonfhir"
+          })]
+        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "npm install @bonfhir/aws-lambda\n"
+            children: "npm create -y bonfhir@latest\n"
           })
-        })
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-        value: "yarn",
-        label: "Yarn",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            className: "language-bash",
-            children: "yarn add @bonfhir/aws-lambda\n"
-          })
-        })
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-        value: "pnpm",
-        label: "pnpm",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            className: "language-bash",
-            children: "pnpm add @bonfhir/aws-lambda\n"
-          })
-        })
-      })]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "@bonfhir/aws-lambda"
-      }), " package contains an adapter that takes any number of ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/subscriptions/subscription-handlers",
-        children: "subscription handlers"
-      }), "\nand expose an ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://docs.aws.amazon.com/lambda/latest/dg/nodejs-handler.html",
-        children: "AWS Lambda function handler"
-      }), " that can:"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-        children: "register all the active subscriptions"
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-        children: "execute the subscription handlers when receiving a notification from the FHIR server"
+        }), "\n"]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["validate the authenticity of the subscription invocation through a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "/packages/subscriptions/subscription-handlers#subscriptions-security",
-          children: "shared secret"
-        })]
+        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+          children: ["Provide a project name and select the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+            children: "vite"
+          }), " template"]
+        }), "\n"]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+            children: "cd"
+          }), " into the new project and start the development environment"]
+        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_theme_Tabs__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
+          groupId: "npm2yarn",
+          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+            value: "npm",
+            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+                className: "language-bash",
+                children: "npm run dev\n"
+              })
+            })
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+            value: "yarn",
+            label: "Yarn",
+            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+                className: "language-bash",
+                children: "yarn dev\n"
+              })
+            })
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+            value: "pnpm",
+            label: "pnpm",
+            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+                className: "language-bash",
+                children: "pnpm run dev\n"
+              })
+            })
+          })]
+        }), "\n"]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+          children: ["Go to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+            href: "http://localhost:5173/",
+            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+              children: "http://localhost:5173/"
+            })
+          }), " in your browser to preview the application. You should see the content of ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+            children: "src/pages/Home.tsx"
+          }), ":"]
+        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
+            alt: "Example",
+            src: (__webpack_require__(8125)/* ["default"] */ .Z) + "",
+            width: "1397",
+            height: "330"
+          })
+        }), "\n"]
       }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["We recommend that you follow our \"Get Started\" tutorial on AWS lambda to experiment with this package, as it will go through\nthe creation of an AWS Lambda app and subscription handlers.\nIn particular, the AWS Lambda function ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.em, {
-        children: "must"
-      }), " be exposed through an API Gateway in order to be invokable by the FHIR Server."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "create-the-aws-lambda-function-handler",
-      children: "Create the AWS Lambda function handler"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import { fhirSubscriptionHandler } from \"@bonfhir/aws-lambda/r4b\";\nimport { FetchFhirClient } from \"@bonfhir/core/r4b\";\nimport { communicationRequests } from \"./communication-requests\";\n\nexport const handler = fhirSubscriptionHandler({\n  // A function that gets invoke when the framework needs a FhirClient to connect to the FhirServer.\n  fhirClient: () =>\n    new FetchFhirClient({\n      // Refer to https://bonfhir.dev/packages/core/fhir-client#initialize to understand how to properly initialize\n      // a FhirClient\n    }),\n\n  // The public URL where the handler is exposed.\n  // This needs to include any subpath where the handler is exposed in API Gateway\n  // e.g. - https://abcdef123.execute-api.us-east-2.amazonaws.com/fhir/subscriptions\n  // if using custom domains, this needs to be the public custom domain URL.\n  baseUrl: process.env.APP_BASE_URL,\n\n  // The shared secret that secures the invocations\n  webhookSecret: process.env.FHIR_SUBSCRIPTION_SECRET,\n\n  // The list of subscriptions to manage.\n  subscriptions: [communicationRequestsSubscription],\n});\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Refer to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/subscriptions/subscription-handlers",
-        children: "this example on how to create a susbcription handler"
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "invoke-the-registration-of-the-subscriptions",
-      children: "Invoke the registration of the subscriptions"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Once the lambda has been deployed / is running, you will need to trigger the registration of the managed subscriptions\nin the FHIR server."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "To do so, you'll need to create a HTTP request to the base URL like so:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-bash",
-        children: "curl -i --request POST <baseUrl>/register --header \\\"X-Subscription-Auth: <webhookSecret>\\\"\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["This will connect to the FHIR server using the configured ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "FhirClient"
-      }), " and create the proper ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/R4B/subscription.html",
-        children: "FHIR Subscriptions"
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.admonition, {
-      title: "Registration information",
-      type: "info",
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-        children: ["It is safe to call the registration multiple times as it will not duplicate the registrations, and will update the existing ones if some parameters change.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "Uniqueness is based on the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "baseUrl"
-        }), ", so if that parameter changes then whole new subscriptions will be created."]
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-        children: ["For safety reasons it does ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.em, {
-          children: "not"
-        }), " remove subscriptions that are no longer active (or removed from the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "subscriptions"
-        }), " array).", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "It is up to you to clean it up in the FHIR Server."]
-      })]
     })]
   });
 }
@@ -299,6 +262,16 @@ role:"tab",tabIndex:selectedValue===value?0:-1,"aria-selected":selectedValue===v
 return null;}return/*#__PURE__*/(0,react.cloneElement)(selectedTabItem,{className:'margin-top--md'});}return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"margin-top--md",children:childTabs.map((tabItem,i)=>/*#__PURE__*/(0,react.cloneElement)(tabItem,{key:i,hidden:tabItem.props.value!==selectedValue}))});}function TabsComponent(props){const tabs=useTabs(props);return/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:(0,clsx/* default */.Z)('tabs-container',styles_module.tabList),children:[/*#__PURE__*/(0,jsx_runtime.jsx)(TabList,{...props,...tabs}),/*#__PURE__*/(0,jsx_runtime.jsx)(TabContent,{...props,...tabs})]});}function Tabs(props){const isBrowser=(0,useIsBrowser/* default */.Z)();return/*#__PURE__*/(0,jsx_runtime.jsx)(TabsComponent// Remount tabs after hydration
 // Temporary fix for https://github.com/facebook/docusaurus/issues/5653
 ,{...props,children:sanitizeTabsChildren(props.children)},String(isBrowser));}
+
+/***/ }),
+
+/***/ 8125:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/vite-template-ebe0debd6194506edc2be5ac8a28dfcb.png");
 
 /***/ }),
 

@@ -48,8 +48,8 @@ const metadata = {
     "permalink": "/docs/build-a-fhir-app-with-react/display-fhir-data"
   },
   "next": {
-    "title": "Contributing to bonFHIR",
-    "permalink": "/docs/contributing"
+    "title": "Build a Subscription API with AWS Lambda",
+    "permalink": "/docs/build-a-subscription-api-with-aws-lambda/"
   }
 };
 const assets = {

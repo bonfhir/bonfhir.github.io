@@ -44,8 +44,8 @@ const metadata = {
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Setup Medplum",
-    "permalink": "/docs/build-a-fhir-app-with-react/setup-medplum"
+    "title": "Setup a local FHIR Server",
+    "permalink": "/docs/build-a-fhir-app-with-react/setup-fhir-server"
   },
   "next": {
     "title": "Create a table with pagination",
@@ -128,11 +128,9 @@ function _createMdxContent(props) {
       children: "Step by step"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["This guide builds off of the previous guide: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/docs/build-a-fhir-app-with-react/setup-medplum",
+        href: "/docs/build-a-fhir-app-with-react/setup-fhir-server",
         children: "Setup Medplum"
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Let's start by retrieving a Patient and displaying some information about them."
+      }), ".\n``\nLet's start by retrieving a Patient and displaying some information about them."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
         children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
@@ -219,7 +217,7 @@ function _createMdxContent(props) {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
         metastring: "title=\"src/pages/Home.tsx\"",
-        children: "import { useFhirRead } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\nimport { Group, Paper, Stack, Text } from \"@mantine/core\";\n\nexport default function Home() {\n  const patientQuery = useFhirRead(\n    \"Patient\",\n    \"afb2bbf9-872c-47a9-9b31-2a737ed65f0b\",\n  );\n\n  return (\n    <Paper p=\"xl\">\n      <Paper shadow=\"xs\" p=\"xl\">\n        <FhirQueryLoader query={patientQuery}>\n          {(patient) => (\n            <Stack gap=\"sm\">\n              <Text size=\"xl\">\n                <FhirValue type=\"HumanName\" value={patient.name} />\n              </Text>\n              <Group>\n                <Text fw={600}>Birthday: </Text>\n                <FhirValue type=\"date\" value={patient.birthDate} options={{ dateStyle: \"full\" }} />\n              </Group>\n              <Group>\n                <Text fw={600}>Address: </Text>\n                <FhirValue type=\"Address\" value={patient.address} />\n              </Group>\n              <Group>\n                <Text fw={600}>Contact: </Text>\n                <FhirValue type=\"ContactPoint\" value={patient.telecom} />\n              </Group>\n            </Stack>\n          )}\n        </FhirQueryLoader>\n      </Paper>\n    </Paper>\n  );\n}\n"
+        children: "import { useFhirRead } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\nimport { Group, Paper, Stack, Text } from \"@mantine/core\";\n\nexport default function Home() {\n  const patientQuery = useFhirRead(\n    \"Patient\",\n    \"afb2bbf9-872c-47a9-9b31-2a737ed65f0b\",\n  );\n\n  return (\n    <Paper p=\"xl\">\n      <Paper shadow=\"xs\" p=\"xl\">\n        <FhirQueryLoader query={patientQuery}>\n          {(patient) => (\n            <Stack gap=\"sm\">\n              <Text size=\"xl\">\n                <FhirValue type=\"HumanName\" value={patient.name} />\n              </Text>\n              <Group>\n                <Text fw={600}>Birthday: </Text>\n                <FhirValue\n                  type=\"date\"\n                  value={patient.birthDate}\n                  options={{ dateStyle: \"full\" }}\n                />\n              </Group>\n              <Group>\n                <Text fw={600}>Address: </Text>\n                <FhirValue type=\"Address\" value={patient.address} />\n              </Group>\n              <Group>\n                <Text fw={600}>Contact: </Text>\n                <FhirValue type=\"ContactPoint\" value={patient.telecom} />\n              </Group>\n            </Stack>\n          )}\n        </FhirQueryLoader>\n      </Paper>\n    </Paper>\n  );\n}\n"
       })
     })]
   });

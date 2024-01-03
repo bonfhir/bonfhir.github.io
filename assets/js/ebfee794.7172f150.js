@@ -129,7 +129,7 @@ function _createMdxContent(props) {
       children: "Or select a template and start on your own:"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "npm create bonfhir\n"
+        children: "npm create -y bonfhir@latest\n"
       })
     })]
   });
