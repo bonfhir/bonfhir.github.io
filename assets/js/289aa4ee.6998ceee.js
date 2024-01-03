@@ -44,6 +44,10 @@ const metadata = {
   "previous": {
     "title": "Mantine",
     "permalink": "/packages/react/mantine"
+  },
+  "next": {
+    "title": "Subscriptions",
+    "permalink": "/packages/subscriptions/"
   }
 };
 const assets = {
