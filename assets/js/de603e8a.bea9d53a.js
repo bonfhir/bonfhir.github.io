@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[8541],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[7608],{
 
-/***/ 5176:
+/***/ 1672:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,33 +18,33 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	title: '<FhirFormatter />'
+	title: '<FhirInputArray />'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "react/components/fhir-formatter",
-  "title": "<FhirFormatter />",
-  "description": "The ` is a variation of the ` that is intended to compose better with the",
-  "source": "@site/packages/react/components/fhir-formatter.md",
+  "id": "react/components/fhir-input-array",
+  "title": "<FhirInputArray />",
+  "description": "The `` manages values that are repeated (e.g. when the FHIR cardinality is 0...\\*).",
+  "source": "@site/packages/react/components/fhir-input-array.md",
   "sourceDirName": "react/components",
-  "slug": "/react/components/fhir-formatter",
-  "permalink": "/packages/react/components/fhir-formatter",
+  "slug": "/react/components/fhir-input-array",
+  "permalink": "/packages/react/components/fhir-input-array",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-formatter.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-input-array.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "<FhirFormatter />"
+    "title": "<FhirInputArray />"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "<FhirError />",
-    "permalink": "/packages/react/components/fhir-error"
+    "title": "<FhirFormatter />",
+    "permalink": "/packages/react/components/fhir-formatter"
   },
   "next": {
-    "title": "<FhirInputArray />",
-    "permalink": "/packages/react/components/fhir-input-array"
+    "title": "<FhirInput />",
+    "permalink": "/packages/react/components/fhir-input"
   }
 };
 const assets = {
@@ -58,7 +58,7 @@ const toc = [{
   "id": "example-usage",
   "level": 2
 }, {
-  "value": "preview",
+  "value": "Preview",
   "id": "preview",
   "level": 2
 }];
@@ -75,34 +75,30 @@ function _createMdxContent(props) {
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirFormatter />"
-      }), " is a variation of the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/react/components/fhir-value",
+        children: "<FhirInputArray />"
+      }), " manages values that are repeated (e.g. when the FHIR cardinality is 0...*)."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["As with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/react/components/fhir-input",
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirValue />"
+          children: "<FhirInput />"
         })
-      }), " that is intended to compose better with the\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/core/data-types-formatters#the-message-api",
-        children: "formatter message API"
-      }), ":"]
+      }), ", it is a controlled component."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "example-usage",
       children: "Example usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "\nconst patientQuery = useFhirRead(\"Patient\", \"123\");\nconst patient = patientQuery.data;\n\n<FhirFormatter\n  format={(f) =>\n    f.message`${[\"HumanName\", patient?.name, { max: 1 }]}${[\n      \"date\",\n      patient?.birthDate,\n      { decorator: \" (born {})\" },\n    ]}`\n  }\n/>\n"
+        className: "language-tsx",
+        children: "// This example uses the `useListState` from Mantine for simplicty sake - https://mantine.dev/hooks/use-list-state/\nconst [identifiers, setIdentifiers] = useListState<Identifier>([]);\n\nreturn (\n  <FhirInputArray\n    label=\"Identifiers\"\n    value={identifiers}\n    min={1}\n    max={10}\n    onAdd={(index) => setIdentifiers.insert(index + 1, {})}\n    onRemove={(index) => setIdentifiers.remove(index)}\n  >\n    {({ index }) => (\n      <FhirInput\n        type=\"Identifier\"\n        value={identifiers[index]}\n        onChange={(identifier) => {\n          if (identifier) {\n            setIdentifiers.setItem(index, identifier);\n          }\n        }}\n      />\n    )}\n  </FhirInputArray>\n);\n"
       })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "The child is a function that gets the index of the element in the array."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "preview",
-      children: "preview"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "<FhirFormatter\n  format={(f) =>\n    f.message`Name: ${[\"HumanName\", patient.name]}${[\n      \"boolean\",\n      patient.active,\n      { decorator: \", Active: {}\" },\n    ]}`\n  }\n/>\n"
-      })
+      children: "Preview"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-data-display-fhirformatter--default&viewMode=story",
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-inputs-fhirinputarray--default&viewMode=story",
       width: "100%"
     })]
   });

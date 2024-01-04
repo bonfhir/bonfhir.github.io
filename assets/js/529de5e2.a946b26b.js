@@ -19,13 +19,14 @@ __webpack_require__.r(__webpack_exports__);
 
 const frontMatter = {
 	sidebar_position: 1,
-	title: 'FHIR Types'
+	title: 'FHIR Types',
+	description: 'TypeScript Types for FHIR'
 };
 const contentTitle = undefined;
 const metadata = {
   "id": "core/fhir-types",
   "title": "FHIR Types",
-  "description": "All FHIR resources and data types",
+  "description": "TypeScript Types for FHIR",
   "source": "@site/packages/core/fhir-types.md",
   "sourceDirName": "core",
   "slug": "/core/fhir-types",
@@ -38,7 +39,8 @@ const metadata = {
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
-    "title": "FHIR Types"
+    "title": "FHIR Types",
+    "description": "TypeScript Types for FHIR"
   },
   "sidebar": "getStartedSidebar",
   "previous": {

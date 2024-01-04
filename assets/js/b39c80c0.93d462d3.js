@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[561],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[6],{
 
-/***/ 5056:
+/***/ 7313:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,33 +18,33 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	title: '<FhirPagination />'
+	title: '<FhirInput />'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "react/components/fhir-pagination",
-  "title": "<FhirPagination />",
-  "description": "The `` helps with executing pagination on a FHIR search query and bundle.",
-  "source": "@site/packages/react/components/fhir-pagination.md",
+  "id": "react/components/fhir-input",
+  "title": "<FhirInput />",
+  "description": "The ` is the equivalent of the `, but for forms input components.",
+  "source": "@site/packages/react/components/fhir-input.md",
   "sourceDirName": "react/components",
-  "slug": "/react/components/fhir-pagination",
-  "permalink": "/packages/react/components/fhir-pagination",
+  "slug": "/react/components/fhir-input",
+  "permalink": "/packages/react/components/fhir-input",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-pagination.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-input.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "<FhirPagination />"
+    "title": "<FhirInput />"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "<FhirInput />",
-    "permalink": "/packages/react/components/fhir-input"
+    "title": "<FhirInputArray />",
+    "permalink": "/packages/react/components/fhir-input-array"
   },
   "next": {
-    "title": "<FhirQueryLoader />",
-    "permalink": "/packages/react/components/fhir-query-loader"
+    "title": "<FhirPagination />",
+    "permalink": "/packages/react/components/fhir-pagination"
   }
 };
 const assets = {
@@ -58,10 +58,6 @@ const toc = [{
   "id": "example-usage",
   "level": 2
 }, {
-  "value": "Note",
-  "id": "note",
-  "level": 2
-}, {
   "value": "Preview",
   "id": "preview",
   "level": 2
@@ -71,52 +67,78 @@ function _createMdxContent(props) {
     a: "a",
     code: "code",
     h2: "h2",
+    li: "li",
     p: "p",
     pre: "pre",
+    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirPagination />"
-      }), " helps with executing pagination on a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/core/fhir-client#search-builders-and-bundle-navigators",
-        children: "FHIR search query and bundle"
-      }), "."]
+        children: "<FhirInput />"
+      }), " is the equivalent of the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/react/components/fhir-value",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "<FhirValue />"
+        })
+      }), ", but for forms input components."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["It is designed to work in conjunction with the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "useFhirSearch"
-      }), " and ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "useFhirSearchController"
-      }), " hooks, but can be used independently if need be."]
+      children: ["It is a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components",
+        children: "React Controlled component"
+      }), " that can take many forms dependening on the Data type it needs to manipulate."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "The big benefit is that it works with FHIR types natively. For example:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "date, dateTime et all are formatter properly for FHIR"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "there is no empty string - empty strings are always undefined"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "terminology is supported, as well as references and resources search"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: ["composite data types are also supported: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "Identifier"
+        }), ", ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "HumanName"
+        }), ", ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "Address"
+        }), ", ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "ContactPoint"
+        }), "..."]
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Although it can be use with a simple ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "useState"
+      }), " as shown below, it should probably be used with a form hook / system for maximum flexibility."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "example-usage",
       children: "Example usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "// The search controller coordinates activities and actions between the <FhirTable /> and the query.\nconst orgsSearchController = useFhirSearchController({\n  defaultSort: \"name\",\n  pageSize: 20,\n});\n\nconst organizationQuery = useFhirSearch(\n  \"Organization\",\n  (search) =>\n    search\n      ._include(\"Organization\", \"partof\")\n      // The page size and sort must be controlled by the search controller, and passed to the query appropriately.\n      ._count(orgsSearchController.pageSize)\n      ._sort(orgsSearchController.sort)\n      // The total must be requested for the pagination to work. Otherwise, you'll see a 0 out of 0 count.\n      ._total(\"accurate\"),\n  // The third argument to the `useFhirSearch` hook is the page url that is manipulated by the search controller.\n  orgsSearchController.pageUrl\n);\n\nreturn (\n  <FhirTable\n    {...organizationQuery}\n    {...orgsSearchController}\n    columns={[...]}\n  />\n  // Both the query and the controller are spread to the pagination, so that pages can be counted,\n  // and page changes can be acted on the controller itself.\n  <FhirPagination\n    {...organizationQuery}\n    {...orgsSearchController}\n  />\n"
+        className: "language-tsx",
+        children: "const [name, setName] = useState<string | undefined>();\nconst [identifier, setIdentifier] = useState<Identifier | undefined>();\nconst [maritalStatus, setMaritalStatus] = useState<\n  CodeableConcept | undefined\n>();\nconst [patientRef, setPatientRef] = useState<Reference<Patient> | undefined>();\n\nreturn (\n  <>\n    <FhirInput\n      type=\"string\"\n      value={name}\n      onChange={setName}\n      label=\"Name\"\n      placeholder=\"Name\"\n      required\n    />\n    <FhirInput\n      type=\"Identifier\"\n      value={identifier}\n      onChange={setIdentifier}\n      label=\"Identifier\"\n      mode=\"simple\"\n      required\n    />\n    <FhirInput\n      type=\"CodeableConcept\"\n      value={maritalStatus}\n      onChange={setMaritalStatus}\n      label=\"Marital Status\"\n      source=\"http://hl7.org/fhir/ValueSet/marital-status\"\n      mode=\"radio\"\n    />\n    <FhirInput\n      type=\"Reference\"\n      resourceType=\"Patient\"\n      value={patientRef}\n      onChange={setPatientRef}\n    />\n  </>\n);\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "note",
-      children: "Note"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The capabilities of the pagination depends on the server support - most notably, the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "first"
-      }), " and ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "last"
-      }), " links in the\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/bundle-definitions.html#Bundle.link",
-        children: "returned bundle"
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "If the server omits those values, the pagination may disable some capabilities."
+      children: ["Each ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "type"
+      }), " has its own set of options that you can explore."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "preview",
       children: "Preview"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-navigation-fhirpagination--default&viewMode=story",
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-inputs-fhirinput--default&viewMode=story",
+      width: "100%"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-inputs-fhirinput--codeable-concept&viewMode=story",
+      width: "100%"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-inputs-fhirinput--identifier&viewMode=story",
+      width: "100%"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-inputs-fhirinput--reference&viewMode=story",
       width: "100%"
     })]
   });

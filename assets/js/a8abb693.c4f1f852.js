@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[9581],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[2589],{
 
-/***/ 6266:
+/***/ 633:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,33 +18,33 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	title: '<FhirValue />'
+	title: '<FhirQueryLoader />'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "react/components/fhir-value",
-  "title": "<FhirValue />",
-  "description": "The purpose of the `` component is to display FHIR Data Types easily.",
-  "source": "@site/packages/react/components/fhir-value.md",
+  "id": "react/components/fhir-query-loader",
+  "title": "<FhirQueryLoader />",
+  "description": "The `` manages the loading / success / error lifecycle of a query.",
+  "source": "@site/packages/react/components/fhir-query-loader.md",
   "sourceDirName": "react/components",
-  "slug": "/react/components/fhir-value",
-  "permalink": "/packages/react/components/fhir-value",
+  "slug": "/react/components/fhir-query-loader",
+  "permalink": "/packages/react/components/fhir-query-loader",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-value.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-query-loader.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "<FhirValue />"
+    "title": "<FhirQueryLoader />"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "<FhirTable />",
-    "permalink": "/packages/react/components/fhir-table"
+    "title": "<FhirPagination />",
+    "permalink": "/packages/react/components/fhir-pagination"
   },
   "next": {
-    "title": "useFhirSearchController",
-    "permalink": "/packages/react/components/use-fhir-search-controller"
+    "title": "<FhirQuestionnaire />",
+    "permalink": "/packages/react/components/fhir-questionnaire"
   }
 };
 const assets = {
@@ -56,59 +56,80 @@ const assets = {
 const toc = [{
   "value": "Example usage",
   "id": "example-usage",
-  "level": 3
+  "level": 2
 }, {
   "value": "Preview",
   "id": "preview",
-  "level": 3
+  "level": 2
 }];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
     br: "br",
     code: "code",
-    h3: "h3",
+    h2: "h2",
+    li: "li",
     p: "p",
     pre: "pre",
+    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The purpose of the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirValue />"
-      }), " component is to display ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/datatypes.html",
-        children: "FHIR Data Types"
-      }), " easily."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["It uses the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/core/data-types-formatters",
-        children: "Core formatter"
-      }), " and should provide most of the same options.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "The default formatter options can be configured in the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/react/get-started#custom-global-formatter",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirUIProvider />"
-        })
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "<FhirQueryLoader />"
+      }), " manages the loading / success / error lifecycle of a query.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "It offers a completely managed solution for client-side error handling."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "Here is the lifecycle:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "render a loader when the query is initially loading"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "render its children when loading is successful"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: ["render a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/packages/react/components/fhir-error",
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+            children: "<FhirError />"
+          })
+        }), " if the query execution resulted in an error; the retry button is connected to the query automatically"]
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "example-usage",
       children: "Example usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "\nconst patientQuery = useFhirRead(\"Patient\", \"123\");\nconst patient = patientQuery.data;\n\n<FhirValue type=\"date\" value={patient?.birthDate} options={{ dateStyle: \"relative\" }} />\n<FhirValue type=\"HumanName\" value={patient?.name} options={{ max: 1 }} />\n"
+        className: "language-tsx",
+        children: "const encountersQuery = useFhirSearch(\"Encounter\");\n\nreturn (\n  <FhirQueryLoader query={encountersQuery}>\n    // Only show the encounters if the query is successful\n  </FhirQueryLoader>\n);\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "preview",
-      children: "Preview"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["If using a function as the child component, it passes the query ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "data"
+      }), " as an non-null argument."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "<FhirValue type=\"HumanName\" value={patient?.name} />\n"
+        className: "language-tsx",
+        children: "const patientQuery = useFhirRead(\"Patient\", \"123\");\n\nreturn (\n  <FhirQueryLoader query={patientQuery}>\n    // Here patient is of type Patient!\n    {(patient) => <FhirValue type=\"HumanName\" value={patient.name} />}\n  </FhirQueryLoader>\n);\n"
       })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Multiple queries can be tracked for loading status, and only renders when all queries are loaded.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "In that case, the argument to the child function is the first query of the array."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "const patientQuery = useFhirRead(\"Patient\", \"123\");\nconst encountersQuery = useFhirSearch(\"Encounter\", (search) =>\n  search.patient(\"Patient/123\"),\n);\n\nreturn (\n  <FhirQueryLoader query={[patientQuery, encountersQuery]}>\n    {(patient) => <FhirValue type=\"HumanName\" value={patient.name} />}\n  </FhirQueryLoader>\n);\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "preview",
+      children: "Preview"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-data-display-fhirvalue--human-name&viewMode=story",
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-feedback-fhirqueryloader--loading&viewMode=story",
+      width: "100%"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-feedback-fhirqueryloader--default&viewMode=story",
+      width: "100%"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-feedback-fhirqueryloader--on-error&viewMode=story",
       width: "100%"
     })]
   });

@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[2589],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[3045],{
 
-/***/ 633:
+/***/ 9692:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,33 +18,33 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	title: '<FhirQueryLoader />'
+	title: '<FhirTable />'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "react/components/fhir-query-loader",
-  "title": "<FhirQueryLoader />",
-  "description": "The `` manages the loading / success / error lifecycle of a query.",
-  "source": "@site/packages/react/components/fhir-query-loader.md",
+  "id": "react/components/fhir-table",
+  "title": "<FhirTable />",
+  "description": "The `` component is designed to render data in a tabular fashion.",
+  "source": "@site/packages/react/components/fhir-table.md",
   "sourceDirName": "react/components",
-  "slug": "/react/components/fhir-query-loader",
-  "permalink": "/packages/react/components/fhir-query-loader",
+  "slug": "/react/components/fhir-table",
+  "permalink": "/packages/react/components/fhir-table",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-query-loader.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-table.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "<FhirQueryLoader />"
+    "title": "<FhirTable />"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "<FhirPagination />",
-    "permalink": "/packages/react/components/fhir-pagination"
-  },
-  "next": {
     "title": "<FhirQuestionnaire />",
     "permalink": "/packages/react/components/fhir-questionnaire"
+  },
+  "next": {
+    "title": "<FhirValue />",
+    "permalink": "/packages/react/components/fhir-value"
   }
 };
 const assets = {
@@ -58,6 +58,14 @@ const toc = [{
   "id": "example-usage",
   "level": 2
 }, {
+  "value": "Row navigation",
+  "id": "row-navigation",
+  "level": 2
+}, {
+  "value": "Sorting support",
+  "id": "sorting-support",
+  "level": 2
+}, {
   "value": "Preview",
   "id": "preview",
   "level": 2
@@ -68,68 +76,67 @@ function _createMdxContent(props) {
     br: "br",
     code: "code",
     h2: "h2",
-    li: "li",
     p: "p",
     pre: "pre",
-    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirQueryLoader />"
-      }), " manages the loading / success / error lifecycle of a query.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "It offers a completely managed solution for client-side error handling."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Here is the lifecycle:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-        children: "render a loader when the query is initially loading"
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-        children: "render its children when loading is successful"
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["render a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "/packages/react/components/fhir-error",
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "<FhirError />"
-          })
-        }), " if the query execution resulted in an error; the retry button is connected to the query automatically"]
-      }), "\n"]
+        children: "<FhirTable />"
+      }), " component is designed to render data in a tabular fashion."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["It is designed to work in conjunction with the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "useFhirSearch"
+      }), " and ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "useFhirSearchController"
+      }), " hooks, but can be used independently if need be."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "example-usage",
       children: "Example usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "const encountersQuery = useFhirSearch(\"Encounter\");\n\nreturn (\n  <FhirQueryLoader query={encountersQuery}>\n    // Only show the encounters if the query is successful\n  </FhirQueryLoader>\n);\n"
+        className: "language-tsx",
+        children: "// Using the useFhirSearch query directly\nconst organizationQuery = useFhirSearch(\"Organization\", (search) =>\n  search._include(\"Organization\", \"partof\"),\n);\n\nreturn (\n  <FhirTable\n    // Spreading the query like this ensure that types flow to the render properly.\n    {...organizationQuery}\n    columns={[\n      {\n        key: \"name\",\n        title: \"Name\",\n        render: (org) => <FhirValue type=\"string\" value={org.name} />,\n      },\n      {\n        key: \"address\",\n        title: \"Address\",\n        render: (org) => (\n          <FhirValue type=\"Address\" value={org.address} options={{ max: 1 }} />\n        ),\n      },\n      {\n        key: \"partof\",\n        title: \"Part of\",\n        render: (org) => (\n          <FhirValue type=\"string\" value={org.partOf?.included()?.name} />\n        ),\n      },\n    ]}\n  />\n);\n"
       })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "Each column can provide its own renderer that is used for each cell."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "row-navigation",
+      children: "Row navigation"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["If using a function as the child component, it passes the query ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "data"
-      }), " as an non-null argument."]
+      children: ["There is built-in support for row navigation when a row is clicked, using the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.a, {
+        href: "/packages/react/get-started#navigation",
+        children: ["configured navigation on the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "<FhirUIProvider />"
+        })]
+      }), "."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "const patientQuery = useFhirRead(\"Patient\", \"123\");\n\nreturn (\n  <FhirQueryLoader query={patientQuery}>\n    // Here patient is of type Patient!\n    {(patient) => <FhirValue type=\"HumanName\" value={patient.name} />}\n  </FhirQueryLoader>\n);\n"
+        className: "language-tsx",
+        children: "// Return the target url to navigate to.\n<FhirTable onRowNavigate={(org) => `/organizations/${org.id}`} />\n"
       })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "sorting-support",
+      children: "Sorting support"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Multiple queries can be tracked for loading status, and only renders when all queries are loaded.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "In that case, the argument to the child function is the first query of the array."]
+      children: ["When used in tandem with a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "#usefhirsearchcontroller",
+        children: "search controller"
+      }), ", the table can provide automatic server-side\nsorting.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "The column ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "key"
+      }), " attrtibute must be a valid FHIR search parameter for the sorting to work properly."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "const patientQuery = useFhirRead(\"Patient\", \"123\");\nconst encountersQuery = useFhirSearch(\"Encounter\", (search) =>\n  search.patient(\"Patient/123\"),\n);\n\nreturn (\n  <FhirQueryLoader query={[patientQuery, encountersQuery]}>\n    {(patient) => <FhirValue type=\"HumanName\" value={patient.name} />}\n  </FhirQueryLoader>\n);\n"
+        className: "language-tsx",
+        children: "// The search controller coordinates activities and actions between the <FhirTable /> and the query.\nconst orgsSearchController = useFhirSearchController({\n  defaultSort: \"name\",\n  pageSize: 20,\n});\n\nconst organizationQuery = useFhirSearch(\n  \"Organization\",\n  (search) =>\n    search\n      ._include(\"Organization\", \"partof\")\n      // The page size and sort must now be controlled by the search controller, and passed to the query appropriately.\n      ._count(orgsSearchController.pageSize)\n      ._sort(orgsSearchController.sort),\n);\n\nreturn (\n  <FhirTable\n    {...organizationQuery}\n    // The search controller is spread as well. which allows the table to update the sort order on demand.\n    {...orgsSearchController}\n    columns={[\n      {\n        key: \"name\",\n        title: \"Name\",\n        sortable: true, // This column will be sortable, and will use the \"name\" search parameters\n        render: (org) => <FhirValue type=\"string\" value={org.name} />,\n      },\n      {\n        key: \"_lastUpdated\",\n        title: \"Last Updated\",\n        sortable: true, // This column will be sortable, and will use the \"_lastUpdated\" search parameters\n        render: (org) => (\n          <FhirValue type=\"instant\" value={org.meta.lastUpdated} />\n        ),\n      },\n    ]}\n  />\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "preview",
       children: "Preview"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-feedback-fhirqueryloader--loading&viewMode=story",
-      width: "100%"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-feedback-fhirqueryloader--default&viewMode=story",
-      width: "100%"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-feedback-fhirqueryloader--on-error&viewMode=story",
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-data-display-fhirtable--default&viewMode=story",
       width: "100%"
     })]
   });

@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[7483],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[9581],{
 
-/***/ 9607:
+/***/ 6266:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,36 +18,33 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 7,
-	title: 'Import in browser'
+	title: '<FhirValue />'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "core/import-in-browser",
-  "title": "Import in browser",
-  "description": "In addition to the versions available for all packages, the @bonfhir/core package",
-  "source": "@site/packages/core/import-in-browser.md",
-  "sourceDirName": "core",
-  "slug": "/core/import-in-browser",
-  "permalink": "/packages/core/import-in-browser",
+  "id": "react/components/fhir-value",
+  "title": "<FhirValue />",
+  "description": "The purpose of the `` component is to display FHIR Data Types easily.",
+  "source": "@site/packages/react/components/fhir-value.md",
+  "sourceDirName": "react/components",
+  "slug": "/react/components/fhir-value",
+  "permalink": "/packages/react/components/fhir-value",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/core/import-in-browser.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-value.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 7,
   "frontMatter": {
-    "sidebar_position": 7,
-    "title": "Import in browser"
+    "title": "<FhirValue />"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Misc helpers",
-    "permalink": "/packages/core/misc-helpers"
+    "title": "<FhirTable />",
+    "permalink": "/packages/react/components/fhir-table"
   },
   "next": {
-    "title": "Query",
-    "permalink": "/packages/query"
+    "title": "useFhirSearchController",
+    "permalink": "/packages/react/components/use-fhir-search-controller"
   }
 };
 const assets = {
@@ -56,11 +53,21 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "Example usage",
+  "id": "example-usage",
+  "level": 3
+}, {
+  "value": "Preview",
+  "id": "preview",
+  "level": 3
+}];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
+    br: "br",
     code: "code",
+    h3: "h3",
     p: "p",
     pre: "pre",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
@@ -68,24 +75,41 @@ function _createMdxContent(props) {
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["In addition to the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/intro#package-formats",
-        children: "versions available for all packages"
-      }), ", the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "@bonfhir/core"
-      }), " package\ncan also be imported directly in a browser, without packaging."]
+      children: ["The purpose of the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "<FhirValue />"
+      }), " component is to display ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/datatypes.html",
+        children: "FHIR Data Types"
+      }), " easily."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Simply use the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://unpkg.com",
-        children: "unpkg service"
-      }), " to pull it in:"]
+      children: ["It uses the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/core/data-types-formatters",
+        children: "Core formatter"
+      }), " and should provide most of the same options.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "The default formatter options can be configured in the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/react/get-started#custom-global-formatter",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "<FhirUIProvider />"
+        })
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "example-usage",
+      children: "Example usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-html",
-        children: "<script src=\"https://unpkg.com/@bonfhir/core/dist/r4b/global/index.js\"></script>\n"
+        className: "language-tsx",
+        children: "\nconst patientQuery = useFhirRead(\"Patient\", \"123\");\nconst patient = patientQuery.data;\n\n<FhirValue type=\"date\" value={patient?.birthDate} options={{ dateStyle: \"relative\" }} />\n<FhirValue type=\"HumanName\" value={patient?.name} options={{ max: 1 }} />\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "This version is meant primarily to be imported in low-code environments, where you can still benefit from some of the\nbonFHIR features by importing in a client-side browser directly."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "preview",
+      children: "Preview"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "<FhirValue type=\"HumanName\" value={patient?.name} />\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-data-display-fhirvalue--human-name&viewMode=story",
+      width: "100%"
     })]
   });
 }

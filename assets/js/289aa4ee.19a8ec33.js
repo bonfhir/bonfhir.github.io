@@ -18,14 +18,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 4,
-	title: 'Custom renderers'
+	sidebar_position: 5,
+	title: 'Custom renderers',
+	description: 'Complete customization'
 };
 const contentTitle = undefined;
 const metadata = {
   "id": "react/custom-renderers",
   "title": "Custom renderers",
-  "description": "You can create custom renderers if need be, to replace and/or augment bonFHIR-provided one.",
+  "description": "Complete customization",
   "source": "@site/packages/react/custom-renderers.md",
   "sourceDirName": "react",
   "slug": "/react/custom-renderers",
@@ -35,15 +36,16 @@ const metadata = {
   "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/custom-renderers.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 5,
   "frontMatter": {
-    "sidebar_position": 4,
-    "title": "Custom renderers"
+    "sidebar_position": 5,
+    "title": "Custom renderers",
+    "description": "Complete customization"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Mantine",
-    "permalink": "/packages/react/mantine"
+    "title": "Next.js",
+    "permalink": "/packages/react/next"
   },
   "next": {
     "title": "Subscriptions",
@@ -112,7 +114,7 @@ function _createMdxContent(props) {
       }), " using the following content:"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
+        className: "language-tsx",
         children: "import { FhirValueRendererProps } from \"@bonfhir/react/r5\";\nimport { ReactElement } from \"react\";\n\nexport function CustomFhirValue(\n  props: FhirValueRendererProps<CustomFhirValueProps>,\n): ReactElement | null {\n  return (\n    <>\n      {props.formattedValue}\n      {props.rendererProps?.preliminary ? \" (preliminary)\" : \"\"}\n    </>\n  );\n}\n\nexport interface CustomFhirValueProps {\n  preliminary?: boolean;\n}\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
@@ -152,7 +154,7 @@ function _createMdxContent(props) {
       }), ":"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
+        className: "language-tsx",
         children: "import { MantineRenderer } from \"@bonfhir/mantine/r4b\";\nimport { FhirUIRenderer } from \"@bonfhir/react/r4b\";\nimport { CustomFhirValue } from \"./custom-fhir-value\";\n\n// This re-uses all the Mantine renderer except for the one we just created.\nexport const CustomRenderer = {\n  ...MantineRenderer,\n  FhirValue: CustomFhirValue,\n} satisfies FhirUIRenderer;\n\n// This one is if you want to have only your components.\nexport const CustomRenderer = {\n  FhirValue: CustomFhirValue,\n} satisfies Partial<FhirUIRenderer>;\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.h2, {
@@ -162,7 +164,7 @@ function _createMdxContent(props) {
       })]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
+        className: "language-tsx",
         children: "import { FhirUIProvider } from \"@bonfhir/react/r4b\";\nimport { CustomRenderer } from \"./custom-renderer\";\n\nfunction Root() {\n  //...\n\n  return (\n    <FhirUIProvider renderer={CustomRenderer}>\n      <App />\n    </FhirUIProvider>\n  );\n}\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
@@ -174,7 +176,7 @@ function _createMdxContent(props) {
       }), " render props:"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
+        className: "language-tsx",
         children: "import type { CustomFhirValueProps } from \"./custom-fhir-value\";\nimport { FhirPaginationProps, FhirValueProps } from \"@bonfhir/react/r4b\";\n\ndeclare module \"@bonfhir/react/r4b\" {\n  export function FhirValue(\n    props: FhirValueProps<CustomFhirValueProps>,\n  ): ReactElement | null;\n}\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
@@ -182,7 +184,7 @@ function _createMdxContent(props) {
       children: "Use the component as usual"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
+        className: "language-tsx",
         children: "<FhirValue\n  type=\"string\"\n  value=\"Hello World\"\n  rendererProps={{ preliminary: true }}\n/>\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {

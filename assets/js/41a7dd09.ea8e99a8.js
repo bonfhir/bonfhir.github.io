@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[9565],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[9680],{
 
-/***/ 6261:
+/***/ 9882:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,36 +18,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 5,
-	title: 'Extending FHIR resources'
+	sidebar_position: 0,
+	title: 'Subscription handlers',
+	description: 'React to FHIR Resources changes'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "core/extending-fhir-resources",
-  "title": "Extending FHIR resources",
-  "description": "bonFHIR includes built-in support for managing extensions, tags, and profiles.",
-  "source": "@site/packages/core/extending-fhir-resources.md",
-  "sourceDirName": "core",
-  "slug": "/core/extending-fhir-resources",
-  "permalink": "/packages/core/extending-fhir-resources",
+  "id": "subscriptions/subscription-handlers",
+  "title": "Subscription handlers",
+  "description": "React to FHIR Resources changes",
+  "source": "@site/packages/subscriptions/subscription-handlers.md",
+  "sourceDirName": "subscriptions",
+  "slug": "/subscriptions/subscription-handlers",
+  "permalink": "/packages/subscriptions/subscription-handlers",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/core/extending-fhir-resources.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/subscriptions/subscription-handlers.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 0,
   "frontMatter": {
-    "sidebar_position": 5,
-    "title": "Extending FHIR resources"
+    "sidebar_position": 0,
+    "title": "Subscription handlers",
+    "description": "React to FHIR Resources changes"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Manipulating date and time",
-    "permalink": "/packages/core/manipulating-date-time"
+    "title": "Subscriptions",
+    "permalink": "/packages/subscriptions/"
   },
   "next": {
-    "title": "Misc helpers",
-    "permalink": "/packages/core/misc-helpers"
+    "title": "AWS Lambda",
+    "permalink": "/packages/subscriptions/aws-lambda"
   }
 };
 const assets = {
@@ -57,16 +59,20 @@ const assets = {
 
 
 const toc = [{
-  "value": "Extend FHIR resources",
-  "id": "extend-fhir-resources",
+  "value": "Basic usage",
+  "id": "basic-usage",
   "level": 2
 }, {
-  "value": "Usage with client",
-  "id": "usage-with-client",
+  "value": "Additional subscription customization",
+  "id": "additional-subscription-customization",
   "level": 2
 }, {
-  "value": "Complex extensions",
-  "id": "complex-extensions",
+  "value": "Register subscriptions",
+  "id": "register-subscriptions",
+  "level": 2
+}, {
+  "value": "Subscriptions security",
+  "id": "subscriptions-security",
   "level": 2
 }];
 function _createMdxContent(props) {
@@ -81,47 +87,55 @@ function _createMdxContent(props) {
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "bonFHIR includes built-in support for managing extensions, tags, and profiles.\nYou can also easily add computed values to FHIR resources to ease usage."
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["At the heart of the bonFHIR subscription models lies the concept of a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "FhirSubscription"
+      }), ".", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "A ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "FhirSubscription"
+      }), " is an abstraction that represents both the criterias that trigger it (the registration information),\nand the handler that gets executed when said subscription is triggered."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "extend-fhir-resources",
-      children: "Extend FHIR resources"
+      id: "basic-usage",
+      children: "Basic usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-typescript",
-        children: "import { extendResource, extension, tag, Formatter } from \"@bonfhir/core/r4b\";\n\n// Define a custom Patient resource\nconst CustomPatient = extendResource(\"Patient\", {\n  // Create a custom extension of type `code` that can be manipulated with an attribute named `birthSex`.\n  birthSex: extension({\n    url: \"http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex\",\n    kind: \"valueCode\",\n  }),\n\n  // Define a custom tag that can be manipulated with an attribute named `visiblity`\n  visibility: tag({ system: \"http://custom/visibility\" }),\n\n  // Define a computed value\n  nameAndDob() {\n    return Formatter.default.message`${[\"HumanName\", this.name, { max: 1 }]}${[\n      \"date\",\n      this.birthDate,\n      { decorator: \" - born {}\" },\n    ]}`;\n  },\n});\n\n// Use it as a constructor then\nconst patient = new CustomPatient({\n  name: [{ given: [\"John\"], family: \"Doe\" }],\n  birthDate: \"1990-01-01\",\n});\n\npatient.nameAndDob(); // 'John Doe - born 1/1/1990'\npatient.visibility = { code: \"public\" };\npatient.visibility; // { code: 'public', system: 'http://custom/visibility' }\n\npatient.birthSex = \"M\";\n\n// Get the FHIR Resource representation\n// This is also the format used when serializing to JSON.\npatient.toFhirResource();\n{\n  resourceType: 'Patient',\n  name: [ { given: [ 'John' ], family: 'Doe' } ],\n  birthDate: '1990-01-01',\n  meta: { tag: [ { code: 'public', system: 'http://custom/visibility' } ] },\n  extension: [\n    {\n      url: 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex',\n      valueCode: 'M'\n    }\n  ],\n  text: {\n    status: 'generated',\n    div: '<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li><span>Birth Date: </span>1/1/1990</li><li><span>Name: </span><ul><li>John Doe</li></ul></li></ul></div>'\n  }\n}\n"
+        children: "import { CommunicationRequest } from \"@bonfhir/core/r4b\";\nimport { FhirSubscription } from \"@bonfhir/subscriptions/r4b\";\n\nexport const communicationRequestsSubscription: FhirSubscription<CommunicationRequest> =\n  {\n    // The subscription criteria can be any valid FHIR search\n    criteria: \"CommunicationRequest?status=active\",\n\n    // This is purely for documentation purposes\n    reason: \"Send communication requests\",\n\n    // The local endpoint that will get triggered by the subscription\n    // e.g. if the baseUrl is http://my-server.com/subscriptions,\n    // then this will be http://my-server.com/subscriptions/communication-requests\n    endpoint: \"communication-requests\",\n\n    // The handler that gets invoked when a FHIR resource matches the criteria.\n    async handler({ fhirClient, resource, logger }) {\n      logger?.info(resource);\n    },\n  };\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "usage-with-client",
-      children: "Usage with client"
+      id: "additional-subscription-customization",
+      children: "Additional subscription customization"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Custom resources created with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "extendResource"
-      }), " can be used in the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/core/fhir-client",
-        children: "client"
-      }), " anywhere there is a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "ResourceType"
-      }), "\n(e.g. \"Patient\", \"Organization\"...)"]
+      children: ["Some FHIR servers implement extensions to FHIR subscriptions to accomodate more granular scenarios.\nIf need be, you can use the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "registration"
+      }), " method to further customize the registration information."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-typescript",
-        children: "const patient = await client.read(\n  CustomPatient,\n  \"82f1033e-22a8-4026-83ab-479e7589ca88\",\n);\n\npatient.nameAndDob(); // 'Abby752 Kuvalis369 - born 10/24/2002'\n\npatient.visibility = { code: \"public\" };\nconst savedPatient = await client.save(patient);\nsavedPatient.toFhirResource();\n{\n  resourceType: 'Patient',\n  ...\n  meta: {\n    tag: [ { code: 'public', system: 'http://custom/visibility' } ]\n  },\n}\n"
+        children: "export const communicationRequestsSubscription: FhirSubscription<CommunicationRequest> =\n  {\n    //...\n\n    registration(subscription) {\n      subscription.extension = [\n        ...(subscription.extension ?? []),\n        {\n          url: \"https://acme.org/subscription-max-attempts\",\n          valueInteger: 3,\n        },\n      ];\n\n      return subscription;\n    },\n  };\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "complex-extensions",
-      children: "Complex extensions"
+      id: "register-subscriptions",
+      children: "Register subscriptions"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Extensions can also be arrays by using the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "allowMultiple"
-      }), " attribute on the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "extension"
-      }), " method.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "More complex extensions can also be created. Have a look at the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "@bonfhir/us-core"
-      }), " package to understand how to create\nthem - more specifically the\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://github.com/bonfhir/bonfhir/blob/main/packages/us-core/src/r4b/patient/ethnicity.ts",
-        children: "us-core-ethnicity"
-      }), "\nis a good example."]
+      children: ["The regsitration of ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "FhirSubscription"
+      }), " should be handled by the hosting package that you choose to host the subscriptions.\nNonetheless, the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "@bonfhir/subscriptions"
+      }), " package contains the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "registerSubscriptions"
+      }), " function that can do it if need be."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "subscriptions-security",
+      children: "Subscriptions security"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["In order to protect the subscription endpoints from unwanted invocation, the subscription registration adds a custom header\nto the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/R4B/subscription-definitions.html#Subscription.channel.header",
+        children: "FHIR subscription"
+      }), " with a shared\nsecret. This header is then verified by the subscription infrastructure to prevent any unwanted invocation from happening."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["The shared secret (named ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "webhookSecret"
+      }), " in the configuration) must be protected adequately (as you would handle other secrets)."]
     })]
   });
 }

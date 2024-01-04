@@ -19,13 +19,14 @@ __webpack_require__.r(__webpack_exports__);
 
 const frontMatter = {
 	sidebar_position: 2,
-	title: 'FHIR Client'
+	title: 'FHIR Client',
+	description: 'Access FHIR Servers'
 };
 const contentTitle = undefined;
 const metadata = {
   "id": "core/fhir-client",
   "title": "FHIR Client",
-  "description": "The FhirClient is an important piece of the core package.",
+  "description": "Access FHIR Servers",
   "source": "@site/packages/core/fhir-client.md",
   "sourceDirName": "core",
   "slug": "/core/fhir-client",
@@ -38,7 +39,8 @@ const metadata = {
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2,
-    "title": "FHIR Client"
+    "title": "FHIR Client",
+    "description": "Access FHIR Servers"
   },
   "sidebar": "getStartedSidebar",
   "previous": {

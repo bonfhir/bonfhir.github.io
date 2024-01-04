@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[3088],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[6793],{
 
-/***/ 5867:
+/***/ 3043:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,33 +18,33 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	title: '<FhirError />'
+	title: 'useFhirUIProvider'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "react/components/fhir-error",
-  "title": "<FhirError />",
-  "description": "The `` displays error messages, and optionaly allows to retry a query or a mutation.",
-  "source": "@site/packages/react/components/fhir-error.md",
+  "id": "react/components/use-fhir-ui-context",
+  "title": "useFhirUIProvider",
+  "description": "The useFhirUIContext hook gives access to the `` configuration.",
+  "source": "@site/packages/react/components/use-fhir-ui-context.md",
   "sourceDirName": "react/components",
-  "slug": "/react/components/fhir-error",
-  "permalink": "/packages/react/components/fhir-error",
+  "slug": "/react/components/use-fhir-ui-context",
+  "permalink": "/packages/react/components/use-fhir-ui-context",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-error.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/use-fhir-ui-context.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "<FhirError />"
+    "title": "useFhirUIProvider"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Components & Hooks",
-    "permalink": "/packages/react/components/"
+    "title": "useFhirSearchController",
+    "permalink": "/packages/react/components/use-fhir-search-controller"
   },
   "next": {
-    "title": "<FhirFormatter />",
-    "permalink": "/packages/react/components/fhir-formatter"
+    "title": "Mantine",
+    "permalink": "/packages/react/mantine"
   }
 };
 const assets = {
@@ -54,12 +54,8 @@ const assets = {
 
 
 const toc = [{
-  "value": "Example usage",
-  "id": "example-usage",
-  "level": 2
-}, {
-  "value": "Preview",
-  "id": "preview",
+  "value": "Basic usage",
+  "id": "basic-usage",
   "level": 2
 }];
 function _createMdxContent(props) {
@@ -67,37 +63,45 @@ function _createMdxContent(props) {
     a: "a",
     code: "code",
     h2: "h2",
+    li: "li",
     p: "p",
     pre: "pre",
+    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirError />"
-      }), " displays error messages, and optionaly allows to retry a query or a mutation."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["See also ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/react/components/fhir-query-loader",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirQueryLoader />"
-        })
-      }), " for a more complete error management solution."]
+        children: "useFhirUIContext"
+      }), " hook gives access to the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.a, {
+        href: "/packages/react/get-started#configure-the-fhiruiprovider-",
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "<FhirUIProvider />"
+        }), " configuration"]
+      }), "."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "example-usage",
-      children: "Example usage"
+      id: "basic-usage",
+      children: "Basic usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "const encountersQuery = useFhirSearch(\"Encounter\");\n\nif (encountersQuery.isError) {\n  return (\n    <FhirError\n      error={encountersQuery.error}\n      onRetry={() => encountersQuery.refetch()}\n    />\n  );\n}\n\n//...\n"
+        className: "language-tsx",
+        children: "const { formatter, render } = useFhirUIContext();\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "preview",
-      children: "Preview"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-feedback-fhirerror--default&viewMode=story",
-      width: "100%"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "Features:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "formatter"
+        }), ": the globally configured formatter instance"]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "onNavigate"
+        }), ": to use the navigation configured in the provider"]
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "You should probably ignore all other features, as they exists for the purpose of the bonFHIR React component implementation\nand should probably not be used anywhere else."
     })]
   });
 }

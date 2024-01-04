@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 14,
+	sidebar_position: 4,
 	title: 'Subscriptions'
 };
 const contentTitle = undefined;
@@ -38,9 +38,9 @@ const metadata = {
   "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/subscriptions/index.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 14,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 14,
+    "sidebar_position": 4,
     "title": "Subscriptions"
   },
   "sidebar": "getStartedSidebar",

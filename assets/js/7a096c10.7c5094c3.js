@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[7475],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[5019],{
 
-/***/ 7443:
+/***/ 8205:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,36 +20,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 1,
-	title: 'Get started'
+	sidebar_position: 4,
+	title: 'Create a new subscription',
+	description: 'Finally - some code!'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "react/get-started",
-  "title": "Get started",
-  "description": "You can either get started from one of our templates, or configure it manually.",
-  "source": "@site/packages/react/get-started.md",
-  "sourceDirName": "react",
-  "slug": "/react/get-started",
-  "permalink": "/packages/react/get-started",
+  "id": "build-a-subscription-api-with-aws-lambda/create-a-new-subscription",
+  "title": "Create a new subscription",
+  "description": "Finally - some code!",
+  "source": "@site/docs/build-a-subscription-api-with-aws-lambda/create-a-new-subscription.md",
+  "sourceDirName": "build-a-subscription-api-with-aws-lambda",
+  "slug": "/build-a-subscription-api-with-aws-lambda/create-a-new-subscription",
+  "permalink": "/docs/build-a-subscription-api-with-aws-lambda/create-a-new-subscription",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/get-started.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-subscription-api-with-aws-lambda/create-a-new-subscription.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 1,
-    "title": "Get started"
+    "sidebar_position": 4,
+    "title": "Create a new subscription",
+    "description": "Finally - some code!"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "React",
-    "permalink": "/packages/react/"
+    "title": "Run and register subscriptions",
+    "permalink": "/docs/build-a-subscription-api-with-aws-lambda/run-and-register-subscriptions"
   },
   "next": {
-    "title": "Components & Hooks",
-    "permalink": "/packages/react/components/"
+    "title": "Contributing to bonFHIR",
+    "permalink": "/docs/contributing"
   }
 };
 const assets = {
@@ -61,104 +63,74 @@ const assets = {
 
 
 const toc = [{
-  "value": "From a template",
-  "id": "from-a-template",
+  "value": "The subscription handler",
+  "id": "the-subscription-handler",
   "level": 2
 }, {
-  "value": "Manually",
-  "id": "manually",
+  "value": "Run the registration",
+  "id": "run-the-registration",
   "level": 2
 }, {
-  "value": "Install the package(s)",
-  "id": "install-the-packages",
-  "level": 3
-}, {
-  "value": "Add the <code>&lt;FhirUIProvider /&gt;</code>",
-  "id": "add-the-fhiruiprovider-",
-  "level": 3
-}, {
-  "value": "Configure <code>@bonfhir/query</code>",
-  "id": "configure-bonfhirquery",
-  "level": 3
-}, {
-  "value": "Configure the <code>&lt;FhirUIProvider /&gt;</code>",
-  "id": "configure-the-fhiruiprovider-",
+  "value": "Test the subscription",
+  "id": "test-the-subscription",
   "level": 2
-}, {
-  "value": "Custom global formatter",
-  "id": "custom-global-formatter",
-  "level": 3
-}, {
-  "value": "Navigation",
-  "id": "navigation",
-  "level": 3
-}, {
-  "value": "Default props",
-  "id": "default-props",
-  "level": 3
-}, {
-  "value": "Typed <code>rendererProps</code>",
-  "id": "typed-rendererprops",
-  "level": 2
-}, {
-  "value": "Locally provide the renderer props type",
-  "id": "locally-provide-the-renderer-props-type",
-  "level": 3
-}, {
-  "value": "Globally apply the renderer props type",
-  "id": "globally-apply-the-renderer-props-type",
-  "level": 3
 }];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
-    admonition: "admonition",
-    br: "br",
     code: "code",
     h2: "h2",
-    h3: "h3",
+    img: "img",
     p: "p",
     pre: "pre",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "You can either get started from one of our templates, or configure it manually."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "from-a-template",
-      children: "From a template"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["We do recommend that you use one of our starter template to get started.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "Simply run the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "npm create -y bonfhir@latest"
-      }), " command to get started and pick the template that you want.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "We do provide templates for ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://vitejs.dev/",
-        children: "Vite"
-      }), " and a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://nextjs.org/",
-        children: "Next.js"
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["For this example we'll create a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/R4B/subscription.html",
+        children: "FHIR Subscription"
+      }), " that ensure that an\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/R4B/encounter.html",
+        children: "Encounter"
+      }), " is created automatically when an ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/R4B/appointment.html",
+        children: "Appointment"
+      }), "\nhas its status set to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "arrived"
       }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["If you haven't, we also strongly suggest you follow ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "docs/build-a-fhir-app-with-react",
-        children: "one of our get started tutorials"
-      }), "\nto learn more about the development process."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "manually",
-      children: "Manually"
+      id: "the-subscription-handler",
+      children: "The subscription handler"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["To use the components manually, first make sure that you have a working react application.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "Pay also attention to the required ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "http://localhost:3000/packages/intro#typescript-configuration",
-        children: "typescript configuration for bonFHIR"
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "install-the-packages",
-      children: "Install the package(s)"
+      children: ["Create a new file ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "src/subscriptions/arrived-appointments.ts"
+      }), " and paste the following code:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-typescript",
+        metastring: "title=\"src/subscriptions/arrived-appointments.ts\"",
+        children: "import {\n  Appointment,\n  Practitioner,\n  Reference,\n  build,\n  findReference,\n  isReferenceOf,\n  reference,\n} from \"@bonfhir/core/r4b\";\nimport { FhirSubscription } from \"@bonfhir/subscriptions/r4b\";\n\nexport const arrivedAppointments: FhirSubscription<Appointment> = {\n  criteria: \"Appointment?status=arrived\",\n  reason: \"Create encounters for arrived appointments\",\n  endpoint: \"arrived-appointments\",\n  async handler({ fhirClient, resource: appointment, logger }) {\n    // This is just a precaution\n    if (!appointment || appointment.status !== \"arrived\") return;\n\n    // Check if the appointment already has an encounter associated\n    const existingEncounters = await fhirClient.search(\"Encounter\", (search) =>\n      search.appointment(appointment),\n    );\n    if (existingEncounters.searchMatch().length > 0) return;\n\n    // Create the new encounter\n    // Note that we're using the build function from @bonfhir/core to create the encounter.\n    // We reference the appointment, and copy the appointment's subject and participants as well.\n    const newEncounter = build(\"Encounter\", {\n      status: \"arrived\",\n      class: {\n        system: \"http://terminology.hl7.org/CodeSystem/v3-ActCode\",\n        code: \"AMB\",\n        display: \"ambulatory\",\n      },\n      appointment: [reference(appointment)],\n      subject: findReference(\n        appointment.participant.map((p) => p.actor),\n        \"Patient\",\n      ),\n      participant: appointment.participant\n        .filter((participant) =>\n          isReferenceOf(participant.actor, \"Practitioner\"),\n        )\n        .map((participant) => ({\n          individual: participant.actor as Reference<Practitioner>,\n          type: participant.type,\n        })),\n    });\n\n    const result = await fhirClient.save(newEncounter);\n\n    logger?.info(\"Created encounter\", result);\n  },\n};\n"
+      })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Install the react package, and any renderer package that you need. For the purpose of this guide, we will use the\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/react/mantine",
-        children: "Mantine renderer package"
-      }), ":"]
+      children: ["Also, we need to update the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "src/subscriptions/index.ts"
+      }), " file to add the new subscription to the Lambda handler:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-typescript",
+        metastring: "title=\"src/subscriptions/index.ts\"",
+        children: "// ...\nimport { arrivedAppointments } from \"./arrived-appointments.js\";\n\nexport const handler = fhirSubscriptionHandler({\n  // ...\n  subscriptions: [communicationRequests, arrivedAppointments],\n});\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "run-the-registration",
+      children: "Run the registration"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Since we added a new subscription handler, we need to make sure it is registered properly.\nAssuming the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/docs/build-a-subscription-api-with-aws-lambda/run-and-register-subscriptions#run-the-serverless-application-locally",
+        children: "AWS Local server is still running"
+      }), ", run the following command in the project directory:"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_theme_Tabs__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
       groupId: "npm2yarn",
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -166,7 +138,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "npm install @bonfhir/react @bonfhir/mantine\n"
+            children: "npm run register-subscriptions\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -175,7 +147,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "yarn add @bonfhir/react @bonfhir/mantine\n"
+            children: "yarn register-subscriptions\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -184,184 +156,48 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "pnpm add @bonfhir/react @bonfhir/mantine\n"
+            children: "pnpm run register-subscriptions\n"
           })
         })
       })]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["You also need to follow any instructions attached to the renderer package. In the case of Mantine, ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://mantine.dev/getting-started/#get-started-without-framework",
-        children: "please follow\nthe documentation for the toolkit"
-      }), " - which means\ninstalling the toolkit packages and configuration files."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.h3, {
-      id: "add-the-fhiruiprovider-",
-      children: ["Add the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirUIProvider />"
-      })]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Once the packages are installed and the underlying tookit is configured, you know need to configure the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirUIProvider />"
-      }), ".", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "The provider is there to globally configure all ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/react/components",
-        children: "react components"
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Wrap you application with the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirUIProvider />"
-      }), " and indicates which renderer to use:"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import { FhirUIProvider } from \"@bonfhir/react/r4b\";\nimport { MantineRenderer } from \"@bonfhir/mantine/r4b\";\n\nfunction Root() {\n  //...\n\n  return (\n    <FhirUIProvider renderer={MantineRenderer}>\n      <App />\n    </FhirUIProvider>\n  );\n}\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.h3, {
-      id: "configure-bonfhirquery",
-      children: ["Configure ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "@bonfhir/query"
-      })]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Some components may need to fetch FHIR data. For this, they leverage the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.a, {
-        href: "/packages/query",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "@bonfhir/query"
-        }), " package"]
-      }), ".\nPlease refer to the package installation instructions to configure it."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "You are now ready to use the components."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.h2, {
-      id: "configure-the-fhiruiprovider-",
-      children: ["Configure the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirUIProvider />"
-      })]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.admonition, {
-      type: "info",
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-        children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirUIProvider />"
-        }), " uses ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "https://react.dev/learn/passing-data-deeply-with-context",
-          children: "React context"
-        }), ".", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "This makes it incompatible with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "https://nextjs.org/docs/app/building-your-application/rendering/server-components",
-          children: "React server components"
-        }), " at the moment."]
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-        children: ["You'll have to add ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "\"use client\";"
-        }), " if you use the app router in next."]
-      })]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "custom-global-formatter",
-      children: "Custom global formatter"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Some components use a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/core/data-types-formatters",
-        children: "formatter instance"
-      }), " to render FHIR content.\nIt is possible to customize the instance of the formatter used:"]
+      children: "You should see the following output in the AWS Local Server process:"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import { FhirUIProvider } from \"@bonfhir/react/r4b\";\nimport { Formatter } from \"@bonfhir/core/r4b\";\n\nconst formatter = Formatter.build({\n  locale: \"en-US\", // Force en-US locale regardless of browser settings\n  booleanLabels: {\n    true: \"Yes\",\n    false: \"No\",\n  },\n});\n\nfunction Root() {\n  //...\n\n  return (\n    <FhirUIProvider formatter={formatter}>\n      <App />\n    </FhirUIProvider>\n  );\n}\n"
+        className: "language-bash",
+        children: "POST /fhir/subscriptions/register (λ: subscriptions)\nRegistering subscriptions...\nSubscription Create encounters for arrived appointments for Appointment?status=arrived on http://host.docker.internal:6000/fhir/subscriptions/arrived-appointments registered.\n(λ: subscriptions) RequestId: b025100e-0b34-4e59-8fae-caad60046545  Duration: 139.96 ms  Billed Duration: 140 ms\n"
       })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "test-the-subscription",
+      children: "Test the subscription"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["To access the formatter instance in a react component, use the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "useFhirUIContext"
-      }), " hook:"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import { useFhirUIContext } from \"@bonfhir/react/r4b\";\n\nconst { formatter } = useFhirUIContext();\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "navigation",
-      children: "Navigation"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Some components may want to access and influence the navigation of the app.\nThis can be configured using the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "onNavigate"
-      }), " prop:"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import { FhirUIProvider } from \"@bonfhir/react/r4b\";\n\nfunction Root() {\n  //...\n  const navigate = useNavigate(); // Depends on your choice of router\n\n  return (\n    <FhirUIProvider onNavigate={({ target, aux }) => {\n        if (aux) {\n          // aux indicate that this should be opened in a different window if possible.\n          window.open(target, \"_blank\");\n        } else {\n          navigate(target);\n        }\n      }}>\n      <App />\n    </FhirUIProvider>\n  );\n}\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "default-props",
-      children: "Default props"
+      children: ["Head over to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "http://localhost:8100/Appointment",
+        children: "Medplum and create a new appointment"
+      }), " with the status ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "arrived"
+      }), ".\nYou can even include participants!"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "You can define default props for all bonFHIR components - they will apply globally, without the need to use them everywhere,\nunless they are overridden by component props:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import { FhirUIProvider } from \"@bonfhir/react/r4b\";\n\nfunction Root() {\n  //...\n  const navigate = useNavigate(); // Depends on your choice of router\n\n  return (\n    <FhirUIProvider\n      defaultProps={{\n        FhirInput: {\n          required: true // Makes all inputs required by default.\n        }\n      }}>\n      <App />\n    </FhirUIProvider>\n  );\n}\n"
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
+        alt: "Medplum Appointment",
+        src: (__webpack_require__(2322)/* ["default"] */ .Z) + "",
+        width: "3446",
+        height: "1370"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Then ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "http://localhost:8100/Encounter",
+        children: "search for encounters"
+      }), " and look at the last one updated - you should see the one\nthat the subscription just created!"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
+        alt: "Medplum Encounter",
+        src: (__webpack_require__(9283)/* ["default"] */ .Z) + "",
+        width: "3448",
+        height: "1486"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "It is possible to also use a function that can examine the component props and decide how to apply default options:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import { FhirUIProvider } from \"@bonfhir/react/r4b\";\n\nfunction Root() {\n  //...\n\n  return (\n    <FhirUIProvider\n      defaultProps={{\n        FhirInput: (props) => {\n          if ([\"code\", \"Coding\", \"CodeableConcept\"].includes(props.type)) {\n            // Defaults the `fhirClient` props of `FhirInput` to \"terminology\" when the type is \"code, \"Coding\" or \"CodeableConcept\"\n            return ({ ...props, fhirClient: \"terminology\" })\n          }\n\n          return props;\n        }\n      }}>\n      <App />\n    </FhirUIProvider>\n  );\n}\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.h2, {
-      id: "typed-rendererprops",
-      children: ["Typed ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "rendererProps"
-      })]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["All bonFHIR react components expose a props named ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "rendererProps"
-      }), " that is passed directly to the underlying renderer\ncomponent. This allows a great deal of flexibility in that renderer can expose customization and flexibility on top of\nwhat the base bonFHIR react component interface provides."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The following example illustrates the concept with Mantine renderer for the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirValue />"
-      }), " component, that re-exposes\nall of the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.a, {
-        href: "https://mantine.dev/core/text/?t=props",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "Text"
-        }), " props"]
-      }), " inside a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "text"
-      }), " attribute:"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "// Render the value in blue with a xl size\n<FhirValue\n  type=\"string\"\n  value=\"Hello, world!\"\n  rendererProps={{ text: { color: \"blue\", size: \"xl\" } }}\n/>\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["By default, these rendererProps are typed with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "any"
-      }), ", as the bonFHIR raect package cannot know what the underlying\nrenderer exposes.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "This is not great for type safety and discoverability."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "This can be fixed in 2 ways: locally or globally."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "locally-provide-the-renderer-props-type",
-      children: "Locally provide the renderer props type"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Renderer packages should provide a type to specify what the renderer props are, and it can be applied to the bonFHIR\ncomponent:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import { MantineFhirValueProps } from \"@bonfhir/mantine/r4b\";\nimport { FhirValue } from \"@bonfhir/react/r4b\";\n\n// Renderer props is now typed properly.\n<FhirValue<MantineFhirValueProps>\n  type=\"string\"\n  value=\"Hello, world!\"\n  rendererProps={{ text: { color: \"blue\", size: \"xl\" } }}\n/>\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "While this works, we recommend using the global approach as it will be applied everywhere by default."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "globally-apply-the-renderer-props-type",
-      children: "Globally apply the renderer props type"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["For this, you will need to create a filoe named ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "bonfhir.d.ts"
-      }), " at the root of your application, and apply TypeScript\ntypes overrides for each bonFHIR component you use:"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "import {\n  MantineFhirPaginationProps,\n  MantineFhirValueProps,\n} from \"@bonfhir/mantine/r4b\";\nimport { FhirPaginationProps, FhirValueProps } from \"@bonfhir/react/r4b\";\n\ndeclare module \"@bonfhir/react/r4b\" {\n  export function FhirValue(\n    props: FhirValueProps<MantineFhirValueProps>,\n  ): ReactElement | null;\n\n  export function FhirPagination(\n    props: FhirPaginationProps<MantineFhirPaginationProps>,\n  ): ReactElement | null;\n}\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["In this example, we override the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirValue />"
-      }), " and ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirPagination />"
-      }), " components to appy the rendererProps for\nMantine."]
+      children: "Congratulation! You have now created your first subscription."
     })]
   });
 }
@@ -471,6 +307,26 @@ role:"tab",tabIndex:selectedValue===value?0:-1,"aria-selected":selectedValue===v
 return null;}return/*#__PURE__*/(0,react.cloneElement)(selectedTabItem,{className:'margin-top--md'});}return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"margin-top--md",children:childTabs.map((tabItem,i)=>/*#__PURE__*/(0,react.cloneElement)(tabItem,{key:i,hidden:tabItem.props.value!==selectedValue}))});}function TabsComponent(props){const tabs=useTabs(props);return/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:(0,clsx/* default */.Z)('tabs-container',styles_module.tabList),children:[/*#__PURE__*/(0,jsx_runtime.jsx)(TabList,{...props,...tabs}),/*#__PURE__*/(0,jsx_runtime.jsx)(TabContent,{...props,...tabs})]});}function Tabs(props){const isBrowser=(0,useIsBrowser/* default */.Z)();return/*#__PURE__*/(0,jsx_runtime.jsx)(TabsComponent// Remount tabs after hydration
 // Temporary fix for https://github.com/facebook/docusaurus/issues/5653
 ,{...props,children:sanitizeTabsChildren(props.children)},String(isBrowser));}
+
+/***/ }),
+
+/***/ 2322:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/medplum-appointment-075e4f64702849dee2e7cc8bf2404480.png");
+
+/***/ }),
+
+/***/ 9283:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/medplum-encounter-79a01edd0413eec28111a9c639dfcd6f.png");
 
 /***/ }),
 

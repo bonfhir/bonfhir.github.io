@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[4015],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[9437],{
 
-/***/ 5437:
+/***/ 8453:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,36 +18,33 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 3,
-	title: 'Mantine'
+	title: '<FhirQuestionnaire />'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "react/mantine",
-  "title": "Mantine",
-  "description": "The @bonfhir/mantine package provides renderers for the Mantine toolkit v7.",
-  "source": "@site/packages/react/mantine.md",
-  "sourceDirName": "react",
-  "slug": "/react/mantine",
-  "permalink": "/packages/react/mantine",
+  "id": "react/components/fhir-questionnaire",
+  "title": "<FhirQuestionnaire />",
+  "description": "The `` renders a FHIR Questionnaire",
+  "source": "@site/packages/react/components/fhir-questionnaire.md",
+  "sourceDirName": "react/components",
+  "slug": "/react/components/fhir-questionnaire",
+  "permalink": "/packages/react/components/fhir-questionnaire",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/mantine.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-questionnaire.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 3,
-    "title": "Mantine"
+    "title": "<FhirQuestionnaire />"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "useFhirUIProvider",
-    "permalink": "/packages/react/components/use-fhir-ui-context"
+    "title": "<FhirQueryLoader />",
+    "permalink": "/packages/react/components/fhir-query-loader"
   },
   "next": {
-    "title": "Custom renderers",
-    "permalink": "/packages/react/custom-renderers"
+    "title": "<FhirTable />",
+    "permalink": "/packages/react/components/fhir-table"
   }
 };
 const assets = {
@@ -56,35 +53,51 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "Example usage",
+  "id": "example-usage",
+  "level": 2
+}, {
+  "value": "Preview",
+  "id": "preview",
+  "level": 2
+}];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
-    br: "br",
     code: "code",
+    h2: "h2",
     p: "p",
+    pre: "pre",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "@bonfhir/mantine"
-      }), " package provides renderers for the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://mantine.dev/",
-        children: "Mantine toolkit v7"
+        children: "<FhirQuestionnaire />"
+      }), " renders a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/questionnaire.html",
+        children: "FHIR Questionnaire"
+      }), "\nand creates a corresponding ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/questionnaireresponse.html",
+        children: "FHIR QuestionnaireResponse"
       }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "It only uses components from Mantine, and will integrate very well with a Mantine application and all other Mantine components."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://mantine.dev/getting-started/",
-        children: "Mantine must be installed and configured in the application"
-      }), " for the renderers to work properly."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["We recommend that you use one of our templates to get started easily.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "Just run ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "npm create -y bonfhir@latest"
-      }), " to get started."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "example-usage",
+      children: "Example usage"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "// Use the Questionnaire URL directly.\n<FhirQuestionnaire\n  source=\"http://acme.org/sample-questionnaire\"\n  onSubmit={(questionnaireResponse) => alert(questionnaireResponse)}\n/>;\n\n// Use a query to retrieve the Questionnaire\nconst { data: questionnaire } = useFhirSearchOne(\"Questionnaire\", (search) =>\n  search.url(\"http://acme.org/sample-questionnaire\").status(\"active\"),\n);\n\n<FhirQuestionnaire\n  source={questionnaire}\n  onSubmit={(questionnaireResponse) => alert(questionnaireResponse)}\n/>;\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "preview",
+      children: "Preview"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-inputs-fhirquestionnaire--default&viewMode=story",
+      width: "100%",
+      height: "500"
     })]
   });
 }

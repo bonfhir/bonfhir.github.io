@@ -19,13 +19,14 @@ __webpack_require__.r(__webpack_exports__);
 
 const frontMatter = {
 	sidebar_position: 4,
-	title: 'Manipulating date and time'
+	title: 'Manipulating date and time',
+	description: 'FHIR Native date/time/duration handling'
 };
 const contentTitle = undefined;
 const metadata = {
   "id": "core/manipulating-date-time",
   "title": "Manipulating date and time",
-  "description": "bonFHIR comes built-in with a date/time subframework that can be used to manipulate date, time and duration notions",
+  "description": "FHIR Native date/time/duration handling",
   "source": "@site/packages/core/manipulating-date-time.md",
   "sourceDirName": "core",
   "slug": "/core/manipulating-date-time",
@@ -38,7 +39,8 @@ const metadata = {
   "sidebarPosition": 4,
   "frontMatter": {
     "sidebar_position": 4,
-    "title": "Manipulating date and time"
+    "title": "Manipulating date and time",
+    "description": "FHIR Native date/time/duration handling"
   },
   "sidebar": "getStartedSidebar",
   "previous": {

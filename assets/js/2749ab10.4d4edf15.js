@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[6793],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[7483],{
 
-/***/ 3043:
+/***/ 9607:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,33 +18,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	title: 'useFhirUIProvider'
+	sidebar_position: 7,
+	title: 'Import in browser',
+	description: 'Use it anywhere'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "react/components/use-fhir-ui-context",
-  "title": "useFhirUIProvider",
-  "description": "The useFhirUIContext hook gives access to the `` configuration.",
-  "source": "@site/packages/react/components/use-fhir-ui-context.md",
-  "sourceDirName": "react/components",
-  "slug": "/react/components/use-fhir-ui-context",
-  "permalink": "/packages/react/components/use-fhir-ui-context",
+  "id": "core/import-in-browser",
+  "title": "Import in browser",
+  "description": "Use it anywhere",
+  "source": "@site/packages/core/import-in-browser.md",
+  "sourceDirName": "core",
+  "slug": "/core/import-in-browser",
+  "permalink": "/packages/core/import-in-browser",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/use-fhir-ui-context.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/core/import-in-browser.md",
   "tags": [],
   "version": "current",
+  "sidebarPosition": 7,
   "frontMatter": {
-    "title": "useFhirUIProvider"
+    "sidebar_position": 7,
+    "title": "Import in browser",
+    "description": "Use it anywhere"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "useFhirSearchController",
-    "permalink": "/packages/react/components/use-fhir-search-controller"
+    "title": "Misc helpers",
+    "permalink": "/packages/core/misc-helpers"
   },
   "next": {
-    "title": "Mantine",
-    "permalink": "/packages/react/mantine"
+    "title": "Query",
+    "permalink": "/packages/query"
   }
 };
 const assets = {
@@ -53,55 +58,36 @@ const assets = {
 
 
 
-const toc = [{
-  "value": "Basic usage",
-  "id": "basic-usage",
-  "level": 2
-}];
+const toc = [];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
     code: "code",
-    h2: "h2",
-    li: "li",
     p: "p",
     pre: "pre",
-    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "useFhirUIContext"
-      }), " hook gives access to the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.a, {
-        href: "/packages/react/get-started#configure-the-fhiruiprovider-",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirUIProvider />"
-        }), " configuration"]
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "basic-usage",
-      children: "Basic usage"
+      children: ["In addition to the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/intro#package-formats",
+        children: "versions available for all packages"
+      }), ", the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "@bonfhir/core"
+      }), " package\ncan also be imported directly in a browser, without packaging."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Simply use the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://unpkg.com",
+        children: "unpkg service"
+      }), " to pull it in:"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "const { formatter, render } = useFhirUIContext();\n"
+        className: "language-html",
+        children: "<script src=\"https://unpkg.com/@bonfhir/core/dist/r4b/global/index.js\"></script>\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Features:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "formatter"
-        }), ": the globally configured formatter instance"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "onNavigate"
-        }), ": to use the navigation configured in the provider"]
-      }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "You should probably ignore all other features, as they exists for the purpose of the bonFHIR React component implementation\nand should probably not be used anywhere else."
+      children: "This version is meant primarily to be imported in low-code environments, where you can still benefit from some of the\nbonFHIR features by importing in a client-side browser directly."
     })]
   });
 }

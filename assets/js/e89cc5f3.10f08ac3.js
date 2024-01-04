@@ -19,13 +19,14 @@ __webpack_require__.r(__webpack_exports__);
 
 const frontMatter = {
 	sidebar_position: 3,
-	title: 'Data Types Formatters'
+	title: 'Data Types Formatters',
+	description: 'Display localized FHIR Data Types'
 };
 const contentTitle = undefined;
 const metadata = {
   "id": "core/data-types-formatters",
   "title": "Data Types Formatters",
-  "description": "bonFHIR comes built-in with localized, configurable formatters for all FHIR Data Types.",
+  "description": "Display localized FHIR Data Types",
   "source": "@site/packages/core/data-types-formatters.md",
   "sourceDirName": "core",
   "slug": "/core/data-types-formatters",
@@ -38,7 +39,8 @@ const metadata = {
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3,
-    "title": "Data Types Formatters"
+    "title": "Data Types Formatters",
+    "description": "Display localized FHIR Data Types"
   },
   "sidebar": "getStartedSidebar",
   "previous": {

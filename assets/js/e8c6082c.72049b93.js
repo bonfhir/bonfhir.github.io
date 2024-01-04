@@ -19,13 +19,14 @@ __webpack_require__.r(__webpack_exports__);
 
 const frontMatter = {
 	sidebar_position: 2,
-	title: 'Components & Hooks'
+	title: 'Components & Hooks',
+	description: 'The building blocks'
 };
 const contentTitle = undefined;
 const metadata = {
   "id": "react/components/index",
   "title": "Components & Hooks",
-  "description": "See our Storybook for more information about the components as well.",
+  "description": "The building blocks",
   "source": "@site/packages/react/components/index.md",
   "sourceDirName": "react/components",
   "slug": "/react/components/",
@@ -38,7 +39,8 @@ const metadata = {
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2,
-    "title": "Components & Hooks"
+    "title": "Components & Hooks",
+    "description": "The building blocks"
   },
   "sidebar": "getStartedSidebar",
   "previous": {

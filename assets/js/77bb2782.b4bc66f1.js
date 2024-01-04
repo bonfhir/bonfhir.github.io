@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[2043],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[3088],{
 
-/***/ 2517:
+/***/ 5867:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,36 +18,33 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 6,
-	title: 'Misc helpers'
+	title: '<FhirError />'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "core/misc-helpers",
-  "title": "Misc helpers",
-  "description": "bonFHIR ships with a lot of helpers function to help you manage and handle FHIR data.",
-  "source": "@site/packages/core/misc-helpers.md",
-  "sourceDirName": "core",
-  "slug": "/core/misc-helpers",
-  "permalink": "/packages/core/misc-helpers",
+  "id": "react/components/fhir-error",
+  "title": "<FhirError />",
+  "description": "The `` displays error messages, and optionaly allows to retry a query or a mutation.",
+  "source": "@site/packages/react/components/fhir-error.md",
+  "sourceDirName": "react/components",
+  "slug": "/react/components/fhir-error",
+  "permalink": "/packages/react/components/fhir-error",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/core/misc-helpers.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-error.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
   "frontMatter": {
-    "sidebar_position": 6,
-    "title": "Misc helpers"
+    "title": "<FhirError />"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Extending FHIR resources",
-    "permalink": "/packages/core/extending-fhir-resources"
+    "title": "Components & Hooks",
+    "permalink": "/packages/react/components/"
   },
   "next": {
-    "title": "Import in browser",
-    "permalink": "/packages/core/import-in-browser"
+    "title": "<FhirFormatter />",
+    "permalink": "/packages/react/components/fhir-formatter"
   }
 };
 const assets = {
@@ -56,11 +53,20 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "Example usage",
+  "id": "example-usage",
+  "level": 2
+}, {
+  "value": "Preview",
+  "id": "preview",
+  "level": 2
+}];
 function _createMdxContent(props) {
   const _components = {
-    br: "br",
+    a: "a",
     code: "code",
+    h2: "h2",
     p: "p",
     pre: "pre",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
@@ -68,12 +74,30 @@ function _createMdxContent(props) {
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["bonFHIR ships with a lot of helpers function to help you manage and handle FHIR data.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "They are listed here in no particular order:"]
+      children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "<FhirError />"
+      }), " displays error messages, and optionaly allows to retry a query or a mutation."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["See also ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/react/components/fhir-query-loader",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "<FhirQueryLoader />"
+        })
+      }), " for a more complete error management solution."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "example-usage",
+      children: "Example usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        children: "// Check whether a reference is a reference to a specific resource type, and assert the type\nconst ref: Reference = { reference: \"Organization/123\" };\nif (isReferenceOf(ref, \"Organization\")) {\n  //ref is typed as a Reference<Organization> from now on.\n}\n\n// Some utility types\nasArray(\"foo\"); // [\"foo\"]\nasArray([\"foo\"]); // [\"foo\"]\n\nasError(\"bar\"); // Error: bar\nasError(new Error(\"bar\")); // Error: bar\n\nuniqBy([{ name: \"A\" }, { name: \"A\" }, { name: \"B\" }], (x) => x.name); // [({ name: \"A\" }, { name: \"B\" })]\n\ndeclare const listOfPatients: Patient[];\nconst patientsSortedByDateOfBirthOldestFirst = listOfPatients.sort(\n  compareBy(\"birthDate\"),\n);\nconst patientsSortedByDateOfBirthYoungestFirst = listOfPatients.sort(\n  compareBy(\"-birthDate\"),\n);\n\nurlSafeConcat(\"http://example.com/\", \"/Patient\"); // 'http://example.com/Patient'\nurlSafeConcat(\"http://example.com\", \"/Patient\"); // 'http://example.com/Patient'\nurlSafeConcat(\"http://example.com/\", \"Patient\"); // 'http://example.com/Patient'\nurlSafeConcat(\"http://example.com\", \"Patient\"); // 'http://example.com/Patient'\n\n// Recursively remove empty strings, null values in arrays, undefined, etc.\n// Useful to convert a JS object to a valid FHIR type.\ncleanFhirValues({ resourceType: \"Patient\", birthDate: \"\", name: [] }); // { resourceType: 'Patient' }\n\n// Semantically compare 2 resources, ignoring the id, meta and text fields.\nresourcesAreEqual(\n  {\n    resourceType: \"Patient\",\n    id: \"123\",\n    name: [{ family: \"Doe\" }],\n    birthDate: \"2020-01-01\",\n  },\n  {\n    resourceType: \"Patient\",\n    id: \"456\",\n    name: [{ family: \"Doe\" }],\n    birthDate: \"2020-01-01\",\n  },\n); // true\n\nresourcesAreEqual(\n  {\n    resourceType: \"Patient\",\n    id: \"123\",\n    name: [{ family: \"Doe\" }],\n    birthDate: \"2020-01-01\",\n  },\n  {\n    resourceType: \"Patient\",\n    id: \"456\",\n    name: [{ family: \"Doe\", given: [\"John\"] }],\n    birthDate: \"2020-01-01\",\n  },\n); // false\n\n// Check and return a strongly type resource\nconst result = asResource(\"Patient\", { resourceType: \"Patient\" }); // result is typed as a Patient | undefined;\nconst result = asResource(\"Patient\", { resourceType: \"Practitioner\" }); // undefined\n\n// Find the references of a specific type\ndeclare const patient: Patient;\nconst practitioner = findReference(patient.generalPractitioner, \"Practitioner\");\nconst practitioners = findReferences(\n  patient.generalPractitioner,\n  \"Practitioner\",\n);\n\n// Run the proper evaluation based on the correct Choice of Data type pattern\n// See https://hl7.org/fhir/formats.html#choice\nconst condition = build(\"Condition\", {\n  subject: { reference: \"Patient/123\" },\n  onsetDateTime: \"2020-01-01\",\n});\nconst result = choiceOfDataTypes(condition, \"onset\", {\n  dateTime: (value: string) => value + \" as dateTime\",\n  string: (value: string) => value + \" as string\",\n  period: (value: Period) => value + \" as Period\",\n}); // '2020-01-01 as dateTime'\n"
+        className: "language-tsx",
+        children: "const encountersQuery = useFhirSearch(\"Encounter\");\n\nif (encountersQuery.isError) {\n  return (\n    <FhirError\n      error={encountersQuery.error}\n      onRetry={() => encountersQuery.refetch()}\n    />\n  );\n}\n\n//...\n"
       })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "preview",
+      children: "Preview"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-feedback-fhirerror--default&viewMode=story",
+      width: "100%"
     })]
   });
 }
