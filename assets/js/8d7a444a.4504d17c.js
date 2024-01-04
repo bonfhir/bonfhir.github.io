@@ -45,8 +45,8 @@ const metadata = {
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Query",
-    "permalink": "/packages/query"
+    "title": "useFhirSearchAllPages",
+    "permalink": "/packages/query/read/use-fhir-search-all-pages"
   },
   "next": {
     "title": "Get started",

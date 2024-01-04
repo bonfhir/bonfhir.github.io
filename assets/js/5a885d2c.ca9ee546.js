@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[7276],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[3318],{
 
-/***/ 3868:
+/***/ 4483:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,34 +20,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 2
+	sidebar_position: 1,
+	title: 'Get Started',
+	description: 'Configure the <FhirQueryProvider />'
 };
-const contentTitle = 'Query';
+const contentTitle = undefined;
 const metadata = {
-  "id": "query",
-  "title": "Query",
-  "description": "npm",
-  "source": "@site/packages/query.md",
-  "sourceDirName": ".",
-  "slug": "/query",
-  "permalink": "/packages/query",
+  "id": "query/get-started",
+  "title": "Get Started",
+  "description": "Configure the <FhirQueryProvider />",
+  "source": "@site/packages/query/get-started.md",
+  "sourceDirName": "query",
+  "slug": "/query/get-started",
+  "permalink": "/packages/query/get-started",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query/get-started.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 2
+    "sidebar_position": 1,
+    "title": "Get Started",
+    "description": "Configure the <FhirQueryProvider />"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Import in browser",
-    "permalink": "/packages/core/import-in-browser"
+    "title": "Query",
+    "permalink": "/packages/query/"
   },
   "next": {
-    "title": "React",
-    "permalink": "/packages/react/"
+    "title": "Read Data",
+    "permalink": "/packages/query/read/"
   }
 };
 const assets = {
@@ -58,30 +62,47 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "Install the packages",
+  "id": "install-the-packages",
+  "level": 2
+}, {
+  "value": "Add the <code>&lt;FhirQueryProvider /&gt;</code>",
+  "id": "add-the-fhirqueryprovider-",
+  "level": 2
+}, {
+  "value": "Use multiple <code>FhirClient</code>",
+  "id": "use-multiple-fhirclient",
+  "level": 2
+}, {
+  "value": "Configure React Query",
+  "id": "configure-react-query",
+  "level": 2
+}, {
+  "value": "Get the context and the query client",
+  "id": "get-the-context-and-the-query-client",
+  "level": 2
+}, {
+  "value": "Disable cache management",
+  "id": "disable-cache-management",
+  "level": 2
+}];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
+    admonition: "admonition",
+    br: "br",
     code: "code",
-    h1: "h1",
-    img: "img",
+    h2: "h2",
     p: "p",
     pre: "pre",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h1, {
-      id: "query",
-      children: "Query"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://www.npmjs.com/package/@bonfhir/query",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-          src: "https://img.shields.io/npm/v/@bonfhir/query",
-          alt: "npm"
-        })
-      })
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "install-the-packages",
+      children: "Install the packages"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_theme_Tabs__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
       groupId: "npm2yarn",
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -89,7 +110,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "npm install @bonfhir/query\n"
+            children: "npm install @bonfhir/query @tanstack/react-query@^5 @tanstack/react-query-devtools@^5\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -98,7 +119,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "yarn add @bonfhir/query\n"
+            children: "yarn add @bonfhir/query @tanstack/react-query@^5 @tanstack/react-query-devtools@^5\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -107,10 +128,121 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "pnpm add @bonfhir/query\n"
+            children: "pnpm add @bonfhir/query @tanstack/react-query@^5 @tanstack/react-query-devtools@^5\n"
           })
         })
       })]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.admonition, {
+      type: "info",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+        children: "If you are using one of our project templates, you don't need to install anything as the packages are already included\nand configured."
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.h2, {
+      id: "add-the-fhirqueryprovider-",
+      children: ["Add the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "<FhirQueryProvider />"
+      })]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Once the packages are installed and the underlying tookit is configured, you know need to configure the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "<FhirQueryProvider />"
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Wrap you application with the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "<FhirQueryProvider />"
+      }), ", and pass an instance of a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/core/fhir-client",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "FhirClient"
+        })
+      }), ":"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "import { FhirQueryProvider } from \"@bonfhir/query/r4b\";\n\n// Create a FHIR Client to connect to a server\nconst client = new FetchFhirClient({\n  // Refer to https://bonfhir.dev/packages/core/fhir-client#initialize to understand how to properly initialize\n  // a FhirClient\n});\n\nfunction Root() {\n  //...\n\n  return (\n    <FhirQueryProvider fhirClient={client}>\n      <App />\n    </FhirQueryProvider>\n  );\n}\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.h2, {
+      id: "use-multiple-fhirclient",
+      children: ["Use multiple ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "FhirClient"
+      })]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "It is possible to configure the library to use multiple FHIR clients if you need to communicate with different FHIR servers:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "import { DEFAULT_FHIR_CLIENT, FhirQueryProvider } from \"@bonfhir/query/r4b\";\n\n// Create a FHIR Client to connect to a server\nconst mainClient = new FetchFhirClient({\n  // Refer to https://bonfhir.dev/packages/core/fhir-client#initialize to understand how to properly initialize\n  // a FhirClient\n});\n\n// Create another client to connect to a different terminology server for example\nconst terminologyClient = new FetchFhirClient({\n  // Refer to https://bonfhir.dev/packages/core/fhir-client#initialize to understand how to properly initialize\n  // a FhirClient\n});\n\nfunction Root() {\n  //...\n\n  return (\n    <FhirQueryProvider\n      fhirClient={{\n        [DEFAULT_FHIR_CLIENT]: mainClient,\n        terminology: terminologyClient,\n      }}\n    >\n      <App />\n    </FhirQueryProvider>\n  );\n}\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["In this case, clients are indexed with a name (in this case, ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "DEFAULT_FHIR_CLIENT"
+      }), " and ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "\"terminology\""
+      }), ").", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "The hooks use the \"default\" client when no option is provided, or use the name provided as part of their ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "fhirClient"
+      }), " argument:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "const patientQuery = useFhirRead(\"Patient\", \"123\", {\n  fhirClient: \"terminology\",\n});\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "It uses the same React Query cache, but treats invalidation as separate domains."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "configure-react-query",
+      children: "Configure React Query"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "It is possible to configure the underlying React Query by either providing configuration options, or a pre-configured instance:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "import { FhirQueryProvider } from \"@bonfhir/query/r4b\";\n\n// Create a FHIR Client to connect to a server\nconst client = new FetchFhirClient({\n  // Refer to https://bonfhir.dev/packages/core/fhir-client#initialize to understand how to properly initialize\n  // a FhirClient\n});\n\nfunction Root() {\n  //...\n\n  return (\n    <FhirQueryProvider\n      fhirClient={client}\n      queryClientConfig={{\n        defaultOptions: {\n          queries: {\n            refetchOnWindowFocus: false,\n          },\n        },\n      }}\n    >\n      <App />\n    </FhirQueryProvider>\n  );\n}\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "import { FhirQueryProvider } from \"@bonfhir/query/r4b\";\nimport { QueryClient } from \"@tanstack/react-query\";\n\n// Create a FHIR Client to connect to a server\nconst client = new FetchFhirClient({\n  // Refer to https://bonfhir.dev/packages/core/fhir-client#initialize to understand how to properly initialize\n  // a FhirClient\n});\n\nconst queryClient = new QueryClient();\n\nfunction Root() {\n  //...\n\n  return (\n    <FhirQueryProvider fhirClient={client} queryClient={queryClient}>\n      <App />\n    </FhirQueryProvider>\n  );\n}\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "get-the-context-and-the-query-client",
+      children: "Get the context and the query client"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["If you need to access the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "FhirClient"
+      }), " or ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "QueryClient"
+      }), ", you can use the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "useFhirQueryContext"
+      }), " and ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "useFhirClientQueryContext"
+      }), " hooks:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "// Returns all configured FhirClient and the QueryClient\nconst { fhirClient, queryClient } = useFhirQueryContext();\n\n// Return a specific FhirClient by its name configured in the provider, or throw an error if not found\nconst { fhirClient, queryClient } =\n  useFhirClientQueryContext(DEFAULT_FHIR_CLIENT);\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "disable-cache-management",
+      children: "Disable cache management"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["One of the benefits of using the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "@bonfhir/query"
+      }), " library is the automatic cache management that is provided.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "If for any reason you want to disable default cache strategies and manage cache invalidation yourself,\nuse the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "manageCache"
+      }), " option:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "import { FhirQueryProvider } from \"@bonfhir/query/r4b\";\nimport { QueryClient } from \"@tanstack/react-query\";\n\n// Create a FHIR Client to connect to a server\nconst client = new FetchFhirClient({\n  // Refer to https://bonfhir.dev/packages/core/fhir-client#initialize to understand how to properly initialize\n  // a FhirClient\n});\n\nfunction Root() {\n  //...\n\n  return (\n    <FhirQueryProvider fhirClient={client} manageCache={false}>\n      <App />\n    </FhirQueryProvider>\n  );\n}\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["You will then need to handle cache invalidation yourself.\nYou may want to leverage the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "FhirQueryKeys"
+      }), " helper to get the correct cache keys used in the hooks:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "// Get the queryKey managed by the read hook\nconst queryKeyForPatientRead = FhirQueryKeys.read(\n  DEFAULT_FHIR_CLIENT,\n  \"Patient\",\n  \"123\",\n);\n\n// Invalidate all queries that have a relationship with Patient/123.\nFhirQueryKeys.invalidateQueries(\n  DEFAULT_FHIR_CLIENT,\n  queryClient,\n  \"Patient\",\n  \"123\",\n);\n"
+      })
     })]
   });
 }
