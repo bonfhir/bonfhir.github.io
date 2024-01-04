@@ -127,10 +127,15 @@ function _createMdxContent(props) {
       id: "step-by-step",
       children: "Step by step"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["This guide builds off of the previous guide: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+      children: ["This guide builds off of the previous two guide: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/docs/build-a-fhir-app-with-react/start-from-vite-template",
+        children: "Start from the Vite Template"
+      }), " and ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
         href: "/docs/build-a-fhir-app-with-react/setup-fhir-server",
-        children: "Setup Medplum"
-      }), ".\n``\nLet's start by retrieving a Patient and displaying some information about them."]
+        children: "Setup a local FHIR Server"
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "Let's start by retrieving a Patient and displaying some information about them."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
         children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {

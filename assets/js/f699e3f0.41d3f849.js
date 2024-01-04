@@ -138,7 +138,7 @@ function _createMdxContent(props) {
         }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-tsx",
-            metastring: "title=\"src/components/PatientDiagnosticReportsTable.tsx\"",
+            metastring: "title=\"src/components/PatientReportsTable.tsx\"",
             children: "import { FC, ReactElement } from \"react\";\n\ntype PatientReportsTableProps = {\n  patientId: string;\n};\n\nconst PatientReportsTable: FC<PatientReportsTableProps> = ({\n  patientId,\n}): ReactElement => {\n  return (\n    <div>\n      <p>{patientId}</p>\n    </div>\n  );\n};\n\nexport default PatientReportsTable;\n"
           })
         }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
