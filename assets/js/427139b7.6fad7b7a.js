@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[3757],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[6840],{
 
-/***/ 4520:
+/***/ 1097:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -24,16 +24,16 @@ const frontMatter = {
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "query/read/use-fhir-search",
+  "id": "query/queries/use-fhir-search",
   "title": "useFhirSearch",
   "description": "Search for FHIR resources",
-  "source": "@site/packages/query/read/use-fhir-search.md",
-  "sourceDirName": "query/read",
-  "slug": "/query/read/use-fhir-search",
-  "permalink": "/packages/query/read/use-fhir-search",
+  "source": "@site/packages/query/queries/use-fhir-search.md",
+  "sourceDirName": "query/queries",
+  "slug": "/query/queries/use-fhir-search",
+  "permalink": "/packages/query/queries/use-fhir-search",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query/read/use-fhir-search.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query/queries/use-fhir-search.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -45,11 +45,11 @@ const metadata = {
   "sidebar": "getStartedSidebar",
   "previous": {
     "title": "useFhirVRead",
-    "permalink": "/packages/query/read/use-fhir-vread"
+    "permalink": "/packages/query/queries/use-fhir-vread"
   },
   "next": {
     "title": "useFhirSearchOne",
-    "permalink": "/packages/query/read/use-fhir-search-one"
+    "permalink": "/packages/query/queries/use-fhir-search-one"
   }
 };
 const assets = {
@@ -61,17 +61,25 @@ const assets = {
 const toc = [{
   "value": "Basic usage",
   "id": "basic-usage",
-  "level": 2
+  "level": 3
+}, {
+  "value": "With the <code>&lt;FhirQueryLoader /&gt;</code>",
+  "id": "with-the-fhirqueryloader-",
+  "level": 3
 }, {
   "value": "With pagination",
   "id": "with-pagination",
-  "level": 2
+  "level": 3
+}, {
+  "value": "With options",
+  "id": "with-options",
+  "level": 3
 }];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
     code: "code",
-    h2: "h2",
+    h3: "h3",
     p: "p",
     pre: "pre",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
@@ -86,32 +94,30 @@ function _createMdxContent(props) {
         href: "https://hl7.org/fhir/http.html#search",
         children: "search"
       }), " request."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
       id: "basic-usage",
       children: "Basic usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        children: "import { useFhirSearch } from \"@bonfhir/query/r4b\";\n\nexport default function MyComponent() {\n  const patientsSearchQuery = useFhirSearch(\"Patient\", (search) =>\n    search\n      ._include(\"Patient\", \"organization\")\n      ._sort(\"-_lastUpdated\")\n      ._count(20)\n      ._total(\"accurate\"),\n  );\n\n  if (patientsSearchQuery.isInitialLoading) {\n    return <div>Loading...</div>;\n  }\n\n  if (patientsSearchQuery.isError) {\n    return <div>{asError(patientsSearchQuery.error)?.message}</div>;\n  }\n\n  return (\n    <List>\n      {patientsSearchQuery.data?.searchMatch().map((patient) => {\n        return (\n          <List.Item key={patient.id}>\n            <FhirValue type=\"HumanName\" value={patient.name} /> -\n            <FhirValue\n              type=\"string\"\n              value={patient.managingOrganization?.included()?.name}\n            />\n          </List.Item>\n        );\n      })}\n    </List>\n  );\n}\n"
+        children: "import { asError } from \"@bonfhir/core/r4b\";\nimport { useFhirSearch } from \"@bonfhir/query/r4b\";\nimport { FhirValue } from \"@bonfhir/react/r4b\";\nimport { List } from \"@mantine/core\";\n\nexport default function MyComponent() {\n  const patientsSearchQuery = useFhirSearch(\"Patient\", (search) =>\n    search\n      ._include(\"Patient\", \"organization\")\n      ._sort(\"-_lastUpdated\")\n      ._count(20)\n      ._total(\"accurate\"),\n  );\n\n  if (patientsSearchQuery.isLoading) {\n    return <div>Loading...</div>;\n  }\n\n  if (patientsSearchQuery.isError) {\n    return <div>{asError(patientsSearchQuery.error)?.message}</div>;\n  }\n\n  return (\n    <List>\n      {patientsSearchQuery.data?.searchMatch().map((patient) => {\n        return (\n          <List.Item key={patient.id}>\n            <FhirValue type=\"HumanName\" value={patient.name} /> -\n            <FhirValue\n              type=\"string\"\n              value={patient.managingOrganization?.included()?.name}\n            />\n          </List.Item>\n        );\n      })}\n    </List>\n  );\n}\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["See the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
         href: "/packages/core/fhir-client#search-builders-and-bundle-navigators",
         children: "Core documentation around search"
       }), " for more information\nabout the search or the bundle navigator."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["More concisely, with the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/react/components/fhir-query-loader",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirQueryLoader />"
-        })
-      }), " component:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.h3, {
+      id: "with-the-fhirqueryloader-",
+      children: ["With the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "<FhirQueryLoader />"
+      })]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
         children: "import { useFhirSearch } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\nimport { List } from \"@mantine/core\";\n\nexport default function MyComponent() {\n  const patientsSearchQuery = useFhirSearch(\"Patient\", (search) =>\n    search\n      ._include(\"Patient\", \"organization\")\n      ._sort(\"-_lastUpdated\")\n      ._count(20)\n      ._total(\"accurate\"),\n  );\n\n  return (\n    <FhirQueryLoader query={patientsSearchQuery}>\n      {(result) => (\n        <List>\n          {result.searchMatch().map((patient) => {\n            return (\n              <List.Item key={patient.id}>\n                <FhirValue type=\"HumanName\" value={patient.name} /> -\n                <FhirValue\n                  type=\"string\"\n                  value={patient.managingOrganization?.included()?.name}\n                />\n              </List.Item>\n            );\n          })}\n        </List>\n      )}\n    </FhirQueryLoader>\n  );\n}\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
       id: "with-pagination",
       children: "With pagination"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
@@ -140,8 +146,9 @@ function _createMdxContent(props) {
         className: "language-tsx",
         children: "import { useFhirSearch } from \"@bonfhir/query/r4b\";\nimport {\n  FhirPagination,\n  FhirQueryLoader,\n  FhirValue,\n  useFhirSearchController,\n} from \"@bonfhir/react/r4b\";\nimport { List, Stack } from \"@mantine/core\";\n\nexport default function MyComponent() {\n  const searchController = useFhirSearchController({\n    defaultSort: \"-_lastUpdated\",\n    pageSize: 20,\n  });\n\n  const patientsSearchQuery = useFhirSearch(\n    \"Patient\",\n    (search) =>\n      search\n        ._include(\"Patient\", \"organization\")\n        ._sort(searchController.sort)\n        ._count(searchController.pageSize)\n        ._total(\"accurate\"),\n    searchController.pageUrl,\n  );\n\n  return (\n    <FhirQueryLoader query={patientsSearchQuery}>\n      {(result) => (\n        <Stack>\n          <List>\n            {result.searchMatch().map((patient) => {\n              return (\n                <List.Item key={patient.id}>\n                  <FhirValue type=\"HumanName\" value={patient.name} /> -\n                  <FhirValue\n                    type=\"string\"\n                    value={patient.managingOrganization?.included()?.name}\n                  />\n                </List.Item>\n              );\n            })}\n          </List>\n          <FhirPagination {...patientsSearchQuery} {...searchController} />\n        </Stack>\n      )}\n    </FhirQueryLoader>\n  );\n}\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "With options:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "with-options",
+      children: "With options"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",

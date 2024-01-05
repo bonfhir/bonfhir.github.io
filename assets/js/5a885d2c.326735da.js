@@ -50,8 +50,8 @@ const metadata = {
     "permalink": "/packages/query/"
   },
   "next": {
-    "title": "Read Data",
-    "permalink": "/packages/query/read/"
+    "title": "Queries",
+    "permalink": "/packages/query/queries/"
   }
 };
 const assets = {

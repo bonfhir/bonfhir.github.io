@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[4611],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[7882],{
 
-/***/ 1652:
+/***/ 252:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -24,16 +24,16 @@ const frontMatter = {
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "query/read/use-fhir-search-all-pages",
+  "id": "query/queries/use-fhir-search-all-pages",
   "title": "useFhirSearchAllPages",
   "description": "Get all the search results at once",
-  "source": "@site/packages/query/read/use-fhir-search-all-pages.md",
-  "sourceDirName": "query/read",
-  "slug": "/query/read/use-fhir-search-all-pages",
-  "permalink": "/packages/query/read/use-fhir-search-all-pages",
+  "source": "@site/packages/query/queries/use-fhir-search-all-pages.md",
+  "sourceDirName": "query/queries",
+  "slug": "/query/queries/use-fhir-search-all-pages",
+  "permalink": "/packages/query/queries/use-fhir-search-all-pages",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query/read/use-fhir-search-all-pages.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query/queries/use-fhir-search-all-pages.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 5,
@@ -45,11 +45,11 @@ const metadata = {
   "sidebar": "getStartedSidebar",
   "previous": {
     "title": "useFhirSearchOne",
-    "permalink": "/packages/query/read/use-fhir-search-one"
+    "permalink": "/packages/query/queries/use-fhir-search-one"
   },
   "next": {
-    "title": "React",
-    "permalink": "/packages/react/"
+    "title": "useFhirInfiniteSearch",
+    "permalink": "/packages/query/queries/use-fhir-infinite-search"
   }
 };
 const assets = {
@@ -58,12 +58,25 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "Basic usage",
+  "id": "basic-usage",
+  "level": 3
+}, {
+  "value": "With the <code>&lt;FhirQueryLoader /&gt;</code>",
+  "id": "with-the-fhirqueryloader-",
+  "level": 3
+}, {
+  "value": "With options",
+  "id": "with-options",
+  "level": 3
+}];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
     admonition: "admonition",
     code: "code",
+    h3: "h3",
     p: "p",
     pre: "pre",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
@@ -72,7 +85,7 @@ function _createMdxContent(props) {
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["This hook is similar to the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/query/read/use-fhir-search",
+        href: "/packages/query/queries/use-fhir-search",
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
           children: "useFhirSearch"
         })
@@ -87,25 +100,27 @@ function _createMdxContent(props) {
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
         children: "Most of the time there is a better way to achieve a feature, through referenced resources or graph operations for example."
       })]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "basic-usage",
+      children: "Basic usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        children: "import { asError } from \"@bonfhir/core/r4b\";\nimport { useFhirSearchAllPages } from \"@bonfhir/query/r4b\";\nimport { FhirValue } from \"@bonfhir/react/r4b\";\nimport { List } from \"@mantine/core\";\n\nexport default function MyComponent() {\n  const allObservationsLinkedToAnEnounterQuery = useFhirSearchAllPages(\n    \"Observation\",\n    (search) =>\n      search\n        .encounter(\"Encounter/5def0123-5a8a-4842-a3c0-7dd8386bdf6a\")\n        // Prefer using a large number here to minimize round trips to the server\n        ._count(100),\n  );\n\n  if (allObservationsLinkedToAnEnounterQuery.isInitialLoading) {\n    return <div>Loading...</div>;\n  }\n\n  if (allObservationsLinkedToAnEnounterQuery.isError) {\n    return (\n      <div>\n        {asError(allObservationsLinkedToAnEnounterQuery.error)?.message}\n      </div>\n    );\n  }\n\n  return (\n    <List>\n      {allObservationsLinkedToAnEnounterQuery.data\n        ?.searchMatch()\n        .map((observation) => (\n          <List.Item key={observation.id}>\n            <FhirValue type=\"CodeableConcept\" value={observation.code} />\n          </List.Item>\n        ))}\n    </List>\n  );\n}\n"
+        children: "import { asError } from \"@bonfhir/core/r4b\";\nimport { useFhirSearchAllPages } from \"@bonfhir/query/r4b\";\nimport { FhirValue } from \"@bonfhir/react/r4b\";\nimport { List } from \"@mantine/core\";\n\nexport default function MyComponent() {\n  const allObservationsLinkedToAnEnounterQuery = useFhirSearchAllPages(\n    \"Observation\",\n    (search) =>\n      search\n        .encounter(\"Encounter/5def0123-5a8a-4842-a3c0-7dd8386bdf6a\")\n        // Prefer using a large number here to minimize round trips to the server\n        ._count(100),\n  );\n\n  if (allObservationsLinkedToAnEnounterQuery.isLoading) {\n    return <div>Loading...</div>;\n  }\n\n  if (allObservationsLinkedToAnEnounterQuery.isError) {\n    return (\n      <div>\n        {asError(allObservationsLinkedToAnEnounterQuery.error)?.message}\n      </div>\n    );\n  }\n\n  return (\n    <List>\n      {allObservationsLinkedToAnEnounterQuery.data\n        ?.searchMatch()\n        .map((observation) => (\n          <List.Item key={observation.id}>\n            <FhirValue type=\"CodeableConcept\" value={observation.code} />\n          </List.Item>\n        ))}\n    </List>\n  );\n}\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["More concisely, with the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/react/components/fhir-query-loader",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirQueryLoader />"
-        })
-      }), " component:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.h3, {
+      id: "with-the-fhirqueryloader-",
+      children: ["With the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "<FhirQueryLoader />"
+      })]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
         children: "import { useFhirSearchAllPages } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\nimport { List } from \"@mantine/core\";\n\nexport default function MyComponent() {\n  const allObservationsLinkedToAnEnounterQuery = useFhirSearchAllPages(\n    \"Observation\",\n    (search) =>\n      search\n        .encounter(\"Encounter/5def0123-5a8a-4842-a3c0-7dd8386bdf6a\")\n        // Prefer using a large number here to minimize round trips to the server\n        ._count(100),\n  );\n\n  return (\n    <FhirQueryLoader query={allObservationsLinkedToAnEnounterQuery}>\n      {(result) => (\n        <List>\n          {result.searchMatch().map((observation) => (\n            <List.Item key={observation.id}>\n              <FhirValue type=\"CodeableConcept\" value={observation.code} />\n            </List.Item>\n          ))}\n        </List>\n      )}\n    </FhirQueryLoader>\n  );\n}\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "With options:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "with-options",
+      children: "With options"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",

@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[3519],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[8511],{
 
-/***/ 3184:
+/***/ 7899:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,38 +18,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 1,
-	title: 'useFhirRead',
-	description: 'Read a FHIR resource'
+	sidebar_position: 2,
+	title: 'useFhirUpdateMutation',
+	description: 'Update a FHIR resource'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "query/read/use-fhir-read",
-  "title": "useFhirRead",
-  "description": "Read a FHIR resource",
-  "source": "@site/packages/query/read/use-fhir-read.md",
-  "sourceDirName": "query/read",
-  "slug": "/query/read/use-fhir-read",
-  "permalink": "/packages/query/read/use-fhir-read",
+  "id": "query/mutations/use-fhir-update-mutation",
+  "title": "useFhirUpdateMutation",
+  "description": "Update a FHIR resource",
+  "source": "@site/packages/query/mutations/use-fhir-update-mutation.md",
+  "sourceDirName": "query/mutations",
+  "slug": "/query/mutations/use-fhir-update-mutation",
+  "permalink": "/packages/query/mutations/use-fhir-update-mutation",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query/read/use-fhir-read.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query/mutations/use-fhir-update-mutation.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 1,
-    "title": "useFhirRead",
-    "description": "Read a FHIR resource"
+    "sidebar_position": 2,
+    "title": "useFhirUpdateMutation",
+    "description": "Update a FHIR resource"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Read Data",
-    "permalink": "/packages/query/read/"
+    "title": "useFhirCreateMutation",
+    "permalink": "/packages/query/mutations/use-fhir-create-mutation"
   },
   "next": {
-    "title": "useFhirVRead",
-    "permalink": "/packages/query/read/use-fhir-vread"
+    "title": "useFhirSaveMutation",
+    "permalink": "/packages/query/mutations/use-fhir-save-mutation"
   }
 };
 const assets = {
@@ -58,11 +58,20 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "Basic usage",
+  "id": "basic-usage",
+  "level": 3
+}, {
+  "value": "With options",
+  "id": "with-options",
+  "level": 3
+}];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
     code: "code",
+    h3: "h3",
     p: "p",
     pre: "pre",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
@@ -71,52 +80,28 @@ function _createMdxContent(props) {
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["Return a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://tanstack.com/query/latest/docs/react/guides/queries",
-        children: "Query"
-      }), " for a\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/http.html#read",
-        children: "read"
+        href: "https://tanstack.com/query/latest/docs/react/guides/mutations",
+        children: "Mutation"
+      }), " for an\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/http.html#create",
+        children: "update"
       }), " request."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "basic-usage",
+      children: "Basic usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        children: "import { useFhirRead } from \"@bonfhir/query/r4b\";\n\nexport default function MyComponent() {\n  const patientQuery = useFhirRead(\n    \"Patient\",\n    \"a337ccfc-3ad4-47b4-9f02-3a19e035bb03\",\n  );\n\n  if (patientQuery.isInitialLoading) {\n    return <div>Loading...</div>;\n  }\n\n  if (patientQuery.isError) {\n    return <div>{asError(patientQuery.error)?.message}</div>;\n  }\n\n  return <FhirValue type=\"HumanName\" value={patientQuery.data?.name} />;\n}\n"
+        children: "import { build } from \"@bonfhir/core/r4b\";\nimport { useFhirUpdateMutation } from \"@bonfhir/query/r4b\";\nimport { Button } from \"@mantine/core\";\n\nexport default function MyComponent() {\n  const updatePatientMutation = useFhirUpdateMutation(\"Patient\");\n\n  const buildPatient = () =>\n    build(\"Patient\", {\n      id: \"1baad35e-7b87-4149-8f8d-c1f72246cb32\",\n      name: [{ given: [\"John\"], family: \"Doe\" }],\n      active: true,\n    });\n\n  return (\n    <Button\n      loading={updatePatientMutation.isPending}\n      onClick={() => updatePatientMutation.mutate(buildPatient())}\n    >\n      Create Patient\n    </Button>\n  );\n}\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["More concisely, with the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/react/components/fhir-query-loader",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirQueryLoader />"
-        })
-      }), " component:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "with-options",
+      children: "With options"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        children: "import { useFhirRead } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\n\nexport default function MyComponent() {\n  const patientQuery = useFhirRead(\n    \"Patient\",\n    \"a337ccfc-3ad4-47b4-9f02-3a19e035bb03\",\n  );\n\n  return (\n    <FhirQueryLoader query={patientQuery}>\n      {(patient) => <FhirValue type=\"HumanName\" value={patient.name} />}\n    </FhirQueryLoader>\n  );\n}\n"
+        children: "import { DEFAULT_FHIR_CLIENT, useFhirUpdateMutation } from \"@bonfhir/query/r4b\";\nimport { useFhirUIContext } from \"@bonfhir/react/r4b\";\nimport { notifications } from \"@mantine/notifications\";\n\nexport default function MyComponent() {\n  const { formatter } = useFhirUIContext();\n\n  const updatePatientMutation = useFhirUpdateMutation(\"Patient\", {\n    // The name of the FhirClient to use\n    fhirClient: DEFAULT_FHIR_CLIENT,\n\n    // React query mutation options\n    mutation: {\n      onSuccess: (patient) => {\n        notifications.show({\n          title: \"Patient updated\",\n          message: formatter.message`Updated patient ${[\n            \"HumanName\",\n            patient.name,\n          ]}`,\n          color: \"green\",\n        });\n      },\n      onError: (error) => {...}\n    },\n  });\n\n  //...\n}\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "With options:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-tsx",
-        children: "import { DEFAULT_FHIR_CLIENT, useFhirRead } from \"@bonfhir/query/r4b\";\n\nexport default function MyComponent() {\n  const patientQuery = useFhirRead(\n    \"Patient\",\n    \"a337ccfc-3ad4-47b4-9f02-3a19e035bb03\",\n    {\n      // FHIR API options - matches the `FhirClient` options\n      fhir: {\n        _summary: \"true\",\n      },\n\n      // The name of the FhirClient to use\n      fhirClient: DEFAULT_FHIR_CLIENT,\n\n      // React query options\n      query: {\n        gcTime: Number.POSITIVE_INFINITY,\n      },\n    },\n  );\n\n  //...\n}\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "useFhirRead"
-      }), " hook errors out on not found - same behavior as the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/core/fhir-client#crud",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "FhirClient.read"
-        })
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["If you are not sure about the existence of the resource, you might want to use ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/query/read/use-fhir-search",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "useFhirSearch"
-        })
-      }), " instead."]
     })]
   });
 }

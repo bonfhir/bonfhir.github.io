@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[792],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[7783],{
 
-/***/ 2358:
+/***/ 2390:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -19,38 +19,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 2,
-	title: 'Read Data',
-	description: 'Retrieve FHIR Data from a FHIR Server'
+	sidebar_position: 3,
+	title: 'Mutations',
+	description: 'Modify FHIR Data from a FHIR Server'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "query/read/index",
-  "title": "Read Data",
-  "description": "Retrieve FHIR Data from a FHIR Server",
-  "source": "@site/packages/query/read/index.md",
-  "sourceDirName": "query/read",
-  "slug": "/query/read/",
-  "permalink": "/packages/query/read/",
+  "id": "query/mutations/index",
+  "title": "Mutations",
+  "description": "Modify FHIR Data from a FHIR Server",
+  "source": "@site/packages/query/mutations/index.md",
+  "sourceDirName": "query/mutations",
+  "slug": "/query/mutations/",
+  "permalink": "/packages/query/mutations/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query/read/index.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query/mutations/index.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 2,
-    "title": "Read Data",
-    "description": "Retrieve FHIR Data from a FHIR Server"
+    "sidebar_position": 3,
+    "title": "Mutations",
+    "description": "Modify FHIR Data from a FHIR Server"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Get Started",
-    "permalink": "/packages/query/get-started"
+    "title": "useFhirCapabilities",
+    "permalink": "/packages/query/queries/use-fhir-capabilities"
   },
   "next": {
-    "title": "useFhirRead",
-    "permalink": "/packages/query/read/use-fhir-read"
+    "title": "useFhirCreateMutation",
+    "permalink": "/packages/query/mutations/use-fhir-create-mutation"
   }
 };
 const assets = {
@@ -64,6 +64,8 @@ const toc = [];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
+    admonition: "admonition",
+    br: "br",
     code: "code",
     p: "p",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .a)(),
@@ -72,16 +74,30 @@ function _createMdxContent(props) {
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["These are all ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://tanstack.com/query/v5/docs/react/guides/queries",
-        children: "Query hooks"
+        href: "https://tanstack.com/query/v5/docs/react/guides/mutations",
+        children: "Mutation hooks"
       }), "."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["For all read hooks, checkout the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/react/components/fhir-query-loader",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirQueryLoader />"
-        })
-      }), " component.\nIt is meant to work in tandem with read hooks, and handles the loading / error / display lifecycle automatically."]
+      children: ["The main difference with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/query/queries",
+        children: "queries"
+      }), " is that mutations do not execute by default - they are invoked\nby an action on the page."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.admonition, {
+      title: "Refresh strategies",
+      type: "info",
+      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+        children: ["One important thing to understand is that since the query cache is managed by the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "<FhirQueryProvider />"
+        }), ", you don't need\nto refresh the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/packages/query/queries",
+          children: "queries"
+        }), " whenever ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/packages/query/mutations",
+          children: "mutations"
+        }), " occur - data is refreshed automatically."]
+      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+        children: ["This greatly simplifies code flow and avoid a lot of spaghetti code when creating an application.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "Basically, you don't need to worry about data refresh dependencies in the whole application."]
+      })]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_DocCardList__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {})]
   });
 }

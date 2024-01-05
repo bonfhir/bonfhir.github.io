@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[2990],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[8501],{
 
-/***/ 5239:
+/***/ 5929:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,38 +18,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 4,
-	title: 'useFhirSearchOne',
-	description: 'Search for a single FHIR resource'
+	sidebar_position: 1,
+	title: 'useFhirRead',
+	description: 'Read a FHIR resource'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "query/read/use-fhir-search-one",
-  "title": "useFhirSearchOne",
-  "description": "Search for a single FHIR resource",
-  "source": "@site/packages/query/read/use-fhir-search-one.md",
-  "sourceDirName": "query/read",
-  "slug": "/query/read/use-fhir-search-one",
-  "permalink": "/packages/query/read/use-fhir-search-one",
+  "id": "query/queries/use-fhir-read",
+  "title": "useFhirRead",
+  "description": "Read a FHIR resource",
+  "source": "@site/packages/query/queries/use-fhir-read.md",
+  "sourceDirName": "query/queries",
+  "slug": "/query/queries/use-fhir-read",
+  "permalink": "/packages/query/queries/use-fhir-read",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query/read/use-fhir-search-one.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query/queries/use-fhir-read.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 4,
-    "title": "useFhirSearchOne",
-    "description": "Search for a single FHIR resource"
+    "sidebar_position": 1,
+    "title": "useFhirRead",
+    "description": "Read a FHIR resource"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "useFhirSearch",
-    "permalink": "/packages/query/read/use-fhir-search"
+    "title": "Queries",
+    "permalink": "/packages/query/queries/"
   },
   "next": {
-    "title": "useFhirSearchAllPages",
-    "permalink": "/packages/query/read/use-fhir-search-all-pages"
+    "title": "useFhirVRead",
+    "permalink": "/packages/query/queries/use-fhir-vread"
   }
 };
 const assets = {
@@ -58,74 +58,76 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "Basic usage",
+  "id": "basic-usage",
+  "level": 3
+}, {
+  "value": "With <code>&lt;FhirQueryLoader /&gt;</code>",
+  "id": "with-fhirqueryloader-",
+  "level": 3
+}, {
+  "value": "With options",
+  "id": "with-options",
+  "level": 3
+}];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
-    br: "br",
     code: "code",
-    li: "li",
+    h3: "h3",
     p: "p",
     pre: "pre",
-    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["This hook is similar to the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/query/read/use-fhir-search",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "useFhirSearch"
-        })
-      }), " one, except that it is optimized to\nreturn one and only one search match.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "This is very convenient on cases where:"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["you need to address a single resource by its ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "https://www.hl7.org/fhir/references.html#canonical",
-          children: "canonical URL"
-        })]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["or you are looking to also retrieve ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "https://www.hl7.org/fhir/search.html#include",
-          children: "referenced resources"
-        }), " (e.g. ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "_include"
-        }), " and ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "_revinclude"
-        }), " usage)"]
-      }), "\n"]
+      children: ["Return a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://tanstack.com/query/latest/docs/react/guides/queries",
+        children: "Query"
+      }), " for a\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/http.html#read",
+        children: "read"
+      }), " request."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "basic-usage",
+      children: "Basic usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        children: "import { asError } from \"@bonfhir/core/r4b\";\nimport { useFhirSearchOne } from \"@bonfhir/query/r4b\";\n\nexport default function MyComponent() {\n  const questionnaireQuery = useFhirSearchOne(\"Questionnaire\", (search) =>\n    search.url(\"http://acme.org/fhir/my-questionnaire\"),\n  );\n\n  if (questionnaireQuery.isInitialLoading) {\n    return <div>Loading...</div>;\n  }\n\n  if (questionnaireQuery.isError) {\n    return <div>{asError(questionnaireQuery.error)?.message}</div>;\n  }\n\n  return questionnaireQuery.data?.title;\n}\n"
+        children: "import { asError } from \"@bonfhir/core/r4b\";\nimport { useFhirRead } from \"@bonfhir/query/r4b\";\nimport { FhirValue } from \"@bonfhir/react/r4b\";\n\nexport default function MyComponent() {\n  const patientQuery = useFhirRead(\n    \"Patient\",\n    \"a337ccfc-3ad4-47b4-9f02-3a19e035bb03\",\n  );\n\n  if (patientQuery.isLoading) {\n    return <div>Loading...</div>;\n  }\n\n  if (patientQuery.isError) {\n    return <div>{asError(patientQuery.error)?.message}</div>;\n  }\n\n  return <FhirValue type=\"HumanName\" value={patientQuery.data?.name} />;\n}\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["More concisely, with the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/react/components/fhir-query-loader",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirQueryLoader />"
-        })
-      }), " component:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.h3, {
+      id: "with-fhirqueryloader-",
+      children: ["With ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "<FhirQueryLoader />"
+      })]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        children: "import { DocumentReference } from \"@bonfhir/core/r4b\";\nimport { useFhirSearchOne } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\nimport { List, Stack } from \"@mantine/core\";\n\nexport default function MyComponent() {\n  const encounterQuery = useFhirSearchOne(\"Encounter\", (search) =>\n    search\n      ._id(\"5def0123-5a8a-4842-a3c0-7dd8386bdf6a\")\n      ._include(\"Encounter\", \"patient\")\n      ._include(\"Encounter\", \"diagnosis\")\n      ._revinclude(\"DocumentReference\", \"encounter\")\n      ._revinclude(\"Observation\", \"encounter\"),\n  );\n\n  return (\n    <FhirQueryLoader query={encounterQuery}>\n      {(encounter) => (\n        <Stack>\n          <FhirValue type=\"Period\" value={encounter.period} />\n          <List>\n            {encounter\n              .revIncluded<DocumentReference>((doc) => doc.context?.encounter)\n              .map((doc) => (\n                <List.Item key={doc.id}>\n                  <FhirValue type=\"CodeableConcept\" value={doc.type} />:{\" \"}\n                  {doc.description}\n                </List.Item>\n              ))}\n          </List>\n        </Stack>\n      )}\n    </FhirQueryLoader>\n  );\n}\n"
+        children: "import { useFhirRead } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\n\nexport default function MyComponent() {\n  const patientQuery = useFhirRead(\n    \"Patient\",\n    \"a337ccfc-3ad4-47b4-9f02-3a19e035bb03\",\n  );\n\n  return (\n    <FhirQueryLoader query={patientQuery}>\n      {(patient) => <FhirValue type=\"HumanName\" value={patient.name} />}\n    </FhirQueryLoader>\n  );\n}\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "With options:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "with-options",
+      children: "With options"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        children: "import { DEFAULT_FHIR_CLIENT, useFhirSearchOne } from \"@bonfhir/query/r4b\";\n\nexport default function MyComponent() {\n  const questionnaireQuery = useFhirSearchOne(\n    \"Questionnaire\",\n    (search) => search.url(\"http://acme.org/fhir/my-questionnaire\"),\n    {\n      // FHIR API options - matches the `FhirClient` options\n      fhir: {\n        _summary: \"true\",\n      },\n\n      // The name of the FhirClient to use\n      fhirClient: DEFAULT_FHIR_CLIENT,\n\n      // React query options\n      query: {\n        gcTime: Number.POSITIVE_INFINITY,\n      },\n    },\n  );\n\n  //...\n}\n"
+        children: "import { DEFAULT_FHIR_CLIENT, useFhirRead } from \"@bonfhir/query/r4b\";\n\nexport default function MyComponent() {\n  const patientQuery = useFhirRead(\n    \"Patient\",\n    \"a337ccfc-3ad4-47b4-9f02-3a19e035bb03\",\n    {\n      // FHIR API options - matches the `FhirClient` options\n      fhir: {\n        _summary: \"true\",\n      },\n\n      // The name of the FhirClient to use\n      fhirClient: DEFAULT_FHIR_CLIENT,\n\n      // React query options\n      query: {\n        gcTime: Number.POSITIVE_INFINITY,\n      },\n    },\n  );\n\n  //...\n}\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "useFhirSearchOne"
-      }), " hook errors out if there is no result, or more than one match in the bundle (referenced resources are OK)."]
+        children: "useFhirRead"
+      }), " hook errors out on not found - same behavior as the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/core/fhir-client#crud",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "FhirClient.read"
+        })
+      }), "."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["If you are not sure about the existence of the resource, you might want to use ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/query/read/use-fhir-search",
+        href: "/packages/query/queries/use-fhir-search",
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
           children: "useFhirSearch"
         })

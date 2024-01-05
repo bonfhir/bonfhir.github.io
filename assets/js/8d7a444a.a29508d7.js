@@ -45,8 +45,8 @@ const metadata = {
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "useFhirSearchAllPages",
-    "permalink": "/packages/query/read/use-fhir-search-all-pages"
+    "title": "useFhirTransactionMutation",
+    "permalink": "/packages/query/mutations/use-fhir-transaction-mutation"
   },
   "next": {
     "title": "Get started",
