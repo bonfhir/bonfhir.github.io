@@ -43,8 +43,8 @@ const metadata = {
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Create a table with pagination",
-    "permalink": "/docs/build-a-fhir-app-with-react/fhir-tables-with-pagination"
+    "title": "Edit resources with FHIR forms",
+    "permalink": "/docs/build-a-fhir-app-with-react/edit-with-fhir-forms"
   },
   "next": {
     "title": "Start from the AWS Lambda template",

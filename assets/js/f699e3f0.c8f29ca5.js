@@ -48,8 +48,8 @@ const metadata = {
     "permalink": "/docs/build-a-fhir-app-with-react/display-fhir-data"
   },
   "next": {
-    "title": "Build a Subscription API with AWS Lambda",
-    "permalink": "/docs/build-a-subscription-api-with-aws-lambda/"
+    "title": "Edit resources with FHIR forms",
+    "permalink": "/docs/build-a-fhir-app-with-react/edit-with-fhir-forms"
   }
 };
 const assets = {
@@ -266,7 +266,7 @@ function _createMdxContent(props) {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
         metastring: "title=\"src/pages/Home.tsx\"",
-        children: "import { useFhirRead } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\nimport { Group, Paper, Stack, Text } from \"@mantine/core\";\nimport PatientReportsTable from \"../components/PatientReportsTable\";\n\nexport default function Home() {\n  const patientId = \"afb2bbf9-872c-47a9-9b31-2a737ed65f0b\";\n\n  const patientQuery = useFhirRead(\"Patient\", patientId);\n\n  return (\n    <FhirQueryLoader query={patientQuery}>\n      {(patient) => (\n        <Paper p=\"xl\">\n          <Paper shadow=\"xs\" p=\"xl\">\n            <Stack gap=\"sm\">\n              <Text size=\"xl\">\n                <FhirValue type=\"HumanName\" value={patient.name} />\n              </Text>\n              <Group>\n                <Text fw={600}>Birthday: </Text>\n                <FhirValue type=\"date\" value={patient.birthDate} />\n              </Group>\n              <Group>\n                <Text fw={600}>Address: </Text>\n                <FhirValue type=\"Address\" value={patient.address} />\n              </Group>\n              <Group>\n                <Text fw={600}>Contact: </Text>\n                <FhirValue type=\"ContactPoint\" value={patient.telecom} />\n              </Group>\n            </Stack>\n          </Paper>\n          <br />\n          <PatientReportsTable patientId={patient.id} />\n        </Paper>\n      )}\n    </FhirQueryLoader>\n  );\n}\n"
+        children: "import { useFhirRead } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\nimport { Group, Paper, Stack, Text } from \"@mantine/core\";\nimport PatientReportsTable from \"../components/PatientReportsTable\";\n\nexport default function Home() {\n  const patientQuery = useFhirRead(\n    \"Patient\",\n    \"afb2bbf9-872c-47a9-9b31-2a737ed65f0b\",\n  );\n\n  return (\n    <FhirQueryLoader query={patientQuery}>\n      {(patient) => (\n        <Paper p=\"xl\">\n          <Paper shadow=\"xs\" p=\"xl\">\n            <Stack gap=\"sm\">\n              <Text size=\"xl\">\n                <FhirValue type=\"HumanName\" value={patient.name} />\n              </Text>\n              <Group>\n                <Text fw={600}>Birthday: </Text>\n                <FhirValue type=\"date\" value={patient.birthDate} />\n              </Group>\n              <Group>\n                <Text fw={600}>Address: </Text>\n                <FhirValue type=\"Address\" value={patient.address} />\n              </Group>\n              <Group>\n                <Text fw={600}>Contact: </Text>\n                <FhirValue type=\"ContactPoint\" value={patient.telecom} />\n              </Group>\n            </Stack>\n          </Paper>\n          <br />\n          <PatientReportsTable patientId={patient.id} />\n        </Paper>\n      )}\n    </FhirQueryLoader>\n  );\n}\n"
       })
     })]
   });
