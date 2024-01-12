@@ -119,7 +119,7 @@ function _createMdxContent(props) {
       children: "Usage with typed GraphQL"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["It is possible to generate proper type information for GraphQL queries.\nThe details depend on your setup, but ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://the-guild.dev/graphql/codegen/docs/getting-started",
+        href: "/docs/guides/graphql",
         children: "following this guide"
       }), "\nshould get you started. You can then do this:"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {

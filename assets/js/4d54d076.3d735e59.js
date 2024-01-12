@@ -42,8 +42,8 @@ const metadata = {
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Create a new subscription",
-    "permalink": "/docs/build-a-subscription-api-with-aws-lambda/create-a-new-subscription"
+    "title": "Setup GraphQL in a bonFHIR project",
+    "permalink": "/docs/guides/graphql"
   }
 };
 const assets = {

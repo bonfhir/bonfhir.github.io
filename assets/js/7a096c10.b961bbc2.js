@@ -50,8 +50,8 @@ const metadata = {
     "permalink": "/docs/build-a-subscription-api-with-aws-lambda/run-and-register-subscriptions"
   },
   "next": {
-    "title": "Contributing to bonFHIR",
-    "permalink": "/docs/contributing"
+    "title": "Guides",
+    "permalink": "/docs/guides/"
   }
 };
 const assets = {
