@@ -255,7 +255,7 @@ function _createMdxContent(props) {
         children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
           children: ["Ensure that your FHIR Server is running nad the introspection endpoint is available", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.em, {
             children: ["(run the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-              children: "npm start-fhir-server"
+              children: "npm fhir:start-server"
             }), " command in a project created from a bonFHIR template)"]
           })]
         }), "\n"]

@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[9227],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[6541],{
 
-/***/ 6667:
+/***/ 8284:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -19,37 +19,37 @@ __webpack_require__.r(__webpack_exports__);
 
 const frontMatter = {
 	sidebar_position: 1,
-	title: 'Start from the AWS Lambda template',
-	description: 'Initialize the project'
+	title: 'Start from the Vite template',
+	description: 'Clone and create an app from a template'
 };
-const contentTitle = undefined;
+const contentTitle = 'Create from the Vite template';
 const metadata = {
-  "id": "build-a-subscription-api-with-aws-lambda/start-from-aws-lambda-template",
-  "title": "Start from the AWS Lambda template",
-  "description": "Initialize the project",
-  "source": "@site/docs/build-a-subscription-api-with-aws-lambda/start-from-aws-lambda-template.md",
-  "sourceDirName": "build-a-subscription-api-with-aws-lambda",
-  "slug": "/build-a-subscription-api-with-aws-lambda/start-from-aws-lambda-template",
-  "permalink": "/docs/build-a-subscription-api-with-aws-lambda/start-from-aws-lambda-template",
+  "id": "build-a-fhir-app-with-react/start-from-vite-template",
+  "title": "Start from the Vite template",
+  "description": "Clone and create an app from a template",
+  "source": "@site/docs/build-a-fhir-app-with-react/start-from-vite-template.md",
+  "sourceDirName": "build-a-fhir-app-with-react",
+  "slug": "/build-a-fhir-app-with-react/start-from-vite-template",
+  "permalink": "/docs/build-a-fhir-app-with-react/start-from-vite-template",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-subscription-api-with-aws-lambda/start-from-aws-lambda-template.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-app-with-react/start-from-vite-template.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1,
-    "title": "Start from the AWS Lambda template",
-    "description": "Initialize the project"
+    "title": "Start from the Vite template",
+    "description": "Clone and create an app from a template"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Build a Subscription API with AWS Lambda",
-    "permalink": "/docs/build-a-subscription-api-with-aws-lambda/"
+    "title": "Build a FHIR app with React",
+    "permalink": "/docs/build-a-fhir-app-with-react/"
   },
   "next": {
     "title": "Setup a local FHIR Server",
-    "permalink": "/docs/build-a-subscription-api-with-aws-lambda/setup-fhir-server"
+    "permalink": "/docs/build-a-fhir-app-with-react/setup-fhir-server"
   }
 };
 const assets = {
@@ -62,6 +62,8 @@ const toc = [];
 function _createMdxContent(props) {
   const _components = {
     code: "code",
+    h1: "h1",
+    img: "img",
     li: "li",
     ol: "ol",
     p: "p",
@@ -70,29 +72,39 @@ function _createMdxContent(props) {
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
-  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
-    children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-        children: "In a terminal, run the following command"
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          className: "language-bash",
-          children: "npm create -y bonfhir@latest\n"
-        })
+  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h1, {
+      id: "create-from-the-vite-template",
+      children: "Create from the Vite template"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+          children: ["In a terminal, install and run package ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+            children: "@bonfhir/create-bonfhir"
+          })]
+        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+            className: "language-bash",
+            children: "npm create -y bonfhir@latest\n"
+          })
+        }), "\n"]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+          children: ["Provide a project name and select the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+            children: "vite"
+          }), " template with the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+            children: "Medplum"
+          }), " FHIR server:"]
+        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
+            alt: "Vite Project Template",
+            src: (__webpack_require__(7553)/* ["default"] */ .Z) + "",
+            width: "1950",
+            height: "682"
+          })
+        }), "\n"]
       }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-        children: ["Provide a project name and select the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-          children: "lambda"
-        }), " template"]
-      }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "cd"
-        }), " into the new project and open it in your favorite editor"]
-      }), "\n"]
-    }), "\n"]
+    })]
   });
 }
 function MDXContent(props = {}) {
@@ -109,6 +121,16 @@ function MDXContent(props = {}) {
 }
 
 
+
+/***/ }),
+
+/***/ 7553:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/vite-project-template-a3b28d41c0e6d95ef051260e238e4c63.png");
 
 /***/ }),
 

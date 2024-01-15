@@ -105,7 +105,7 @@ function _createMdxContent(props) {
             children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
               children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
                 className: "language-bash",
-                children: "npm run start-fhir-server\n"
+                children: "npm run fhir:start-server\n"
               })
             })
           }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -114,7 +114,7 @@ function _createMdxContent(props) {
             children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
               children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
                 className: "language-bash",
-                children: "yarn start-fhir-server\n"
+                children: "yarn fhir:start-server\n"
               })
             })
           }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -123,7 +123,7 @@ function _createMdxContent(props) {
             children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
               children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
                 className: "language-bash",
-                children: "pnpm run start-fhir-server\n"
+                children: "pnpm run fhir:start-server\n"
               })
             })
           })]
