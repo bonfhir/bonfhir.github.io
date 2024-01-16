@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[4015],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[5955],{
 
-/***/ 9957:
+/***/ 1137:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,38 +20,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 3,
-	title: 'Mantine',
-	description: 'The Mantine renderer for components'
+	sidebar_position: 4,
+	title: 'Next.js',
+	description: 'Next.js hooks and helpers'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "react/mantine",
-  "title": "Mantine",
-  "description": "The Mantine renderer for components",
-  "source": "@site/packages/react/mantine.md",
+  "id": "react/next",
+  "title": "Next.js",
+  "description": "Next.js hooks and helpers",
+  "source": "@site/packages/react/next.md",
   "sourceDirName": "react",
-  "slug": "/react/mantine",
-  "permalink": "/packages/react/mantine",
+  "slug": "/react/next",
+  "permalink": "/packages/react/next",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/mantine.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/next.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 3,
-    "title": "Mantine",
-    "description": "The Mantine renderer for components"
+    "sidebar_position": 4,
+    "title": "Next.js",
+    "description": "Next.js hooks and helpers"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "useFhirUIProvider",
-    "permalink": "/packages/react/components/use-fhir-ui-context"
+    "title": "Renderer props",
+    "permalink": "/packages/react/mantine/renderer-props"
   },
   "next": {
-    "title": "Next.js",
-    "permalink": "/packages/react/next"
+    "title": "Custom renderers",
+    "permalink": "/packages/react/custom-renderers"
   }
 };
 const assets = {
@@ -62,12 +62,16 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "<code>useFhirSearchController</code>",
+  "id": "usefhirsearchcontroller",
+  "level": 2
+}];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
-    br: "br",
     code: "code",
+    h2: "h2",
     img: "img",
     p: "p",
     pre: "pre",
@@ -77,9 +81,9 @@ function _createMdxContent(props) {
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://www.npmjs.com/package/@bonfhir/mantine",
+        href: "https://www.npmjs.com/package/@bonfhir/next",
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-          src: "https://img.shields.io/npm/v/@bonfhir/mantine",
+          src: "https://img.shields.io/npm/v/@bonfhir/next",
           alt: "npm"
         })
       })
@@ -90,7 +94,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "npm install @bonfhir/mantine\n"
+            children: "npm install @bonfhir/next\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -99,7 +103,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "yarn add @bonfhir/mantine\n"
+            children: "yarn add @bonfhir/next\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -108,28 +112,29 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "pnpm add @bonfhir/mantine\n"
+            children: "pnpm add @bonfhir/next\n"
           })
         })
       })]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "usefhirsearchcontroller",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "useFhirSearchController"
+      })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "@bonfhir/mantine"
-      }), " package provides renderers for the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://mantine.dev/",
-        children: "Mantine toolkit v7"
-      }), "."]
+      children: ["When in an Next.js app, you can substitute the base ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/react/components/use-fhir-search-controller",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "useFhirSearchController"
+        })
+      }), "\nfor the Next.js version, like so:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "import { OrganizationSortOrder } from \"@bonfhir/core/r4b\";\nimport { useFhirSearchController } from \"@bonfhir/next/r4b/client\";\n\n// The first argument is a scope  - it allows multiple search controllers to be on the same page.\nconst orgsSearchController = useFhirSearchController<OrganizationSortOrder>(\n  \"search\",\n  {\n    defaultSort: \"name\",\n    pageSize: 20,\n  },\n);\n"
+      })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "It only uses components from Mantine, and will integrate very well with a Mantine application and all other Mantine components."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://mantine.dev/getting-started/",
-        children: "Mantine must be installed and configured in the application"
-      }), " for the renderers to work properly."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["We recommend that you use one of our templates to get started easily.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "Just run ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "npm create -y bonfhir@latest"
-      }), " to get started."]
+      children: "It offers the same features as the original, but is already integrated with the Next.js router by default."
     })]
   });
 }

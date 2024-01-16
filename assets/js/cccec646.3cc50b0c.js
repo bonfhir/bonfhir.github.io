@@ -350,13 +350,14 @@ function _createMdxContent(props) {
       id: "globally-apply-the-renderer-props-type",
       children: "Globally apply the renderer props type"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["For this, you will need to create a filoe named ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+      children: ["For this, you will need to create a file named ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         children: "bonfhir.d.ts"
       }), " at the root of your application, and apply TypeScript\ntypes overrides for each bonFHIR component you use:"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        children: "import {\n  MantineFhirPaginationProps,\n  MantineFhirValueProps,\n} from \"@bonfhir/mantine/r4b\";\nimport { FhirPaginationProps, FhirValueProps } from \"@bonfhir/react/r4b\";\n\ndeclare module \"@bonfhir/react/r4b\" {\n  export function FhirValue(\n    props: FhirValueProps<MantineFhirValueProps>,\n  ): ReactElement | null;\n\n  export function FhirPagination(\n    props: FhirPaginationProps<MantineFhirPaginationProps>,\n  ): ReactElement | null;\n}\n"
+        metastring: "title=\"bonfhir.d.ts\"",
+        children: "import {\n  MantineFhirPaginationProps,\n  MantineFhirValueProps,\n} from \"@bonfhir/mantine/r4b\";\nimport { FhirPaginationProps, FhirValueProps } from \"@bonfhir/react/r4b\";\n\ndeclare global {\n  export function FhirValue(\n    props: FhirValueProps<MantineFhirValueProps>,\n  ): ReactElement | null;\n\n  export function FhirPagination(\n    props: FhirPaginationProps<MantineFhirPaginationProps>,\n  ): ReactElement | null;\n}\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["In this example, we override the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {

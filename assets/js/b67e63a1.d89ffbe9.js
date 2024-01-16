@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[6793],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[8541],{
 
-/***/ 273:
+/***/ 7725:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,33 +18,33 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	title: 'useFhirUIProvider'
+	title: '<FhirFormatter />'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "react/components/use-fhir-ui-context",
-  "title": "useFhirUIProvider",
-  "description": "The useFhirUIContext hook gives access to the `` configuration.",
-  "source": "@site/packages/react/components/use-fhir-ui-context.md",
+  "id": "react/components/fhir-formatter",
+  "title": "<FhirFormatter />",
+  "description": "The ` is a variation of the ` that is intended to compose better with the",
+  "source": "@site/packages/react/components/fhir-formatter.md",
   "sourceDirName": "react/components",
-  "slug": "/react/components/use-fhir-ui-context",
-  "permalink": "/packages/react/components/use-fhir-ui-context",
+  "slug": "/react/components/fhir-formatter",
+  "permalink": "/packages/react/components/fhir-formatter",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/use-fhir-ui-context.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-formatter.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "useFhirUIProvider"
+    "title": "<FhirFormatter />"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "useFhirSearchController",
-    "permalink": "/packages/react/components/use-fhir-search-controller"
+    "title": "<FhirError />",
+    "permalink": "/packages/react/components/fhir-error"
   },
   "next": {
-    "title": "Mantine",
-    "permalink": "/packages/react/mantine"
+    "title": "<FhirInputArray />",
+    "permalink": "/packages/react/components/fhir-input-array"
   }
 };
 const assets = {
@@ -54,8 +54,12 @@ const assets = {
 
 
 const toc = [{
-  "value": "Basic usage",
-  "id": "basic-usage",
+  "value": "Example usage",
+  "id": "example-usage",
+  "level": 2
+}, {
+  "value": "Preview",
+  "id": "preview",
   "level": 2
 }];
 function _createMdxContent(props) {
@@ -63,45 +67,43 @@ function _createMdxContent(props) {
     a: "a",
     code: "code",
     h2: "h2",
-    li: "li",
     p: "p",
     pre: "pre",
-    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "useFhirUIContext"
-      }), " hook gives access to the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.a, {
-        href: "/packages/react/get-started#configure-the-fhiruiprovider-",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirUIProvider />"
-        }), " configuration"]
-      }), "."]
+        children: "<FhirFormatter />"
+      }), " is a variation of the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/react/components/fhir-value",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "<FhirValue />"
+        })
+      }), " that is intended to compose better with the\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/core/data-types-formatters#the-message-api",
+        children: "formatter message API"
+      }), ":"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "basic-usage",
-      children: "Basic usage"
+      id: "example-usage",
+      children: "Example usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        children: "const { formatter, render } = useFhirUIContext();\n"
+        children: "const patientQuery = useFhirRead(\"Patient\", \"123\");\nconst patient = patientQuery.data;\n\n<FhirFormatter\n  format={(f) =>\n    f.message`${[\"HumanName\", patient?.name, { max: 1 }]}${[\n      \"date\",\n      patient?.birthDate,\n      { decorator: \" (born {})\" },\n    ]}`\n  }\n/>;\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Features:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "formatter"
-        }), ": the globally configured formatter instance"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "onNavigate"
-        }), ": to use the navigation configured in the provider"]
-      }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "You should probably ignore all other features, as they exists for the purpose of the bonFHIR React component implementation\nand should probably not be used anywhere else."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "preview",
+      children: "Preview"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "<FhirFormatter\n  format={(f) =>\n    f.message`Name: ${[\"HumanName\", patient.name]}${[\n      \"boolean\",\n      patient.active,\n      { decorator: \", Active: {}\" },\n    ]}`\n  }\n/>\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-data-display-fhirformatter--default&viewMode=story",
+      width: "100%"
     })]
   });
 }
