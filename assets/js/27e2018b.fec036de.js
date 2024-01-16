@@ -46,6 +46,10 @@ const metadata = {
   "previous": {
     "title": "Create a bonFHIR app",
     "permalink": "/packages/cli/create"
+  },
+  "next": {
+    "title": "Codegen",
+    "permalink": "/packages/codegen/"
   }
 };
 const assets = {
