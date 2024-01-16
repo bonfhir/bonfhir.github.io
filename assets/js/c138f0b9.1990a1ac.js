@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[7608],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[610],{
 
-/***/ 799:
+/***/ 317:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,33 +18,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	title: '<FhirInputArray />'
+	sidebar_position: 2,
+	title: 'useFhirResourceForm',
+	description: 'FHIR forms (enhanced)'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "react/components/fhir-input-array",
-  "title": "<FhirInputArray />",
-  "description": "The `` manages values that are repeated (e.g. when the FHIR cardinality is 0...\\*).",
-  "source": "@site/packages/react/components/fhir-input-array.md",
-  "sourceDirName": "react/components",
-  "slug": "/react/components/fhir-input-array",
-  "permalink": "/packages/react/components/fhir-input-array",
+  "id": "react/mantine/use-fhir-resource-form",
+  "title": "useFhirResourceForm",
+  "description": "FHIR forms (enhanced)",
+  "source": "@site/packages/react/mantine/use-fhir-resource-form.md",
+  "sourceDirName": "react/mantine",
+  "slug": "/react/mantine/use-fhir-resource-form",
+  "permalink": "/packages/react/mantine/use-fhir-resource-form",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-input-array.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/mantine/use-fhir-resource-form.md",
   "tags": [],
   "version": "current",
+  "sidebarPosition": 2,
   "frontMatter": {
-    "title": "<FhirInputArray />"
+    "sidebar_position": 2,
+    "title": "useFhirResourceForm",
+    "description": "FHIR forms (enhanced)"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "<FhirFormatter />",
-    "permalink": "/packages/react/components/fhir-formatter"
+    "title": "useFhirForm",
+    "permalink": "/packages/react/mantine/use-fhir-form"
   },
   "next": {
-    "title": "<FhirInput />",
-    "permalink": "/packages/react/components/fhir-input"
+    "title": "Next.js",
+    "permalink": "/packages/react/next"
   }
 };
 const assets = {
@@ -54,52 +59,58 @@ const assets = {
 
 
 const toc = [{
-  "value": "Example usage",
-  "id": "example-usage",
-  "level": 2
-}, {
-  "value": "Preview",
-  "id": "preview",
+  "value": "Basic usage",
+  "id": "basic-usage",
   "level": 2
 }];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
     code: "code",
+    em: "em",
     h2: "h2",
+    li: "li",
     p: "p",
     pre: "pre",
+    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirInputArray />"
-      }), " manages values that are repeated (e.g. when the FHIR cardinality is 0...*)."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["As with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/react/components/fhir-input",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirInput />"
-        })
-      }), ", it is a controlled component."]
+        children: "useFhirResourceForm"
+      }), " hook is similar to the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.a, {
+        href: "/packages/react/mantine/use-fhir-form",
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "useFhirForm"
+        }), " hook"]
+      }), ", but it\ngoes one step further in that:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: ["it is meant to create or update a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.em, {
+          children: "single"
+        }), " FHIR resource"]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "it incorporates the retrieval of the existing resource, and the management of the mutation"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "it switches intelligently from create to update based on the resource id value"
+      }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "example-usage",
-      children: "Example usage"
+      id: "basic-usage",
+      children: "Basic usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        children: "// This example uses the `useListState` from Mantine for simplicty sake - https://mantine.dev/hooks/use-list-state/\nconst [identifiers, setIdentifiers] = useListState<Identifier>([]);\n\nreturn (\n  <FhirInputArray\n    label=\"Identifiers\"\n    value={identifiers}\n    min={1}\n    max={10}\n    onAdd={(index) => setIdentifiers.insert(index + 1, {})}\n    onRemove={(index) => setIdentifiers.remove(index)}\n  >\n    {({ index }) => (\n      <FhirInput\n        type=\"Identifier\"\n        value={identifiers[index]}\n        onChange={(identifier) => {\n          if (identifier) {\n            setIdentifiers.setItem(index, identifier);\n          }\n        }}\n      />\n    )}\n  </FhirInputArray>\n);\n"
+        children: "import { duration, now } from \"@bonfhir/core/r4b\";\nimport { useFhirResourceForm } from \"@bonfhir/mantine/r4b\";\nimport { FhirInput } from \"@bonfhir/react/r4b\";\nimport { Button, Group, Paper, Stack } from \"@mantine/core\";\n\nexport default function MyComponent() {\n  const form = useFhirResourceForm({\n    id: \"new\", // Use \"new\" to create a new resource, or an existing id to retrieve it.\n    type: \"Appointment\",\n    defaultValues: {\n      status: \"proposed\",\n      start: now(),\n      end: duration.add(now(), duration.minutes(30)),\n      participant: [\n        {\n          actor: {},\n          status: \"accepted\",\n        },\n      ],\n    },\n    mutationOptions: {\n      onSuccess(data) {\n        alert(JSON.stringify(data, undefined, 2));\n      },\n    },\n  });\n\n  return (\n    <Paper p=\"lg\">\n      <form onSubmit={form.onSubmit}>\n        <Stack>\n          <Group w={300}>\n            <FhirInput\n              label=\"Start\"\n              required\n              type=\"instant\"\n              {...form.getInputProps(`start`)}\n            />\n            <FhirInput\n              label=\"End\"\n              required\n              type=\"instant\"\n              {...form.getInputProps(`end`)}\n            />\n          </Group>\n          <Group w={500}>\n            <FhirInput\n              type=\"code\"\n              label=\"status\"\n              source=\"http://hl7.org/fhir/ValueSet/appointmentstatus\"\n              {...form.getInputProps(\"status\")}\n            />\n          </Group>\n          <Group w={500}>\n            <FhirInput\n              label=\"Patient\"\n              required\n              type=\"Reference\"\n              resourceType=\"Patient\"\n              search={(query) => (search) => search.family(query)}\n              {...form.getInputProps(\"participant.0.actor\")}\n            />\n          </Group>\n          <Group w={500}>\n            <FhirInput\n              type=\"string\"\n              label=\"Comment\"\n              {...form.getInputProps(\"comment\")}\n            />\n          </Group>\n          <Group>\n            <Button type=\"submit\">Save</Button>\n            <Button\n              variant=\"outline\"\n              color=\"grey\"\n              onClick={() => form.form.reset()}\n            >\n              Reset\n            </Button>\n          </Group>\n        </Stack>\n      </form>\n    </Paper>\n  );\n}\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "The child is a function that gets the index of the element in the array."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "preview",
-      children: "Preview"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-inputs-fhirinputarray--default&viewMode=story",
-      width: "100%"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["As opposed to the example in ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/react/mantine/use-fhir-form",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "useFhirForm"
+        })
+      }), ", we do not have to create a query\nto read the appointment, or a mutation to save it - it is all done automatically."]
     })]
   });
 }

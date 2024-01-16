@@ -46,8 +46,8 @@ const metadata = {
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Renderer props",
-    "permalink": "/packages/react/mantine/renderer-props"
+    "title": "useFhirResourceForm",
+    "permalink": "/packages/react/mantine/use-fhir-resource-form"
   },
   "next": {
     "title": "Custom renderers",

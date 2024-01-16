@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[6],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[7608],{
 
-/***/ 2598:
+/***/ 799:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,33 +18,33 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	title: '<FhirInput />'
+	title: '<FhirInputArray />'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "react/components/fhir-input",
-  "title": "<FhirInput />",
-  "description": "The ` is the equivalent of the `, but for forms input components.",
-  "source": "@site/packages/react/components/fhir-input.md",
+  "id": "react/components/fhir-input-array",
+  "title": "<FhirInputArray />",
+  "description": "The `` manages values that are repeated (e.g. when the FHIR cardinality is 0...\\*).",
+  "source": "@site/packages/react/components/fhir-input-array.md",
   "sourceDirName": "react/components",
-  "slug": "/react/components/fhir-input",
-  "permalink": "/packages/react/components/fhir-input",
+  "slug": "/react/components/fhir-input-array",
+  "permalink": "/packages/react/components/fhir-input-array",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-input.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/react/components/fhir-input-array.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "<FhirInput />"
+    "title": "<FhirInputArray />"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "<FhirInputArray />",
-    "permalink": "/packages/react/components/fhir-input-array"
+    "title": "<FhirFormatter />",
+    "permalink": "/packages/react/components/fhir-formatter"
   },
   "next": {
-    "title": "<FhirPagination />",
-    "permalink": "/packages/react/components/fhir-pagination"
+    "title": "<FhirInput />",
+    "permalink": "/packages/react/components/fhir-input"
   }
 };
 const assets = {
@@ -65,80 +65,59 @@ const toc = [{
 function _createMdxContent(props) {
   const _components = {
     a: "a",
+    admonition: "admonition",
+    br: "br",
     code: "code",
     h2: "h2",
-    li: "li",
     p: "p",
     pre: "pre",
-    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "<FhirInput />"
-      }), " is the equivalent of the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/react/components/fhir-value",
+        children: "<FhirInputArray />"
+      }), " manages values that are repeated (e.g. when the FHIR cardinality is 0...*)."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["As with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/react/components/fhir-input",
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirValue />"
+          children: "<FhirInput />"
         })
-      }), ", but for forms input components."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["It is a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components",
-        children: "React Controlled component"
-      }), " that can take many forms dependening on the Data type it needs to manipulate."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "The big benefit is that it works with FHIR types natively. For example:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-        children: "date, dateTime et all are formatter properly for FHIR"
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-        children: "there is no empty string - empty strings are always undefined"
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-        children: "terminology is supported, as well as references and resources search"
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["composite data types are also supported: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "Identifier"
-        }), ", ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "HumanName"
-        }), ", ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "Address"
-        }), ", ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "ContactPoint"
-        }), "..."]
-      }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Although it can be use with a simple ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "useState"
-      }), " as shown below, it should probably be used with a form hook / system for maximum flexibility."]
+      }), ", it is a controlled component."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.admonition, {
+      type: "tip",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+        children: ["Although it can be use with a simple ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "useListState"
+        }), " as shown below, it should probably be used with a form hook / system for maximum power.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "See ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/packages/react/mantine/use-fhir-form",
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+            children: "useFhirForm"
+          })
+        }), " or ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/packages/react/mantine/use-fhir-resource-form",
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+            children: "useFhirResourceForm"
+          })
+        }), " for more information."]
+      })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "example-usage",
       children: "Example usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        children: "const [name, setName] = useState<string | undefined>();\nconst [identifier, setIdentifier] = useState<Identifier | undefined>();\nconst [maritalStatus, setMaritalStatus] = useState<\n  CodeableConcept | undefined\n>();\nconst [patientRef, setPatientRef] = useState<Reference<Patient> | undefined>();\n\nreturn (\n  <>\n    <FhirInput\n      type=\"string\"\n      value={name}\n      onChange={setName}\n      label=\"Name\"\n      placeholder=\"Name\"\n      required\n    />\n    <FhirInput\n      type=\"Identifier\"\n      value={identifier}\n      onChange={setIdentifier}\n      label=\"Identifier\"\n      mode=\"simple\"\n      required\n    />\n    <FhirInput\n      type=\"CodeableConcept\"\n      value={maritalStatus}\n      onChange={setMaritalStatus}\n      label=\"Marital Status\"\n      source=\"http://hl7.org/fhir/ValueSet/marital-status\"\n      mode=\"radio\"\n    />\n    <FhirInput\n      type=\"Reference\"\n      resourceType=\"Patient\"\n      value={patientRef}\n      onChange={setPatientRef}\n    />\n  </>\n);\n"
+        children: "// This example uses the `useListState` from Mantine for simplicty sake - https://mantine.dev/hooks/use-list-state/\nconst [identifiers, setIdentifiers] = useListState<Identifier>([]);\n\nreturn (\n  <FhirInputArray\n    label=\"Identifiers\"\n    value={identifiers}\n    min={1}\n    max={10}\n    onAdd={(index) => setIdentifiers.insert(index + 1, {})}\n    onRemove={(index) => setIdentifiers.remove(index)}\n  >\n    {({ index }) => (\n      <FhirInput\n        type=\"Identifier\"\n        value={identifiers[index]}\n        onChange={(identifier) => {\n          if (identifier) {\n            setIdentifiers.setItem(index, identifier);\n          }\n        }}\n      />\n    )}\n  </FhirInputArray>\n);\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Each ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "type"
-      }), " has its own set of options that you can explore."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "The child is a function that gets the index of the element in the array."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "preview",
       children: "Preview"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-inputs-fhirinput--default&viewMode=story",
-      width: "100%"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-inputs-fhirinput--codeable-concept&viewMode=story",
-      width: "100%"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-inputs-fhirinput--identifier&viewMode=story",
-      width: "100%"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-inputs-fhirinput--reference&viewMode=story",
+      src: "https://bonfhir.dev/storybook/iframe.html?args=&id=bonfhir-inputs-fhirinputarray--default&viewMode=story",
       width: "100%"
     })]
   });

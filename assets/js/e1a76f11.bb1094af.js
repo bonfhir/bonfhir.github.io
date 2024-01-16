@@ -180,8 +180,11 @@ function _createMdxContent(props) {
               children: "@bonfhir/cli"
             }), ")"]
           }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-              children: "@bonfhir/codegen"
+            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+              href: "/packages/codegen",
+              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+                children: "@bonfhir/codegen"
+              })
             })
           }), "\n"]
         }), "\n"]

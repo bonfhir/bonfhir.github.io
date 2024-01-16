@@ -48,8 +48,8 @@ const metadata = {
     "permalink": "/packages/react/mantine/"
   },
   "next": {
-    "title": "Next.js",
-    "permalink": "/packages/react/next"
+    "title": "useFhirForm",
+    "permalink": "/packages/react/mantine/use-fhir-form"
   }
 };
 const assets = {
