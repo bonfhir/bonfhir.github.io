@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[3838],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[5019],{
 
-/***/ 5277:
+/***/ 8937:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,38 +20,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 2,
-	title: 'Setup a local FHIR Server',
-	description: 'Use Medplum as a FHIR backend for development'
+	sidebar_position: 4,
+	title: 'Create a new subscription',
+	description: 'Finally - some code!'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "build-a-fhir-app-with-react/setup-fhir-server",
-  "title": "Setup a local FHIR Server",
-  "description": "Use Medplum as a FHIR backend for development",
-  "source": "@site/docs/build-a-fhir-app-with-react/setup-fhir-server.md",
-  "sourceDirName": "build-a-fhir-app-with-react",
-  "slug": "/build-a-fhir-app-with-react/setup-fhir-server",
-  "permalink": "/docs/build-a-fhir-app-with-react/setup-fhir-server",
+  "id": "build-a-subscription-api-with-aws-lambda/create-a-new-subscription",
+  "title": "Create a new subscription",
+  "description": "Finally - some code!",
+  "source": "@site/docs/build-a-subscription-api-with-aws-lambda/create-a-new-subscription.md",
+  "sourceDirName": "build-a-subscription-api-with-aws-lambda",
+  "slug": "/build-a-subscription-api-with-aws-lambda/create-a-new-subscription",
+  "permalink": "/docs/build-a-subscription-api-with-aws-lambda/create-a-new-subscription",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-app-with-react/setup-fhir-server.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-subscription-api-with-aws-lambda/create-a-new-subscription.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 2,
-    "title": "Setup a local FHIR Server",
-    "description": "Use Medplum as a FHIR backend for development"
+    "sidebar_position": 4,
+    "title": "Create a new subscription",
+    "description": "Finally - some code!"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Start from the Vite template",
-    "permalink": "/docs/build-a-fhir-app-with-react/start-from-vite-template"
+    "title": "Run and register subscriptions",
+    "permalink": "/docs/build-a-subscription-api-with-aws-lambda/run-and-register-subscriptions"
   },
   "next": {
-    "title": "Display FHIR data",
-    "permalink": "/docs/build-a-fhir-app-with-react/display-fhir-data"
+    "title": "Build a FHIR solution with Next.js",
+    "permalink": "/docs/build-a-fhir-solution-with-nextjs/"
   }
 };
 const assets = {
@@ -62,149 +62,142 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "The subscription handler",
+  "id": "the-subscription-handler",
+  "level": 2
+}, {
+  "value": "Run the registration",
+  "id": "run-the-registration",
+  "level": 2
+}, {
+  "value": "Test the subscription",
+  "id": "test-the-subscription",
+  "level": 2
+}];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
-    admonition: "admonition",
     code: "code",
+    h2: "h2",
     img: "img",
-    li: "li",
-    ol: "ol",
     p: "p",
     pre: "pre",
-    strong: "strong",
-    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["BonFHIR can connect to any FHIR-based API. For local development, BonFHIR provides an easy setup and connect experience with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://www.medplum.com/",
-        children: "Medplum"
-      }), " as a backend."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["Install and start ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-            href: "https://docs.docker.com/desktop/",
-            children: "Docker"
-          })]
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["In your project directory, start a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-            href: "https://github.com/bonfhir/medplum-devbox",
-            children: "development-ready MedPlum"
-          }), " instance. ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-            children: "This is for development only and not for production use."
-          })]
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_theme_Tabs__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
-          groupId: "npm2yarn",
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-            value: "npm",
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-                className: "language-bash",
-                children: "npm run fhir:start-server\n"
-              })
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-            value: "yarn",
-            label: "Yarn",
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-                className: "language-bash",
-                children: "yarn fhir:start-server\n"
-              })
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-            value: "pnpm",
-            label: "pnpm",
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-                className: "language-bash",
-                children: "pnpm run fhir:start-server\n"
-              })
-            })
-          })]
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["Once the server is ready (look for a message saying \"Server started\"), open ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-            href: "http://localhost:8100",
-            children: "http://localhost:8100"
-          }), " and login using the default credentials:"]
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-          children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-            children: ["Username: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-              children: "admin@example.com"
-            })]
-          }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-            children: ["Password: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-              children: "medplum_admin"
-            })]
-          }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-            children: "Project: Default"
-          }), "\n"]
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-          children: "Import FHIR sample data into Medplum - Run the following command in a different terminal while the server is running:"
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_theme_Tabs__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
-          groupId: "npm2yarn",
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-            value: "npm",
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-                className: "language-bash",
-                children: "npm run fhir:add-sample-data\n"
-              })
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-            value: "yarn",
-            label: "Yarn",
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-                className: "language-bash",
-                children: "yarn fhir:add-sample-data\n"
-              })
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
-            value: "pnpm",
-            label: "pnpm",
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-                className: "language-bash",
-                children: "pnpm run fhir:add-sample-data\n"
-              })
-            })
-          })]
-        }), "\n"]
-      }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.admonition, {
-      type: "info",
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-        children: "You don't need to wait until the end of the import to keep going.\nYou can either let it finish while you move to the next step, or stop it once it has imported enough patients\nfor your liking."
+      children: ["For this example we'll create a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/R4B/subscription.html",
+        children: "FHIR Subscription"
+      }), " that ensure that an\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/R4B/encounter.html",
+        children: "Encounter"
+      }), " is created automatically when an ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/R4B/appointment.html",
+        children: "Appointment"
+      }), "\nhas its status set to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "arrived"
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "the-subscription-handler",
+      children: "The subscription handler"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Create a new file ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "src/subscriptions/arrived-appointments.ts"
+      }), " and paste the following code:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-typescript",
+        metastring: "title=\"src/subscriptions/arrived-appointments.ts\"",
+        children: "import {\n  Appointment,\n  Practitioner,\n  Reference,\n  build,\n  findReference,\n  isReferenceOf,\n  reference,\n} from \"@bonfhir/core/r4b\";\nimport { FhirSubscription } from \"@bonfhir/subscriptions/r4b\";\n\nexport const arrivedAppointments: FhirSubscription<Appointment> = {\n  criteria: \"Appointment?status=arrived\",\n  reason: \"Create encounters for arrived appointments\",\n  endpoint: \"arrived-appointments\",\n  async handler({ fhirClient, resource: appointment, logger }) {\n    // This is just a precaution\n    if (!appointment || appointment.status !== \"arrived\") return;\n\n    // Check if the appointment already has an encounter associated\n    const existingEncounters = await fhirClient.search(\"Encounter\", (search) =>\n      search.appointment(appointment),\n    );\n    if (existingEncounters.searchMatch().length > 0) return;\n\n    // Create the new encounter\n    // Note that we're using the build function from @bonfhir/core to create the encounter.\n    // We reference the appointment, and copy the appointment's subject and participants as well.\n    const newEncounter = build(\"Encounter\", {\n      status: \"arrived\",\n      class: {\n        system: \"http://terminology.hl7.org/CodeSystem/v3-ActCode\",\n        code: \"AMB\",\n        display: \"ambulatory\",\n      },\n      appointment: [reference(appointment)],\n      subject: findReference(\n        appointment.participant.map((p) => p.actor),\n        \"Patient\",\n      ),\n      participant: appointment.participant\n        .filter((participant) =>\n          isReferenceOf(participant.actor, \"Practitioner\"),\n        )\n        .map((participant) => ({\n          individual: participant.actor as Reference<Practitioner>,\n          type: participant.type,\n        })),\n    });\n\n    const result = await fhirClient.save(newEncounter);\n\n    logger?.info(\"Created encounter\", result);\n  },\n};\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
-      start: "5",
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["Verify that patient data appears in MedPlum at ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-            href: "http://localhost:8100/Patient",
-            children: "http://localhost:8100/Patient"
-          })]
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-            alt: "Medplum",
-            src: (__webpack_require__(2072)/* ["default"] */ .Z) + "",
-            width: "2780",
-            height: "1580"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Also, we need to update the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "src/subscriptions/index.ts"
+      }), " file to add the new subscription to the Lambda handler:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-typescript",
+        metastring: "title=\"src/subscriptions/index.ts\"",
+        children: "// ...\nimport { arrivedAppointments } from \"./arrived-appointments.js\";\n\nexport const handler = fhirSubscriptionHandler({\n  // ...\n  subscriptions: [communicationRequests, arrivedAppointments],\n});\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "run-the-registration",
+      children: "Run the registration"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Since we added a new subscription handler, we need to make sure it is registered properly.\nAssuming the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/docs/build-a-subscription-api-with-aws-lambda/run-and-register-subscriptions#run-the-serverless-application-locally",
+        children: "AWS Local server is still running"
+      }), ", run the following command in the project directory:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_theme_Tabs__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
+      groupId: "npm2yarn",
+      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+        value: "npm",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+            className: "language-bash",
+            children: "npm run register-subscriptions\n"
           })
-        }), "\n"]
-      }), "\n"]
+        })
+      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+        value: "yarn",
+        label: "Yarn",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+            className: "language-bash",
+            children: "yarn register-subscriptions\n"
+          })
+        })
+      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+        value: "pnpm",
+        label: "pnpm",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+            className: "language-bash",
+            children: "pnpm run register-subscriptions\n"
+          })
+        })
+      })]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "You should see the following output in the AWS Local Server process:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-bash",
+        children: "POST /fhir/subscriptions/register (λ: subscriptions)\nRegistering subscriptions...\nSubscription Create encounters for arrived appointments for Appointment?status=arrived on http://host.docker.internal:6000/fhir/subscriptions/arrived-appointments registered.\n(λ: subscriptions) RequestId: b025100e-0b34-4e59-8fae-caad60046545  Duration: 139.96 ms  Billed Duration: 140 ms\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "test-the-subscription",
+      children: "Test the subscription"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Head over to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "http://localhost:8100/Appointment",
+        children: "Medplum and create a new appointment"
+      }), " with the status ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "arrived"
+      }), ".\nYou can even include participants!"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
+        alt: "Medplum Appointment",
+        src: (__webpack_require__(2322)/* ["default"] */ .Z) + "",
+        width: "3446",
+        height: "1370"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Then ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "http://localhost:8100/Encounter",
+        children: "search for encounters"
+      }), " and look at the last one updated - you should see the one\nthat the subscription just created!"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
+        alt: "Medplum Encounter",
+        src: (__webpack_require__(9283)/* ["default"] */ .Z) + "",
+        width: "3448",
+        height: "1486"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "Congratulation! You have now created your first subscription."
     })]
   });
 }
@@ -317,13 +310,23 @@ return null;}return/*#__PURE__*/(0,react.cloneElement)(selectedTabItem,{classNam
 
 /***/ }),
 
-/***/ 2072:
+/***/ 2322:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/medplum-6297e9ea99f6baa4ca4224a5afc1df96.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/medplum-appointment-075e4f64702849dee2e7cc8bf2404480.png");
+
+/***/ }),
+
+/***/ 9283:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/medplum-encounter-79a01edd0413eec28111a9c639dfcd6f.png");
 
 /***/ }),
 

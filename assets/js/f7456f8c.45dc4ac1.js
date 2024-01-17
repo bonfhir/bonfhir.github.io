@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[4878],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[8003],{
 
-/***/ 7437:
+/***/ 1535:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -24,16 +24,16 @@ const frontMatter = {
 };
 const contentTitle = 'Create a table with pagination';
 const metadata = {
-  "id": "build-a-fhir-app-with-react/fhir-tables-with-pagination",
+  "id": "build-a-fhir-solution-with-nextjs/fhir-tables-with-pagination",
   "title": "Create a table with pagination",
   "description": "Display FHIR resources in a paginated table",
-  "source": "@site/docs/build-a-fhir-app-with-react/fhir-tables-with-pagination.md",
-  "sourceDirName": "build-a-fhir-app-with-react",
-  "slug": "/build-a-fhir-app-with-react/fhir-tables-with-pagination",
-  "permalink": "/docs/build-a-fhir-app-with-react/fhir-tables-with-pagination",
+  "source": "@site/docs/build-a-fhir-solution-with-nextjs/fhir-tables-with-pagination.md",
+  "sourceDirName": "build-a-fhir-solution-with-nextjs",
+  "slug": "/build-a-fhir-solution-with-nextjs/fhir-tables-with-pagination",
+  "permalink": "/docs/build-a-fhir-solution-with-nextjs/fhir-tables-with-pagination",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-app-with-react/fhir-tables-with-pagination.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-solution-with-nextjs/fhir-tables-with-pagination.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
@@ -45,11 +45,11 @@ const metadata = {
   "sidebar": "getStartedSidebar",
   "previous": {
     "title": "Display FHIR data",
-    "permalink": "/docs/build-a-fhir-app-with-react/display-fhir-data"
+    "permalink": "/docs/build-a-fhir-solution-with-nextjs/display-fhir-data"
   },
   "next": {
     "title": "Edit resources with FHIR forms",
-    "permalink": "/docs/build-a-fhir-app-with-react/edit-with-fhir-forms"
+    "permalink": "/docs/build-a-fhir-solution-with-nextjs/edit-with-fhir-forms"
   }
 };
 const assets = {
@@ -95,34 +95,43 @@ function _createMdxContent(props) {
       children: "Key concepts"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "useFhirSearch()"
-        }), " will return a query that fetches data for a type of FHIR resource. It also accepts search parameters that can either be a function or a search parameters string."]
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/packages/query/queries/use-fhir-search",
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+            children: "useFhirSearch()"
+          })
+        }), " will return a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://tanstack.com/query/latest/docs/react/guides/queries",
+          children: "query"
+        }), " that fetches data for a type of FHIR resource. It also accepts search parameters that can either be a function or a search parameters string."]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirTable />"
-        }), " a BonFHIR component that displays FHIR data in a table. Each column can be customized with built-in support for sorting and pagination. ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "https://bonfhir.dev/storybook/?path=/docs/bonfhir-data-display-fhirtable--docs",
-          children: "More details in storybook"
-        })]
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/packages/react/components/fhir-table",
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+            children: "<FhirTable />"
+          })
+        }), " a BonFHIR component that displays FHIR data in a table. Each column can be customized with built-in support for sorting and pagination."]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "useFhirSearchController()"
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/packages/react/components/use-fhir-search-controller",
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+            children: "useFhirSearchController()"
+          })
         }), ": setup and manage FHIR search functionality through a simple interface"]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "<FhirPagination />"
-        }), ": a BonFHIR component that controls FhirTable pagination via the search controller ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "https://bonfhir.dev/storybook/?path=/docs/bonfhir-navigation-fhirpagination--docs",
-          children: "More details in storybook"
-        })]
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/packages/react/components/fhir-pagination",
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+            children: "<FhirPagination />"
+          })
+        }), ": a BonFHIR component that controls FhirTable pagination via the search controller"]
       }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "step-by-step",
       children: "Step by step"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["This guide builds off of the previous guide: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/docs/build-a-fhir-app-with-react/display-fhir-data",
+        href: "/docs/build-a-fhir-solution-with-nextjs/display-fhir-data",
         children: "Display FHIR data"
       }), "."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
@@ -131,20 +140,20 @@ function _createMdxContent(props) {
           children: ["Create a new React component called ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             children: "PatientReportsTable"
           }), " that receives a patient ID as a prop. Import this component in ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "pages/Home.tsx"
+            children: "src/app/page.tsx"
           }), " and add the table component inside the page, passing in ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             children: "patient.id"
           }), "."]
         }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-tsx",
-            metastring: "title=\"src/components/PatientReportsTable.tsx\"",
+            metastring: "title=\"src/app/PatientReportsTable.tsx\"",
             children: "import { FC, ReactElement } from \"react\";\n\ntype PatientReportsTableProps = {\n  patientId: string;\n};\n\nconst PatientReportsTable: FC<PatientReportsTableProps> = ({\n  patientId,\n}): ReactElement => {\n  return (\n    <div>\n      <p>{patientId}</p>\n    </div>\n  );\n};\n\nexport default PatientReportsTable;\n"
           })
         }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-tsx",
-            metastring: "title=\"src/pages/Home.tsx\"",
+            metastring: "title=\"src/app/page.tsx\"",
             children: "<PatientReportsTable patientId={patient.id} />\n"
           })
         }), "\n"]
@@ -259,14 +268,14 @@ function _createMdxContent(props) {
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        metastring: "title=\"src/components/PatientReportsTable.tsx\"",
+        metastring: "title=\"src/app/PatientReportsTable.tsx\"",
         children: "import { DiagnosticReportSortOrder } from \"@bonfhir/core/r4b\";\nimport { useFhirSearch } from \"@bonfhir/query/r4b\";\nimport {\n  FhirPagination,\n  FhirQueryLoader,\n  FhirTable,\n  FhirValue,\n  useFhirSearchController,\n} from \"@bonfhir/react/r4b\";\nimport { FC, ReactElement } from \"react\";\n\ntype PatientReportsTableProps = {\n  patientId: string;\n};\n\nconst PatientReportsTable: FC<PatientReportsTableProps> = ({\n  patientId,\n}): ReactElement => {\n  const searchController = useFhirSearchController<DiagnosticReportSortOrder>({\n    pageSize: 5,\n  });\n\n  const diagnosticReportsQuery = useFhirSearch(\n    \"DiagnosticReport\",\n    (search) =>\n      search\n        .patient(patientId)\n        ._sort(\"issued\")\n        ._count(searchController.pageSize)\n        ._total(\"accurate\"),\n    searchController.pageUrl,\n  );\n\n  return (\n    <FhirQueryLoader query={diagnosticReportsQuery}>\n      <FhirTable\n        {...diagnosticReportsQuery}\n        {...searchController}\n        columns={[\n          {\n            key: \"code\",\n            title: \"Test\",\n            render: (diagnosticReport) => (\n              <FhirValue type=\"CodeableConcept\" value={diagnosticReport.code} />\n            ),\n          },\n          {\n            key: \"issued\",\n            title: \"Date Issued\",\n            render: (diagnosticReport) => (\n              <FhirValue type=\"date\" value={diagnosticReport.issued} />\n            ),\n          },\n          {\n            key: \"status\",\n            title: \"Status\",\n            render: (diagnosticReport) => (\n              <FhirValue type=\"string\" value={diagnosticReport.status} />\n            ),\n          },\n        ]}\n      />\n      <FhirPagination {...diagnosticReportsQuery} {...searchController} />\n    </FhirQueryLoader>\n  );\n};\n\nexport default PatientReportsTable;\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        metastring: "title=\"src/pages/Home.tsx\"",
-        children: "import { useFhirRead } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\nimport { Group, Paper, Stack, Text } from \"@mantine/core\";\nimport PatientReportsTable from \"../components/PatientReportsTable\";\n\nexport default function Home() {\n  const patientQuery = useFhirRead(\n    \"Patient\",\n    \"afb2bbf9-872c-47a9-9b31-2a737ed65f0b\",\n  );\n\n  return (\n    <FhirQueryLoader query={patientQuery}>\n      {(patient) => (\n        <Paper p=\"xl\">\n          <Paper shadow=\"xs\" p=\"xl\">\n            <Stack gap=\"sm\">\n              <Text size=\"xl\">\n                <FhirValue type=\"HumanName\" value={patient.name} />\n              </Text>\n              <Group>\n                <Text fw={600}>Birthday: </Text>\n                <FhirValue type=\"date\" value={patient.birthDate} />\n              </Group>\n              <Group>\n                <Text fw={600}>Address: </Text>\n                <FhirValue type=\"Address\" value={patient.address} />\n              </Group>\n              <Group>\n                <Text fw={600}>Contact: </Text>\n                <FhirValue type=\"ContactPoint\" value={patient.telecom} />\n              </Group>\n            </Stack>\n          </Paper>\n          <br />\n          <PatientReportsTable patientId={patient.id} />\n        </Paper>\n      )}\n    </FhirQueryLoader>\n  );\n}\n"
+        metastring: "title=\"src/app/page.tsx\"",
+        children: "\"use client\";\nimport { useFhirRead } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\nimport { Group, Paper, Stack, Text } from \"@mantine/core\";\nimport PatientReportsTable from \"./PatientReportsTable\";\n\nexport default function Home() {\n  const patientQuery = useFhirRead(\n    \"Patient\",\n    \"afb2bbf9-872c-47a9-9b31-2a737ed65f0b\",\n  );\n\n  return (\n    <FhirQueryLoader query={patientQuery}>\n      {(patient) => (\n        <Paper p=\"xl\">\n          <Paper shadow=\"xs\" p=\"xl\">\n            <Stack gap=\"sm\">\n              <Text size=\"xl\">\n                <FhirValue type=\"HumanName\" value={patient.name} />\n              </Text>\n              <Group>\n                <Text fw={600}>Birthday: </Text>\n                <FhirValue type=\"date\" value={patient.birthDate} />\n              </Group>\n              <Group>\n                <Text fw={600}>Address: </Text>\n                <FhirValue type=\"Address\" value={patient.address} />\n              </Group>\n              <Group>\n                <Text fw={600}>Contact: </Text>\n                <FhirValue type=\"ContactPoint\" value={patient.telecom} />\n              </Group>\n            </Stack>\n          </Paper>\n          <br />\n          <PatientReportsTable patientId={patient.id} />\n        </Paper>\n      )}\n    </FhirQueryLoader>\n  );\n}\n"
       })
     })]
   });

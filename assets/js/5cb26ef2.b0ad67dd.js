@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[2871],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[5914],{
 
-/***/ 7823:
+/***/ 1489:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,26 +20,26 @@ __webpack_require__.r(__webpack_exports__);
 
 const frontMatter = {
 	sidebar_position: 3,
-	title: 'Guides'
+	title: 'Build a FHIR solution with Next.js'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "guides/index",
-  "title": "Guides",
-  "description": "This section contains short guides on various topics.",
-  "source": "@site/docs/guides/index.md",
-  "sourceDirName": "guides",
-  "slug": "/guides/",
-  "permalink": "/docs/guides/",
+  "id": "build-a-fhir-solution-with-nextjs/index",
+  "title": "Build a FHIR solution with Next.js",
+  "description": "Create a full FHIR solution with a web app and an API using the Next.js template.",
+  "source": "@site/docs/build-a-fhir-solution-with-nextjs/index.md",
+  "sourceDirName": "build-a-fhir-solution-with-nextjs",
+  "slug": "/build-a-fhir-solution-with-nextjs/",
+  "permalink": "/docs/build-a-fhir-solution-with-nextjs/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/guides/index.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-solution-with-nextjs/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3,
-    "title": "Guides"
+    "title": "Build a FHIR solution with Next.js"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
@@ -47,8 +47,8 @@ const metadata = {
     "permalink": "/docs/build-a-subscription-api-with-aws-lambda/create-a-new-subscription"
   },
   "next": {
-    "title": "Setup GraphQL in a bonFHIR project",
-    "permalink": "/docs/guides/graphql"
+    "title": "Start from the Next template",
+    "permalink": "/docs/build-a-fhir-solution-with-nextjs/start-from-next-template"
   }
 };
 const assets = {
@@ -58,18 +58,57 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "What you&#39;ll need",
+  "id": "what-youll-need",
+  "level": 3
+}];
 function _createMdxContent(props) {
   const _components = {
+    a: "a",
+    admonition: "admonition",
+    br: "br",
+    h3: "h3",
+    li: "li",
     p: "p",
+    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "This section contains short guides on various topics."
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Create a full FHIR solution with a web app and an API using the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://nextjs.org/",
+        children: "Next.js"
+      }), " template."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "It is meant as a complement to both our full-length tutorials ,and our packages documentation."
+      children: "This tutorial will walk you through key BonFHIR concepts and every step of the process,\nfrom setup to a fully functional web app with tables and inputs, and a functioning API."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.admonition, {
+      type: "info",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+        children: ["This guide will go through the same process as the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/docs/build-a-fhir-app-with-react",
+          children: "React"
+        }), " and ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/docs/build-a-subscription-api-with-aws-lambda",
+          children: "AWS Lambda"
+        }), ",\nexcept that its tailored to Next.js", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "If you have already followed these tutorials you may find this redundant."]
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "what-youll-need",
+      children: "What you'll need"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://nodejs.org/en/download/",
+          children: "Node.js v18+"
+        })
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://docs.docker.com/desktop/",
+          children: "Docker"
+        })
+      }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_DocCardList__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {})]
   });
 }

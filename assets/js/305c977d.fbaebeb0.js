@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[5019],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[1263],{
 
-/***/ 8937:
+/***/ 4319:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,34 +20,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 4,
+	sidebar_position: 6,
 	title: 'Create a new subscription',
-	description: 'Finally - some code!'
+	description: 'Create a new subscription to react to FHIR resources change'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "build-a-subscription-api-with-aws-lambda/create-a-new-subscription",
+  "id": "build-a-fhir-solution-with-nextjs/create-a-new-subscription",
   "title": "Create a new subscription",
-  "description": "Finally - some code!",
-  "source": "@site/docs/build-a-subscription-api-with-aws-lambda/create-a-new-subscription.md",
-  "sourceDirName": "build-a-subscription-api-with-aws-lambda",
-  "slug": "/build-a-subscription-api-with-aws-lambda/create-a-new-subscription",
-  "permalink": "/docs/build-a-subscription-api-with-aws-lambda/create-a-new-subscription",
+  "description": "Create a new subscription to react to FHIR resources change",
+  "source": "@site/docs/build-a-fhir-solution-with-nextjs/create-a-new-subscription.md",
+  "sourceDirName": "build-a-fhir-solution-with-nextjs",
+  "slug": "/build-a-fhir-solution-with-nextjs/create-a-new-subscription",
+  "permalink": "/docs/build-a-fhir-solution-with-nextjs/create-a-new-subscription",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-subscription-api-with-aws-lambda/create-a-new-subscription.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-solution-with-nextjs/create-a-new-subscription.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 6,
   "frontMatter": {
-    "sidebar_position": 4,
+    "sidebar_position": 6,
     "title": "Create a new subscription",
-    "description": "Finally - some code!"
+    "description": "Create a new subscription to react to FHIR resources change"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Run and register subscriptions",
-    "permalink": "/docs/build-a-subscription-api-with-aws-lambda/run-and-register-subscriptions"
+    "title": "Edit resources with FHIR forms",
+    "permalink": "/docs/build-a-fhir-solution-with-nextjs/edit-with-fhir-forms"
   },
   "next": {
     "title": "Guides",
@@ -87,7 +87,9 @@ function _createMdxContent(props) {
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "We are now moving to the API side of Next.js."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["For this example we'll create a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
         href: "https://hl7.org/fhir/R4B/subscription.html",
         children: "FHIR Subscription"
@@ -115,22 +117,21 @@ function _createMdxContent(props) {
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["Also, we need to update the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "src/subscriptions/index.ts"
-      }), " file to add the new subscription to the Lambda handler:"]
+        children: "src/middleware.ts"
+      }), " file to add the new subscription to the middleware:"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-typescript",
-        metastring: "title=\"src/subscriptions/index.ts\"",
-        children: "// ...\nimport { arrivedAppointments } from \"./arrived-appointments.js\";\n\nexport const handler = fhirSubscriptionHandler({\n  // ...\n  subscriptions: [communicationRequests, arrivedAppointments],\n});\n"
+        metastring: "title=\"src/middleware.ts\"",
+        children: "// ...\nimport { arrivedAppointments } from \"./subscriptions/arrived-appointments\";\n\nexport const middleware = fhirSubscriptions({\n  // ...\n  subscriptions: [arrivedAppointments],\n});\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "run-the-registration",
       children: "Run the registration"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Since we added a new subscription handler, we need to make sure it is registered properly.\nAssuming the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/docs/build-a-subscription-api-with-aws-lambda/run-and-register-subscriptions#run-the-serverless-application-locally",
-        children: "AWS Local server is still running"
-      }), ", run the following command in the project directory:"]
+      children: ["Since we added a new subscription handler, we need to make sure it is registered properly.\nAssuming the dev server is still running (if not, run the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "npm run dev"
+      }), " command), run the following command in the project directory:"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_theme_Tabs__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
       groupId: "npm2yarn",
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -161,11 +162,11 @@ function _createMdxContent(props) {
         })
       })]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "You should see the following output in the AWS Local Server process:"
+      children: "You should see the following output in the dev Server process:"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-bash",
-        children: "POST /fhir/subscriptions/register (λ: subscriptions)\nRegistering subscriptions...\nSubscription Create encounters for arrived appointments for Appointment?status=arrived on http://host.docker.internal:6000/fhir/subscriptions/arrived-appointments registered.\n(λ: subscriptions) RequestId: b025100e-0b34-4e59-8fae-caad60046545  Duration: 139.96 ms  Billed Duration: 140 ms\n"
+        children: "Registering subscriptions...\nSubscription Create encounters for arrived appointments for Appointment?status=arrived on http://host.docker.internal:3000/api/fhir/subscriptions/arrived-appointments registered.\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "test-the-subscription",
@@ -198,6 +199,11 @@ function _createMdxContent(props) {
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
       children: "Congratulation! You have now created your first subscription."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Learn more about subscriptions ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/subscriptions",
+        children: "here"
+      }), "."]
     })]
   });
 }

@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[4070],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[3838],{
 
-/***/ 6899:
+/***/ 5277:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,38 +20,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 3,
-	title: 'Display FHIR data',
-	description: 'Retrieve resources and display formatted properties'
+	sidebar_position: 2,
+	title: 'Setup a local FHIR Server',
+	description: 'Use Medplum as a FHIR backend for development'
 };
-const contentTitle = 'Display FHIR data';
+const contentTitle = undefined;
 const metadata = {
-  "id": "build-a-fhir-app-with-react/display-fhir-data",
-  "title": "Display FHIR data",
-  "description": "Retrieve resources and display formatted properties",
-  "source": "@site/docs/build-a-fhir-app-with-react/display-fhir-data.md",
+  "id": "build-a-fhir-app-with-react/setup-fhir-server",
+  "title": "Setup a local FHIR Server",
+  "description": "Use Medplum as a FHIR backend for development",
+  "source": "@site/docs/build-a-fhir-app-with-react/setup-fhir-server.md",
   "sourceDirName": "build-a-fhir-app-with-react",
-  "slug": "/build-a-fhir-app-with-react/display-fhir-data",
-  "permalink": "/docs/build-a-fhir-app-with-react/display-fhir-data",
+  "slug": "/build-a-fhir-app-with-react/setup-fhir-server",
+  "permalink": "/docs/build-a-fhir-app-with-react/setup-fhir-server",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-app-with-react/display-fhir-data.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-app-with-react/setup-fhir-server.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 3,
-    "title": "Display FHIR data",
-    "description": "Retrieve resources and display formatted properties"
+    "sidebar_position": 2,
+    "title": "Setup a local FHIR Server",
+    "description": "Use Medplum as a FHIR backend for development"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Setup a local FHIR Server",
-    "permalink": "/docs/build-a-fhir-app-with-react/setup-fhir-server"
+    "title": "Start from the Vite template",
+    "permalink": "/docs/build-a-fhir-app-with-react/start-from-vite-template"
   },
   "next": {
-    "title": "Create a table with pagination",
-    "permalink": "/docs/build-a-fhir-app-with-react/fhir-tables-with-pagination"
+    "title": "Display FHIR data",
+    "permalink": "/docs/build-a-fhir-app-with-react/display-fhir-data"
   }
 };
 const assets = {
@@ -62,93 +62,44 @@ const assets = {
 
 
 
-const toc = [{
-  "value": "Key concepts",
-  "id": "key-concepts",
-  "level": 2
-}, {
-  "value": "Step by step",
-  "id": "step-by-step",
-  "level": 2
-}, {
-  "value": "Final result",
-  "id": "final-result",
-  "level": 2
-}];
+const toc = [];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
     admonition: "admonition",
     code: "code",
-    h1: "h1",
-    h2: "h2",
     img: "img",
     li: "li",
     ol: "ol",
     p: "p",
     pre: "pre",
+    strong: "strong",
     ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h1, {
-      id: "display-fhir-data",
-      children: "Display FHIR data"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "key-concepts",
-      children: "Key concepts"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "BonFHIR provides many useful features for fetching and formatting FHIR data, with built-in Typescript support for FHIR resources and data types."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-          children: "Launch the app in development mode"
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "useFhirRead()"
-          }), " will return a query that fetches a specific FHIR resource by ID or by a Reference."]
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "<FhirValue />"
-          }), " is a BonFHIR component that will automatically format a value based on the FHIR data type of the value, such as HumanName, date, Address, and more. ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-            href: "https://bonfhir.dev/storybook/?path=/docs/bonfhir-data-display-fhirvalue--docs",
-            children: "More details in storybook"
-          })]
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "<FhirQueryLoader />"
-          }), " can be used with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "useFhirRead"
-          }), " to simplify loading and error handling. ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-            href: "https://bonfhir.dev/storybook/?path=/docs/bonfhir-feedback-fhirqueryloader--docs",
-            children: "More details in storybook"
-          })]
-        }), "\n"]
-      }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "step-by-step",
-      children: "Step by step"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["This guide builds off of the previous two guide: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/docs/build-a-fhir-app-with-react/start-from-vite-template",
-        children: "Start from the Vite Template"
-      }), " and ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/docs/build-a-fhir-app-with-react/setup-fhir-server",
-        children: "Setup a local FHIR Server"
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Let's start by retrieving a Patient and displaying some information about them."
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["BonFHIR can connect to any FHIR-based API. For local development, BonFHIR provides an easy setup and connect experience with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://www.medplum.com/",
+        children: "Medplum"
+      }), " as a backend."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-          children: "Start the development environment"
+        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+          children: ["Install and start ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+            href: "https://docs.docker.com/desktop/",
+            children: "Docker"
+          })]
+        }), "\n"]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+          children: ["In your project directory, start a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+            href: "https://github.com/bonfhir/medplum-devbox",
+            children: "development-ready MedPlum"
+          }), " instance. ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+            children: "This is for development only and not for production use."
+          })]
         }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_theme_Tabs__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
           groupId: "npm2yarn",
           children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -156,7 +107,7 @@ function _createMdxContent(props) {
             children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
               children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
                 className: "language-bash",
-                children: "npm run dev\n"
+                children: "npm run fhir:start-server\n"
               })
             })
           }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -165,7 +116,7 @@ function _createMdxContent(props) {
             children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
               children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
                 className: "language-bash",
-                children: "yarn dev\n"
+                children: "yarn fhir:start-server\n"
               })
             })
           }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -174,19 +125,17 @@ function _createMdxContent(props) {
             children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
               children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
                 className: "language-bash",
-                children: "pnpm run dev\n"
+                children: "pnpm run fhir:start-server\n"
               })
             })
           })]
         }), "\n"]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
         children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["Go to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-            href: "http://localhost:5173/",
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-              children: "http://localhost:5173/"
-            })
-          }), " in your browser to preview the application.\nUse the same credentials as per Medplum to login to the app:"]
+          children: ["Once the server is ready (look for a message saying \"Server started\"), open ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+            href: "http://localhost:8100",
+            children: "http://localhost:8100"
+          }), " and login using the default credentials:"]
         }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
           children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
             children: ["Username: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
@@ -196,111 +145,66 @@ function _createMdxContent(props) {
             children: ["Password: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
               children: "medplum_admin"
             })]
+          }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+            children: "Project: Default"
           }), "\n"]
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["You should see the content of ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "src/pages/Home.tsx"
-          }), ":"]
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-            alt: "Example",
-            src: (__webpack_require__(8125)/* ["default"] */ .Z) + "",
-            width: "1397",
-            height: "330"
-          })
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.admonition, {
-          type: "warning",
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-            children: "You may get stuck on the login screen loading - this is due to medplum; simply refresh your browser if that's the\ncase and you should be good to go."
-          })
         }), "\n"]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+          children: "Import FHIR sample data into Medplum - Run the following command in a different terminal while the server is running:"
+        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_theme_Tabs__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
+          groupId: "npm2yarn",
+          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+            value: "npm",
+            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+                className: "language-bash",
+                children: "npm run fhir:add-sample-data\n"
+              })
+            })
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+            value: "yarn",
+            label: "Yarn",
+            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+                className: "language-bash",
+                children: "yarn fhir:add-sample-data\n"
+              })
+            })
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
+            value: "pnpm",
+            label: "pnpm",
+            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+                className: "language-bash",
+                children: "pnpm run fhir:add-sample-data\n"
+              })
+            })
+          })]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.admonition, {
+      type: "tip",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+        children: "You don't need to wait until the end of the import to keep going.\nYou can either let it finish while you move to the next step, or stop it once it has imported enough patients\nfor your liking."
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
+      start: "5",
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
         children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["Select a Patient in Medplum to retrieve. Open the Patient table (", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          children: ["Verify that patient data appears in MedPlum at ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
             href: "http://localhost:8100/Patient",
             children: "http://localhost:8100/Patient"
-          }), ") and view a patient's details. Take note of the ID as we will use this to query."]
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["In the newly created Vite app, open ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "src/pages/Home.tsx"
           })]
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["To fetch a Patient with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "useFhirRead"
-          }), ", indicate that the type is ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "\"Patient\""
-          }), " and the ID is what you copied in step 1. For example: ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "\"afb2bbf9-872c-47a9-9b31-2a737ed65f0b\""
-          })]
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            className: "language-tsx",
-            children: "const patientQuery = useFhirRead(\n  \"Patient\",\n  \"afb2bbf9-872c-47a9-9b31-2a737ed65f0b\",\n);\n"
-          })
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["Display the patient's name with ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "<FhirValue />"
-          }), " where the type is ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "\"HumanName\""
-          })]
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            className: "language-tsx",
-            children: "<FhirValue type=\"HumanName\" value={patientQuery.data?.name} />\n"
-          })
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["Wrap the value inside the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "<FhirQueryLoader />"
-          }), " and pass ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "patient"
-          }), " directly into the value component. The query loader will handle loading and error states with automatic retries. To preview this functionality, replace the patient ID with a value that does not exist in the database."]
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            className: "language-tsx",
-            children: "return (\n   <FhirQueryLoader query={patientQuery}>\n      {(patient) => (\n         <FhirValue type=\"HumanName\" value={patient.name} />\n      )}\n   <FhirQueryLoader />\n);\n"
-          })
-        }), "\n"]
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-          children: ["BonFHIR components render using ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-            href: "https://mantine.dev/",
-            children: "Mantine"
-          }), " components - so you can mix & match with all Mantine components for layout and data presentation. We can now add additional information about the patient including their birthday, addresses and contact points. ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            children: "FhirValue"
-          }), " will take care of all data formatting for us. Don't hesitate to play with options as well to explore formatting capabilities."]
-        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-            className: "language-tsx",
-            children: "<Group>\n   <Text fw={600}>Birthday: </Text>\n   <FhirValue type=\"date\" value={patient.birthDate} options={{ dateStyle: \"full\" }} />\n</Group>\n<Group>\n   <Text fw={600}>Address: </Text>\n   <FhirValue type=\"Address\" value={patient.address} />\n</Group>\n<Group>\n   <Text fw={600}>Contact: </Text>\n   <FhirValue type=\"ContactPoint\" value={patient.telecom} />\n</Group>\n"
+        }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
+            alt: "Medplum",
+            src: (__webpack_require__(2072)/* ["default"] */ .Z) + "",
+            width: "2780",
+            height: "1580"
           })
         }), "\n"]
       }), "\n"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "final-result",
-      children: "Final result"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Here is the output of this example with patient information displayed on a single card:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-        alt: "Example",
-        src: (__webpack_require__(6555)/* ["default"] */ .Z) + "",
-        width: "2714",
-        height: "423"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-tsx",
-        metastring: "title=\"src/pages/Home.tsx\"",
-        children: "import { useFhirRead } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\nimport { Group, Paper, Stack, Text } from \"@mantine/core\";\n\nexport default function Home() {\n  const patientQuery = useFhirRead(\n    \"Patient\",\n    \"afb2bbf9-872c-47a9-9b31-2a737ed65f0b\",\n  );\n\n  return (\n    <Paper p=\"xl\">\n      <Paper shadow=\"xs\" p=\"xl\">\n        <FhirQueryLoader query={patientQuery}>\n          {(patient) => (\n            <Stack gap=\"sm\">\n              <Text size=\"xl\">\n                <FhirValue type=\"HumanName\" value={patient.name} />\n              </Text>\n              <Group>\n                <Text fw={600}>Birthday: </Text>\n                <FhirValue\n                  type=\"date\"\n                  value={patient.birthDate}\n                  options={{ dateStyle: \"full\" }}\n                />\n              </Group>\n              <Group>\n                <Text fw={600}>Address: </Text>\n                <FhirValue type=\"Address\" value={patient.address} />\n              </Group>\n              <Group>\n                <Text fw={600}>Contact: </Text>\n                <FhirValue type=\"ContactPoint\" value={patient.telecom} />\n              </Group>\n            </Stack>\n          )}\n        </FhirQueryLoader>\n      </Paper>\n    </Paper>\n  );\n}\n"
-      })
     })]
   });
 }
@@ -413,23 +317,13 @@ return null;}return/*#__PURE__*/(0,react.cloneElement)(selectedTabItem,{classNam
 
 /***/ }),
 
-/***/ 6555:
+/***/ 2072:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/display-fhir-data-example-93dfbd465438cd575cd802d55ef9cf4c.png");
-
-/***/ }),
-
-/***/ 8125:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/vite-template-ebe0debd6194506edc2be5ac8a28dfcb.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/medplum-6297e9ea99f6baa4ca4224a5afc1df96.png");
 
 /***/ }),
 
