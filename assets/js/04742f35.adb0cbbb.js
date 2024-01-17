@@ -67,6 +67,10 @@ const toc = [{
   "id": "with-the-fhirqueryloader-",
   "level": 3
 }, {
+  "value": "With pagination",
+  "id": "with-pagination",
+  "level": 3
+}, {
   "value": "With options",
   "id": "with-options",
   "level": 3
@@ -107,6 +111,23 @@ function _createMdxContent(props) {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
         children: "import { useFhirHistory } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\nimport { List } from \"@mantine/core\";\n\nexport default function MyComponent() {\n  const patientHistoryQuery = useFhirHistory(\n    \"Patient\",\n    \"bddc8d51-7e38-451c-8dd6-5a313b988bfe\",\n  );\n\n  return (\n    <FhirQueryLoader query={patientHistoryQuery}>\n      {(result) => (\n        <List>\n          {result.searchMatch().map((entry) => (\n            <List.Item key={entry.meta.versionId}>\n              {entry.meta.versionId} (on{\" \"}\n              <FhirValue type=\"instant\" value={entry.meta.lastUpdated} />)\n            </List.Item>\n          ))}\n        </List>\n      )}\n    </FhirQueryLoader>\n  );\n}\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "with-pagination",
+      children: "With pagination"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Pagination works the same way as ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/query/queries/use-fhir-search#with-pagination",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "useFhirSearch"
+        })
+      }), ",\nexcept that the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "pageUrl"
+      }), " argument is in the options:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "import { useFhirHistory } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader, FhirValue } from \"@bonfhir/react/r4b\";\nimport { List, Stack } from \"@mantine/core\";\nimport { useState } from \"react\";\n\nexport default function MyComponent() {\n  const [pageUrl, setPageUrl] = useState<string | undefined>(undefined);\n\n  const patientHistoryQuery = useFhirHistory(\n    \"Patient\",\n    \"bddc8d51-7e38-451c-8dd6-5a313b988bfe\",\n    {\n      pageUrl,\n    },\n  );\n\n  return (\n    <FhirQueryLoader query={patientHistoryQuery}>\n      {(result) => (\n        <Stack>\n          <List>\n            {result.searchMatch().map((entry) => (\n              <List.Item key={entry.meta.versionId}>\n                {entry.meta.versionId} (on{\" \"}\n                <FhirValue type=\"instant\" value={entry.meta.lastUpdated} />)\n              </List.Item>\n            ))}\n          </List>\n          {result.linkUrl(\"next\") && (\n            // Here we set the pageUrl using the bundle next link.\n            <Button onClick={() => setPageUrl(result.linkUrl(\"next\"))}>\n              Go to next page - {result.total} total result(s)\n            </Button>\n          )}\n        </Stack>\n      )}\n    </FhirQueryLoader>\n  );\n}\n"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
       id: "with-options",
