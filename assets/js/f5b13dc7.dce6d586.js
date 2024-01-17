@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[138],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[618],{
 
-/***/ 9138:
+/***/ 6366:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,38 +18,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 20,
-	title: 'useFhirCapabilities',
-	description: 'Read FHIR server capabilities'
+	sidebar_position: 9,
+	title: 'useFhirClientMutation',
+	description: 'Execute a series of FHIR operations'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "query/queries/use-fhir-capabilities",
-  "title": "useFhirCapabilities",
-  "description": "Read FHIR server capabilities",
-  "source": "@site/packages/query/queries/use-fhir-capabilities.md",
-  "sourceDirName": "query/queries",
-  "slug": "/query/queries/use-fhir-capabilities",
-  "permalink": "/packages/query/queries/use-fhir-capabilities",
+  "id": "query/mutations/use-fhir-client-mutation",
+  "title": "useFhirClientMutation",
+  "description": "Execute a series of FHIR operations",
+  "source": "@site/packages/query/mutations/use-fhir-client-mutation.md",
+  "sourceDirName": "query/mutations",
+  "slug": "/query/mutations/use-fhir-client-mutation",
+  "permalink": "/packages/query/mutations/use-fhir-client-mutation",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query/queries/use-fhir-capabilities.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/query/mutations/use-fhir-client-mutation.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 20,
+  "sidebarPosition": 9,
   "frontMatter": {
-    "sidebar_position": 20,
-    "title": "useFhirCapabilities",
-    "description": "Read FHIR server capabilities"
+    "sidebar_position": 9,
+    "title": "useFhirClientMutation",
+    "description": "Execute a series of FHIR operations"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "useFhirHistory",
-    "permalink": "/packages/query/queries/use-fhir-history"
+    "title": "useFhirTransactionMutation",
+    "permalink": "/packages/query/mutations/use-fhir-transaction-mutation"
   },
   "next": {
-    "title": "Mutations",
-    "permalink": "/packages/query/mutations/"
+    "title": "React",
+    "permalink": "/packages/react/"
   }
 };
 const assets = {
@@ -58,29 +58,69 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "Basic usage",
+  "id": "basic-usage",
+  "level": 3
+}, {
+  "value": "With options",
+  "id": "with-options",
+  "level": 3
+}];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
+    admonition: "admonition",
+    br: "br",
     code: "code",
+    em: "em",
+    h3: "h3",
     p: "p",
     pre: "pre",
+    strong: "strong",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["Return a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://tanstack.com/query/latest/docs/react/guides/queries",
-        children: "Query"
-      }), " for a\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/http.html#capabilities",
-        children: "capabilities"
-      }), " request."]
+        href: "https://tanstack.com/query/latest/docs/react/guides/mutations",
+        children: "Mutation"
+      }), " with access to the raw ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/core/fhir-client",
+        children: "FhirClient"
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["This is useful when you have a series of operations to execute as part of a single mutation, or if the other ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/query/mutations",
+        children: "mutation hooks"
+      }), "\nwon't allow you to do what you want.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
+        children: "You should always prefer to use a more precise hook."
+      })]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.admonition, {
+      type: "warning",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+        children: ["By default, this mutation will invalidate the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.em, {
+          children: "entire"
+        }), " query cache, unless you use the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "doNotInvalidateAllQueries"
+        }), " option"]
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "basic-usage",
+      children: "Basic usage"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-tsx",
-        children: "import { useFhirCapabilities } from \"@bonfhir/query/r4b\";\nimport { FhirQueryLoader } from \"@bonfhir/react/r4b\";\n\nexport default function MyComponent() {\n  const capabilitiesQuery = useFhirCapabilities();\n  const normativeCapabilitiesQuery = useFhirCapabilities(\"normative\");\n\n  return (\n    <FhirQueryLoader query={capabilitiesQuery}>\n      {(result) => result.title}\n    </FhirQueryLoader>\n  );\n}\n"
+        children: "import { Organization, build } from \"@bonfhir/core/r4b\";\nimport { useFhirClientMutation } from \"@bonfhir/query/r4b\";\nimport { Button } from \"@mantine/core\";\n\nexport default function MyComponent() {\n  // The type here is the awaited return type of the `mutate` method below\n  const clientMutation = useFhirClientMutation<[Organization, boolean]>();\n\n  const execute = () => {\n    clientMutation.mutate(async (client) => {\n      return await client.createOr(\n        \"return\",\n        build(\"Organization\", { name: \"Acme, Inc\" }),\n      );\n    });\n  };\n\n  return (\n    <Button loading={clientMutation.isPending} onClick={execute}>\n      Create organization if it does not already exist (by its name)\n    </Button>\n  );\n}\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "with-options",
+      children: "With options"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-tsx",
+        children: "import { DEFAULT_FHIR_CLIENT, useFhirClientMutation } from \"@bonfhir/query/r4b\";\n\nexport default function MyComponent() {\n  const clientMutation = useFhirClientMutation<[Organization, boolean]>({\n    // The name of the FhirClient to use\n    fhirClient: DEFAULT_FHIR_CLIENT,\n\n    // Settings this to true will prevent the mutation from invalidating all queries\n    doNotInvalidateAllQueries: true,\n\n    // React query mutation options\n    mutation: {\n      onSuccess: ([org, wasCreated]) => {\n        if (wasCreated) {\n          notifications.show({\n            title: \"Organization created\",\n            message: `Created organization ${org.name}`,\n            color: \"green\",\n          });\n        } else {\n          notifications.show({\n            title: \"Organization already exists\",\n            message: \"Nothing to do here!\",\n            color: \"blue\",\n          });\n        }\n      },\n      onError: (error) => {...}\n    },\n  });\n  // ...\n}\n"
       })
     })]
   });
