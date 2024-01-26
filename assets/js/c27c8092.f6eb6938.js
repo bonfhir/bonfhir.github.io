@@ -19,7 +19,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 5,
+	sidebar_position: 6,
 	title: 'CLI'
 };
 const contentTitle = undefined;
@@ -36,15 +36,15 @@ const metadata = {
   "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/cli/index.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 6,
   "frontMatter": {
-    "sidebar_position": 5,
+    "sidebar_position": 6,
     "title": "CLI"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Next.js",
-    "permalink": "/packages/subscriptions/next"
+    "title": "Patient",
+    "permalink": "/packages/us-core/patient"
   },
   "next": {
     "title": "Create a bonFHIR app",

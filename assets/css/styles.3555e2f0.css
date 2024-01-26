@@ -3433,6 +3433,10 @@ html[data-theme='dark'] {
   text-decoration: none;
 }
 
+section.row {
+  margin-top: 40px;
+}
+
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *

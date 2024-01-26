@@ -50,8 +50,8 @@ const metadata = {
     "permalink": "/packages/subscriptions/aws-lambda"
   },
   "next": {
-    "title": "CLI",
-    "permalink": "/packages/cli/"
+    "title": "US Core IG",
+    "permalink": "/packages/us-core/"
   }
 };
 const assets = {
