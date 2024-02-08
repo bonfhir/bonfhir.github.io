@@ -122,7 +122,7 @@ function _createMdxContent(props) {
       children: "Sorting support"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["When used in tandem with a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "#usefhirsearchcontroller",
+        href: "/packages/react/components/use-fhir-search-controller",
         children: "search controller"
       }), ", the table can provide automatic server-side\nsorting.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "The column ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         children: "key"

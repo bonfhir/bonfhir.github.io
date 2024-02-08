@@ -196,7 +196,7 @@ function _createMdxContent(props) {
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
         children: ["If the change is small enough, you can try your luck with opening a PR - see the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "#did-you-write-a-patch-that-fixes-a-bug-or-improve-the-documentation",
+          href: "#fix-a-bug-or-improve-the-documentation",
           children: "patch instructions"
         }), " above."]
       }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
