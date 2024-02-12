@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[586],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[6268],{
 
-/***/ 2562:
+/***/ 3462:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14,43 +14,44 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7458);
-/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9604);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9604);
 /* harmony import */ var _theme_Tabs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9100);
 /* harmony import */ var _theme_TabItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5436);
-/* harmony import */ var _theme_DocCardList__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(631);
 
 
 const frontMatter = {
-	sidebar_position: 5,
-	title: 'US Core IG'
+	sidebar_position: 2,
+	title: 'Next.js',
+	description: 'Host in a Next.js application'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "us-core/index",
-  "title": "US Core IG",
-  "description": "npm",
-  "source": "@site/packages/us-core/index.md",
-  "sourceDirName": "us-core",
-  "slug": "/us-core/",
-  "permalink": "/packages/us-core/",
+  "id": "subscriptions/next",
+  "title": "Next.js",
+  "description": "Host in a Next.js application",
+  "source": "@site/packages/subscriptions/next.md",
+  "sourceDirName": "subscriptions",
+  "slug": "/subscriptions/next",
+  "permalink": "/packages/subscriptions/next",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/us-core/index.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/subscriptions/next.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 5,
-    "title": "US Core IG"
+    "sidebar_position": 2,
+    "title": "Next.js",
+    "description": "Host in a Next.js application"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Next.js",
-    "permalink": "/packages/subscriptions/next"
+    "title": "AWS Lambda",
+    "permalink": "/packages/subscriptions/aws-lambda"
   },
   "next": {
-    "title": "Patient",
-    "permalink": "/packages/us-core/patient"
+    "title": "n8n",
+    "permalink": "/packages/n8n/"
   }
 };
 const assets = {
@@ -61,35 +62,40 @@ const assets = {
 
 
 
-
-const toc = [];
+const toc = [{
+  "value": "Create the Next.js middleware",
+  "id": "create-the-nextjs-middleware",
+  "level": 2
+}, {
+  "value": "Invoke the registration of the subscriptions",
+  "id": "invoke-the-registration-of-the-subscriptions",
+  "level": 2
+}];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
+    admonition: "admonition",
+    br: "br",
     code: "code",
+    em: "em",
+    h2: "h2",
     img: "img",
+    li: "li",
     p: "p",
     pre: "pre",
-    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_4__/* .useMDXComponents */ .a)(),
+    ul: "ul",
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://www.npmjs.com/package/@bonfhir/us-core",
+        href: "https://www.npmjs.com/package/@bonfhir/next",
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-          src: "https://img.shields.io/npm/v/@bonfhir/us-core",
+          src: "https://img.shields.io/npm/v/@bonfhir/next",
           alt: "npm"
         })
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["This package is meant to help with implementing solutions that leverage the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://www.hl7.org/fhir/us/core/",
-        children: "US Core Implementation Guide"
-      }), ".\nIt mainly contains helpers to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/core/extending-fhir-resources",
-        children: "extend resources"
-      }), " in conformity with US Core profiles."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_theme_Tabs__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
       groupId: "npm2yarn",
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -97,7 +103,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "npm install @bonfhir/us-core\n"
+            children: "npm install @bonfhir/next\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -106,7 +112,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "yarn add @bonfhir/us-core\n"
+            children: "yarn add @bonfhir/next\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -115,16 +121,104 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "pnpm add @bonfhir/us-core\n"
+            children: "pnpm add @bonfhir/next\n"
           })
         })
       })]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_DocCardList__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {})]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["You can host your ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/subscriptions/subscription-handlers",
+        children: "Subscription handlers"
+      }), " in a\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://nextjs.org/",
+        children: "Next.js"
+      }), " application, alongside the rest of the application."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["This package can create a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://nextjs.org/docs/app/building-your-application/routing/middleware",
+        children: "Next.js middleware"
+      }), "\nthat can:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "register all the active subscriptions"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "execute the subscription handlers when receiving a notification from the FHIR server"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
+        children: ["validate the authenticity of the subscription invocation through a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "/packages/subscriptions/subscription-handlers#subscriptions-security",
+          children: "shared secret"
+        })]
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "We recommend that you initialize your next application using our official template - this way, it will come pre-configured\nproperly. To get started, simply run the following command in your terminal:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-bash",
+        children: "npm create -y bonfhir@latest\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["And select the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "next"
+      }), " template."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "create-the-nextjs-middleware",
+      children: "Create the Next.js middleware"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Create a file named ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "middleware.ts"
+      }), " at the root of the project:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-typescript",
+        metastring: "title=\"middleware.ts\"",
+        children: "import { FetchFhirClient } from \"@bonfhir/core/r4b\";\nimport { fhirSubscriptions } from \"@bonfhir/next/r4b/server\";\n\n// This is optional, but recommended.\n// It allows the Next runtime to only execute the middleware on the subpath.\nexport const config = {\n  matcher: [\"/api/fhir/subscriptions/:subscription*\"],\n};\n\n// The name of the variable is important here - keep it as \"middleware\"\nexport const middleware = fhirSubscriptions({\n  // A function that gets invoke when the framework needs a FhirClient to connect to the FhirServer.\n  fhirClient: () =>\n    new FetchFhirClient({\n      // Refer to https://bonfhir.dev/packages/core/fhir-client#initialize to understand how to properly initialize\n      // a FhirClient\n    }),\n\n  // The public URL where the Next.js app is exposed.\n  baseUrl: process.env.VERCEL_URL\n    ? `https://${process.env.VERCEL_URL}`\n    : process.env.APP_BASE_URL,\n\n  // The prefix that the middleware match for subscriptions\n  // Must match the config.match value above (minus the `:subscription*` part)\n  prefix: \"/api/fhir/subscriptions\",\n\n  // The shared secret that secures the invocations\n  webhookSecret: process.env.FHIR_SUBSCRIPTION_SECRET,\n\n  // The list of subscriptions to manage.\n  subscriptions: [],\n});\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Refer to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/subscriptions/subscription-handlers",
+        children: "this example on how to create a susbcription handler"
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "invoke-the-registration-of-the-subscriptions",
+      children: "Invoke the registration of the subscriptions"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "Once your app is running, you will need to trigger the registration of the managed subscriptions\nin the FHIR server."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "To do so, you'll need to create a HTTP request to the base URL like so:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-bash",
+        children: "curl -i --request POST <baseUrl>/<prefix>/register --header \\\"X-Subscription-Auth: <webhookSecret>\\\"\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["This will connect to the FHIR server using the configured ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "FhirClient"
+      }), " and create the proper ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/R4B/subscription.html",
+        children: "FHIR Subscriptions"
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.admonition, {
+      title: "Registration information",
+      type: "info",
+      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+        children: ["It is safe to call the registration multiple times as it will not duplicate the registrations, and will update the existing ones if some parameters change.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "Uniqueness is based on the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "baseUrl"
+        }), ", so if that parameter changes then whole new subscriptions will be created."]
+      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+        children: ["For safety reasons it does ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.em, {
+          children: "not"
+        }), " remove subscriptions that are no longer active (or removed from the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "subscriptions"
+        }), " array).", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "It is up to you to clean it up in the FHIR Server."]
+      })]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "We recommend that you run the register command in your deployment pipeline as well, to ensure that your subscriptions are\nalways registered properly."
+    })]
   });
 }
 function MDXContent(props = {}) {
   const {wrapper: MDXLayout} = {
-    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_4__/* .useMDXComponents */ .a)(),
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return MDXLayout ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(MDXLayout, {
@@ -136,52 +230,6 @@ function MDXContent(props = {}) {
 }
 
 
-
-/***/ }),
-
-/***/ 631:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  Z: () => (/* binding */ DocCardList)
-});
-
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/index.js
-var react = __webpack_require__(2983);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/clsx@2.1.0/node_modules/clsx/dist/clsx.mjs
-var clsx = __webpack_require__(8364);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.1.1_@docusaurus+types@3.1.1_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/theme-common/lib/utils/docsUtils.js
-var docsUtils = __webpack_require__(490);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.1.1_@docusaurus+types@3.1.1_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/core/lib/client/exports/Link.js
-var Link = __webpack_require__(730);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.1.1_@docusaurus+types@3.1.1_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/core/lib/client/exports/isInternalUrl.js
-var isInternalUrl = __webpack_require__(6803);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.1.1_@docusaurus+types@3.1.1_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/core/lib/client/exports/Translate.js + 1 modules
-var Translate = __webpack_require__(9052);
-// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.1.1_@types+react@18.2.51_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/theme-classic/lib/theme/Heading/index.js + 1 modules
-var Heading = __webpack_require__(8953);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.1.1_@types+react@18.2.51_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/theme-classic/lib/theme/DocCard/styles.module.css
-// extracted by mini-css-extract-plugin
-/* harmony default export */ const styles_module = ({"cardContainer":"cardContainer_n8af","cardTitle":"cardTitle_UsSV","cardDescription":"cardDescription_N0Gw"});
-// EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js
-var jsx_runtime = __webpack_require__(7458);
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.1.1_@types+react@18.2.51_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/theme-classic/lib/theme/DocCard/index.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */function CardContainer(_ref){let{href,children}=_ref;return/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.Z,{href:href,className:(0,clsx/* default */.Z)('card padding--lg',styles_module.cardContainer),children:children});}function CardLayout(_ref2){let{href,icon,title,description}=_ref2;return/*#__PURE__*/(0,jsx_runtime.jsxs)(CardContainer,{href:href,children:[/*#__PURE__*/(0,jsx_runtime.jsxs)(Heading/* default */.Z,{as:"h2",className:(0,clsx/* default */.Z)('text--truncate',styles_module.cardTitle),title:title,children:[icon," ",title]}),description&&/*#__PURE__*/(0,jsx_runtime.jsx)("p",{className:(0,clsx/* default */.Z)('text--truncate',styles_module.cardDescription),title:description,children:description})]});}function CardCategory(_ref3){let{item}=_ref3;const href=(0,docsUtils/* findFirstSidebarItemLink */.LM)(item);// Unexpected: categories that don't have a link have been filtered upfront
-if(!href){return null;}return/*#__PURE__*/(0,jsx_runtime.jsx)(CardLayout,{href:href,icon:"\uD83D\uDDC3\uFE0F",title:item.label,description:item.description??(0,Translate/* translate */.I)({message:'{count} items',id:'theme.docs.DocCard.categoryDescription',description:'The default description for a category card in the generated index about how many items this category includes'},{count:item.items.length})});}function CardLink(_ref4){let{item}=_ref4;const icon=(0,isInternalUrl/* default */.Z)(item.href)?'📄️':'🔗';const doc=(0,docsUtils/* useDocById */.xz)(item.docId??undefined);return/*#__PURE__*/(0,jsx_runtime.jsx)(CardLayout,{href:item.href,icon:icon,title:item.label,description:item.description??doc?.description});}function DocCard(_ref5){let{item}=_ref5;switch(item.type){case'link':return/*#__PURE__*/(0,jsx_runtime.jsx)(CardLink,{item:item});case'category':return/*#__PURE__*/(0,jsx_runtime.jsx)(CardCategory,{item:item});default:throw new Error(`unknown item type ${JSON.stringify(item)}`);}}
-;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.1.1_@types+react@18.2.51_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/theme-classic/lib/theme/DocCardList/index.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */function DocCardListForCurrentSidebarCategory(_ref){let{className}=_ref;const category=(0,docsUtils/* useCurrentSidebarCategory */.jA)();return/*#__PURE__*/(0,jsx_runtime.jsx)(DocCardList,{items:category.items,className:className});}function DocCardList(props){const{items,className}=props;if(!items){return/*#__PURE__*/(0,jsx_runtime.jsx)(DocCardListForCurrentSidebarCategory,{...props});}const filteredItems=(0,docsUtils/* filterDocCardListItems */.MN)(items);return/*#__PURE__*/(0,jsx_runtime.jsx)("section",{className:(0,clsx/* default */.Z)('row',className),children:filteredItems.map((item,index)=>/*#__PURE__*/(0,jsx_runtime.jsx)("article",{className:"col col--6 margin-bottom--lg",children:/*#__PURE__*/(0,jsx_runtime.jsx)(DocCard,{item:item})},index))});}
 
 /***/ }),
 

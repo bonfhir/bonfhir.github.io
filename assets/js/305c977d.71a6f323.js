@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[6268],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[1263],{
 
-/***/ 3462:
+/***/ 4417:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,38 +20,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 2,
-	title: 'Next.js',
-	description: 'Host in a Next.js application'
+	sidebar_position: 6,
+	title: 'Create a new subscription',
+	description: 'Create a new subscription to react to FHIR resources change'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "subscriptions/next",
-  "title": "Next.js",
-  "description": "Host in a Next.js application",
-  "source": "@site/packages/subscriptions/next.md",
-  "sourceDirName": "subscriptions",
-  "slug": "/subscriptions/next",
-  "permalink": "/packages/subscriptions/next",
+  "id": "build-a-fhir-solution-with-nextjs/create-a-new-subscription",
+  "title": "Create a new subscription",
+  "description": "Create a new subscription to react to FHIR resources change",
+  "source": "@site/docs/build-a-fhir-solution-with-nextjs/create-a-new-subscription.md",
+  "sourceDirName": "build-a-fhir-solution-with-nextjs",
+  "slug": "/build-a-fhir-solution-with-nextjs/create-a-new-subscription",
+  "permalink": "/docs/build-a-fhir-solution-with-nextjs/create-a-new-subscription",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/subscriptions/next.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-solution-with-nextjs/create-a-new-subscription.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 6,
   "frontMatter": {
-    "sidebar_position": 2,
-    "title": "Next.js",
-    "description": "Host in a Next.js application"
+    "sidebar_position": 6,
+    "title": "Create a new subscription",
+    "description": "Create a new subscription to react to FHIR resources change"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "AWS Lambda",
-    "permalink": "/packages/subscriptions/aws-lambda"
+    "title": "Edit resources with FHIR forms",
+    "permalink": "/docs/build-a-fhir-solution-with-nextjs/edit-with-fhir-forms"
   },
   "next": {
-    "title": "US Core IG",
-    "permalink": "/packages/us-core/"
+    "title": "Build Workflows with n8n",
+    "permalink": "/docs/bulid-workflows-with-n8n/"
   }
 };
 const assets = {
@@ -63,39 +63,75 @@ const assets = {
 
 
 const toc = [{
-  "value": "Create the Next.js middleware",
-  "id": "create-the-nextjs-middleware",
+  "value": "The subscription handler",
+  "id": "the-subscription-handler",
   "level": 2
 }, {
-  "value": "Invoke the registration of the subscriptions",
-  "id": "invoke-the-registration-of-the-subscriptions",
+  "value": "Run the registration",
+  "id": "run-the-registration",
+  "level": 2
+}, {
+  "value": "Test the subscription",
+  "id": "test-the-subscription",
   "level": 2
 }];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
-    admonition: "admonition",
-    br: "br",
     code: "code",
-    em: "em",
     h2: "h2",
     img: "img",
-    li: "li",
     p: "p",
     pre: "pre",
-    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://www.npmjs.com/package/@bonfhir/next",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-          src: "https://img.shields.io/npm/v/@bonfhir/next",
-          alt: "npm"
-        })
+      children: "We are now moving to the API side of Next.js."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["For this example we'll create a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/R4B/subscription.html",
+        children: "FHIR Subscription"
+      }), " that ensure that an\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/R4B/encounter.html",
+        children: "Encounter"
+      }), " is created automatically when an ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hl7.org/fhir/R4B/appointment.html",
+        children: "Appointment"
+      }), "\nhas its status set to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "arrived"
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "the-subscription-handler",
+      children: "The subscription handler"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Create a new file ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "src/subscriptions/arrived-appointments.ts"
+      }), " and paste the following code:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-typescript",
+        metastring: "title=\"src/subscriptions/arrived-appointments.ts\"",
+        children: "import {\n  Appointment,\n  Practitioner,\n  Reference,\n  build,\n  findReference,\n  isReferenceOf,\n  reference,\n} from \"@bonfhir/core/r4b\";\nimport { FhirSubscription } from \"@bonfhir/subscriptions/r4b\";\n\nexport const arrivedAppointments: FhirSubscription<Appointment> = {\n  criteria: \"Appointment?status=arrived\",\n  reason: \"Create encounters for arrived appointments\",\n  endpoint: \"arrived-appointments\",\n  async handler({ fhirClient, resource: appointment, logger }) {\n    // This is just a precaution\n    if (!appointment || appointment.status !== \"arrived\") return;\n\n    // Check if the appointment already has an encounter associated\n    const existingEncounters = await fhirClient.search(\"Encounter\", (search) =>\n      search.appointment(appointment),\n    );\n    if (existingEncounters.searchMatch().length > 0) return;\n\n    // Create the new encounter\n    // Note that we're using the build function from @bonfhir/core to create the encounter.\n    // We reference the appointment, and copy the appointment's subject and participants as well.\n    const newEncounter = build(\"Encounter\", {\n      status: \"arrived\",\n      class: {\n        system: \"http://terminology.hl7.org/CodeSystem/v3-ActCode\",\n        code: \"AMB\",\n        display: \"ambulatory\",\n      },\n      appointment: [reference(appointment)],\n      subject: findReference(\n        appointment.participant.map((p) => p.actor),\n        \"Patient\",\n      ),\n      participant: appointment.participant\n        .filter((participant) =>\n          isReferenceOf(participant.actor, \"Practitioner\"),\n        )\n        .map((participant) => ({\n          individual: participant.actor as Reference<Practitioner>,\n          type: participant.type,\n        })),\n    });\n\n    const result = await fhirClient.save(newEncounter);\n\n    logger?.info(\"Created encounter\", result);\n  },\n};\n"
       })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Also, we need to update the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "src/middleware.ts"
+      }), " file to add the new subscription to the middleware:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-typescript",
+        metastring: "title=\"src/middleware.ts\"",
+        children: "// ...\nimport { arrivedAppointments } from \"./subscriptions/arrived-appointments\";\n\nexport const middleware = fhirSubscriptions({\n  // ...\n  subscriptions: [arrivedAppointments],\n});\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "run-the-registration",
+      children: "Run the registration"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Since we added a new subscription handler, we need to make sure it is registered properly.\nAssuming the dev server is still running (if not, run the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "npm run dev"
+      }), " command), run the following command in the project directory:"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_theme_Tabs__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
       groupId: "npm2yarn",
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -103,7 +139,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "npm install @bonfhir/next\n"
+            children: "npm run register-subscriptions\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -112,7 +148,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "yarn add @bonfhir/next\n"
+            children: "yarn register-subscriptions\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -121,98 +157,53 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "pnpm add @bonfhir/next\n"
+            children: "pnpm run register-subscriptions\n"
           })
         })
       })]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["You can host your ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/subscriptions/subscription-handlers",
-        children: "Subscription handlers"
-      }), " in a\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://nextjs.org/",
-        children: "Next.js"
-      }), " application, alongside the rest of the application."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["This package can create a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://nextjs.org/docs/app/building-your-application/routing/middleware",
-        children: "Next.js middleware"
-      }), "\nthat can:"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-        children: "register all the active subscriptions"
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-        children: "execute the subscription handlers when receiving a notification from the FHIR server"
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.li, {
-        children: ["validate the authenticity of the subscription invocation through a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "/packages/subscriptions/subscription-handlers#subscriptions-security",
-          children: "shared secret"
-        })]
-      }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "We recommend that you initialize your next application using our official template - this way, it will come pre-configured\nproperly. To get started, simply run the following command in your terminal:"
+      children: "You should see the following output in the dev Server process:"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         className: "language-bash",
-        children: "npm create -y bonfhir@latest\n"
+        children: "Registering subscriptions...\nSubscription Create encounters for arrived appointments for Appointment?status=arrived on http://host.docker.internal:3000/api/fhir/subscriptions/arrived-appointments registered.\n"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["And select the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "next"
-      }), " template."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "create-the-nextjs-middleware",
-      children: "Create the Next.js middleware"
+      id: "test-the-subscription",
+      children: "Test the subscription"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Create a file named ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "middleware.ts"
-      }), " at the root of the project:"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        metastring: "title=\"middleware.ts\"",
-        children: "import { FetchFhirClient } from \"@bonfhir/core/r4b\";\nimport { fhirSubscriptions } from \"@bonfhir/next/r4b/server\";\n\n// This is optional, but recommended.\n// It allows the Next runtime to only execute the middleware on the subpath.\nexport const config = {\n  matcher: [\"/api/fhir/subscriptions/:subscription*\"],\n};\n\n// The name of the variable is important here - keep it as \"middleware\"\nexport const middleware = fhirSubscriptions({\n  // A function that gets invoke when the framework needs a FhirClient to connect to the FhirServer.\n  fhirClient: () =>\n    new FetchFhirClient({\n      // Refer to https://bonfhir.dev/packages/core/fhir-client#initialize to understand how to properly initialize\n      // a FhirClient\n    }),\n\n  // The public URL where the Next.js app is exposed.\n  baseUrl: process.env.VERCEL_URL\n    ? `https://${process.env.VERCEL_URL}`\n    : process.env.APP_BASE_URL,\n\n  // The prefix that the middleware match for subscriptions\n  // Must match the config.match value above (minus the `:subscription*` part)\n  prefix: \"/api/fhir/subscriptions\",\n\n  // The shared secret that secures the invocations\n  webhookSecret: process.env.FHIR_SUBSCRIPTION_SECRET,\n\n  // The list of subscriptions to manage.\n  subscriptions: [],\n});\n"
+      children: ["Head over to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "http://localhost:8100/Appointment",
+        children: "Medplum and create a new appointment"
+      }), " with the status ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "arrived"
+      }), ".\nYou can even include participants!"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
+        alt: "Medplum Appointment",
+        src: (__webpack_require__(1328)/* ["default"] */ .Z) + "",
+        width: "3446",
+        height: "1370"
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Refer to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/subscriptions/subscription-handlers",
-        children: "this example on how to create a susbcription handler"
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "invoke-the-registration-of-the-subscriptions",
-      children: "Invoke the registration of the subscriptions"
+      children: ["Then ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "http://localhost:8100/Encounter",
+        children: "search for encounters"
+      }), " and look at the last one updated - you should see the one\nthat the subscription just created!"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Once your app is running, you will need to trigger the registration of the managed subscriptions\nin the FHIR server."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "To do so, you'll need to create a HTTP request to the base URL like so:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-bash",
-        children: "curl -i --request POST <baseUrl>/<prefix>/register --header \\\"X-Subscription-Auth: <webhookSecret>\\\"\n"
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
+        alt: "Medplum Encounter",
+        src: (__webpack_require__(7159)/* ["default"] */ .Z) + "",
+        width: "3448",
+        height: "1486"
       })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["This will connect to the FHIR server using the configured ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "FhirClient"
-      }), " and create the proper ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/R4B/subscription.html",
-        children: "FHIR Subscriptions"
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.admonition, {
-      title: "Registration information",
-      type: "info",
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-        children: ["It is safe to call the registration multiple times as it will not duplicate the registrations, and will update the existing ones if some parameters change.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "Uniqueness is based on the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "baseUrl"
-        }), ", so if that parameter changes then whole new subscriptions will be created."]
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-        children: ["For safety reasons it does ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.em, {
-          children: "not"
-        }), " remove subscriptions that are no longer active (or removed from the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "subscriptions"
-        }), " array).", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "It is up to you to clean it up in the FHIR Server."]
-      })]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "We recommend that you run the register command in your deployment pipeline as well, to ensure that your subscriptions are\nalways registered properly."
+      children: "Congratulation! You have now created your first subscription."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Learn more about subscriptions ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/subscriptions",
+        children: "here"
+      }), "."]
     })]
   });
 }
@@ -322,6 +313,26 @@ role:"tab",tabIndex:selectedValue===value?0:-1,"aria-selected":selectedValue===v
 return null;}return/*#__PURE__*/(0,react.cloneElement)(selectedTabItem,{className:'margin-top--md'});}return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"margin-top--md",children:childTabs.map((tabItem,i)=>/*#__PURE__*/(0,react.cloneElement)(tabItem,{key:i,hidden:tabItem.props.value!==selectedValue}))});}function TabsComponent(props){const tabs=useTabs(props);return/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:(0,clsx/* default */.Z)('tabs-container',styles_module.tabList),children:[/*#__PURE__*/(0,jsx_runtime.jsx)(TabList,{...props,...tabs}),/*#__PURE__*/(0,jsx_runtime.jsx)(TabContent,{...props,...tabs})]});}function Tabs(props){const isBrowser=(0,useIsBrowser/* default */.Z)();return/*#__PURE__*/(0,jsx_runtime.jsx)(TabsComponent// Remount tabs after hydration
 // Temporary fix for https://github.com/facebook/docusaurus/issues/5653
 ,{...props,children:sanitizeTabsChildren(props.children)},String(isBrowser));}
+
+/***/ }),
+
+/***/ 1328:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/medplum-appointment-075e4f64702849dee2e7cc8bf2404480.png");
+
+/***/ }),
+
+/***/ 7159:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/medplum-encounter-79a01edd0413eec28111a9c639dfcd6f.png");
 
 /***/ }),
 

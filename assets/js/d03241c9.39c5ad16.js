@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[5895],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[2871],{
 
-/***/ 4858:
+/***/ 2385:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -19,36 +19,36 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 6,
-	title: 'CLI'
+	sidebar_position: 4,
+	title: 'Guides'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "cli/index",
-  "title": "CLI",
-  "description": "npm",
-  "source": "@site/packages/cli/index.md",
-  "sourceDirName": "cli",
-  "slug": "/cli/",
-  "permalink": "/packages/cli/",
+  "id": "guides/index",
+  "title": "Guides",
+  "description": "This section contains short guides on various topics.",
+  "source": "@site/docs/guides/index.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/",
+  "permalink": "/docs/guides/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/cli/index.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/guides/index.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 6,
-    "title": "CLI"
+    "sidebar_position": 4,
+    "title": "Guides"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Patient",
-    "permalink": "/packages/us-core/patient"
+    "title": "Send emails from CommunicationRequest",
+    "permalink": "/docs/bulid-workflows-with-n8n/send-emails-from-communicationrequest"
   },
   "next": {
-    "title": "Create a bonFHIR app",
-    "permalink": "/packages/cli/create"
+    "title": "Setup GraphQL in a bonFHIR project",
+    "permalink": "/docs/guides/graphql"
   }
 };
 const assets = {
@@ -61,51 +61,15 @@ const assets = {
 const toc = [];
 function _createMdxContent(props) {
   const _components = {
-    a: "a",
-    admonition: "admonition",
-    br: "br",
-    code: "code",
-    img: "img",
     p: "p",
-    pre: "pre",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://www.npmjs.com/package/@bonfhir/cli",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-          src: "https://img.shields.io/npm/v/@bonfhir/cli",
-          alt: "npm"
-        })
-      })
+      children: "This section contains short guides on various topics."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "bonFhir comes with a Command Line that implements some utilities to create bonFHIR applications and manage FHIR data."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The CLI and all commands support the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "--help"
-      }), " flag to get information about flags:"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "npx @bonfhir/cli@latest --help\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "or"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "npx @bonfhir/cli@latest <command> --help\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.admonition, {
-      title: "Version",
-      type: "info",
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-        children: ["The ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "--version"
-        }), " flag can also output the CLI version currently in use.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "Using the moniker ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "@bonfhir/cli@latest"
-        }), " ensures that you always use the latest version of the package."]
-      })
+      children: "It is meant as a complement to both our full-length tutorials ,and our packages documentation."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_DocCardList__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {})]
   });
 }

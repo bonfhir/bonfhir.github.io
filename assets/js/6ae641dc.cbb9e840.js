@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[1263],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[586],{
 
-/***/ 4417:
+/***/ 2562:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14,44 +14,43 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7458);
-/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9604);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9604);
 /* harmony import */ var _theme_Tabs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9100);
 /* harmony import */ var _theme_TabItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5436);
+/* harmony import */ var _theme_DocCardList__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(631);
 
 
 const frontMatter = {
 	sidebar_position: 6,
-	title: 'Create a new subscription',
-	description: 'Create a new subscription to react to FHIR resources change'
+	title: 'US Core IG'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "build-a-fhir-solution-with-nextjs/create-a-new-subscription",
-  "title": "Create a new subscription",
-  "description": "Create a new subscription to react to FHIR resources change",
-  "source": "@site/docs/build-a-fhir-solution-with-nextjs/create-a-new-subscription.md",
-  "sourceDirName": "build-a-fhir-solution-with-nextjs",
-  "slug": "/build-a-fhir-solution-with-nextjs/create-a-new-subscription",
-  "permalink": "/docs/build-a-fhir-solution-with-nextjs/create-a-new-subscription",
+  "id": "us-core/index",
+  "title": "US Core IG",
+  "description": "npm",
+  "source": "@site/packages/us-core/index.md",
+  "sourceDirName": "us-core",
+  "slug": "/us-core/",
+  "permalink": "/packages/us-core/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-solution-with-nextjs/create-a-new-subscription.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/packages/us-core/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 6,
   "frontMatter": {
     "sidebar_position": 6,
-    "title": "Create a new subscription",
-    "description": "Create a new subscription to react to FHIR resources change"
+    "title": "US Core IG"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Edit resources with FHIR forms",
-    "permalink": "/docs/build-a-fhir-solution-with-nextjs/edit-with-fhir-forms"
+    "title": "Actions",
+    "permalink": "/packages/n8n/actions"
   },
   "next": {
-    "title": "Guides",
-    "permalink": "/docs/guides/"
+    "title": "Patient",
+    "permalink": "/packages/us-core/patient"
   }
 };
 const assets = {
@@ -62,76 +61,35 @@ const assets = {
 
 
 
-const toc = [{
-  "value": "The subscription handler",
-  "id": "the-subscription-handler",
-  "level": 2
-}, {
-  "value": "Run the registration",
-  "id": "run-the-registration",
-  "level": 2
-}, {
-  "value": "Test the subscription",
-  "id": "test-the-subscription",
-  "level": 2
-}];
+
+const toc = [];
 function _createMdxContent(props) {
   const _components = {
     a: "a",
     code: "code",
-    h2: "h2",
     img: "img",
     p: "p",
     pre: "pre",
-    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__/* .useMDXComponents */ .a)(),
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_4__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "We are now moving to the API side of Next.js."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["For this example we'll create a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/R4B/subscription.html",
-        children: "FHIR Subscription"
-      }), " that ensure that an\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/R4B/encounter.html",
-        children: "Encounter"
-      }), " is created automatically when an ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://hl7.org/fhir/R4B/appointment.html",
-        children: "Appointment"
-      }), "\nhas its status set to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "arrived"
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "the-subscription-handler",
-      children: "The subscription handler"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Create a new file ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "src/subscriptions/arrived-appointments.ts"
-      }), " and paste the following code:"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        metastring: "title=\"src/subscriptions/arrived-appointments.ts\"",
-        children: "import {\n  Appointment,\n  Practitioner,\n  Reference,\n  build,\n  findReference,\n  isReferenceOf,\n  reference,\n} from \"@bonfhir/core/r4b\";\nimport { FhirSubscription } from \"@bonfhir/subscriptions/r4b\";\n\nexport const arrivedAppointments: FhirSubscription<Appointment> = {\n  criteria: \"Appointment?status=arrived\",\n  reason: \"Create encounters for arrived appointments\",\n  endpoint: \"arrived-appointments\",\n  async handler({ fhirClient, resource: appointment, logger }) {\n    // This is just a precaution\n    if (!appointment || appointment.status !== \"arrived\") return;\n\n    // Check if the appointment already has an encounter associated\n    const existingEncounters = await fhirClient.search(\"Encounter\", (search) =>\n      search.appointment(appointment),\n    );\n    if (existingEncounters.searchMatch().length > 0) return;\n\n    // Create the new encounter\n    // Note that we're using the build function from @bonfhir/core to create the encounter.\n    // We reference the appointment, and copy the appointment's subject and participants as well.\n    const newEncounter = build(\"Encounter\", {\n      status: \"arrived\",\n      class: {\n        system: \"http://terminology.hl7.org/CodeSystem/v3-ActCode\",\n        code: \"AMB\",\n        display: \"ambulatory\",\n      },\n      appointment: [reference(appointment)],\n      subject: findReference(\n        appointment.participant.map((p) => p.actor),\n        \"Patient\",\n      ),\n      participant: appointment.participant\n        .filter((participant) =>\n          isReferenceOf(participant.actor, \"Practitioner\"),\n        )\n        .map((participant) => ({\n          individual: participant.actor as Reference<Practitioner>,\n          type: participant.type,\n        })),\n    });\n\n    const result = await fhirClient.save(newEncounter);\n\n    logger?.info(\"Created encounter\", result);\n  },\n};\n"
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://www.npmjs.com/package/@bonfhir/us-core",
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
+          src: "https://img.shields.io/npm/v/@bonfhir/us-core",
+          alt: "npm"
+        })
       })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Also, we need to update the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "src/middleware.ts"
-      }), " file to add the new subscription to the middleware:"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-typescript",
-        metastring: "title=\"src/middleware.ts\"",
-        children: "// ...\nimport { arrivedAppointments } from \"./subscriptions/arrived-appointments\";\n\nexport const middleware = fhirSubscriptions({\n  // ...\n  subscriptions: [arrivedAppointments],\n});\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "run-the-registration",
-      children: "Run the registration"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Since we added a new subscription handler, we need to make sure it is registered properly.\nAssuming the dev server is still running (if not, run the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "npm run dev"
-      }), " command), run the following command in the project directory:"]
+      children: ["This package is meant to help with implementing solutions that leverage the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://www.hl7.org/fhir/us/core/",
+        children: "US Core Implementation Guide"
+      }), ".\nIt mainly contains helpers to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/core/extending-fhir-resources",
+        children: "extend resources"
+      }), " in conformity with US Core profiles."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_theme_Tabs__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {
       groupId: "npm2yarn",
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -139,7 +97,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "npm run register-subscriptions\n"
+            children: "npm install @bonfhir/us-core\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -148,7 +106,7 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "yarn register-subscriptions\n"
+            children: "yarn add @bonfhir/us-core\n"
           })
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_TabItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -157,59 +115,16 @@ function _createMdxContent(props) {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
           children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
             className: "language-bash",
-            children: "pnpm run register-subscriptions\n"
+            children: "pnpm add @bonfhir/us-core\n"
           })
         })
       })]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "You should see the following output in the dev Server process:"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        className: "language-bash",
-        children: "Registering subscriptions...\nSubscription Create encounters for arrived appointments for Appointment?status=arrived on http://host.docker.internal:3000/api/fhir/subscriptions/arrived-appointments registered.\n"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
-      id: "test-the-subscription",
-      children: "Test the subscription"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Head over to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "http://localhost:8100/Appointment",
-        children: "Medplum and create a new appointment"
-      }), " with the status ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-        children: "arrived"
-      }), ".\nYou can even include participants!"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-        alt: "Medplum Appointment",
-        src: (__webpack_require__(1328)/* ["default"] */ .Z) + "",
-        width: "3446",
-        height: "1370"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Then ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "http://localhost:8100/Encounter",
-        children: "search for encounters"
-      }), " and look at the last one updated - you should see the one\nthat the subscription just created!"]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.img, {
-        alt: "Medplum Encounter",
-        src: (__webpack_require__(7159)/* ["default"] */ .Z) + "",
-        width: "3448",
-        height: "1486"
-      })
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Congratulation! You have now created your first subscription."
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["Learn more about subscriptions ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/packages/subscriptions",
-        children: "here"
-      }), "."]
-    })]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_DocCardList__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {})]
   });
 }
 function MDXContent(props = {}) {
   const {wrapper: MDXLayout} = {
-    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__/* .useMDXComponents */ .a)(),
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_4__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return MDXLayout ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(MDXLayout, {
@@ -221,6 +136,52 @@ function MDXContent(props = {}) {
 }
 
 
+
+/***/ }),
+
+/***/ 631:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  Z: () => (/* binding */ DocCardList)
+});
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/index.js
+var react = __webpack_require__(2983);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/clsx@2.1.0/node_modules/clsx/dist/clsx.mjs
+var clsx = __webpack_require__(8364);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-common@3.1.1_@docusaurus+types@3.1.1_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/theme-common/lib/utils/docsUtils.js
+var docsUtils = __webpack_require__(490);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.1.1_@docusaurus+types@3.1.1_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/core/lib/client/exports/Link.js
+var Link = __webpack_require__(730);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.1.1_@docusaurus+types@3.1.1_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/core/lib/client/exports/isInternalUrl.js
+var isInternalUrl = __webpack_require__(6803);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+core@3.1.1_@docusaurus+types@3.1.1_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/core/lib/client/exports/Translate.js + 1 modules
+var Translate = __webpack_require__(9052);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.1.1_@types+react@18.2.51_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/theme-classic/lib/theme/Heading/index.js + 1 modules
+var Heading = __webpack_require__(8953);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.1.1_@types+react@18.2.51_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/theme-classic/lib/theme/DocCard/styles.module.css
+// extracted by mini-css-extract-plugin
+/* harmony default export */ const styles_module = ({"cardContainer":"cardContainer_n8af","cardTitle":"cardTitle_UsSV","cardDescription":"cardDescription_N0Gw"});
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.2.0/node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(7458);
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.1.1_@types+react@18.2.51_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/theme-classic/lib/theme/DocCard/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */function CardContainer(_ref){let{href,children}=_ref;return/*#__PURE__*/(0,jsx_runtime.jsx)(Link/* default */.Z,{href:href,className:(0,clsx/* default */.Z)('card padding--lg',styles_module.cardContainer),children:children});}function CardLayout(_ref2){let{href,icon,title,description}=_ref2;return/*#__PURE__*/(0,jsx_runtime.jsxs)(CardContainer,{href:href,children:[/*#__PURE__*/(0,jsx_runtime.jsxs)(Heading/* default */.Z,{as:"h2",className:(0,clsx/* default */.Z)('text--truncate',styles_module.cardTitle),title:title,children:[icon," ",title]}),description&&/*#__PURE__*/(0,jsx_runtime.jsx)("p",{className:(0,clsx/* default */.Z)('text--truncate',styles_module.cardDescription),title:description,children:description})]});}function CardCategory(_ref3){let{item}=_ref3;const href=(0,docsUtils/* findFirstSidebarItemLink */.LM)(item);// Unexpected: categories that don't have a link have been filtered upfront
+if(!href){return null;}return/*#__PURE__*/(0,jsx_runtime.jsx)(CardLayout,{href:href,icon:"\uD83D\uDDC3\uFE0F",title:item.label,description:item.description??(0,Translate/* translate */.I)({message:'{count} items',id:'theme.docs.DocCard.categoryDescription',description:'The default description for a category card in the generated index about how many items this category includes'},{count:item.items.length})});}function CardLink(_ref4){let{item}=_ref4;const icon=(0,isInternalUrl/* default */.Z)(item.href)?'📄️':'🔗';const doc=(0,docsUtils/* useDocById */.xz)(item.docId??undefined);return/*#__PURE__*/(0,jsx_runtime.jsx)(CardLayout,{href:item.href,icon:icon,title:item.label,description:item.description??doc?.description});}function DocCard(_ref5){let{item}=_ref5;switch(item.type){case'link':return/*#__PURE__*/(0,jsx_runtime.jsx)(CardLink,{item:item});case'category':return/*#__PURE__*/(0,jsx_runtime.jsx)(CardCategory,{item:item});default:throw new Error(`unknown item type ${JSON.stringify(item)}`);}}
+;// CONCATENATED MODULE: ../../node_modules/.pnpm/@docusaurus+theme-classic@3.1.1_@types+react@18.2.51_react-dom@18.2.0_react@18.2.0_typescript@5.3.3/node_modules/@docusaurus/theme-classic/lib/theme/DocCardList/index.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */function DocCardListForCurrentSidebarCategory(_ref){let{className}=_ref;const category=(0,docsUtils/* useCurrentSidebarCategory */.jA)();return/*#__PURE__*/(0,jsx_runtime.jsx)(DocCardList,{items:category.items,className:className});}function DocCardList(props){const{items,className}=props;if(!items){return/*#__PURE__*/(0,jsx_runtime.jsx)(DocCardListForCurrentSidebarCategory,{...props});}const filteredItems=(0,docsUtils/* filterDocCardListItems */.MN)(items);return/*#__PURE__*/(0,jsx_runtime.jsx)("section",{className:(0,clsx/* default */.Z)('row',className),children:filteredItems.map((item,index)=>/*#__PURE__*/(0,jsx_runtime.jsx)("article",{className:"col col--6 margin-bottom--lg",children:/*#__PURE__*/(0,jsx_runtime.jsx)(DocCard,{item:item})},index))});}
 
 /***/ }),
 
@@ -313,26 +274,6 @@ role:"tab",tabIndex:selectedValue===value?0:-1,"aria-selected":selectedValue===v
 return null;}return/*#__PURE__*/(0,react.cloneElement)(selectedTabItem,{className:'margin-top--md'});}return/*#__PURE__*/(0,jsx_runtime.jsx)("div",{className:"margin-top--md",children:childTabs.map((tabItem,i)=>/*#__PURE__*/(0,react.cloneElement)(tabItem,{key:i,hidden:tabItem.props.value!==selectedValue}))});}function TabsComponent(props){const tabs=useTabs(props);return/*#__PURE__*/(0,jsx_runtime.jsxs)("div",{className:(0,clsx/* default */.Z)('tabs-container',styles_module.tabList),children:[/*#__PURE__*/(0,jsx_runtime.jsx)(TabList,{...props,...tabs}),/*#__PURE__*/(0,jsx_runtime.jsx)(TabContent,{...props,...tabs})]});}function Tabs(props){const isBrowser=(0,useIsBrowser/* default */.Z)();return/*#__PURE__*/(0,jsx_runtime.jsx)(TabsComponent// Remount tabs after hydration
 // Temporary fix for https://github.com/facebook/docusaurus/issues/5653
 ,{...props,children:sanitizeTabsChildren(props.children)},String(isBrowser));}
-
-/***/ }),
-
-/***/ 1328:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/medplum-appointment-075e4f64702849dee2e7cc8bf2404480.png");
-
-/***/ }),
-
-/***/ 7159:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/images/medplum-encounter-79a01edd0413eec28111a9c639dfcd6f.png");
 
 /***/ }),
 
