@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[2871],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[2848],{
 
-/***/ 2385:
+/***/ 6672:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -19,36 +19,36 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 4,
-	title: 'Guides'
+	sidebar_position: 1,
+	title: 'Build a FHIR app with React'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "guides/index",
-  "title": "Guides",
-  "description": "This section contains short guides on various topics.",
-  "source": "@site/docs/guides/index.md",
-  "sourceDirName": "guides",
-  "slug": "/guides/",
-  "permalink": "/docs/guides/",
+  "id": "build-a-fhir-app-with-react/index",
+  "title": "Build a FHIR app with React",
+  "description": "Create a simple FHIR web app using the Vite template.",
+  "source": "@site/docs/build-a-fhir-app-with-react/index.md",
+  "sourceDirName": "build-a-fhir-app-with-react",
+  "slug": "/build-a-fhir-app-with-react/",
+  "permalink": "/docs/build-a-fhir-app-with-react/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/guides/index.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-app-with-react/index.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 4,
-    "title": "Guides"
+    "sidebar_position": 1,
+    "title": "Build a FHIR app with React"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Send emails from CommunicationRequest",
-    "permalink": "/docs/bulid-workflows-with-n8n/send-emails-from-communicationrequest"
+    "title": "Welcome to Bonfhir",
+    "permalink": "/docs/welcome"
   },
   "next": {
-    "title": "Setup GraphQL in a bonFHIR project",
-    "permalink": "/docs/guides/graphql"
+    "title": "Start from the Vite template",
+    "permalink": "/docs/build-a-fhir-app-with-react/start-from-vite-template"
   }
 };
 const assets = {
@@ -58,18 +58,63 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "Video tutorial",
+  "id": "video-tutorial",
+  "level": 3
+}, {
+  "value": "What you&#39;ll need",
+  "id": "what-youll-need",
+  "level": 3
+}];
 function _createMdxContent(props) {
   const _components = {
+    a: "a",
+    h3: "h3",
+    li: "li",
     p: "p",
+    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "This section contains short guides on various topics."
+      children: "Create a simple FHIR web app using the Vite template."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "It is meant as a complement to both our full-length tutorials ,and our packages documentation."
+      children: "This tutorial will walk you through key BonFHIR concepts and every step of the process,\nfrom setup to a fully functional web app with tables and inputs."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "video-tutorial",
+      children: "Video tutorial"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "This tutorial is also available in video:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+      style: {
+        textAlign: "center"
+      },
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+        width: "560",
+        height: "315",
+        src: "https://www.youtube-nocookie.com/embed/4zpduFoJ--Y",
+        title: "YouTube video player",
+        frameborder: "0",
+        allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+        allowfullscreen: true
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "what-youll-need",
+      children: "What you'll need"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://nodejs.org/en/download/",
+          children: "Node.js v18+"
+        })
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://docs.docker.com/desktop/",
+          children: "Docker"
+        })
+      }), "\n"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_DocCardList__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {})]
   });
 }

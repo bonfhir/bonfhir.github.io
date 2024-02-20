@@ -51,7 +51,7 @@ const metadata = {
   },
   "next": {
     "title": "Build Workflows with n8n",
-    "permalink": "/docs/bulid-workflows-with-n8n/"
+    "permalink": "/docs/build-workflows-with-n8n/"
   }
 };
 const assets = {

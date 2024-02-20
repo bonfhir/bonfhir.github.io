@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[4715],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[2871],{
 
-/***/ 888:
+/***/ 2385:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,35 +20,35 @@ __webpack_require__.r(__webpack_exports__);
 
 const frontMatter = {
 	sidebar_position: 4,
-	title: 'Build Workflows with n8n'
+	title: 'Guides'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "bulid-workflows-with-n8n/index",
-  "title": "Build Workflows with n8n",
-  "description": "This tutorial will walk you through visually building a workflow using n8n and the",
-  "source": "@site/docs/bulid-workflows-with-n8n/index.md",
-  "sourceDirName": "bulid-workflows-with-n8n",
-  "slug": "/bulid-workflows-with-n8n/",
-  "permalink": "/docs/bulid-workflows-with-n8n/",
+  "id": "guides/index",
+  "title": "Guides",
+  "description": "This section contains short guides on various topics.",
+  "source": "@site/docs/guides/index.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/",
+  "permalink": "/docs/guides/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/bulid-workflows-with-n8n/index.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/guides/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
   "frontMatter": {
     "sidebar_position": 4,
-    "title": "Build Workflows with n8n"
+    "title": "Guides"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Create a new subscription",
-    "permalink": "/docs/build-a-fhir-solution-with-nextjs/create-a-new-subscription"
+    "title": "Send emails from CommunicationRequest",
+    "permalink": "/docs/build-workflows-with-n8n/send-emails-from-communicationrequest"
   },
   "next": {
-    "title": "Setup the environment",
-    "permalink": "/docs/bulid-workflows-with-n8n/setup-the-environment"
+    "title": "Setup GraphQL in a bonFHIR project",
+    "permalink": "/docs/guides/graphql"
   }
 };
 const assets = {
@@ -58,55 +58,18 @@ const assets = {
 
 
 
-const toc = [{
-  "value": "What you&#39;ll need",
-  "id": "what-youll-need",
-  "level": 3
-}];
+const toc = [];
 function _createMdxContent(props) {
   const _components = {
-    a: "a",
-    admonition: "admonition",
-    h3: "h3",
-    li: "li",
     p: "p",
-    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .a)(),
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["This tutorial will walk you through visually building a workflow using ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://n8n.io/",
-        children: "n8n"
-      }), " and the\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "https://www.npmjs.com/package/@bonfhir/n8n-nodes-bonfhir",
-        children: "bonFHIR community node"
-      }), "."]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.admonition, {
-      title: "What is n8n?",
-      type: "info",
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "https://n8n.io/",
-          children: "n8n"
-        }), " is a tool to design and execute workflows visually. It includes a lot of\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "https://n8n.io/integrations/",
-          children: "pre-built integrations"
-        }), " to move and transform data between different apps and services."]
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-        children: "It is also easily self-hostable (which allow you to make it HIPAA-compliant), and has both open-source and supported options."
-      })]
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
-      id: "what-youll-need",
-      children: "What you'll need"
-    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
-      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "https://docs.docker.com/desktop/",
-          children: "Docker"
-        })
-      }), "\n"]
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "This section contains short guides on various topics."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "It is meant as a complement to both our full-length tutorials ,and our packages documentation."
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_DocCardList__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {})]
   });
 }

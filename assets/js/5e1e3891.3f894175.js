@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[8752],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[8617],{
 
-/***/ 8225:
+/***/ 1083:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -24,16 +24,16 @@ const frontMatter = {
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "bulid-workflows-with-n8n/send-emails-from-communicationrequest",
+  "id": "build-workflows-with-n8n/send-emails-from-communicationrequest",
   "title": "Send emails from CommunicationRequest",
   "description": "Design your first workflow to send emails from CommunicationRequest",
-  "source": "@site/docs/bulid-workflows-with-n8n/send-emails-from-communicationrequest.md",
-  "sourceDirName": "bulid-workflows-with-n8n",
-  "slug": "/bulid-workflows-with-n8n/send-emails-from-communicationrequest",
-  "permalink": "/docs/bulid-workflows-with-n8n/send-emails-from-communicationrequest",
+  "source": "@site/docs/build-workflows-with-n8n/send-emails-from-communicationrequest.md",
+  "sourceDirName": "build-workflows-with-n8n",
+  "slug": "/build-workflows-with-n8n/send-emails-from-communicationrequest",
+  "permalink": "/docs/build-workflows-with-n8n/send-emails-from-communicationrequest",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/bulid-workflows-with-n8n/send-emails-from-communicationrequest.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-workflows-with-n8n/send-emails-from-communicationrequest.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -45,7 +45,7 @@ const metadata = {
   "sidebar": "getStartedSidebar",
   "previous": {
     "title": "Install bonFHIR n8n community node",
-    "permalink": "/docs/bulid-workflows-with-n8n/install-bonfhir-community-node"
+    "permalink": "/docs/build-workflows-with-n8n/install-bonfhir-community-node"
   },
   "next": {
     "title": "Guides",

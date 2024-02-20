@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[9520],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[8379],{
 
-/***/ 2362:
+/***/ 6158:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -24,16 +24,16 @@ const frontMatter = {
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "bulid-workflows-with-n8n/install-bonfhir-community-node",
+  "id": "build-workflows-with-n8n/install-bonfhir-community-node",
   "title": "Install bonFHIR n8n community node",
   "description": "Enhance n8n to use FHIR APIs",
-  "source": "@site/docs/bulid-workflows-with-n8n/install-bonfhir-community-node.md",
-  "sourceDirName": "bulid-workflows-with-n8n",
-  "slug": "/bulid-workflows-with-n8n/install-bonfhir-community-node",
-  "permalink": "/docs/bulid-workflows-with-n8n/install-bonfhir-community-node",
+  "source": "@site/docs/build-workflows-with-n8n/install-bonfhir-community-node.md",
+  "sourceDirName": "build-workflows-with-n8n",
+  "slug": "/build-workflows-with-n8n/install-bonfhir-community-node",
+  "permalink": "/docs/build-workflows-with-n8n/install-bonfhir-community-node",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/bulid-workflows-with-n8n/install-bonfhir-community-node.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-workflows-with-n8n/install-bonfhir-community-node.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -45,11 +45,11 @@ const metadata = {
   "sidebar": "getStartedSidebar",
   "previous": {
     "title": "Setup the environment",
-    "permalink": "/docs/bulid-workflows-with-n8n/setup-the-environment"
+    "permalink": "/docs/build-workflows-with-n8n/setup-the-environment"
   },
   "next": {
     "title": "Send emails from CommunicationRequest",
-    "permalink": "/docs/bulid-workflows-with-n8n/send-emails-from-communicationrequest"
+    "permalink": "/docs/build-workflows-with-n8n/send-emails-from-communicationrequest"
   }
 };
 const assets = {

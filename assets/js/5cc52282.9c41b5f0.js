@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[3706],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[4118],{
 
-/***/ 3276:
+/***/ 1356:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -24,16 +24,16 @@ const frontMatter = {
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "bulid-workflows-with-n8n/setup-the-environment",
+  "id": "build-workflows-with-n8n/setup-the-environment",
   "title": "Setup the environment",
   "description": "Use docker compose to start a FHIR Server, a n8n instance and a development SMTP server",
-  "source": "@site/docs/bulid-workflows-with-n8n/setup-the-environment.md",
-  "sourceDirName": "bulid-workflows-with-n8n",
-  "slug": "/bulid-workflows-with-n8n/setup-the-environment",
-  "permalink": "/docs/bulid-workflows-with-n8n/setup-the-environment",
+  "source": "@site/docs/build-workflows-with-n8n/setup-the-environment.md",
+  "sourceDirName": "build-workflows-with-n8n",
+  "slug": "/build-workflows-with-n8n/setup-the-environment",
+  "permalink": "/docs/build-workflows-with-n8n/setup-the-environment",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/bulid-workflows-with-n8n/setup-the-environment.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-workflows-with-n8n/setup-the-environment.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -45,11 +45,11 @@ const metadata = {
   "sidebar": "getStartedSidebar",
   "previous": {
     "title": "Build Workflows with n8n",
-    "permalink": "/docs/bulid-workflows-with-n8n/"
+    "permalink": "/docs/build-workflows-with-n8n/"
   },
   "next": {
     "title": "Install bonFHIR n8n community node",
-    "permalink": "/docs/bulid-workflows-with-n8n/install-bonfhir-community-node"
+    "permalink": "/docs/build-workflows-with-n8n/install-bonfhir-community-node"
   }
 };
 const assets = {

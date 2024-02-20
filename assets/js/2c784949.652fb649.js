@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[2848],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[1669],{
 
-/***/ 6672:
+/***/ 540:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -19,36 +19,36 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
-	sidebar_position: 1,
-	title: 'Build a FHIR app with React'
+	sidebar_position: 4,
+	title: 'Build Workflows with n8n'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "build-a-fhir-app-with-react/index",
-  "title": "Build a FHIR app with React",
-  "description": "Create a simple FHIR web app using the Vite template.",
-  "source": "@site/docs/build-a-fhir-app-with-react/index.md",
-  "sourceDirName": "build-a-fhir-app-with-react",
-  "slug": "/build-a-fhir-app-with-react/",
-  "permalink": "/docs/build-a-fhir-app-with-react/",
+  "id": "build-workflows-with-n8n/index",
+  "title": "Build Workflows with n8n",
+  "description": "This tutorial will walk you through visually building a workflow using n8n and the",
+  "source": "@site/docs/build-workflows-with-n8n/index.md",
+  "sourceDirName": "build-workflows-with-n8n",
+  "slug": "/build-workflows-with-n8n/",
+  "permalink": "/docs/build-workflows-with-n8n/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-a-fhir-app-with-react/index.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/build-workflows-with-n8n/index.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 1,
-    "title": "Build a FHIR app with React"
+    "sidebar_position": 4,
+    "title": "Build Workflows with n8n"
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Welcome to Bonfhir",
-    "permalink": "/docs/welcome"
+    "title": "Create a new subscription",
+    "permalink": "/docs/build-a-fhir-solution-with-nextjs/create-a-new-subscription"
   },
   "next": {
-    "title": "Start from the Vite template",
-    "permalink": "/docs/build-a-fhir-app-with-react/start-from-vite-template"
+    "title": "Setup the environment",
+    "permalink": "/docs/build-workflows-with-n8n/setup-the-environment"
   }
 };
 const assets = {
@@ -59,6 +59,10 @@ const assets = {
 
 
 const toc = [{
+  "value": "Video tutorial",
+  "id": "video-tutorial",
+  "level": 3
+}, {
   "value": "What you&#39;ll need",
   "id": "what-youll-need",
   "level": 3
@@ -66,6 +70,7 @@ const toc = [{
 function _createMdxContent(props) {
   const _components = {
     a: "a",
+    admonition: "admonition",
     h3: "h3",
     li: "li",
     p: "p",
@@ -74,20 +79,51 @@ function _createMdxContent(props) {
     ...props.components
   };
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Create a simple FHIR web app using the Vite template."
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["This tutorial will walk you through visually building a workflow using ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://n8n.io/",
+        children: "n8n"
+      }), " and the\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://www.npmjs.com/package/@bonfhir/n8n-nodes-bonfhir",
+        children: "bonFHIR community node"
+      }), "."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.admonition, {
+      title: "What is n8n?",
+      type: "info",
+      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://n8n.io/",
+          children: "n8n"
+        }), " is a tool to design and execute workflows visually. It includes a lot of\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+          href: "https://n8n.io/integrations/",
+          children: "pre-built integrations"
+        }), " to move and transform data between different apps and services."]
+      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+        children: "It is also easily self-hostable (which allow you to make it HIPAA-compliant), and has both open-source and supported options."
+      })]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "video-tutorial",
+      children: "Video tutorial"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "This tutorial will walk you through key BonFHIR concepts and every step of the process,\nfrom setup to a fully functional web app with tables and inputs."
+      children: "This tutorial is also available in video:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+      style: {
+        textAlign: "center"
+      },
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+        width: "560",
+        height: "315",
+        src: "https://www.youtube-nocookie.com/embed/tQ0-lLY_E9Y",
+        title: "YouTube video player",
+        frameborder: "0",
+        allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+        allowfullscreen: true
+      })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
       id: "what-youll-need",
       children: "What you'll need"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
       children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-          href: "https://nodejs.org/en/download/",
-          children: "Node.js v18+"
-        })
-      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
           href: "https://docs.docker.com/desktop/",
           children: "Docker"

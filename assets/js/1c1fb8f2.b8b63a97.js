@@ -91,7 +91,7 @@ function _createMdxContent(props) {
       }), " for different apps and services."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "/docs/bulid-workflows-with-n8n",
+        href: "/docs/build-workflows-with-n8n",
         children: "Follow our tutorial here"
       }), " to get started and have a taste!"]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_theme_DocCardList__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {})]
