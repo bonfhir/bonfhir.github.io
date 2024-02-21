@@ -8043,7 +8043,7 @@ __webpack_require__.r(__webpack_exports__);
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/bonfhir-card.png",
     "announcementBar": {
       "id": "consult_with_us",
       "content": "We are launching a new service to help you with your FHIR data modeling. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://calendly.com/acn-fhir\">Book a consultation</a> with us!",
