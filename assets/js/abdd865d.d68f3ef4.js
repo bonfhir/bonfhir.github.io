@@ -189,7 +189,7 @@ function _createMdxContent(props) {
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["bonFHIR's IG toolbox helps with maintaining the suite of tools required to author and generate IGs,\nso you can focus on ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.em, {
         children: "writing"
-      }), " the IG, not figuring out how to setup you tools and workstation."]
+      }), " the IG, not figuring out how to setup your tools and workstation."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["You don't need to install anything.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "The only thing you need is ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
         href: "https://www.docker.com/products/docker-desktop/",
