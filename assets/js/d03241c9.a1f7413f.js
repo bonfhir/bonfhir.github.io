@@ -48,7 +48,7 @@ const metadata = {
   },
   "next": {
     "title": "Setup GraphQL in a bonFHIR project",
-    "permalink": "/docs/guides/graphql"
+    "permalink": "/docs/guides/graphql/"
   }
 };
 const assets = {

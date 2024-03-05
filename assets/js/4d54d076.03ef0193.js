@@ -42,8 +42,8 @@ const metadata = {
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "Setup GraphQL in a bonFHIR project",
-    "permalink": "/docs/guides/graphql"
+    "title": "Create a FHIR Implementation Guide with IG Toolbox",
+    "permalink": "/docs/guides/ig-toolbox/"
   }
 };
 const assets = {

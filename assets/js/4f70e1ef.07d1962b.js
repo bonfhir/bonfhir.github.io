@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[323],{
+(self["webpackChunk_bonfhir_website"] = self["webpackChunk_bonfhir_website"] || []).push([[1641],{
 
-/***/ 4518:
+/***/ 6742:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,24 +20,27 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const frontMatter = {
+	sidebar_position: 1,
 	title: 'Setup GraphQL in a bonFHIR project',
 	description: 'Type-safe graphql at your fingertips'
 };
 const contentTitle = undefined;
 const metadata = {
-  "id": "guides/graphql",
+  "id": "guides/graphql/index",
   "title": "Setup GraphQL in a bonFHIR project",
   "description": "Type-safe graphql at your fingertips",
-  "source": "@site/docs/guides/graphql.md",
-  "sourceDirName": "guides",
-  "slug": "/guides/graphql",
-  "permalink": "/docs/guides/graphql",
+  "source": "@site/docs/guides/graphql/index.md",
+  "sourceDirName": "guides/graphql",
+  "slug": "/guides/graphql/",
+  "permalink": "/docs/guides/graphql/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/guides/graphql.md",
+  "editUrl": "https://github.com/bonfhir/bonfhir/tree/main/docs/website/docs/guides/graphql/index.md",
   "tags": [],
   "version": "current",
+  "sidebarPosition": 1,
   "frontMatter": {
+    "sidebar_position": 1,
     "title": "Setup GraphQL in a bonFHIR project",
     "description": "Type-safe graphql at your fingertips"
   },
@@ -47,8 +50,8 @@ const metadata = {
     "permalink": "/docs/guides/"
   },
   "next": {
-    "title": "Contributing to bonFHIR",
-    "permalink": "/docs/contributing"
+    "title": "Create a FHIR Implementation Guide with IG Toolbox",
+    "permalink": "/docs/guides/ig-toolbox/"
   }
 };
 const assets = {
