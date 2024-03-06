@@ -58,14 +58,31 @@ const assets = {
 
 
 
-const toc = [];
+const toc = [{
+  "value": "Modes",
+  "id": "modes",
+  "level": 2
+}, {
+  "value": "Webhook",
+  "id": "webhook",
+  "level": 3
+}, {
+  "value": "Resthook",
+  "id": "resthook",
+  "level": 3
+}];
 function _createMdxContent(props) {
   const _components = {
+    a: "a",
     admonition: "admonition",
     br: "br",
+    h2: "h2",
+    h3: "h3",
     img: "img",
+    li: "li",
     p: "p",
     strong: "strong",
+    ul: "ul",
     ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .useMDXComponents */ .a)(),
     ...props.components
   };
@@ -93,6 +110,43 @@ function _createMdxContent(props) {
         width: "3042",
         height: "1882"
       })]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "modes",
+      children: "Modes"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "The trigger has 2 modes: Webhook or Resthook"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "webhook",
+      children: "Webhook"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "In this mode, the trigger behaves like a standard webhook:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "listen for POST requests"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "only listen at the root of the webhook URL (A unique path prefix is generated to avoid potential collisions)"
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["This is the mode that servers like ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://medplum.com",
+        children: "Medplum"
+      }), " expect."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
+      id: "resthook",
+      children: "Resthook"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "In Resthook mode, the trigger behaves closer to what a \"real\" FHIR server would do:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "listen for PUT requests"
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.li, {
+        children: "expect a resource type and resource id to be appended in the path"
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["This is the mode that servers like ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://hapifhir.io/",
+        children: "HAPI FHIR"
+      }), " expect."]
     })]
   });
 }
