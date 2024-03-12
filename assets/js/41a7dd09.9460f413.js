@@ -92,7 +92,7 @@ function _createMdxContent(props) {
         children: "FhirSubscription"
       }), ".", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "A ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         children: "FhirSubscription"
-      }), " is an abstraction that represents both the criterias that trigger it (the registration information),\nand the handler that gets executed when said subscription is triggered."]
+      }), " is an abstraction that represents both the criteria that trigger it (the registration information),\nand the handler that gets executed when said subscription is triggered."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "basic-usage",
       children: "Basic usage"
