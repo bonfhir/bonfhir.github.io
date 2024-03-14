@@ -74,6 +74,10 @@ const toc = [{
   "value": "Subscriptions security",
   "id": "subscriptions-security",
   "level": 2
+}, {
+  "value": "Custom resources in subscriptions",
+  "id": "custom-resources-in-subscriptions",
+  "level": 2
 }];
 function _createMdxContent(props) {
   const _components = {
@@ -136,6 +140,21 @@ function _createMdxContent(props) {
       children: ["The shared secret (named ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
         children: "webhookSecret"
       }), " in the configuration) must be protected adequately (as you would handle other secrets)."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "custom-resources-in-subscriptions",
+      children: "Custom resources in subscriptions"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Subscriptions handler support ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "/packages/core/extending-fhir-resources",
+        children: "custom (extended) resources"
+      }), ".\nJust use the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "customResource"
+      }), " and adjust your subscription type:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-typescript",
+        children: "// This only works if you have also exported your custom resource class as a type.\nexport const communicationRequestsSubscription: FhirSubscription<CustomCommunicationRequest> =\n  {\n    // ...\n\n    customResource: CustomCommunicationRequest\n\n    async handler({ fhirClient, resource, logger }) {\n      // Here `resource` is a custom resource class instance.\n      logger?.info(resource);\n    },\n  };\n"
+      })
     })]
   });
 }
