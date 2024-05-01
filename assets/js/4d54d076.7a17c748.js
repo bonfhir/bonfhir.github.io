@@ -540,9 +540,9 @@ function _createMdxContent(props) {
       title: "Walkthrough",
       type: "info",
       children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-        children: ["Let's imagine that we need to add a dependency to the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
-          children: "marked"
-        }), " package to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: ["Let's imagine that we need to add the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+          children: "remarkable"
+        }), " package as a dependency of ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
           children: "@bonfhir/react"
         }), "."]
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
@@ -552,7 +552,7 @@ function _createMdxContent(props) {
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
           className: "language-bash",
-          children: "pnpm packages:lookup marked\n\n> bonfhir@ packages:lookup bonfhir/bonfhir\n> pnpm why -r \"marked\"\n\nLegend: production dependency, optional only, dev only\n\n@bonfhir/core@2.17.2 bonfhir/bonfhir/packages/core\n\ndevDependencies:\nmarked 11.1.0\n"
+          children: "pnpm packages:lookup remarkable\n\n> bonfhir@ packages:lookup bonfhir/bonfhir\n> pnpm why -r \"remarkable\"\n\nLegend: production dependency, optional only, dev only\n\n@bonfhir/core@2.19.2 bonfhir/bonfhir/packages/core\n\ndevDependencies:\nremarkable 2.0.1\n"
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
         start: "2",
@@ -566,7 +566,7 @@ function _createMdxContent(props) {
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
           className: "language-json",
-          children: "{\n  \"name\": \"@bonfhir/core\",\n  \"version\": \"2.17.2\",\n  \"description\": \"Core FHIR resources and utilities for BonFHIR\",\n  //...\n  \"devDependencies\": {\n    //...\n    \"marked\": \"^11.1.0\"\n    //...\n  }\n  //...\n}\n"
+          children: "{\n  \"name\": \"@bonfhir/core\",\n  \"version\": \"2.19.2\",\n  \"description\": \"Core FHIR resources and utilities for BonFHIR\",\n  //...\n  \"devDependencies\": {\n    //...\n    \"remarkable\": \"^2.0.1\"\n    //...\n  }\n  //...\n}\n"
         })
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.ol, {
         start: "3",
@@ -576,7 +576,7 @@ function _createMdxContent(props) {
       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
         children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
           className: "language-bash",
-          children: "pnpm add marked@^11.1.0\n"
+          children: "pnpm add remarkable@^2.0.1\n"
         })
       })]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
