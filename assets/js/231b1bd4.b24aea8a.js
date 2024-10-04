@@ -94,7 +94,7 @@ function _createMdxContent(props) {
           children: "<FhirPagination />"
         })
       }), " to better understand the relationship between all components.\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "http://localhost:3000/docs/build-a-fhir-app-with-react/fhir-tables-with-pagination",
+        href: "/docs/build-a-fhir-app-with-react/fhir-tables-with-pagination",
         children: "Going through our tutorial"
       }), " might also be beneficial."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {

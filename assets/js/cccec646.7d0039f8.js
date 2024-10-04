@@ -150,7 +150,7 @@ function _createMdxContent(props) {
       children: "Manually"
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
       children: ["To use the components manually, first make sure that you have a working react application.", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.br, {}), "\n", "Pay also attention to the required ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
-        href: "http://localhost:3000/packages/intro#typescript-configuration",
+        href: "/packages/intro#typescript-configuration",
         children: "typescript configuration for bonFHIR"
       }), "."]
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h3, {
