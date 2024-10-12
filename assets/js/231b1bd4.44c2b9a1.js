@@ -39,8 +39,8 @@ const metadata = {
   },
   "sidebar": "getStartedSidebar",
   "previous": {
-    "title": "<FhirValue />",
-    "permalink": "/packages/react/components/fhir-value"
+    "title": "useFhirFormatter & FhirFormatterProvider",
+    "permalink": "/packages/react/components/use-fhir-formatters-context"
   },
   "next": {
     "title": "useFhirUIProvider",

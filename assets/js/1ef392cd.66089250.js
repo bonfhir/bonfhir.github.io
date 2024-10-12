@@ -43,8 +43,8 @@ const metadata = {
     "permalink": "/packages/react/components/fhir-table"
   },
   "next": {
-    "title": "useFhirSearchController",
-    "permalink": "/packages/react/components/use-fhir-search-controller"
+    "title": "useFhirFormatter & FhirFormatterProvider",
+    "permalink": "/packages/react/components/use-fhir-formatters-context"
   }
 };
 const assets = {
