@@ -59,6 +59,10 @@ const assets = {
 
 
 const toc = [{
+  "value": "React Native &amp; Intl",
+  "id": "react-native--intl",
+  "level": 2
+}, {
   "value": "Formatter usage",
   "id": "formatter-usage",
   "level": 2
@@ -89,6 +93,25 @@ function _createMdxContent(props) {
         href: "https://hl7.org/fhir/datatypes.html",
         children: "FHIR Data Types"
       }), ".\nThey can be used to present the information to users and saves a considerable amount of time when implementing FHIR solutions."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
+      id: "react-native--intl",
+      children: "React Native & Intl"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
+      children: ["Some formatters rely on the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+        href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl",
+        children: "Intl Api"
+      }), " to properly format values, which are not currently completely supported by React Native engines. Therefore, if you want to use these formatters within a React native apps, we suggest you also include the following necessary polyfills:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        className: "language-typescript",
+        children: "import \"@formatjs/intl-datetimeformat/polyfill\";\nimport \"@formatjs/intl-listformat/polyfill\";\nimport \"@formatjs/intl-numberformat/polyfill\";\nimport \"@formatjs/intl-relativetimeformat/polyfill\";\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
+      children: "And the following packages in your package manager:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.code, {
+        children: "@formatjs/intl-getcanonicallocales\n@formatjs/intl-locale\n@formatjs/intl-pluralrules\n@formatjs/intl-numberformat\n@formatjs/intl-datetimeformat\n@formatjs/intl-listformat\n@formatjs/intl-relativetimeformat\n"
+      })
     }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.h2, {
       id: "formatter-usage",
       children: "Formatter usage"
